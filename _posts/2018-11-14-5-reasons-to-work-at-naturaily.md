@@ -1,5 +1,5 @@
 ---
-title: 5 Reasons To Work at Naturaily
+title: 5 Reasons Why You'll Love Working at Naturaily
 description: >-
   Are looking for a new job in the software development sector? Here are 5
   reasons why you will love working at Naturaily.
