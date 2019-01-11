@@ -15,7 +15,7 @@ image: /assets/images/vue-in-2019.png
 text-preview: >-
   Vue JS is coming really strong into 2019, and with every month is getting
   closer to stand against giants such as Angular or even React in terms of
-  popularity and utilization in business applications.
+  popularity and utilization in business applications. 
 tags:
   - Vue js development
   - Frontend development
