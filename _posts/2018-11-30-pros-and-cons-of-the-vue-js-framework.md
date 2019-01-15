@@ -14,8 +14,7 @@ avatar: /assets/images/epifany_bojanowska-2.jpg
 image: /assets/images/pros-cons-vue-js.png
 text-preview: >-
   Despite being relatively new, the Vue.js framework is growing more and more
-  popular everyday. Just last month it’s been downloaded over 2.4 million
-  times.
+  popular everyday. Just last month it’s been downloaded over 2.4 million times.
 tags:
   - Vue js development
   - Frontend development
