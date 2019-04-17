@@ -5,6 +5,7 @@ description: >-
   Let's jump into the world of PWA!
 slug: pwa-vue-cli-3
 layout: post
+twitter-card: summary_large_image
 date: '2018-08-06 10:42:09 +0000'
 category: JavaScript development
 author: Tomasz Żdanuk
