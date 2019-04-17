@@ -26,7 +26,7 @@ According to Google Developers PWA description, Progressive Web Apps is a concep
 
 **Native mobile apps are more engaging** to users than web pages. It's way easier to just tap the icon on the home screen than to type a long URL. Native apps are also designed for mobile purposes, as well as in terms of graphic design, features and technical aspects. Unlike web apps, native apps have push notifications, access to your camera, or mic, but is that still true? No! PWA can that too!
 
-# Read: [A brief guide to PWAs in 2018.](https://naturaily.com/blog/pwa-guide)
+## Read: [A brief guide to PWAs in 2018.](https://naturaily.com/blog/pwa-guide)
 
 ## PWA Characteristics
 
