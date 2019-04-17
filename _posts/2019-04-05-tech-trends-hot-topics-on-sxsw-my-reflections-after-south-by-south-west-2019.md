@@ -8,10 +8,7 @@ description: >-
   afterthoughts on the event.
 slug: tech-trends-and-hot-topics-on-SXSW
 layout: post
-twitter-card: >-
-  South by South West 2019 was the 1st stop on Naturaily’s Tour through the
-  biggest tech conferences around the world. Check out Marcin’s our CEO
-  afterthoughts on the event.
+twitter-card: summary_large_image
 date: '2019-04-05 10:41:22 +0200'
 category: Events
 author: Marcin Sulikowski
