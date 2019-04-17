@@ -10,7 +10,8 @@ date: '2019-04-09 11:30:30 +0200'
 category: JavaScript development
 author: Bartek Zienkiewicz
 avatar: /assets/images/bartek.jpg
-image: /assets/images/migration-angular-vue-ts.jpg
+image: >-
+  /assets/images/migrating-from-angularjs-to-vuejs-using-typescript-a-case-study.png
 text-preview: >-
   Migrating an app from AngularJS to Vue in TypeScript is not an easy task. In
   fact, we've come across many caveats everyone intrested should know about.
