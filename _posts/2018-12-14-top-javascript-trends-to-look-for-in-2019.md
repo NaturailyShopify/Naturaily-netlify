@@ -5,7 +5,7 @@ description: >-
   development check out our newest blog post about upcoming trends. 
 slug: javascript-trends-2019
 layout: post
-twitter-card: summary_image_large
+twitter-card: summary_large_image
 date: '2018-12-14 01:54:58 +0200'
 category: JavaScript development
 author: Epifany Bojanowska
