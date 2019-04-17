@@ -6,6 +6,7 @@ description: >-
   among the competition. Learn why in this blog post.
 slug: vue-js-2018
 layout: post
+twitter-card: summary_large_image
 date: '2018-08-20 11:59:20 +0200'
 category: JavaScript development
 author: Wojciech Miśta
