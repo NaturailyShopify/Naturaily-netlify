@@ -22,7 +22,7 @@ tags:
 ---
 Vue.js, the so-called progressive framework took the JavaScript community by storm. Now, the state of Vue.js in 2018 puts it in a very strong position against the competition. Learn why in this blog post.
 
-# Read: [Vue in 2019 - where it is and where it's heading](https://naturaily.com/blog/vue-2019)
+## Read: [Vue in 2019 - where it is and where it's heading](https://naturaily.com/blog/vue-2019)
 
 ## Popularity
 
