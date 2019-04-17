@@ -23,7 +23,7 @@ tags:
 ---
 Many say that PWAs will be the new standard in the future world of mobile apps, and they're probably right! With tech giants behind it, Progressive Web Applications became an amazing technology that will soon make native applications obsolete.
 
-# What is a PWA?
+## What is a PWA?
 
 The Progressive Web Application is a relatively new concept in the mobile and Internet world. PWAs are developed using certain technologies and approaches to create apps that take advantage of both native and web application features. Essentially, it is a mixture of mobile and web applications.
 
@@ -41,7 +41,7 @@ Here’s a cool showcase of what PWAs can are capable of. Grab your phone and go
 
 To have the best experience I recommend you to open it on your PC or laptop as well. As you will see, even though you’re just in a browser, the web application behaves just like a native app. It gets an access to your location, accelerometers, and goes fullscreen giving you a **native app-like experience**. How cool is that?!
 
-# Why PWAs are the next big thing?
+## Why PWAs are the next big thing?
 
 ### Data-friendly
 
@@ -95,7 +95,7 @@ With the recent release of Vue CLI 3, easy PWA implementation was introduced to 
 
 ## Read: [Vue CLI 3: New Era in Frontend Development](https://naturaily.com/blog/vue-cli-3-overview)
 
-# Use Cases
+## Use Cases
 
 Let’s jump into some examples of PWAs you may be using today without even noticing!
 
