@@ -4,6 +4,7 @@ description: >-
   How to create view components in your Ruby on Rails applications? With this
   tutorial, you'll be able to see how to create them using Trailblazer Cells!
 slug: ruby-on-rails-trailblazer-cells
+twitter-card: summary_large_image
 date: '2016-10-03 10:38:01 +0000'
 category: Ruby on Rails development
 author: Mikołaj Grygiel
@@ -31,7 +32,7 @@ I could just list adventages of cells, but you can find them in the ["documentat
 
 The example is a simple app with CRUD actions for below database.
 
-![trailblazer_one](/assets/images/trailblazer1.png "Trailblazer One")
+![trailblazer_one](/assets/images/trailblazer1.png)
 
 Let’s start by creating the app with scaffolds.
   1. ```rails new cells-app```
@@ -70,7 +71,7 @@ And some view components cells:
 
 We will replace each template with cell. Completed project you can find on ["GitHub"](https://github.com/Naturaily/cells-app). Here I will just show two examples of cells: ```TableCell``` and ```IndexCell```.
 
-# TableCell
+## TableCell
 
 Firstly, we need to create files structure. ```TableCell``` is built from one ruby file and four erb(html) files. Our cells’ directory should look like below.
 
@@ -176,7 +177,7 @@ In ```body.erb``` we render table row for each item provided to cell.
   </td>
 ```
 
-# IndexCell
+## IndexCell
 
 At first we need to add abstract ```PageCell``` with html layout, the main job of layout is including javascript and stylesheets assets. Each view needs to load the layout, so views cells will inherit from the ```PageCell```. We have to create ```app/cells/page_cell.rb``` and ```app/cells/page/layout.erb``` files.
 
