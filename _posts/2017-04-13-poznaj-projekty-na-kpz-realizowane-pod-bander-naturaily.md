@@ -5,6 +5,7 @@ description: >-
   studentów studiów inżynierskich na Wydziale Elektroniki Politechniki
   Wrocławskiej.
 slug: projekty-kpz-naturaily
+twitter-card: summary_large_image
 date: '2017-04-13 10:38:01 +0000'
 category: Events
 author: Marcin Sulikowski
