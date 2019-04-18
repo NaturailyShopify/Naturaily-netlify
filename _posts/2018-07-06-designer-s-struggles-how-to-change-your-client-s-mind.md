@@ -8,11 +8,8 @@ slug: client-designer-struggles
 layout: post
 date: '2018-07-16 02:10:29 +0000'
 category: UX/UI
-authors:
-  label: Agata Zięba
-  value: author-3
-  avatar: /assets/images/agata.jpg
-
+author: Agata Zięba
+avatar: /assets/images/agata.jpg
 image: /assets/images/designer.jpg
 text-preview: >-
   In my experience, when it comes to project design, clients tend to make
@@ -99,5 +96,5 @@ When a client is getting emotional we need to play it cool. Give logical argumen
 
 Special thanks to:
 
-* [Luke Chesser](https://unsplash.com/photos/wnShDP37vB4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
-* [rawpixel](https://unsplash.com/photos/WYEZba2aiVg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+* [Luke Chesser](https://unsplash.com/@lukechesser) on Unsplash
+* [rawpixel](https://unsplash.com/@rawpixel/collections) on Unsplash
