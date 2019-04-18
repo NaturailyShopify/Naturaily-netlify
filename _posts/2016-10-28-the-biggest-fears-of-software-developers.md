@@ -4,6 +4,7 @@ description: >-
   Software development is not a walk in the park. It's rather a 24-hour run
   through a misty jungle full of spider webs and creepy creatures!
 slug: software-developers-fears
+twitter-card: summary_large_image
 date: '2016-10-28 10:38:01 +0000'
 category: Startups
 author: Marcin Sulikowski
@@ -24,74 +25,67 @@ Software development is not a walk in the park. It’s rather a 24-hour run thro
 
 ## 1. BUGs! BUGs! BUGs everywhere :/
 
-  ![](/assets/images/1_BUGs.gif " ")
+  ![bugs](/assets/images/1_BUGs.gif " ")
 
 ## 2. Imgur blocked!
 
-  ![](/assets/images/2_imgur.gif " ")
+  ![imgur-blocked](/assets/images/2_imgur.gif " ")
 
 ## 3. Humorless PM
 
-  ![](/assets/images/3_humorless pm.gif " ")
+  ![humorless-pm](/assets/images/3_humorless pm.gif " ")
 
 ## 4. Fixing someone's else code
 
-  ![](/assets/images/4_fixing.gif " ")
+  ![fixing-code](/assets/images/4_fixing.gif " ")
 
 ## 5. Deploy on Friday evening
 
-  ![](/assets/images/5_deploy.gif " ")
+  ![friday-deploy](/assets/images/5_deploy.gif " ")
 
 ## 6. When test fails when run together but passes alone
 
-  ![](/assets/images/6_tests.gif " ")
+  ![test-fails](/assets/images/6_tests.gif " ")
 
 ## 7. Perl script using German
 
-  ![](/assets/images/7_german.gif " ")
+  ![perl-script](/assets/images/7_german.gif " ")
 
 ## 8. Gitlab loading branches for hours
 
-  ![](/assets/images/8.gif " ")
+  ![gitlab-loading](/assets/images/8.gif " ")
 
+## 9. ASAP (what does it even mean?!)
 
-
-
-## 9. ASAP (what that even means?!)
-
-  ![](/assets/images/9_asap.gif " ")
+  ![asap](/assets/images/9_asap.gif " ")
 
 ## 10. COBOL programming
 
-  ![](/assets/images/10_cobol.gif " ")
+  ![cobol](/assets/images/10_cobol.gif " ")
 
 ## 11. Boredom
 
-  ![](/assets/images/11_boredom.gif " ")
+  ![boredom](/assets/images/11_boredom.gif " ")
 
 ## 12. Supporting Internet Explorer
 
-  ![](/assets/images/12_IE.gif " ")
+  ![IE](/assets/images/12_IE.gif " ")
 
 ## 13. Remaining unrecognized
 
-  ![](/assets/images/13_unrecognized.jpg " ")
+  ![Remaining-unrecognized](/assets/images/13_unrecognized.jpg " ")
 
 ## 14. Breaking finger!
 
-  ![](/assets/images/14_fingers.gif " ")
+  ![breaking-fingers](/assets/images/14_fingers.gif " ")
 
 ## 15. Ties!
 
-  ![](/assets/images/15_ties.gif " ")
+  ![ties](/assets/images/15_ties.gif " ")
 
-## 16. Realizing that programming is not for me
+## 16. Hearing “There is a slight change in the requirements”
 
-![](/assets/images/16_not for me.gif " ")
-
-## 17. Hearing “There is a slight change in the requirements”
-
-  ![](/assets/images/17_change.gif " ")
+  ![change-in-requirements](/assets/images/17_change.gif " ")
 
 
 What's your biggest fear?
