@@ -6,6 +6,7 @@ description: >-
   experiences.
 slug: client-designer-struggles
 layout: post
+twitter-card: summary_large_image
 date: '2018-07-16 02:10:29 +0000'
 category: UX/UI
 author: Agata Zięba
