@@ -17,7 +17,7 @@ text-preview: >-
 tags:
   - Ruby on Rails development
 ---
-The release of the newest version of Ruby on Rails is just around the corner. With it, a ton of new features will be introduced to the public. We’re excited to see all the new stuff Ruby on Rails 6.0 has to offer! With regular releases of the beta versions, developers had access to the upcoming framework for quite a while and they reported that it looks solid. Will the new Ruby on Rails 6.0 bring back the enormous popularity RoR once had? 
+The release of the newest version of Ruby on Rails is just around the corner. With it, a ton of new features will be introduced to the public. We’re excited to see all the new stuff Ruby on Rails 6.0 has to offer! With regular releases of the beta versions, developers had access to the upcoming framework for quite a while and they reported that it looks solid. Will the new Ruby on Rails 6.0 bring back the [enormous popularity RoR once had](https://naturaily.com/blog/who-gives-f-about-rails)? 
 
 **Here are our most anticipated features of the upcoming version of Ruby on Rails 6.0!**
 
