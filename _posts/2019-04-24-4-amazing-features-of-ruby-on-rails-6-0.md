@@ -10,7 +10,7 @@ date: '2019-04-24 09:22:32 +0200'
 category: Ruby on Rails development
 author: Klaudia Chudy
 avatar: /assets/images/klaudusia.jpg
-image: /assets/images/5-tips-survive-open-space-office-work.jpg
+image: /assets/images/4-best-features-of-ruby-on-rails-6.0.png
 text-preview: >-
   The release of the newest version of Ruby on Rails is just around the corner.
   With it, a ton of new features will be introduced to the public.
