@@ -1,6 +1,6 @@
 ---
 layout: estimate
-title: Estimate
-description: Estimate
+title: Get an estimate
+description: Estimate your project!
 permalink: /get-an-estimate
 ---
