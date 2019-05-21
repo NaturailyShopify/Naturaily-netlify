@@ -5,7 +5,7 @@ title: >-
 description: >-
   Filter out Slack alerts Sentry messages from Sidekiq jobs using Sidekiq
   middleware in custom Shopify integrations.
-slug: skip-sentry-slack-notifications-until-specific-count-of-retries-in-sidekiq
+slug: sidekiq-skip-sentry-slack-notifications
 layout: post
 twitter-card: >-
   New blog post: How to skip Sentry Slack notifications until a specific count
