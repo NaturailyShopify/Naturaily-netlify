@@ -98,7 +98,7 @@ class Middleware::Sidekiq::RetryMonitoring
 end
 ```
 
-The last thing to do is to define `should_capture` for  `Raven`. We can define `Proc `which checks if the exception contains `Sidekiq::SilentRetryError`
+The last thing to do is to define `should_capture` for  `Raven`. We can define `Proc`which checks if the exception contains `Sidekiq::SilentRetryError`
 
 ```ruby
 Raven.configure do |config|
@@ -108,6 +108,6 @@ Raven.configure do |config|
 end
 ```
 
-##Summary
+## Summary
 
-Sentry will be notified after ninth retry of some errors. We wanted to avoid overflooding Sentry/Slack with notifications. Some jobs after some retries are successful and there’s no need to get notifications from the very beginning. 
+Sentry will be notified after ninth retry of some errors. We wanted to avoid overflooding Sentry/Slack with notifications. Some jobs after some retries are successful and there’s no need to get notifications from the very beginning.
