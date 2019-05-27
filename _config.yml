@@ -43,6 +43,8 @@ collections:
   authors:
     output: true
     permalink: blog/authors/:path
+  test:
+    output: true
 
 blog:
   tags:
