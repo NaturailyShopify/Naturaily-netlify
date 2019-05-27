@@ -8,6 +8,19 @@ media_folder: "assets/images"
 
 collections:
   -
+    name: "test"
+    label: "Test"
+    files:
+      - label: "Test autorz"
+        name: "autorz"
+        file: "_data/autorz.yml"
+        fields:
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+  -
     name: "post"
     label: "Posts"
     label_singular: "Post"
