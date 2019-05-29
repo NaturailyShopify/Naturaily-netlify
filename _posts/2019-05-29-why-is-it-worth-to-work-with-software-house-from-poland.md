@@ -34,7 +34,7 @@ tags:
 * We have the right **communication skills** and a good knowledge of English.
 * Our **hourly rates are very competitive** in comparison to the cost of hiring a development team from the US or Western Europe.
 
-[![Get an estimate](/assets/images/get-an-estimate_final.png)](https://naturaily.com/get-an-estimate)
+[![Get an estimate](/assets/images/get-an-estimate_fin.png)](https://naturaily.com/get-an-estimate)
 
 ## Challenges related to the in-house software development
 
