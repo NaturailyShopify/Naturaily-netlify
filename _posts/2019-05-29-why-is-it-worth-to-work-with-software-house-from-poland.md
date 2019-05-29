@@ -36,8 +36,6 @@ tags:
 
 [![Get an estimate](/assets/images/link-to-get-an-estimate_final.png)](https://naturaily.com/get-an-estimate/)
 
-
-
 ## Challenges related to the in-house software development
 
 If you are considering in-house software development, you probably already know that you will need to hire a development team, tell them what you need and specify the deadlines.
@@ -53,7 +51,7 @@ However, have you considered other aspects such as:
 * choosing the right technological stack (tools, libraries, additional software) that would allow further product development;
 * providing maintenance of the implemented software and ongoing error fixing as well as developing the product in line with the business needs?
 
-Now you see that_ hiring a developer_ usually means creating an internal IT department, consisting of a director, a manager, specialists in various fields (including HR), work coordinators, etc. You will also need adequate procedures, policies and many more.
+Now you see that _hiring a developer_ usually means creating an internal IT department, consisting of a director, a manager, specialists in various fields (including HR), work coordinators, etc. You will also need adequate procedures, policies and many more.
 
 Last but not least, you must also think about what will happen after the implementation of the project. You will need someone who will take care of the software, fix errors, introduce necessary changes, etc. Meanwhile, freelance developers are not big fans of maintenance, they prefer to move to new projects and gain new experience.
 
