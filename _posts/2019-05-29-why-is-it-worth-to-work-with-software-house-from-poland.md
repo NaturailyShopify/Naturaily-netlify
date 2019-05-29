@@ -25,16 +25,16 @@ text-preview: >
 tags:
   - Software development
 ---
-**There are over 100,000 software companies around the world and some predict the number will increase to 1 million by 2027. A lot of them are software houses, like Naturaily, whose domain is the **[**creation and maintenance of software for other companies**](https://naturaily.com/services)**.**
+**There are over 100,000 software companies around the world and some predict the number will increase to 1 million by 2027. A lot of them are software houses, like Naturaily, whose domain is the **[creation and maintenance of software for other companies](https://naturaily.com/services)**.**
 
 **Some say that Poland has become a software house of Europe. Why? It is simple. We are the best to work with and here is why.**
 
 * Companies from Poland respect **General Data Protection Regulation** (GDPR) introduced by the European Parliament and the European Council.
-* Polish development teams combine** coding fluency** with the understanding of the **business goals** of a given project.
+* Polish development teams combine **coding fluency** with the understanding of the **business goals** of a given project.
 * We have the right **communication skills** and a good knowledge of English.
 * Our **hourly rates are very competitive** in comparison to the cost of hiring a development team from the US or Western Europe.
 
-`[![Get an estimate](/assets/images/link-to-get-an-estimate_final.png)](https://naturaily.com/get-an-estimate)`
+`[![Get an estimate](/assets/images/link-to-get-an-estimate_final.png)](https://naturaily.com/get-an-estimate/)`
 
 
 
