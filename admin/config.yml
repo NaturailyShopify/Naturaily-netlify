@@ -52,7 +52,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Publishd", name: "published", widget: "boolean", default: true}
+      - {label: "Published", name: "published", widget: "boolean", default: true}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "career-details"}
