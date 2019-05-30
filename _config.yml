@@ -81,6 +81,7 @@ defaults:
       type: 'career'
     values:
       layout: 'career-details'
+      published: ''
       description: ' '
       type: ' '
       salary: ' '

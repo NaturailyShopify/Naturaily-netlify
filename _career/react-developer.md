@@ -1,4 +1,5 @@
 ---
+published: true
 title: React Developer
 description: >-
   Working at Naturaily is a great opportunity to enhance your skills and spend
@@ -52,4 +53,3 @@ offer:
 salary-range:
   - 6 000 - 15 000 PLN + VAT B2B
 ---
-

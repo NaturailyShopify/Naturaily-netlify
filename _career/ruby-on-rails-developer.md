@@ -1,4 +1,5 @@
 ---
+published: true
 title: Ruby on Rails Developer
 description: >-
   We are looking for talented Ruby on Rails Developer to help us build great
