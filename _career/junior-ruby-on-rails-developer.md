@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Junior Ruby on Rails Developer
 description: >-
   We are looking for talented Junior Ruby on Rails Developer to help us build
@@ -42,3 +42,4 @@ salary-range:
   - 3300-7000 + VAT B2B
   - 2800-7000 gross UOP
 ---
+
