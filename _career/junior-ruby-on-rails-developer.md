@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Junior Ruby on Rails Developer
 description: >-
   We are looking for talented Junior Ruby on Rails Developer to help us build
@@ -12,7 +13,7 @@ who_we_are: >-
   Vue.js to craft great digital experiences. We work with startups and grown-up
   companies.
 type: Development
-salary: 'from 3300 PLN net'
+salary: from 3300 PLN net
 responsibilities:
   - >-
     Programming Ruby (on Rails) applications together with more experienced
@@ -41,3 +42,4 @@ salary-range:
   - 3300-7000 + VAT B2B
   - 2800-7000 gross UOP
 ---
+
