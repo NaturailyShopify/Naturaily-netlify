@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-{% assign types = site.career | map: "type" %}
-{% assign carrer_types = types | uniq | join: ' ' %}
 
 <div class="career__wave"></div>
 
@@ -183,17 +181,27 @@ layout: default
   </div>
 </div>
 
+{% assign types_filtered = site.career | where: "published", "true"%}
+{% assign types = types_filtered | map: "type" %}
+{% assign carrer_types = types | uniq | join: ' ' %}
+
+
+{% assign development_type = types_filtered | where: "type", "Development" %}
+{% assign ux_type = types_filtered | where: "type", "UX/UI" %}
+{% assign marketing_type = types_filtered | where: "type", "Sales&Marketing" %}
+{% assign business_type = types_filtered | where: "type", "Business" %}
+{% assign operations_type = types_filtered | where: "type", "Operations" %}
+{% assign other_type = types_filtered | where: "type", "Other" %}
+
 {% for carrer_type in carrer_types %}
   <div class="l-content l-content-offers">
-    {% if carrer_type contains "Development" %}
+    {% if carrer_type contains "Development"  %}
       <div class="l-career-container">
         <div class="main-point pt-3">
           Development
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Development" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in development_type %}
+          {% include career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
@@ -202,10 +210,8 @@ layout: default
         <div class="main-point blue-dot">
           UX/UI
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "UX/UI" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in ux_type %}
+          {% include career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
@@ -214,10 +220,8 @@ layout: default
         <div class="main-point green-dot">
           Sales&Marketing
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Sales&Marketing" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in marketing_type %}
+          {% include career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
@@ -226,10 +230,8 @@ layout: default
         <div class="main-point">
           Business Development
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Business" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in business_type %}
+          {% include career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
@@ -238,10 +240,8 @@ layout: default
         <div class="main-point blue-dot">
           Operations
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Operations" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in operations_type %}
+          {% include career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
@@ -250,10 +250,8 @@ layout: default
         <div class="main-point green-dot">
           Other
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Other" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in other_type %}
+          {% include career-box.html %}
         {% endfor %}
       </div>
     {% endif %}

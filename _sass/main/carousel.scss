@@ -71,13 +71,17 @@
   }
   .slick-dots {
     bottom: -100px;
+
+    li {
+      transition: all .4s ease;
+    }
   }
   .slick-dots li button {
     display: none;
   }
   ul.slick-dots li.slick-active {
-    filter: grayscale(0);
-    opacity: 1;
+     filter: grayscale(0%);
+     opacity: 1;
   }
   .slick-dots li:nth-child(1) {
     background-image: url('/assets/images/firefield.png');
@@ -85,10 +89,13 @@
     background-repeat: no-repeat;
     width: 100px;
     height: 30px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }
@@ -98,10 +105,13 @@
     width: 100px;
     height: 40px;
     margin-top: 3px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }
@@ -112,10 +122,13 @@
     width: 100px;
     height: 23px;
     margin-top: 4px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }
@@ -126,10 +139,13 @@
     width: 100px;
     height: 55px;
     margin-top: 4px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }
@@ -139,11 +155,14 @@
     width: 50px;
     height: 37px;
     margin-top: 4px;
+    margin-bottom: -6px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
-    margin-bottom: -6px;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }

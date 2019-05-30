@@ -1,10 +1,11 @@
 ---
+published: true
 title: New Business Manager
 description: >-
   We are looking for New Business Manager who will join just over 30 people
   large company&#44; working in a close cooperation with CEO. Small company
   means smaller teams making transparent communication and active participation
-  in making possibly the best product. 
+  in making possibly the best product.
 layout: career-details
 image: /assets/images/naturaily-job-offer-new-business-manager-–-1.png
 location: Wrocław

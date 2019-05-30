@@ -43,6 +43,8 @@ collections:
   authors:
     output: true
     permalink: blog/authors/:path
+  test:
+    output: true
 
 blog:
   tags:
@@ -79,6 +81,7 @@ defaults:
       type: 'career'
     values:
       layout: 'career-details'
+      published: ''
       description: ' '
       type: ' '
       salary: ' '
