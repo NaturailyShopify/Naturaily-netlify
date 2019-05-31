@@ -12,12 +12,12 @@ layout: default
             <div class="post-preview">
               <a class="post-link" href="{{ post.url | relative_url }}">
                 {% if post.image %}
-                  <img class="post-image" src="{{post.image}}" alt="Post image">
+                  <img class="post-image" src="/assets/images/loader.gif" data-src="{{post.image}}" alt="Post image">
                 {% endif %}
               </a>
               <div class="post-meta">
                 {% if post.avatar %}
-                  <img class="avatar" src="{{ post.avatar }}" alt="Post author">
+                  <img class="avatar" src="/assets/images/loader.gif" data-src="{{ post.avatar }}" alt="Post author">
                 {% endif %}
                 <p class="author">
                   {% if post.author %}
