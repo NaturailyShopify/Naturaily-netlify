@@ -16,7 +16,7 @@ date: '2019-06-18 02:48:11 +0200'
 category: Software development
 author: Michał Kosyk
 authors: Michał Kosyk
-avatar: /assets/images/bob.png
+avatar: /assets/images/zrzut-ekranu-2019-06-18-o-15.39.42.png
 image: /assets/images/legacy-code-refactor.png
 text-preview: >-
   In the darkest corners of every app development process dwell lines of code
@@ -90,7 +90,9 @@ Start small. Possibly from a method that isn’t really clear but is a good star
 3. You start by creating a test, write some code until it fails, then write the production code, then test the code, then production, etc. 
 4. Now, a really simple thing happens: you just added some tests, a Presenter class, and filled the instance with some methods and attributes. But what you did is profound in consequences. By decoupling the view from the data model, value object or ActiveRecord model, you separated two layers – the presentation layer and the persistence layer which gives you the freedom to put whatever you want in that presenter – even mocked data if you don’t really know the source of data to feed it with.
 
-### So, the takeaways for today are:
+
+
+**So, the takeaways for today are:**
 
 * **Big refactors never work**
 * **Small refactors help you make the old code better**
