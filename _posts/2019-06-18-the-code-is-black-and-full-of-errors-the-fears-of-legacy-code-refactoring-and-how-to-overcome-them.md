@@ -28,6 +28,8 @@ text-preview: >-
 tags:
   - Software development
 ---
+**In the darkest corners of every app development process dwell lines of code that make even the bravest of developers wake up at night drenched with sweat. There are rumours around the team that business people will soon come to demand some changes in that particular part of the abyss. People are trembling with fear, dropping their cups, spilling coffee and asking for remote work – all in a bid to avoid the impending catastrophe.**
+
 The time inevitably comes – the planning starts, coders nervously watch in horror as the project manager utters those cursed words: _“Hey, guys!” she said. “Hope everyone had a good weekend because today we are doing something special! We need to change an old functionality a bit. Remember our payments system? We need to add another payment provider! How exciting, isn’t it?” _
 
 The silence that followed was so intense you could hear a pin drop. Developers sighed. _“Oh, and the owners need it before Friday this week”_, she added after a short moment. Now, the massacre starts...
