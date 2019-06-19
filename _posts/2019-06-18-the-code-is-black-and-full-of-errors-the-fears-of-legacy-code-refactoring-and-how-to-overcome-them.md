@@ -56,7 +56,7 @@ What’s the problem? **Are we supposed to accept our lives as legacy code suppo
 
 Elon Musk presented his incredible, electric truck a year ago: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5RRmepp7i5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/5RRmepp7i5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 We still use the old, diesel trucks that stink, aren’t really fuel-efficient, and take a lot of time to learn to drive. New Tesla truck is slick, super fast and great looking. And it does most of the work for you. You just enjoy your life and the drive while watching your favourite show on Netflix.
 
