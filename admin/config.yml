@@ -29,6 +29,7 @@ collections:
         collection: "test"
         searchFields: ["name"]
         valueField: "name"
+        required: false
       - {label: "Author avatar(optimally 100x100px)", name: "avatar", widget: "image"}
       - {label: "Post image(optimally 800x313px)", name: "image", widget: "image"}
       - {label: "Post preview(160 to 360 characters)", name: "text-preview", widget: "text"}
