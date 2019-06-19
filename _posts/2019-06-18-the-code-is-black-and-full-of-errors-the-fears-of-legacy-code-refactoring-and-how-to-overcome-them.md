@@ -77,7 +77,7 @@ There is a lot of lost knowledge about the “whys” of legacy functionality. M
 
 ### Who knows?
 
-If you are asking this question, you don’t have enough tests, especially feature tests, that should require certain functionalities to work in a certain way. With the above problems in mind, you don’t really have the knowledge to approach a refactor. And you can’t! You are not certain if you’ve built will do what it’s supposed to!
+If you are asking this question, you don’t have enough tests, especially feature tests, that should require certain functionalities to work in a certain way. With the above problems in mind, you don’t really have the knowledge to approach a refactor. And you can’t! You are not certain if what you’ve built will do what it’s supposed to!
 
 Now, when we know it’s impossible to exercise such a feat, we need to ask ourselves: how can we help the codebase? Let’s imagine it as an apple tree. It’s neglected, infested with a disease… but it gives fruits that we need to feed ourselves and our families.
 
