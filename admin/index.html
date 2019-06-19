@@ -48,7 +48,9 @@ sitemap: false
     // (component gives better render performance)
     toPreview: function(obj) {
       return (
-        '<img src="http://img.youtube.com/vi/' + obj.id + '/maxresdefault.jpg" alt="Youtube Video"/>'
+        '
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/' + obj.id + '" frameborder="0" allowfullscreen></iframe>
+        '
       );
     }
   });
