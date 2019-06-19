@@ -30,7 +30,7 @@ tags:
 ---
 **In the darkest corners of every app development process dwell lines of code that make even the bravest of developers wake up at night drenched with sweat. There are rumours around the team that business people will soon come to demand some changes in that particular part of the abyss. People are trembling with fear, dropping their cups, spilling coffee and asking for remote work – all in a bid to avoid the impending catastrophe.**
 
-The time inevitably comes – the planning starts, coders nervously watch in horror as the project manager utters those cursed words: _“Hey, guys!” she said. “Hope everyone had a good weekend because today we are doing something special! We need to change an old functionality a bit. Remember our payments system? We need to add another payment provider! How exciting, isn’t it?” _
+The time inevitably comes – the planning starts, coders nervously watch in horror as the project manager utters those cursed words: _“Hey, guys!”_ she said. _“Hope everyone had a good weekend because today we are doing something special! We need to change an old functionality a bit. Remember our payments system? We need to add another payment provider! How exciting, isn’t it?”_
 
 The silence that followed was so intense you could hear a pin drop. Developers sighed. _“Oh, and the owners need it before Friday this week”_, she added after a short moment. Now, the massacre starts...
 
@@ -91,8 +91,6 @@ Start small. Possibly from a method that isn’t really clear but is a good star
 2. After investigating, you see there are no tests – add them, you know what should happen. After that, you analyse the view’s logic and you see it really shouldn’t be here. A Presenter should take care of showing the data in a specific way. 
 3. You start by creating a test, write some code until it fails, then write the production code, then test the code, then production, etc. 
 4. Now, a really simple thing happens: you just added some tests, a Presenter class, and filled the instance with some methods and attributes. But what you did is profound in consequences. By decoupling the view from the data model, value object or ActiveRecord model, you separated two layers – the presentation layer and the persistence layer which gives you the freedom to put whatever you want in that presenter – even mocked data if you don’t really know the source of data to feed it with.
-
-
 
 **So, the takeaways for today are:**
 
