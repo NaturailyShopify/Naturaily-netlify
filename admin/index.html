@@ -33,24 +33,23 @@ sitemap: false
       // Fields the user need to fill out when adding an instance of the component
       fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
       // Pattern to identify a block as being an instance of this component
-      pattern: /^youtube (\S+)$/,
+      pattern: /^%(\S+)$/,
       // Function to extract data elements from the regexp match
       fromBlock: function(match) {
+        const matchStripped = match[1].replace(/[\[\]']+/g, '');
         return {
-          id: match[1]
+          id: matchStripped
         };
       },
       // Function to create a text block from an instance of this component
       toBlock: function(obj) {
-        return (
-          '<iframe width="100%" height="500" src="https://www.youtube.com/embed/' + obj.id + '" frameborder="0" allowfullscreen></iframe>'
-        );
+        return '%[' + obj.id + ']';
       },
       // Preview output for this component. Can either be a string or a React component
       // (component gives better render performance)
       toPreview: function(obj) {
         return (
-          '<iframe width="100%" height="500" src="https://www.youtube.com/embed/' + obj.id + '" frameborder="0" allowfullscreen></iframe>'
+          '<iframe class="post-youtube" width="100%" height="500" src="https://www.youtube.com/embed/' + obj.id + '" frameborder="0" allowfullscreen>'
         );
       }
     });
