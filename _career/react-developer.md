@@ -17,7 +17,7 @@ who_we_are: >-
   pride ourselves in knowledge of Vue.js, Ruby on Rails, Node.js and Internet of
   Things.
 type: Development
-salary: 6 000 - 15 000 PLN net + VAT (B2B)
+salary: 6 300 - 10 000 PLN net + VAT (B2B)/ 5200 - 8400 PLN gross (UoP)
 responsibilities:
   - >-
     Development of web-based interface that has reusable components&#44; is both
@@ -55,6 +55,6 @@ offer:
   - Pizza Friday
   - 'Workshops&#44; conferences&#44; training'
 salary-range:
-  - 6 000 - 15 000 PLN net + VAT (B2B)
+  - 6 300 - 10 000 PLN net + VAT (B2B)/ 5200 - 8400 PLN gross (UoP)
 ---
 
