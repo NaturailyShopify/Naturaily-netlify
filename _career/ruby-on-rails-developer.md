@@ -16,7 +16,7 @@ who_we_are: >-
   pride ourselves in knowledge of Vue.js, Ruby on Rails, Node.js and Internet of
   Things.
 type: Development
-salary: 6000 - 10000 PLN net + VAT (B2B)
+salary: 6000 - 10000 PLN net + VAT (B2B)/ 5200 - 8400 PLN gross (UoP)
 responsibilities:
   - Programming web apps backend
   - Designing application architecture
@@ -43,20 +43,14 @@ nicehave:
   - Worked in Agile environment
   - 'Some experience with devOps work (docker&#44; CI & CD tools)'
 offer:
-  - Work-Life balance Mac laptop
-  - multiple screens
-  - etc.
+  - Work-Life balance
+  - 'Mac laptop&#44; multiple screens&#44; etc'
   - Flexible working hours and/or home-office
   - Location in the heart of Wrocław’s Old Town
-  - Coffee
-  - tea
-  - snacks
-  - fresh fruits
+  - 'Coffee&#44; tea&#44; snacks&#44; fresh fruit'
   - Pizza Friday
-  - Workshops
-  - conferences
-  - training
+  - 'Workshops&#44; conferences&#44; training'
 salary-range:
-  - 6000 - 10000 PLN + VAT (B2B)
+  - 6000 - 10000 PLN net + VAT (B2B)/ 5200 - 8400 PLN gross (UoP)
 ---
 
