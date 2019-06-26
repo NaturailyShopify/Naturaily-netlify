@@ -23,6 +23,7 @@ responsibilities:
     Programming Ruby (on Rails) applications together with more experienced
     dudes and dudettes
   - Programming Rails APIs for single page applications
+  - Being engaged in development program aiming at upgrading your seniority
 requirements:
   - Have at least 6 months of experience with Ruby and Ruby on Rails
   - Hands-on experience with PostgreSQL
