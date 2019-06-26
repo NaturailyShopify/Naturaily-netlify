@@ -16,7 +16,7 @@ who_we_are: >-
   pride ourselves in knowledge of Vue.js, Ruby on Rails, Node.js and Internet of
   Things.
 type: Development
-salary: 6000 - 10000 PLN net + VAT (B2B)
+salary: 6000 - 10000 PLN net + VAT (B2B)/ 5200 - 8400 PLN gross (UoP)
 responsibilities:
   - Programming web apps backend
   - Designing application architecture
@@ -51,6 +51,6 @@ offer:
   - Pizza Friday
   - 'Workshops&#44; conferences&#44; training'
 salary-range:
-  - 6000 - 10000 PLN + VAT (B2B)
+  - 6000 - 10000 PLN net + VAT (B2B)/ 5200 - 8400 PLN gross (UoP)
 ---
 
