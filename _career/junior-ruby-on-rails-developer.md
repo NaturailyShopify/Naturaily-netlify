@@ -17,7 +17,7 @@ who_we_are: >-
   pride ourselves in knowledge of Vue.js, Ruby on Rails, Node.js and Internet of
   Things.
 type: Development
-salary: from 3300 PLN net
+salary: 3300 - 6000 PLN net + VAT (B2B/ up to 5200 PLN gross (UoP)
 responsibilities:
   - >-
     Programming Ruby (on Rails) applications together with more experienced
@@ -46,7 +46,6 @@ offer:
   - Pizza Friday
   - 'Workshops&#44; conferences&#44; training'
 salary-range:
-  - 3300-7000 + VAT B2B
-  - 2800-7000 gross UOP
+  - 3300 - 6000 PLN net + VAT (B2B/ up to 5200 PLN gross (UoP)
 ---
 
