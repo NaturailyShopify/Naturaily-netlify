@@ -6,21 +6,26 @@ description: >-
   digital products.
 layout: career-details
 image: /assets/images/naturaily-ruby-on-rails-developer-social-media.png
-location: Wrocław / Warszawa / remote
+location: Wrocław / Remote
 who_we_are: >-
-  We are an agile development team using Ruby on Rails, node.js, React.js and
-  Vue.js to craft great digital experiences. We work with startups and grown-up
-  companies.
+  At Naturaily we value individuality, professionalism, open communication and
+  honesty. We strive to provide our clients with the best, stable, reliable and
+  beautiful digital products. We achieve that by avoiding technical debt and
+  being thorough. After years of working with digital products we’re still
+  excited by new technologies, creative solutions and overcoming challenges. We
+  pride ourselves in knowledge of Vue.js, Ruby on Rails, Node.js and Internet of
+  Things.
 type: Development
-salary: from 6000 PLN net
+salary: 6000 - 10000 PLN net + VAT (B2B)
 responsibilities:
   - Programming web apps backend
   - Designing application architecture
   - Programming APIs
+  - Writing clean and easily maintainable code
 requirements:
   - >-
-    Have at least 2y (the more the better) experience with Ruby and Ruby on
-    Rails
+    Have at least 2 years (the more the better) of experience with Ruby and Ruby
+    on Rails
   - Hands-on experience with RDBMSes (PostgreSQL mostly) and noSQLs
   - Hands-on experience with JavaScript
   - >-
@@ -38,8 +43,20 @@ nicehave:
   - Worked in Agile environment
   - 'Some experience with devOps work (docker&#44; CI & CD tools)'
 offer:
-  - Variety of projects to work on
-  - Great environment to learn and enhance your skills
+  - Work-Life balance Mac laptop
+  - multiple screens
+  - etc.
+  - Flexible working hours and/or home-office
+  - Location in the heart of Wrocław’s Old Town
+  - Coffee
+  - tea
+  - snacks
+  - fresh fruits
+  - Pizza Friday
+  - Workshops
+  - conferences
+  - training
 salary-range:
-  - 6000 - 15000 PLN + VAT (B2B)
+  - 6000 - 10000 PLN + VAT (B2B)
 ---
+
