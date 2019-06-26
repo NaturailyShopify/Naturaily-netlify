@@ -22,7 +22,7 @@ responsibilities:
   - >-
     Programming Ruby (on Rails) applications together with more experienced
     dudes and dudettes
-  - Also programming Rails APIs for single page applications
+  - Programming Rails APIs for single page applications
 requirements:
   - Have at least 6 months of experience with Ruby and Ruby on Rails
   - Hands-on experience with PostgreSQL
