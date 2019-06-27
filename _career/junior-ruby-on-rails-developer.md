@@ -39,13 +39,13 @@ nicehave:
   - Heard of Docker?
   - Heard of Dunning-Kruger effect?
 offer:
-  - Work-Life balance
-  - 'Mac laptop&#44; multiple screens&#44; etc'
-  - Flexible working hours and/or home-office
-  - Location in the heart of Wrocław’s Old Town
-  - 'Coffee&#44; tea&#44; snacks&#44; fresh fruit'
-  - Pizza Friday
-  - 'Workshops&#44; conferences&#44; training'
+  - Great environment for personal development
+  - A chance to develop internal projects
+  - Bottom-up decision making culture
+  - Flexible working hours
+  - Remote work if needed
+  - Fresh fruits & snacks
+  - “Pizza Day".
 salary-range:
   - 3300 - 6000 PLN net + VAT (B2B/ up to 5200 PLN gross (UoP)
 ---
