@@ -33,8 +33,9 @@ sitemap: false
       pattern: /\{\%[\s\S]*?\%\}/,
 
       fromBlock: function(match) {
+        const matchStripped = match[0].replace(/[\{\%\%\}']+/g, '').replace(/[youtube]+/, '').replace(/^\s+|\s+$/g, '');
         return {
-          id: match[1]
+          id: matchStripped
         };
       },
 
@@ -44,7 +45,7 @@ sitemap: false
 
       toPreview: function(obj) {
         return (
-          '<iframe class="post-youtube" width="100%" height="500" src="https://www.youtube.com/embed/' + obj.id + '" frameborder="0" allowfullscreen>'
+          '<iframe class="post-youtube" width="100%" height="300" src="https://www.youtube.com/embed/' + obj.id + '" frameborder="0" allowfullscreen>'
         );
       }
     });
