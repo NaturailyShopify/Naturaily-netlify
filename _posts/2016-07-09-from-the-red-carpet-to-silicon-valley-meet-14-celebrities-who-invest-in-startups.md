@@ -20,8 +20,6 @@ text-preview: >-
 tags:
   - Startups
 ---
-%[gU3vaeYMg]
-
 Sportsmen, rock stars, pop singers and actors eagerly invest in startups, especially in the US where both tech and entertainment industries are huge. There is a group of celebrities who've even launched their own funds. They know where to drop their dollars, that's for sure. Who invested in what and was it worth it?
 
 **Ashton Kutcher** is not only an actor & producer but also an investor & co-founder of **A-Grade Investments** venture fund. He has made over 70 investments so far, including:
@@ -74,6 +72,8 @@ She also has launched her own apps, like: Ellen's App, Ellentube App, Heads Up a
 * Wish.
 
 Leto also admitted that he really wanted to invest in Instagram but it was too late - a few days later the app was bought by Facebook. He also has his own startup named Vyrt. Watch the video below where Leto admits that he was the one begging companies for a possibility to invest, not the other way round. It's pretty interesting considering where Poland is  in terms of investing in startups.
+
+
 
 **Leonardo DiCaprio** - the Wolf of Wall Street took part in a $55 million funding (in 2015) for the mattress startup Casper alongside Adam Levine, Scooter Braun and Tobey Maguire. He has also invested in:
 
