@@ -75,7 +75,7 @@ Leto also admitted that he really wanted to invest in Instagram but it was too l
 
 
 
-{% youtube oHg5SJYRHA0 %}
+%[xfykcaJ0FoE]
 
 **Leonardo DiCaprio** - the Wolf of Wall Street took part in a $55 million funding (in 2015) for the mattress startup Casper alongside Adam Levine, Scooter Braun and Tobey Maguire. He has also invested in:
 
