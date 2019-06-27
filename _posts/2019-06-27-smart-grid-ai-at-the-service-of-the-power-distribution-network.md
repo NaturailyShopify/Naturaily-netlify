@@ -1,5 +1,5 @@
 ---
-title: Smart Grid - AI at the Service of the Power Distribution Network
+title: Smart Grid - AI at the service of the Power Distribution Network
 description: >-
   The term "smart grid" describes an electrical grid that is integrated with an
   AI-enabled, two-way communication network, helping to ensure more efficient
