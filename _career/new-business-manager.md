@@ -47,12 +47,12 @@ requirements:
     estimations&#44; project scope & technologies
   - Coordination of the offering process and its delivery
   - Contracts negotiation
-  - Fluent English
+  - Fluent English.
 nicehave:
-  - Ability to build long-term relationships with the Clients
+  - Building long-term relationships with the Clients
   - Understanding of the Clients business
   - Being target orientated
-  - Continuous persistence
+  - Continuous persistence.
 offer:
   - Great environment for personal development
   - A chance to develop internal projects
@@ -60,7 +60,8 @@ offer:
   - Flexible working hours
   - Remote work if needed
   - Fresh fruits & snacks
-  - “Pizza Day"
+  - “Pizza Day".
 salary-range:
   - from 6000 PLN net + VAT (B2B)
 ---
+
