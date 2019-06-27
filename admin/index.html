@@ -26,30 +26,22 @@ sitemap: false
 
   <script>
     CMS.registerEditorComponent({
-      // Internal id of the component
+
       id: "youtube",
-      // Visible label
       label: "Youtube",
-      // Fields the user need to fill out when adding an instance of the component
       fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
-      // Pattern to identify a block as being an instance of this component
-      pattern: /<\s*iframe[^>]*>(.*?)/,
-      // Function to extract data elements from the regexp match
+      pattern: /\{\%[\s\S]*?\%\}/,
+
       fromBlock: function(match) {
-        console.log(match);
         return {
           id: match[1]
         };
       },
-      // Function to create a text block from an instance of this component
+
       toBlock: function(obj) {
-        console.log(obj);
-        return {
-          '<iframe class="post-youtube" width="100%" height="500" src="https://www.youtube.com/embed/' + obj.id + '" frameborder="0" allowfullscreen>'
-        }
+        return '\{\% youtube ' + obj.id + ' \%\}';
       },
-      // Preview output for this component. Can either be a string or a React component
-      // (component gives better render performance)
+
       toPreview: function(obj) {
         return (
           '<iframe class="post-youtube" width="100%" height="500" src="https://www.youtube.com/embed/' + obj.id + '" frameborder="0" allowfullscreen>'
