@@ -73,7 +73,7 @@ She also has launched her own apps, like: Ellen's App, Ellentube App, Heads Up a
 
 Leto also admitted that he really wanted to invest in Instagram but it was too late - a few days later the app was bought by Facebook. He also has his own startup named Vyrt. Watch the video below where Leto admits that he was the one begging companies for a possibility to invest, not the other way round. It's pretty interesting considering where Poland is  in terms of investing in startups.
 
-
+new
 
 %[xfykcaJ0FoE]
 
