@@ -10,7 +10,7 @@ twitter-card: >-
   The term "smart grid" describes an electrical grid that is integrated with an
   AI-enabled, two-way communication network, helping to ensure more efficient
   transmission of electricity and its faster restoration after power blackouts.
-date: '2019-06-27 12:43:53 +0200'
+date: '2019-06-28 12:43:53 +0200'
 category: IoT
 author: Marcin Sulikowski
 authors: Marcin Sulikowski
