@@ -75,14 +75,15 @@ Here’s my list of the most active Polish and foreign users.
 
 11. **Mark Suster** (msuster) - General Partner at Upfront Ventures
     <br><br>
-    ![materpl](/assets/images/snapchat-mark-suster.png)
+    ![msuster](/assets/images/snapchat-mark-suster.png)
 
 12. **Monika Mikowska** (mobimoni) - Co-owner of mobee dick
     <br><br>
-    ![materpl](/assets/images/snapchat-monika-mikowska.png)
+    ![mobimoni](/assets/images/snapchat-monika-mikowska.png)
 
 It's interesting that I couldn't find any Polish VCs on Snapchat. Or maybe I missed someone? If there is anyone who is worth to follow in your opinion - please let me know by leaving a comment. We'll update the list.
 
 PS. Don't forget to follow me (suleiro) if you want to see what a life of a software team looks like or check if I haven't lost my mind yet.
 
-    ![materpl](/assets/images/snapchat-suler.png)
+<br>
+![suleiro](/assets/images/snapchat-suler.png)
