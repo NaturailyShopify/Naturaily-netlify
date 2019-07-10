@@ -32,57 +32,57 @@ Following investors and entrepreneurs is a unique opportunity to find out what k
 Here’s my list of the most active Polish and foreign users.
 
 1. **Justin Kan** (justinkan) - Partner at Y Combinator, Co-founder of live video platforms: Justin.tv and Twitch.tv
-
-  ![justinkan](/assets/images/snapchat-justin-kan.png)
+    <br><br>
+    ![justinkan](/assets/images/snapchat-justin-kan.png)
 
 2. **Justin Wu** (hackapreneur) - Founder of Growth.ly
-
-  ![hackapreneur](/assets/images/snapchat-justin-wu.png)
+    <br><br>
+    ![hackapreneur](/assets/images/snapchat-justin-wu.png)
 
 3. **Gary Vaynerchuk** (garyvee) - Investor, entrepreneur, CEO of VaynerMedia
-
-  ![garyvee](/assets/images/snapchat-gary-vaynerchuk.png)
+    <br><br>
+    ![garyvee](/assets/images/snapchat-gary-vaynerchuk.png)
 
 4. **Alexis Ohanian** (alexisohanian) - Co-founder of Reddit, Partner at Y Combinator
-
-  ![alexisohanian](/assets/images/snapchat-alexis-ohanian.png)
+    <br><br>
+    ![alexisohanian](/assets/images/snapchat-alexis-ohanian.png)
 
 5. **Hunter Walk** (hunterwalk) - Partner at Homebrew VC
-
-  ![hunterwalk](/assets/images/snapchat-hunter-walk.png)
+    <br><br>
+    ![hunterwalk](/assets/images/snapchat-hunter-walk.png)
 
 6. **Staszek Kolarzowski** (kolarzowski) - Co-founder & COO of Pilot
-
-  ![kolarzowski](/assets/images/snapchat-staszek-kolarzowski.png)
+    <br><br>
+    ![kolarzowski](/assets/images/snapchat-staszek-kolarzowski.png)
 
 7. **Michał Sadowski** (sdmik) - Founder & CEO of Brand24
-
-  ![sdmik](/assets/images/snapchat-michal-sadowski.png)
+    <br><br>
+    ![sdmik](/assets/images/snapchat-michal-sadowski.png)
 
 8. **Andrzej Krzywda** (andrzejkrzywda) - Founder & CEO of Arkency
-
-  ![andrzejkrzywda](/assets/images/snapchat-andrzej-krzywda.png)
+    <br><br>
+    ![andrzejkrzywda](/assets/images/snapchat-andrzej-krzywda.png)
 
 9. **Konrad Traczyk** (konradtraczyk) - Fouder & CEO of HASH FM
-
-  ![konradtraczyk](/assets/images/snapchat-konrad-traczyk.png)
+    <br><br>
+    ![konradtraczyk](/assets/images/snapchat-konrad-traczyk.png)
 
 10. **Tomasz Muter** (materpl) - Co-founder of Droids on Roids
-
-  ![materpl](/assets/images/snapchat-tomasz-muter.png)
+    <br><br>
+    ![materpl](/assets/images/snapchat-tomasz-muter.png)
 
 ## EXTRA
 
 11. **Mark Suster** (msuster) - General Partner at Upfront Ventures
-
-  ![materpl](/assets/images/snapchat-mark-suster.png)
+    <br><br>
+    ![materpl](/assets/images/snapchat-mark-suster.png)
 
 12. **Monika Mikowska** (mobimoni) - Co-owner of mobee dick
-
-  ![materpl](/assets/images/snapchat-monika-mikowska.png)
+    <br><br>
+    ![materpl](/assets/images/snapchat-monika-mikowska.png)
 
 It's interesting that I couldn't find any Polish VCs on Snapchat. Or maybe I missed someone? If there is anyone who is worth to follow in your opinion - please let me know by leaving a comment. We'll update the list.
 
 PS. Don't forget to follow me (suleiro) if you want to see what a life of a software team looks like or check if I haven't lost my mind yet.
 
-  ![materpl](/assets/images/snapchat-suler.png)
+    ![materpl](/assets/images/snapchat-suler.png)
