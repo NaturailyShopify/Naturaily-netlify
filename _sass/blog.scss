@@ -250,6 +250,20 @@ pre, code {
       color: $color-primary;
     }
   }
+
+  .kpz-subjects {
+    display: flex;
+
+    a {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .inline-image {
+    display: inline-block;
+    max-width: 120px;
+  }
 }
 
 .meetus-social {
@@ -388,4 +402,17 @@ pre, code {
     max-width: 310px !important;
   }
 
+}
+
+
+@media (max-width: 575px) {
+  .post {
+    .kpz-subjects {
+      flex-direction: column;
+
+      a {
+        margin-right: 0;
+      }
+    }
+  }
 }
