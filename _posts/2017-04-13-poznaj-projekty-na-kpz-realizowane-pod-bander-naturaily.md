@@ -50,31 +50,31 @@ Tyle tytułem teoretycznego wstępu.
 
 ### W pracę nad projektami zaangażowani są również członkowie naszego zespołu:
 
-<div class="kpz-subjects">
+<div>
 
   <img class="android-image" alt="Marcin-Mantke" src="/assets/images/kpz-marcin.jpg">
 
   <div class="kpz-subjects-text">
     <br>
-    <br>
     <p>
       Marcin Mantke, Ruby on Rails Developer
     </p>
+    <br>
   </div>
 
 </div>
 
 
-<div class="kpz-subjects">
+<div>
 
   <img class="android-image" alt="Mikolaj-Grygiel" src="/assets/images/kpz-mikolaj.jpg">
 
   <div class="kpz-subjects-text">
     <br>
-    <br>
     <p>
       Mikołaj Grygiel, Ruby on Rails Developer
     </p>
+    <br>
   </div>
 
 </div>
