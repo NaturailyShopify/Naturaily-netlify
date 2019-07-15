@@ -38,6 +38,21 @@
       color: $color-accent-blue;
     }
   }
+  &.red-dot {
+    &::before {
+      color: $color-primary;
+    }
+  }
+  &.gold-dot {
+    &::before {
+      color: $color-accent-gold;
+    }
+  }
+  &.pink-dot {
+    &::before {
+      color: $color-accent-pink;
+    }
+  }
 }
 
 .l-content {

@@ -172,11 +172,10 @@
       display: block;
       padding: 0 30px;
       transition: color .2s;
-      min-height: 77px;
     }
 
     &-job {
-      height: 80px;
+      height: 65px;
       line-height: 30px;
       color: $color-global-font;
       font-size: 1.7rem;
@@ -493,6 +492,12 @@
 
   .career-full-image {
     min-height: 610px;
+  }
+
+  .l-content-offers {
+    .l-career-container {
+      padding: 0 90px;
+    }
   }
 }
 
