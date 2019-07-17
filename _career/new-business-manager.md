@@ -62,6 +62,6 @@ offer:
   - Fresh fruits & snacks
   - “Pizza Day".
 salary-range:
-  - from 6000 PLN net + VAT (B2B)
+  - from 6000 PLN net + VAT (B2B) + commission
 ---
 
