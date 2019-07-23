@@ -5,7 +5,7 @@ description: >-
   We are looking for talented Ruby on Rails Developer to help us build great
   digital products.
 layout: career-details
-image: /assets/images/naturaily-ruby-on-rails-developer-social-media.png
+image: /assets/images/kopia-template-recrutation-01.png
 location: Wrocław / Remote
 who_we_are: >-
   At Naturaily we value individuality, professionalism, open communication and
@@ -51,6 +51,6 @@ offer:
   - Pizza Friday
   - 'Workshops&#44; conferences&#44; training'
 salary-range:
-  - 6000 - 10000 PLN net + VAT (B2B)/ 5200 - 8400 PLN gross (UoP)
+  - 7000 - 12 000 PLN net + VAT (B2B)/ 6000 - 10 000 PLN gross (UoP)
 ---
 
