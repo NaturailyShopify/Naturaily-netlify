@@ -15,11 +15,6 @@ who_we_are: >-
   excited by new technologies, creative solutions and overcoming challenges. We
   pride ourselves in knowledge of Vue.js, Ruby on Rails, Node.js and Internet of
   Things.
-
-
-  We are looking for Senior Ruby on Rails Developer who will join just over 30
-  people large company. Small company means smaller teams making transparent
-  communication and active participation in making possibly the best product. 
 type: Development
 salary: 12 500 - 17 000 PLN net + VAT (B2B)/ 10 500 - 15 000 PLN gross (UoP)
 responsibilities:
