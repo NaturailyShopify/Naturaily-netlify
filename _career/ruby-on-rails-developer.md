@@ -6,7 +6,7 @@ description: >-
   digital products.
 layout: career-details
 image: /assets/images/kopia-template-recrutation-01.png
-location: Wrocław / Remote
+location: Wrocław
 who_we_are: >-
   At Naturaily we value individuality, professionalism, open communication and
   honesty. We strive to provide our clients with the best, stable, reliable and
