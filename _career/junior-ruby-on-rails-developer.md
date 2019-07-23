@@ -5,7 +5,7 @@ description: >-
   We are looking for talented Junior Ruby on Rails Developer to help us build
   great digital products.
 layout: career-details
-image: ''
+image: /assets/images/kopia-template-recrutation-01-2-.png
 twitter-card: summary_large_image
 location: Wrocław
 who_we_are: >-
