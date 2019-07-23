@@ -14,7 +14,7 @@ who_we_are: >-
   being thorough. After years of working with digital products we’re still
   excited by new technologies, creative solutions and overcoming challenges. We
   pride ourselves in knowledge of Vue.js, Ruby on Rails, Node.js and Internet of
-  Things.
+  Things.,
 
 
   We are looking for Senior Ruby on Rails Developer who will join just over 30
