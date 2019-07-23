@@ -5,7 +5,7 @@ description: >-
   We are looking for talented Junior Ruby on Rails Developer to help us build
   great digital products.
 layout: career-details
-image: /assets/images/naturaily-junior-ruby-on-rails-developer-social-media.png
+image: /assets/images/kopia-template-recrutation-01-2-.png
 twitter-card: summary_large_image
 location: Wrocław
 who_we_are: >-
@@ -17,7 +17,7 @@ who_we_are: >-
   pride ourselves in knowledge of Vue.js, Ruby on Rails, Node.js and Internet of
   Things.
 type: Development
-salary: 3300 - 6000 PLN net + VAT (B2B/ up to 5200 PLN gross (UoP)
+salary: 4000 - 6500 PLN PLN net + VAT (B2B/ 3500 - 5600 PLN gross (UoP)
 responsibilities:
   - >-
     Programming Ruby (on Rails) applications together with more experienced
@@ -47,6 +47,6 @@ offer:
   - Fresh fruits & snacks
   - “Pizza Day".
 salary-range:
-  - 3300 - 6000 PLN net + VAT (B2B/ up to 5200 PLN gross (UoP)
+  - 4000 - 6500 PLN PLN net + VAT (B2B/ 3500 - 5600 PLN gross (UoP)
 ---
 
