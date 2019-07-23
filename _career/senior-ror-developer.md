@@ -1,6 +1,6 @@
 ---
 published: true
-title: Senior RoR Developer
+title: Senior Ruby on Rails Developer
 description: >-
   We are looking for Senior Ruby on Rails Developer to help us build great
   digital products.
