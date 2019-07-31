@@ -91,3 +91,44 @@ Try to do some research. No worries, everybody does a little espionage now and t
 
 Also, try to reach out to the company that has given a review. Just say something along the lines of “Hi, I’ve read the review you gave to the company X at Clutch, could you tell me more about them? How was the cooperation? Is there anything I should be careful about? Did you have any problems with them? Would you recommend this company? Would you hire them for another project?”. It’s a good start. Of course, there is no guarantee you will get a response, but it doesn’t hurt to try.
 
+[![Company presentation](/assets/images/company-presentation.png)](https://docsend.com/view/q8rascf)
+
+## Double check everything
+
+Going back to our rule number one: take everything you see on Clutch with a pinch of salt. Verify, verify and verify – when speaking with your potential partner, ask about the details of each project.
+
+![Double check everything](/assets/images/double-check-everything.gif)
+
+At Naturaily, unlike in many other software development companies, we try to treat each client with due diligence and professionalism. The CEO is engaged even in the early talks about each project. We also introduce potential team members to our clients to give them a hint of what kind of professionals they would be working with. And this level of openness usually pays off. 
+
+When you contact us to discuss your project, we will be ready to provide you with in-depth portfolios and detailed testimonials of each of our specialists. If you want to, you will also get an opportunity to talk to them directly in your first calls.
+
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate)
+
+## Reach out directly
+
+Try to reach out to decision-makers who are in charge of the teams that would develop your digital product – it’s best if you ping them directly. You can try to arrange a short call with the CEO or CTO of the company – it could yield more valuable insights than anything else you read or see on Clutch. In the video call, you can ask them to show their office and the people who work there. It would be also helpful for you to find out who they really are: what the office looks like: is it a comfortable place, do the people look happy? Solid, reliable companies respect their employees as much as they respect their clients ([_Delivering Happiness_](https://www.deliveringhappiness.com/){:rel="nofollow"}, anyone?). And happy employees who care for the success of the company will do their best to build exactly the product you need.
+
+![Naturaily team](/assets/images/naturaily-team.png)
+
+```
+Naturaily team
+```
+
+The client may not always want – or be contractually allowed to – share the details of a project.  There are a few reasons for that. Firstly, the project may involve a long chain of subcontractors, and disclosing such an arrangement is not in the client’s best interest.
+
+Also, a long list of anonymous reviews may be a warning sign in itself. Such a strategy could suggest a clever marketing agenda of a company wanting to get Clutch-worthy based on fake reviews and projects that never really took place. 
+
+![Naturaily team](/assets/images/naturaily-team_2.png)
+
+```
+Naturaily team
+```
+
+When considering using the services of such a company, ask a question or two about the anonymous projects – the company could shed some light on the reasons why the projects are anonymous and disclose a few solid details. Or it will completely throw them off their balance, blowing the disguise.
+
+## Last Words
+
+Clutch is a good first step, but it is not a magic wand to single out the best development company. With Clutch being one of the most impactful marketing vehicles today, companies use various tricks to keep their image pristine. 
+
+Apart from having tons of good luck, you’ll need to put some extra effort on your end to find a software company that precisely matches your technical and business needs. And our experience suggests that a good specialization match and experience may be more important for the success of your project that the rating and pricing combined.
