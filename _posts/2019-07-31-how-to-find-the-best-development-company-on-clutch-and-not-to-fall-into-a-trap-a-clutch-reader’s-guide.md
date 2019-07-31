@@ -57,7 +57,7 @@ If you are looking for something very generic like “web development” or “m
 
 Of course, you can try to further adjust the search criteria by various industry verticals like locations, technology, etc., but even then the number of results may be unwieldy, except for some technical, narrow business niches.
 
-The overwhelming number of providers on Clutch – speaking purely statistically – makes it more difficult to confidently make up your mind. This is a rule of thumb broadly discussed by Barry Schwartz in his bestselling book [_The Paradox of Choice_](https://en.wikipedia.org/wiki/The_Paradox_of_Choice){:rel="nofollow"}{:target="_blank"} . 
+The overwhelming number of providers on Clutch – speaking purely statistically – makes it more difficult to confidently make up your mind. This is a rule of thumb broadly discussed by Barry Schwartz in his bestselling book [_The Paradox of Choice_](https://en.wikipedia.org/wiki/The_Paradox_of_Choice){:rel="nofollow"}{:target="_blank"}. 
 
 To properly verify the quality of a company on Clutch, you should go the extra mile and find their actual product in the wild and put it to a test – whether it’s a website, a creative campaign or an app they’ve made.
 
@@ -111,7 +111,7 @@ Try to reach out to decision-makers who are in charge of the teams that would de
 
 ![Naturaily team](/assets/images/naturaily-team.png)
 
-Naturaily team
+<small class="text-center">Naturaily team</small>
 
 The client may not always want – or be contractually allowed to – share the details of a project.  There are a few reasons for that. Firstly, the project may involve a long chain of subcontractors, and disclosing such an arrangement is not in the client’s best interest.
 
@@ -119,7 +119,7 @@ Also, a long list of anonymous reviews may be a warning sign in itself. Such a s
 
 ![Naturaily team](/assets/images/naturaily-team_2.png)
 
-Naturaily team
+<small class="text-center">Naturaily team</small>
 
 When considering using the services of such a company, ask a question or two about the anonymous projects – the company could shed some light on the reasons why the projects are anonymous and disclose a few solid details. Or it will completely throw them off their balance, blowing the disguise.
 
