@@ -84,6 +84,5 @@ Significant investments in the infrastructure will be needed to help smart grids
 
 The technology is not here yet, but it is certainly on its way to revolutionize power supply. Before we fully embrace it, there will be a lot of testing, improvements, consumer education, development of standards and regulations, and information sharing between projects to ensure that the benefits we envision from the Smart Grid become a reality.
 
-
-
-[![Get an estimate](/assets/images/get-an-estimate_fin.png)](https://naturaily.com/get-an-estimate)
+[![Get an estimate](/assets/images/get-an-estimate.png)]
+(https://naturaily.com/get-an-estimate)
