@@ -57,7 +57,7 @@ If you are looking for something very generic like “web development” or “m
 
 Of course, you can try to further adjust the search criteria by various industry verticals like locations, technology, etc., but even then the number of results may be unwieldy, except for some technical, narrow business niches.
 
-The overwhelming number of providers on Clutch – speaking purely statistically – makes it more difficult to confidently make up your mind. This is a rule of thumb broadly discussed by Barry Schwartz in his bestselling book [_The Paradox of Choice_](https://en.wikipedia.org/wiki/The_Paradox_of_Choice){:rel="nofollow"}. 
+The overwhelming number of providers on Clutch – speaking purely statistically – makes it more difficult to confidently make up your mind. This is a rule of thumb broadly discussed by Barry Schwartz in his bestselling book [_The Paradox of Choice_](https://en.wikipedia.org/wiki/The_Paradox_of_Choice){:rel="nofollow"}{:target="_blank"} . 
 
 To properly verify the quality of a company on Clutch, you should go the extra mile and find their actual product in the wild and put it to a test – whether it’s a website, a creative campaign or an app they’ve made.
 
@@ -91,7 +91,7 @@ Try to do some research. No worries, everybody does a little espionage now and t
 
 Also, try to reach out to the company that has given a review. Just say something along the lines of “Hi, I’ve read the review you gave to the company X at Clutch, could you tell me more about them? How was the cooperation? Is there anything I should be careful about? Did you have any problems with them? Would you recommend this company? Would you hire them for another project?”. It’s a good start. Of course, there is no guarantee you will get a response, but it doesn’t hurt to try.
 
-[![Company presentation](/assets/images/company-presentation.png)](https://docsend.com/view/q8rascf)
+[![Company presentation](/assets/images/company-presentation.png)](https://docsend.com/view/q8rascf){:target="_blank"} 
 
 ## Double check everything
 
@@ -103,17 +103,15 @@ At Naturaily, unlike in many other software development companies, we try to tre
 
 When you contact us to discuss your project, we will be ready to provide you with in-depth portfolios and detailed testimonials of each of our specialists. If you want to, you will also get an opportunity to talk to them directly in your first calls.
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate)
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}  
 
 ## Reach out directly
 
-Try to reach out to decision-makers who are in charge of the teams that would develop your digital product – it’s best if you ping them directly. You can try to arrange a short call with the CEO or CTO of the company – it could yield more valuable insights than anything else you read or see on Clutch. In the video call, you can ask them to show their office and the people who work there. It would be also helpful for you to find out who they really are: what the office looks like: is it a comfortable place, do the people look happy? Solid, reliable companies respect their employees as much as they respect their clients ([_Delivering Happiness_](https://www.deliveringhappiness.com/){:rel="nofollow"}, anyone?). And happy employees who care for the success of the company will do their best to build exactly the product you need.
+Try to reach out to decision-makers who are in charge of the teams that would develop your digital product – it’s best if you ping them directly. You can try to arrange a short call with the CEO or CTO of the company – it could yield more valuable insights than anything else you read or see on Clutch. In the video call, you can ask them to show their office and the people who work there. It would be also helpful for you to find out who they really are: what the office looks like: is it a comfortable place, do the people look happy? Solid, reliable companies respect their employees as much as they respect their clients ([_Delivering Happiness_](https://www.deliveringhappiness.com/){:rel="nofollow"}{:target="_blank"}, anyone?). And happy employees who care for the success of the company will do their best to build exactly the product you need.
 
 ![Naturaily team](/assets/images/naturaily-team.png)
 
-```
 Naturaily team
-```
 
 The client may not always want – or be contractually allowed to – share the details of a project.  There are a few reasons for that. Firstly, the project may involve a long chain of subcontractors, and disclosing such an arrangement is not in the client’s best interest.
 
@@ -121,9 +119,7 @@ Also, a long list of anonymous reviews may be a warning sign in itself. Such a s
 
 ![Naturaily team](/assets/images/naturaily-team_2.png)
 
-```
 Naturaily team
-```
 
 When considering using the services of such a company, ask a question or two about the anonymous projects – the company could shed some light on the reasons why the projects are anonymous and disclose a few solid details. Or it will completely throw them off their balance, blowing the disguise.
 
