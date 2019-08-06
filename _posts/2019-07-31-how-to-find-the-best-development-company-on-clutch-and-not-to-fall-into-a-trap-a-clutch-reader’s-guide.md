@@ -19,11 +19,11 @@ authors: Leo Baz
 avatar: /assets/images/leo.png
 image: /assets/images/how-to-find-the-best-development-company-on-clutch.png
 text-preview: >-
-  Clutch reviews are the industry go-to place for reliable reviews of potential
-  software development contractors. On paper, this sounds like a perfect way to
-  x-ray your next outsourcing company without jeopardizing the project. But –
-  like anything else on the internet – even Clutch reviews should be taken with
-  a pinch of salt.
+  Clutch is the industry go-to place for reliable reviews of potential software
+  development contractors. On paper, this sounds like a perfect way to x-ray
+  your next outsourcing company without jeopardizing the project. But – like
+  anything else on the internet – even Clutch reviews should be taken with a
+  pinch of salt.
 tags:
   - Clutch
   - Software development
@@ -37,7 +37,7 @@ tags:
 
 Clutch is a website rating IT, marketing, and business services companies. It collects client testimonials, case studies and objective quantitative data, and compiles them into neatly organized, trustworthy company profiles. 
 
-Clutch reviews are the industry go-to place for reliable reviews of potential software development contractors. On paper, this sounds like a perfect way to x-ray your next outsourcing company without jeopardizing the project. But – like anything else on the internet – even Clutch reviews should be taken with a pinch of salt.
+Clutch is the industry go-to place for reliable reviews of potential software development contractors. On paper, this sounds like a perfect way to x-ray your next outsourcing company without jeopardizing the project. But – like anything else on the internet – even Clutch reviews should be taken with a pinch of salt.
 
 With several years in the industry under our belt, we feel entitled to shed some light on how Clutch works and offer a few tips for companies wanting to find a reliable software development partner. 
 
