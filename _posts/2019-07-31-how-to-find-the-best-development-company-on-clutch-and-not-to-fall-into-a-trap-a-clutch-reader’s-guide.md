@@ -13,7 +13,7 @@ twitter-card: >-
   some light on how Clutch works and offer a few tips for companies wanting to
   find a reliable software development partner. 
 date: '2019-07-31 02:04:06 +0200'
-category: 'Clutch, Software development'
+category: Clutch Software development
 author: Leo Baz
 authors: Leo Baz
 avatar: /assets/images/leo.png
