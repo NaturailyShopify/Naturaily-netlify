@@ -31,7 +31,7 @@ We take a look at the 17 most typical objections you could have when partnering 
 
 ## 1. Team’s background
 
-One of the first steps you have to take while searching for a software house is checking the team’s background. How can you do that? There are multiple ways of discovering and getting to know a software house. One of the obvious ones is [Clutch.co](https://clutch.co/){:rel="nofollow"}. It holds detailed information about companies from all around the world. Clutch is known for its meticulous and trustworthy reviews. Most importantly, each review is conducted by a Clutch representative and approved internally before publishing. This adds an additional layer of confidence for the client, minimizing the risk of finding hollow and fake companies.
+One of the first steps you have to take while searching for a software house is checking the team’s background. How can you do that? There are multiple ways of discovering and getting to know a software house. One of the obvious ones is [Clutch.co](https://clutch.co/){:rel="nofollow"}{:target="_blank"}. It holds detailed information about companies from all around the world. Clutch is known for its meticulous and trustworthy reviews. Most importantly, each review is conducted by a Clutch representative and approved internally before publishing. This adds an additional layer of confidence for the client, minimizing the risk of finding hollow and fake companies.
 
 What is a team without experience? At Naturaily we have over **12 years of experience in building digital products**. By partnering with an established, seasoned team, you minimize the risk of project failure.
 
@@ -47,7 +47,7 @@ What’s more important is the technological stack, especially when you’ve alr
 
 ## 3. Rates
 
-Get offers from as many software houses as possible for comparison purposes. Typically, [**estimations are free**](https://naturaily.com/get-an-estimate). You may notice **significant price differences between offers**, but try not to focus too much on the price alone. While offering similar technological stack and solutions, cheaper companies tend to have a much longer estimated time-to-market compared to, initially seeming, expensive software houses.
+Get offers from as many software houses as possible for comparison purposes. Typically, [**estimations are free**](https://naturaily.com/get-an-estimate){:target="_blank"}. You may notice **significant price differences between offers**, but try not to focus too much on the price alone. While offering similar technological stack and solutions, cheaper companies tend to have a much longer estimated time-to-market compared to, initially seeming, expensive software houses.
 
 Case in point: let’s say that a company X offers 35$ per man-hour, and a company Y that charges 75$ per man-hour for the same project. Company X’s offer seems to be more appealing, but may end up taking much more time to deliver the product than the company Y while keeping the end price exactly the same. Company Y works in Agile, meaning that the team’s goal is to deliver the product as soon as possible. Going with the Agile approach has many perks – **transparent development, you pay only for the hours spent on the projects and actual results**.
 
@@ -55,7 +55,7 @@ Once it’s delivered, you can finally monetize it (yay!). If you’d chosen Com
 
 Companies often offer some sort of a **free trial** to give clients more confidence signing the final deal. If the expectations are not met you can terminate the cooperation but keep in mind that after doing so you lose all progress achieved by the team. At Naturaily, the trial usually lasts XXX weeks.
 
-[![Company presentation](/assets/images/company-presentation.png)](https://docsend.com/view/q8rascf)
+[![Company presentation](/assets/images/company-presentation.png)](https://docsend.com/view/q8rascf){:target="_blank"}
 
 ## 4. Technological stack
 
@@ -67,7 +67,7 @@ Make sure to choose well established and widely supported tools. Some companies 
 
 An ideal scenario would be a software house with all the necessary talents on board. This way you don’t have to worry about hiring, for example, additional UI/UX teams separately. Instead, their designers can cooperate with developers and participate at every stage of the development process. This arrangement may not be possible if they were coming from separate teams.
 
-At the same time, it’s worth noting that y**ou shouldn’t expect one company to take care of everything** – this is actually a bad sign if a single company dismissively agrees to all your demands. They’ll take care of the design, marketing, graphics etc. Companies should know their limitations, otherwise, it may lead to a bad outcome.
+At the same time, it’s worth noting that **you shouldn’t expect one company to take care of everything** – this is actually a bad sign if a single company dismissively agrees to all your demands. They’ll take care of the design, marketing, graphics etc. Companies should know their limitations, otherwise, it may lead to a bad outcome.
 
 ## 6. Communication
 
@@ -83,7 +83,7 @@ It’s totally understandable if you are hesitant towards sending your brief ove
 
 Reliable companies will sign this contract with no hesitation. Avoid companies that shy away from signing it. Some offer it before you even engage in more detailed discussions.
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate)
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 ## 8. Make sure they are the right size for you
 
@@ -97,7 +97,7 @@ Everybody understands that for many software development companies Clutch is the
 
 This is a measure of a company's honesty to potential clients.
 
-If you want to know more about Clutch and how to verify its reviews - read our [Clutch reader's guide](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch).
+If you want to know more about Clutch and how to verify its reviews - read our [Clutch reader's guide](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch){:target="_blank"}.
 
 ## 10. Future-proof your relationship
 
@@ -157,4 +157,4 @@ Ideally, look for a partner that sees you not just as a business opportunity, bu
 
 Finding the right software development partner is never easy. The prospect of losing time and money is paralysing for many companies, and the fear often makes them go with the wrong, too big or too expensive partners. But there are great development companies out there – you only have to know which things to look at. We hope these steps will help you get through the process, dispel fears and put certain things in perspective, helping you make the right choice.
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate)
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
