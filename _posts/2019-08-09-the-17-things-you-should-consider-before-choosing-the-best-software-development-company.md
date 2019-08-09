@@ -29,7 +29,7 @@ Whether you’re after a team that would build your future project from scratch 
 
 We take a look at the 17 most typical objections you could have when partnering with a software house.
 
-## 1. Team’s Background
+## 1. Team’s background
 
 One of the first steps you have to take while searching for a software house is checking the team’s background. How can you do that? There are multiple ways of discovering and getting to know a software house. One of the obvious ones is [Clutch.co](https://clutch.co/){:rel="nofollow"}. It holds detailed information about companies from all around the world. Clutch is known for its meticulous and trustworthy reviews. Most importantly, each review is conducted by a Clutch representative and approved internally before publishing. This adds an additional layer of confidence for the client, minimizing the risk of finding hollow and fake companies.
 
@@ -37,7 +37,7 @@ What is a team without experience? At Naturaily we have over **12 years of exper
 
 It’s a healthy practice to check the team’s previous and current clients, read their reviews and the products they have built. Clutch is a great place to start. We also recommend **asking the clients directly about the cooperation with the development team**. Because it is not their duty to provide you with such information, keep the questions as brief as possible. Ask them only the most crucial questions – regarding the communication with the team, the company’s ability to meet project goals, and the approach they demonstrated. Don’t get into the weeds. A client that decides to grace you with an answer may elaborate further when they feel like it.
 
-## 2. Domain Expertise
+## 2. Domain expertise
 
 Hopefully, you will find a company that has developed a project similar to yours. But ideally, look for a team that specializes in the exact field as your project. Although it’s not always possible or necessary, it may make things easier later on. To find a close match, carefully analyze their portfolio, and read between the lines when needed. For example, if a company has successfully developed a grid monitoring system with machine learning capabilities, it may not seem like much to you. But what if we rephrase it into “big data analysis”, “Internet of Things”, or “real-time grid monitoring with machine learning”, it makes quite a difference, right? These phrases mean the exact same thing, and may be just what you’re looking for.
 
@@ -57,21 +57,21 @@ Companies often offer some sort of a** free trial **to give clients more confide
 
 [![Company presentation](/assets/images/company-presentation.png)](https://docsend.com/view/q8rascf)
 
-## 4. Technological Stack
+## 4. Technological stack
 
 Good software houses offer a wide variety of quality technologies to choose from. They don’t force their clients to use one and only technology. Instead, they try to **tailor the tools specifically to your needs**.
 
 Make sure to choose well established and widely supported tools. Some companies may want to develop new products using old technologies in order to cut some corners in production costs. The issue here is that these technologies may soon become obsolete, leading to multiple problems with future-proofing and further scalability of the product.
 
-## 5. Comprehensive Services
+## 5. Comprehensive services
 
 An ideal scenario would be a software house with all the necessary talents on board. This way you don’t have to worry about hiring, for example, additional UI/UX teams separately. Instead, their designers can cooperate with developers and participate at every stage of the development process. This arrangement may not be possible if they were coming from separate teams.
 
-At the same time, it’s worth noting that you shouldn’t expect one company to take care of everything – this is actually a bad sign if a single company dismissively agrees to all your demands. They’ll take care of the design, marketing, graphics etc. Companies should know their limitations, otherwise, it may lead to a bad outcome.
+At the same time, it’s worth noting that y**ou shouldn’t expect one company to take care of everything** – this is actually a bad sign if a single company dismissively agrees to all your demands. They’ll take care of the design, marketing, graphics etc. Companies should know their limitations, otherwise, it may lead to a bad outcome.
 
 ## 6. Communication
 
-One of the major problems clients of offshore software houses quote is bad communication. This may result from a number of factors – from significant time zone differences to lack of internal organization. But “bad communication” does not have to stem solely from speaking different languages. 
+One of the major problems clients of offshore software houses quote is bad communication. This may result from a number of factors – from significant time zone differences to lack of internal organization. **But “bad communication” does not have to stem solely from speaking different languages.** 
 
 Most good software houses hire people who speak English fluently. You can actually experience problems when working with people fluently speaking the same language as you. It’s more about the communication habits, as they may reflect the company’s general approach to software development. For example, you can consider it a warning when responding to your email takes the (potential) partner more than two days. Communication bottlenecks can have a serious impact on the course of the project.
 
@@ -79,7 +79,7 @@ From our experience, communication between the product owner/client and the soft
 
 ## 7. Formal Agreement
 
-It’s totally understandable if you are hesitant towards sending your brief over to a company from the other end of the globe. You want to protect your Intellectual Property. The good news is there is nothing to worry about. Most software houses offer NDAs (Non-Disclosure Agreements) – which restrict them from revealing confidential information to their other clients (your potential competitors). It provides you with the security and protects you against copyright infringement over a specified timeframe. 
+It’s totally understandable if you are hesitant towards sending your brief over to a company from the other end of the globe. You want to protect your Intellectual Property. The good news is there is nothing to worry about. **Most software houses offer NDAs (Non-Disclosure Agreements)** – which restrict them from revealing confidential information to their other clients (your potential competitors). It provides you with the security and protects you against copyright infringement over a specified timeframe. 
 
 Reliable companies will sign this contract with no hesitation. Avoid companies that shy away from signing it. Some offer it before you even engage in more detailed discussions.
 
@@ -96,6 +96,8 @@ Big software development companies have different processes, marketing channels,
 Everybody understands that for many software development companies Clutch is the _de facto_ marketing channel for sourcing leads. And that's ok. Most profiles are impeccable – polished graphics and excellent reviews. But never admitting problems in software development projects is simply lying. Look for companies that mention problems and have faced challenges. They might be ready to clue you in on how they were able to handle them – which would give you a lot of valuable insights.
 
 This is a measure of a company's honesty to potential clients.
+
+If you want to know more about Clutch and how to verify its reviews - read our [Clutch reader's guide](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch).
 
 ## 10. Future-proof your relationship
 
@@ -125,21 +127,21 @@ If you think you've found the right partner but are still afraid to go all in, s
 
 You can gradually increase the team size. In 3 months, you can have the full team onboard. For a large team, it’s best to have a project manager on either location and, depending on the project needs, a business analyst.
 
-A smaller, pilot project is another good idea to reduce the risk of the team ending up with a sub-par product. The pilot job can be a part of a larger project. This way can reveal the quality of their services without you having to spend too much money. It also allows you to get familiar with the team and gain the confidence you need to hire a team for a bigger project.
+**A smaller, pilot project is another good idea to reduce the risk of the team ending up with a sub-par product.** The pilot job can be a part of a larger project. This way can reveal the quality of their services without you having to spend too much money. It also allows you to get familiar with the team and gain the confidence you need to hire a team for a bigger project.
 
 ## 15. Avoid the yes-men
 
 This may sound counter-intuitive, but yes-sayers spell problems. Look for a developer that knows when to say no. The ability to question your requirements and design choices is a sign of industry expertise and should be understood as the desired quality for the development of your project.
 
-After all, you are looking for an expert in their domain – someone who will guide you through the development process rather than the other way round.
+After all, you are looking for an **expert in their domain** – someone who will guide you through the development process rather than the other way round.
 
 ## 16. The pricing model
 
-The software development industry uses two leading pricing models: _fixed price_ and _time and material_. Much has been said about choosing between them, but the decision vastly depends on the type of project your hiring the team for.
+The software development industry uses two leading pricing models: _fixed price_ and _time and material_. Much has been said about choosing between them, but the decision vastly depends on the type of project you are hiring the team for.
 
 Fixed price makes sense only when you know exactly what you want to build and you are not likely to change your requirements down the road. But this also leaves you with a huge responsibility, and requires certain industry experience on your end. This arrangement is difficult primarily because the requirements almost always change, and the consequences can be really expensive.
 
-Time and material in Agile software development simply means paying for the work being done as the project progresses. The project is paid as per one- or two-week long iterations. This allows you the flexibility for introducing changes after each iteration.
+Time and material in Agile software development simply means paying for the work being done as the project progresses. The project is paid as per one- or two-week long iterations. This allows you the **flexibility** for introducing changes after each iteration.
 
 This flexibility is really important in today’s world, especially when developing MVPs. It may also enable you to test the product earlier, and possibly start monetizing it before all its features get implemented.
 
