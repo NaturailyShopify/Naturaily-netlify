@@ -79,7 +79,7 @@ From our experience, communication between the product owner/client and the soft
 
 ## 7. Formal Agreement
 
-It’s totally understandable if you are hesitant towards sending your brief over to a company from the other end of the globe. You want to protect your Intellectual Property. The good news is there is nothing to worry about. **Most software houses offer NDAs (Non-Disclosure Agreements)** – which restrict them from revealing confidential information to their other clients (your potential competitors). It provides you with the security and protects you against copyright infringement over a specified timeframe. 
+It’s totally understandable if you are hesitant towards sending your brief over to a company from the other end of the globe. You want to protect your Intellectual Property. The good news is there is nothing to worry about. **Most software houses offer NDAs (Non-Disclosure Agreements)** – which restrict them from revealing confidential information to their other clients (your potential competitors). It gives you the security and protects you against copyright infringement over a specified timeframe. 
 
 Reliable companies will sign this contract with no hesitation. Avoid companies that shy away from signing it. Some offer it before you even engage in more detailed discussions.
 
