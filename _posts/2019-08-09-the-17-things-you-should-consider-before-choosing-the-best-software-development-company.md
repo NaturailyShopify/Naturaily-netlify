@@ -25,6 +25,25 @@ text-preview: >-
 tags:
   - Software development
 ---
+**TL;DR:**
+
+1. **Team’s background**
+2. **Domain expertise**
+3. **Rates**
+4. **Technological stack**
+5. **Comprehensive services**
+6. **Communication**
+7. **Formal agreement**
+8. **Make sure they are the right size for you**
+9. **Clients don’t trust the companies that never faced a challenge**
+10. **Future-proof your relationship**
+11. **Testimonials**
+12. **Case studies**
+13. **Start small, size up as you go**
+14. **Avoid the yes-men**
+15. **The pricing model**
+16. **If everything else fails, use intuition**
+
 Whether you’re after a team that would build your future project from scratch or looking to hire an augmented team, finding a solid tech partner is always quite a challenge. When talking to our current or potential clients, we try to listen to their objections and, within reason, address them accordingly. But we also know that such concerns are not completely unfounded. Hiring people from halfway around the globe and working with them remotely – often across time zones, cultural differences and, very likely, languages – is bound to raise a certain degree of uncertainty.
 
 We take a look at the 17 most typical objections you could have when partnering with a software house.
