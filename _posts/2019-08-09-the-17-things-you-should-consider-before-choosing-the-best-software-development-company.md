@@ -10,7 +10,7 @@ layout: post
 twitter-card: >-
   We take a look at the 17 most typical objections you could have when
   partnering with a software house.
-date: '2019-08-09 01:54:33 +0200'
+date: '2019-08-13 11:16:00 +0200'
 category: Software development
 author: Marcin Sulikowski
 authors: Marcin Sulikowski
