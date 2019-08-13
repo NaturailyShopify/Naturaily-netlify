@@ -71,6 +71,8 @@ An ideal scenario would be a software house with all the necessary talents on bo
 
 At the same time, it’s worth noting that **you shouldn’t expect one company to take care of everything** – this is actually a bad sign if a single company dismissively agrees to all your demands. They’ll take care of the design, marketing, graphics etc. Companies should know their limitations, otherwise, it may lead to a bad outcome.
 
+![Comprehensive services](/assets/images/comprehensive-services.jpg)
+
 ## 6. Communication
 
 One of the major problems clients of offshore software houses quote is bad communication. This may result from a number of factors – from significant time zone differences to lack of internal organization. **But “bad communication” does not have to stem solely from speaking different languages.** 
@@ -123,6 +125,8 @@ Case studies present the details of the projects the company has worked on. They
 
 Specific metrics in case studies can give you a more precise idea of their interpretation of the word successful, backed by the actual representative of the client.
 
+![Case studies](/assets/images/case-studies.jpg)
+
 ## 13. Start small, size up as you go
 
 If you think you've found the right partner but are still afraid to go all in, start small first. Before you contract a 30 person multi-purpose team with a number of developers, designers, testers, and project managers on board, test the whole arrangement with a smaller team. Such a team will be easier to manage but may give you a glimpse into the working ethic at the company. From there, you can cancel or scale up.
@@ -136,6 +140,8 @@ You can gradually increase the team size. In 3 months, you can have the full tea
 This may sound counter-intuitive, but yes-sayers spell problems. Look for a developer that knows when to say no. The ability to question your requirements and design choices is a sign of industry expertise and should be understood as the desired quality for the development of your project.
 
 After all, you are looking for an **expert in their domain** – someone who will guide you through the development process rather than the other way round.
+
+{% youtube XFLQBUDa0uw %}
 
 ## 16. The pricing model
 
