@@ -37,6 +37,8 @@ What is a team without experience? At Naturaily we have over **12 years of exper
 
 It’s a healthy practice to check the team’s previous and current clients, read their reviews and the products they have built. Clutch is a great place to start. We also recommend **asking the clients directly about the cooperation with the development team**. Because it is not their duty to provide you with such information, keep the questions as brief as possible. Ask them only the most crucial questions – regarding the communication with the team, the company’s ability to meet project goals, and the approach they demonstrated. Don’t get into the weeds. A client that decides to grace you with an answer may elaborate further when they feel like it.
 
+![Team's background](/assets/images/team-background.jpg)
+
 ## 2. Domain expertise
 
 Hopefully, you will find a company that has developed a project similar to yours. But ideally, look for a team that specializes in the exact field as your project. Although it’s not always possible or necessary, it may make things easier later on. To find a close match, carefully analyze their portfolio, and read between the lines when needed. For example, if a company has successfully developed a grid monitoring system with machine learning capabilities, it may not seem like much to you. But what if we rephrase it into “big data analysis”, “Internet of Things”, or “real-time grid monitoring with machine learning”, it makes quite a difference, right? These phrases mean the exact same thing, and may be just what you’re looking for.
