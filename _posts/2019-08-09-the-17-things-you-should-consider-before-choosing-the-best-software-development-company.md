@@ -40,9 +40,10 @@ tags:
 11. **Testimonials**
 12. **Case studies**
 13. **Start small, size up as you go**
-14. **Avoid the yes-men**
-15. **The pricing model**
-16. **If everything else fails, use intuition**
+14. **Know the team you are working with**
+15. **Avoid the yes-men**
+16. **The pricing model**
+17. **If everything else fails, use intuition**
 
 Whether you’re after a team that would build your future project from scratch or looking to hire an augmented team, finding a solid tech partner is always quite a challenge. When talking to our current or potential clients, we try to listen to their objections and, within reason, address them accordingly. But we also know that such concerns are not completely unfounded. Hiring people from halfway around the globe and working with them remotely – often across time zones, cultural differences and, very likely, languages – is bound to raise a certain degree of uncertainty.
 
@@ -155,6 +156,10 @@ If you think you've found the right partner but are still afraid to go all in, s
 You can gradually increase the team size. In 3 months, you can have the full team onboard. For a large team, it’s best to have a project manager on either location and, depending on the project needs, a business analyst.
 
 **A smaller, pilot project is another good idea to reduce the risk of the team ending up with a sub-par product.** The pilot job can be a part of a larger project. This way can reveal the quality of their services without you having to spend too much money. It also allows you to get familiar with the team and gain the confidence you need to hire a team for a bigger project.
+
+## 14. Know the team you are working with
+
+Before you decide to cooperate with the software house that looks good on a paper, set a video-call and ask for the office tour to see the team you will be working with. That way you will eliminate the risk an unknown subcontractor will implement your project. At Naturaily, the first call is always with the CEO as we believe that this is the right way to start business relations. Marcin is an entrepreneur with over 20 years of experience in the software industry and eager to share his business perspective on the project.
 
 ## 15. Avoid the yes-men
 
