@@ -25,6 +25,10 @@ text-preview: >-
 tags:
   - Software development
 ---
+Whether you’re after a team that would build your future project from scratch or looking to hire an augmented team, finding a solid tech partner is always quite a challenge. When talking to our current or potential clients, we try to listen to their objections and, within reason, address them accordingly. But we also know that such concerns are not completely unfounded. Hiring people from halfway around the globe and working with them remotely – often across time zones, cultural differences and, very likely, languages – is bound to raise a certain degree of uncertainty.
+
+We take a look at the 17 most typical objections you could have when partnering with a software house.
+
 **TL;DR:**
 
 1. **Team’s background**
@@ -45,9 +49,7 @@ tags:
 16. **The pricing model**
 17. **If everything else fails, use intuition**
 
-Whether you’re after a team that would build your future project from scratch or looking to hire an augmented team, finding a solid tech partner is always quite a challenge. When talking to our current or potential clients, we try to listen to their objections and, within reason, address them accordingly. But we also know that such concerns are not completely unfounded. Hiring people from halfway around the globe and working with them remotely – often across time zones, cultural differences and, very likely, languages – is bound to raise a certain degree of uncertainty.
 
-We take a look at the 17 most typical objections you could have when partnering with a software house.
 
 ## 1. Team’s background
 
@@ -159,7 +161,7 @@ You can gradually increase the team size. In 3 months, you can have the full tea
 
 ## 14. Know the team you are working with
 
-Before you decide to cooperate with the software house that looks good on a paper, set a video-call and ask for the office tour to see the team you will be working with. That way you will eliminate the risk an unknown subcontractor will implement your project. At Naturaily, the first call is always with the CEO as we believe that this is the right way to start business relations. Marcin is an entrepreneur with over 20 years of experience in the software industry and eager to share his business perspective on the project.
+Before you decide to cooperate with the software house that looks good on paper, set a video-call and ask for the office tour to see the team you will be working with. That way you will eliminate the risk an unknown subcontractor will implement your project. At Naturaily, the first call is always with the CEO as we believe that this is the right way to start business relations. Marcin is an entrepreneur with over 20 years of experience in the software industry and eager to share his business perspective on the project.
 
 ## 15. Avoid the yes-men
 
