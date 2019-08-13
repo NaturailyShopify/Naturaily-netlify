@@ -103,6 +103,8 @@ This is a measure of a company's honesty to potential clients.
 
 If you want to know more about Clutch and how to verify its reviews - read our [Clutch reader's guide](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch){:target="_blank"}.
 
+![Face the challenge](/assets/images/face-the-challenge.jpg)
+
 ## 10. Future-proof your relationship
 
 Look beyond software alone. If you’re after a lasting relationship, consider the economical and financial factors on top of all the technical considerations of your project. For example, check the political stability of the country where your would-be partner is based. Make sure that political changes don't impact your relationship in the future, e.g. consider collaboration with the UK-based companies.
@@ -141,7 +143,7 @@ This may sound counter-intuitive, but yes-sayers spell problems. Look for a deve
 
 After all, you are looking for an **expert in their domain** – someone who will guide you through the development process rather than the other way round.
 
-{% youtube XFLQBUDa0uw %}
+![Avoid the yes-men](/assets/images/ezgif.com-video-to-gif.gif)
 
 ## 16. The pricing model
 
