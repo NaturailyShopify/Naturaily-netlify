@@ -49,8 +49,6 @@ We take a look at the 17 most typical objections you could have when partnering 
 16. **The pricing model**
 17. **If everything else fails, use intuition**
 
-
-
 ## 1. Team’s background
 
 One of the first steps you have to take while searching for a software house is checking the team’s background. How can you do that? There are multiple ways of discovering and getting to know a software house. One of the obvious ones is [Clutch.co](https://clutch.co/){:rel="nofollow"}{:target="_blank"}. It holds detailed information about companies from all around the world. Clutch is known for its meticulous and trustworthy reviews. Most importantly, each review is conducted by a Clutch representative and approved internally before publishing. This adds an additional layer of confidence for the client, minimizing the risk of finding hollow and fake companies.
@@ -79,7 +77,7 @@ Once it’s delivered, you can finally monetize it (yay!). If you’d chosen Com
 
 Companies often offer some sort of a **free trial** to give clients more confidence signing the final deal. If the expectations are not met you can terminate the cooperation but keep in mind that after doing so you lose all progress achieved by the team. At Naturaily, the trial usually lasts XXX weeks.
 
-[![Company presentation](/assets/images/company-presentation.png)](https://docsend.com/view/q8rascf){:target="_blank"}
+[![Company presentation](/assets/images/new-company-presentation.png)](https://docsend.com/view/q8rascf){:target="_blank"}
 
 ## 4. Technological stack
 
