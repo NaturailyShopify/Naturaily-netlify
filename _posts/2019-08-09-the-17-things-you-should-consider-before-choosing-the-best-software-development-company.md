@@ -57,7 +57,7 @@ What is a team without experience? At Naturaily we have over **12 years of exper
 
 It’s a healthy practice to check the team’s previous and current clients, read their reviews and the products they have built. Clutch is a great place to start. We also recommend **asking the clients directly about the cooperation with the development team**. Because it is not their duty to provide you with such information, keep the questions as brief as possible. Ask them only the most crucial questions – regarding the communication with the team, the company’s ability to meet project goals, and the approach they demonstrated. Don’t get into the weeds. A client that decides to grace you with an answer may elaborate further when they feel like it.
 
-![Team's background](/assets/images/team-background.jpg)
+![Team's background](/assets/images/team-background_1.jpg)
 
 ## 2. Domain expertise
 
@@ -91,7 +91,7 @@ An ideal scenario would be a software house with all the necessary talents on bo
 
 At the same time, it’s worth noting that **you shouldn’t expect one company to take care of everything** – this is actually a bad sign if a single company dismissively agrees to all your demands. They’ll take care of the design, marketing, graphics etc. Companies should know their limitations, otherwise, it may lead to a bad outcome.
 
-![Comprehensive services](/assets/images/comprehensive-services.jpg)
+![omprehensive services](/assets/images/comprehensive_services_2.jpg)
 
 ## 6. Communication
 
@@ -123,7 +123,7 @@ This is a measure of a company's honesty to potential clients.
 
 If you want to know more about Clutch and how to verify its reviews - read our [Clutch reader's guide](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch){:target="_blank"}.
 
-![Face the challenge](/assets/images/face-the-challenge.jpg)
+![Challenge](/assets/images/challenge.jpg)
 
 ## 10. Future-proof your relationship
 
@@ -147,7 +147,7 @@ Case studies present the details of the projects the company has worked on. They
 
 Specific metrics in case studies can give you a more precise idea of their interpretation of the word successful, backed by the actual representative of the client.
 
-![Case studies](/assets/images/case-studies.jpg)
+![Case studies](/assets/images/case-study.jpg)
 
 ## 13. Start small, size up as you go
 
