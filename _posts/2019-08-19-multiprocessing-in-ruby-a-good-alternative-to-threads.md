@@ -323,7 +323,7 @@ puts "After waitall:"
 puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
 ```
 
-```ruby
+```
 puts "From parent process:"
 puts "Process Group ID of child: #{child_pgid}, child pid: #{child}"
 puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
@@ -443,7 +443,7 @@ end
 ```
 
 \=>
-Allocated ports: \[8000, 8010, 8020] 
+Allocated ports: \[8000, 8010, 8020]  
 PIDs: \[5927, 5928, 5929]
 
 ➜ `cat 8000_log.txt`
@@ -477,4 +477,4 @@ Of course, this is only a skeleton of application, for instance - what if other 
 
 Everyone should take some time to consider the question – does my project really need multiple processes? Multi-process applications can generate many more problems and are harder to implement. Make sure you are aware of what you do and why you do it.
 
-It’s also good to know a bit about the operating system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
+It’s also good to know a bit about the operation system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
