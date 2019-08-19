@@ -443,7 +443,7 @@ end
 ```
 
 \=>
-Allocated ports: \[8000, 8010, 8020]
+Allocated ports: \[8000, 8010, 8020] 
 PIDs: \[5927, 5928, 5929]
 
 ➜ `cat 8000_log.txt`
