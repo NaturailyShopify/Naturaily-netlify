@@ -72,9 +72,11 @@ threads.each { |thread| thread.join }
 ```
 
 `=>AVG: 40.33s`
-The results are almost the same (the last column in bracket is the real time of execution). Why works it like this? Let’s dig a bit.
-[Ruby interpreter (Matz's Ruby Interpreter)](https://en.wikipedia.org/wiki/Ruby_MRI){:rel="nofollow"}{:target="_blank"} uses [Global Interpreter Lock (GIL)](https://en.wikipedia.org/wiki/Global_interpreter_lock){:rel="nofollow"}{:target="_blank"} which is also used by other interpreters, such as CPython. GIL controls the execution in threads – only one thread can be executed at a time. Thus the benchmarks above are the same – in both cases, only one task is processed at a time.
-Each Ruby process always has one dedicated GIL that handles this process. Probably your first thought is – can’t we just turn off GIL? But it is not as easy as it seems – Ruby needs GIL because it avoids executions that aren’t thread-safe – for instance by the execution of non-atomic operations.
+
+The results are almost the same (the last column in bracket is the real time of execution). 
+
+Why works it like this? Let’s dig a bit.
+[Ruby interpreter (Matz's Ruby Interpreter)](https://en.wikipedia.org/wiki/Ruby_MRI){:rel="nofollow"}{:target="_blank"} uses [Global Interpreter Lock (GIL)](https://en.wikipedia.org/wiki/Global_interpreter_lock){:rel="nofollow"}{:target="_blank"} which is also used by other interpreters, such as CPython. GIL controls the execution in threads – only one thread can be executed at a time. Thus the benchmarks above are the same – in both cases, only one task is processed at a time. Each Ruby process always has one dedicated GIL that handles this process. Probably your first thought is – can’t we just turn off GIL? But it is not as easy as it seems – Ruby needs GIL because it avoids executions that aren’t thread-safe – for instance by the execution of non-atomic operations.
 
 > We can define an atomic operation as any operation that is uninterruptible. – Robert C. Martin, Clean Code
 
@@ -106,11 +108,13 @@ read_stream.close
 ```
 
 `=>AVG: 18.38s`
+
 In this way, the execution took 22 seconds less than when using a single process implementation. I think it is a pretty good result. The OS scheduled new processes depending on which thread and core will be used to execute the code, and for how long. I have 2 cores on my MacBook Pro – the performance increased twofold (execution time is twice as fast) – do you see the analogy? More cores = better performance (in simplification and on condition that other processes won’t block them).
 
 ## Process Module – a Magic Cure?
 
 You may know multiprocessing from Chrome browser – each tab, for security reasons, exists in a separate process. In Ruby environment creating a new child-processes may increase performance, but it also entails certain restrictions. First of all, new processes put additional responsibilities on the developer. Extra care is required for their execution.
+
 We always have to answer a few questions: will this solve our problems? When should we use multi-process architecture? How many processes should we run at one time? Do we need some kind of process limiter? How can too many existing processes affect our system? Will we be able to control the number of children-processes? What happens to the children-processes if the parent-process is killed? When is it worth using?
 It clearly shows – there are a lot of considerations along the way. Let’s try to resolve a few of them.
 
@@ -128,7 +132,9 @@ Creating a multi-process application is much harder than creating a multi-thread
 | :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
 | **Initialization:** | It’s faster in creating and deleting threads                                              | It’s much more complex and needs more time for creating and deleting processes                                                                     |
 | :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
-| **Maintenance:**    | It has fewer potential issues, is easier to implement, but can be more difficult to debug | It’s easier to debug, but we have to take care of process persistence, zombies, etc.                                                               |
+| **Maintenance:**    | It has fewer potential issues, is easier to implement, but can be more difficult to debug | It’s easier to debug, but we have to take care of process persistence, zombies, etc.
+
+
 
 ### Too Many Existing Processes
 
@@ -171,22 +177,32 @@ When the program was running I called `ps`:
 68775 ttys010 0:00.42 ruby test.rb
 ```
 
-We have 21 ruby processes (1 parent and 20 subprocesses) – is it much? Actually we don’t know, because it depends on factors like hardware or current system load. Please take a look at the output from HTOP:
+We have 21 ruby processes (1 parent and 20 subprocesses) – is it much? Actually we don’t know, because it depends on factors like hardware or current system load. 
+
+Please take a look at the output from HTOP:
+
 **Idle:**
 ![Idle](/assets/images/idle.png)
+
 **Single-process script:**
 ![Single-process script](/assets/images/singleprocess.png)
+
 **Multi-processes script:**
 ![Multi-processes script](/assets/images/multiprocess.png)
+
 At first glance, we can see that multi-processes script makes better use of the computing power of my computer. I mentioned earlier that my processor has 2 physical cores, we can see here 4 thanks to Hyperthreading – Intel technology that divides one core into 2 virtual ones.
 So can there be too many tasks (processes) in the operating system scheduler? The OS provides some limitation (depending on the platform). Unix systems have a built-in command “ulimit” which defines 2 types of limits:
 
 * **Hard** – only root can set this and it can’t be exceeded,
 * **Soft** – can be exceeded if necessary.
-  In Linux the limit of processes is set in the file `/etc/security/limits.conf`. On MacOS we can use `launchctl limit maxproc` (the first value is a soft limit, the second one is a hard limit). You can read more [here](https://wilsonmar.github.io/maximum-limits/){:rel="nofollow"}{:target="_blank"} .
-  Common sense says we shouldn’t create too many subprocesses. The screenshot from HTOP when Multi-processes script was running is a good example – processes requiring a large amount of computing power can consume even 100% of the CPU, which can lead to the loss of stability of the entire system! On top of that, we should care of memory. Let’s say one simple sub-process needs 10MB of memory and we want to fork it 10 times (1 parent, 10 children) – don’t be surprised, it will take more than 100MB of memory.
-  ### Limitations
-  Limiting processes in Ruby is a complex problem. I started from a simple function, but unfortunately with a failure:
+
+In Linux the limit of processes is set in the file `/etc/security/limits.conf`. On MacOS we can use `launchctl limit maxproc` (the first value is a soft limit, the second one is a hard limit). You can read more [here](https://wilsonmar.github.io/maximum-limits/){:rel="nofollow"}{:target="_blank"} .
+
+Common sense says we shouldn’t create too many subprocesses. The screenshot from HTOP when Multi-processes script was running is a good example – processes requiring a large amount of computing power can consume even 100% of the CPU, which can lead to the loss of stability of the entire system! On top of that, we should care of memory. Let’s say one simple sub-process needs 10MB of memory and we want to fork it 10 times (1 parent, 10 children) – don’t be surprised, it will take more than 100MB of memory.
+
+### Limitations
+
+Limiting processes in Ruby is a complex problem. I started from a simple function, but unfortunately with a failure:
 
 ```ruby
 def execute
@@ -251,7 +267,9 @@ The Process module offers also `.detach` method that we can use instead of `.wai
 ### Kill Parent
 
 I used kill to terminate my parent-process.
+
 `[1] 4707 terminated ruby test.rb`
+
 Unfortunately, the parent-process doesn’t inform its children that it has been terminated, so all processes work as if nothing happened – they become the so-called zombie processes. It can also be problematic – what if the process is a long-running job that does something and returns value? His work will be redundant + it consumes resources unnecessarily.
 
 ### Groups
@@ -262,47 +280,71 @@ Each process belongs to a group of processes. Thanks to this we can have better 
 
 ```ruby
 def compare_pids(context)
-puts "#{context} - PID: #{Process.pid}, process group ID: #{Process.getpgrp}, session ID: #{Process.getsid}"
+  puts "#{context} - PID: #{Process.pid}, process group ID: #{Process.getpgrp}, session ID: #{Process.getsid}"
 end
+
 def exists?(pid)
-system("ps #{pid} | grep ruby") ? true : false
+  system("ps #{pid} | grep ruby") ? true : false
 end
+
 compare_pids("From parent process")
+
 read_stream, write_stream = IO.pipe
 child = Process.fork do
-compare_pids("From #1 forked process")
-Process.setsid
-compare_pids("From #1 forked process, after setsid")
-pid_child_1 = Process.fork do
-compare_pids("From #1.1 forked process")
-sleep 100
-end
-pid_child_2 = Process.fork do
-compare_pids("From #1.2 forked process")
-sleep 100
-end
-write_stream.puts "#{pid_child_1}|#{pid_child_2}"
-write_stream.close
-Process.waitall
+  compare_pids("From #1 forked process")
+  Process.setsid
+  compare_pids("From #1 forked process, after setsid")
+
+  pid_child_1 = Process.fork do
+    compare_pids("From #1.1 forked process")
+    sleep 100
+  end
+
+  pid_child_2 = Process.fork do
+    compare_pids("From #1.2 forked process")
+    sleep 100
+  end
+
+  write_stream.puts "#{pid_child_1}|#{pid_child_2}"
+  write_stream.close
+  Process.waitall
 end
 sleep 2
+
 results = read_stream.gets
 read_stream.close
 pid_child_1, pid_child_2 = results[(0..-2)].split("|")
+
 child_pgid = Process.getpgid(child)
 puts "From parent process:"
 puts "Process Group ID of child: #{child_pgid}, child pid: #{child}"
 puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
 puts "pid_child_1 exists?: #{exists?(pid_child_1)}, pid_child_2 exists?: #{exists?(pid_child_2)}"
+
 Process.kill('HUP', -child_pgid)
 puts "Killed child pgid: #{child_pgid}"
 puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
 puts "pid_child_1 exists?: #{exists?(pid_child_1)}, pid_child_2 exists?: #{exists?(pid_child_2)}"
+
 Process.waitall
 puts "After waitall:"
 puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
 ```
 
+```
+puts "From parent process:"
+puts "Process Group ID of child: #{child_pgid}, child pid: #{child}"
+puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
+puts "pid_child_1 exists?: #{exists?(pid_child_1)}, pid_child_2 exists?: #{exists?(pid_child_2)}"
+
+Process.kill('HUP', -child_pgid)
+puts "Killed child pgid: #{child_pgid}"
+puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
+puts "pid_child_1 exists?: #{exists?(pid_child_1)}, pid_child_2 exists?: #{exists?(pid_child_2)}"
+
+Process.waitall
+puts "After waitall:"
+puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
 ```
 =>
 From parent process - PID: 15496, process group ID: 15496, session ID: 9817
@@ -310,15 +352,19 @@ From #1 forked process - PID: 15509, process group ID: 15496, session ID: 9817
 From #1 forked process, after setsid - PID: 15509, process group ID: 15509, session ID: 15509
 From #1.1 forked process - PID: 15510, process group ID: 15509, session ID: 15509
 From #1.2 forked process - PID: 15511, process group ID: 15509, session ID: 15509
+
 From parent process:
 Process Group ID of child: 15509, child pid: 15509
 Process Group ID of child exists?: true, child pid exists?: true
 pid_child_1 exists?: true, pid_child_2 exists?: true
+
 Killed child pgid: 15509
 Process Group ID of child exists?: true, child pid exists?: true
 pid_child_1 exists?: false, pid_child_2 exists?: false
+
 After waitall:
 Process Group ID of child exists?: false, child pid exists?: false
+
 ```
 
 Please take a look at `pgid` in our forked process – the value is the same as the parent PID until we initialize a new session. This knowledge is quite important – we know that the PID value can also be a process group ID, so if we want to use `detach` or `kill` – we can provide `gpid` as well. This makes it much easier to manage our processes. When we called `Process.kill('HUP', -child_pgid)` ([negative value](https://ruby-doc.org/core-2.6.1/Process.html#method-c-kill){:rel="nofollow"}{:target="_blank"} is used to kill process groups instead of processes) we killed all processes in our group.
@@ -404,6 +450,7 @@ http://localhost:8000 visited at 2019-07-27 09:35:54 +0200 with params: {"port"=
 ```
 
 http://localhost:8010 visited at 2019-07-27 09:40:17 +0200 with params: {"ruby"=>"yea"}
+
 http://localhost:8010 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8010"}
 
 ```
@@ -411,13 +458,18 @@ http://localhost:8010 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=
 ```
 
 http://localhost:8020 visited at 2019-07-27 09:40:17 +0200 with params: {"foo"=>"bar"}
+
 http://localhost:8020 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8020"}
 
-```
+
 The program above creates three new processes using the `.add` method defined in `ListenerCommand` class. After process fork, `ListenerCommand` adds the allocated port and pid of the process to the allocations hash.
+
 After that program begins to wait for all processes: `Process.waitall`. If all processes are killed – the program will finish. Also if the user attempts to kill the parent process, to avoid orphans processes, the program will catch `SignalException` exception and kill created processes.
+
 Of course, this is only a skeleton of application, for instance - what if other exceptions occur? We always should consider all possible cases.
+
 ### Is Multi-processing a Good Alternative to Threads?
+
 Everyone should take some time to consider the question – does my project really need multiple processes? Multi-process applications can generate many more problems and are harder to implement. Make sure you are aware of what you do and why you do it.
 It’s also good to know a bit about the operation system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
-```
+
