@@ -213,7 +213,8 @@ def execute
   Process.waitall
   write.close
   results = read.read
-  read.close end
+  read.close 
+end
 
 def process_limiter
   while current_processes > 15 do
