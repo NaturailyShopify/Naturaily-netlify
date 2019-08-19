@@ -100,7 +100,6 @@ Benchmark.measure {
 }
 ```
 
-
 ```
 0.001240 0.005190 63.827237 ( 17.158324)
 0.001579 0.007635 65.032995 ( 19.821757)
@@ -249,9 +248,7 @@ with output:
 
 To achieve it we can use process status, which we can find, for instance, in `ps aux`:
 
-
 ➜ `ps aux | grep test.rb`
-
 
 ![User](/assets/images/user.png)
 
@@ -445,10 +442,9 @@ rescue SignalException => e
 end
 ```
 
-=>
-Allocated ports: [8000, 8010, 8020]
-
-PIDs: [5927, 5928, 5929]
+\=>
+Allocated ports: \[8000, 8010, 8020]\
+PIDs: \[5927, 5928, 5929]
 
 ➜ `cat 8000_log.txt`
 
