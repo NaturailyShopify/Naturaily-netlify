@@ -34,8 +34,8 @@ In the whole post I will be using a simple Fibonacci sequence algorithm, because
 
 ```ruby
 def fib(n)
-return n if [0,1].include?(n)
-fib(n-1) + fib(n-2)
+  return n if [0,1].include?(n)
+  fib(n-1) + fib(n-2)
 end
 ```
 
@@ -55,12 +55,12 @@ Benchmark.measure { 10.times { fib(35) } }
 `=>AVG: 40.72s`
 
 ```ruby
-Benchmark.measure {
-threads = []
-10.times do
-threads << Thread.new { Thread.current[:output] = fib(35) }
-end
-threads.each { |thread| thread.join }
+Benchmark.measure { 
+  threads = []
+  10.times do
+    threads << Thread.new { Thread.current[:output] = fib(35) }
+  end
+  threads.each { |thread| thread.join }
 }
 ```
 
@@ -87,18 +87,19 @@ Ruby provides a [Process](https://ruby-doc.org/core-2.6.3/Process.html){:rel="no
 
 ```ruby
 Benchmark.measure {
-read_stream, write_stream = IO.pipe
-10.times do
-Process.fork do
-write_stream.puts fib(35)
-end
-end
-Process.waitall
-write_stream.close
-results = read_stream.read
-read_stream.close
+  read_stream, write_stream = IO.pipe
+  10.times do
+    Process.fork do
+      write_stream.puts fib(35)
+    end
+  end
+  Process.waitall
+  write_stream.close
+  results = read_stream.read
+  read_stream.close
 }
 ```
+
 
 ```
 0.001240 0.005190 63.827237 ( 17.158324)
@@ -132,8 +133,6 @@ Creating a multi-process application is much harder than creating a multi-thread
 | :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
 | **Maintenance:**    | It has fewer potential issues, is easier to implement, but can be more difficult to debug | It’s easier to debug, but we have to take care of process persistence, zombies, etc.                                                               |
 
-
-
 ### Too Many Existing Processes
 
 In the previous example I forked 10 additional processes that counted the 35th-element of the Fibonacci sequence. What happens if I change this to a greater number of processes?
@@ -141,11 +140,11 @@ In the previous example I forked 10 additional processes that counted the 35th-e
 ```ruby
 # ...
 20.times do
-Process.fork do
-write_stream.puts fib(35)
+  Process.fork do
+    write_stream.puts fib(35)
+  end
 end
-end
-# ....
+ # ...
 ```
 
 When the program was running I called `ps`:
@@ -204,26 +203,28 @@ Limiting processes in Ruby is a complex problem. I started from a simple functio
 
 ```ruby
 def execute
-read, write = IO.pipe
-30.times do
-process_limiter
-Process.fork do
-write.puts fib(2)
-end
-end
-Process.waitall
-write.close
-results = read.read
-read.close
-end
+  read, write = IO.pipe
+  30.times do
+    process_limiter
+    Process.fork do
+      write.puts fib(2)
+    end
+  end
+  Process.waitall
+  write.close
+  results = read.read
+  read.close end
+
 def process_limiter
-while current_processes > 15 do
-sleep(0.1) # there should be a better script to check if the number of children is decreasing
+  while current_processes > 15 do
+    sleep(0.1) # there should be a better script to check if the number of children is decreasing
+  end
 end
-end
+
 def current_processes
-IO.popen('ps | grep "[r]uby"').read.split("\n").size
+  IO.popen('ps | grep "[r]uby"').read.split("\n").size  
 end
+
 execute
 ```
 
@@ -239,24 +240,19 @@ with output:
 
 ```
 [
-[13013, #<Process::Status: pid 13013 exit 0>],
-[13014, #<Process::Status: pid 13014 running>],
-[13015, #<Process::Status: pid 13015 running>]
+  [13013, #<Process::Status: pid 13013 exit 0>],
+  [13014, #<Process::Status: pid 13014 running>],
+  [13015, #<Process::Status: pid 13015 running>]
 ]
 ```
 
 To achieve it we can use process status, which we can find, for instance, in `ps aux`:
 
-```
-➜ ps aux | grep test.rb
-```
 
-```
-USER PID %CPU %MEM VSZ RSS TT STAT STARTED TIME COMMAND
-kamilsopata 20869 1.7 0.0 4300988 3808 s002 R+ 7:14AM 0:04.19 ruby test.rb
-kamilsopata 20902 1.7 0.0 4300988 3856 s002 R+ 7:14AM 0:04.16 ruby test.rb
-kamilsopata 20794 0.0 0.1 4300988 11708 s002 S+ 7:14AM 0:00.20 ruby test.rb
-```
+➜ `ps aux | grep test.rb`
+
+
+![User](/assets/images/user.png)
 
 As you can see – two processes have the status R+ (running in the foreground) and 1 has S+ (sleeping in the foreground). This can be quite useful information, description of all statuses can be found by entering: `man ps`.
 Because Ruby can’t simply kill the completed process when other processes are still running (this is the responsibility of the `.wait` method) it makes it much harder to implement a process limiter, so we have to rely on the OS features and our brainpower.
@@ -343,9 +339,7 @@ puts "pid_child_1 exists?: #{exists?(pid_child_1)}, pid_child_2 exists?: #{exist
 Process.waitall
 puts "After waitall:"
 puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
-```
 
-```
 From parent process - PID: 15496, process group ID: 15496, session ID: 9817
 From #1 forked process - PID: 15509, process group ID: 15496, session ID: 9817
 From #1 forked process, after setsid - PID: 15509, process group ID: 15509, session ID: 15509
@@ -365,10 +359,7 @@ After waitall:
 Process Group ID of child exists?: false, child pid exists?: false
 ```
 
-
-
 Please take a look at `pgid` in our forked process – the value is the same as the parent PID until we initialize a new session. This knowledge is quite important – we know that the PID value can also be a process group ID, so if we want to use `detach` or `kill` – we can provide `gpid` as well. This makes it much easier to manage our processes. When we called `Process.kill('HUP', -child_pgid)` ([negative value](https://ruby-doc.org/core-2.6.1/Process.html#method-c-kill){:rel="nofollow"}{:target="_blank"} is used to kill process groups instead of processes) we killed all processes in our group.
-
 
 If you want to learn more about groups and processes, definitely check out Linux Application Development by Michael K. Johnson and Erik W. Troan or at least [this](https://www.brianstorti.com/an_introduction_to_unix_processes/){:rel="nofollow"}{:target="_blank"} cool article, where you can find a bunch of useful information about processes, zombies, daemons, exit codes and signals.
 
@@ -378,90 +369,105 @@ _listeners.rb:_
 
 ```ruby
 require "rack"
+
 class ListenerCommand
-def initialize
-@allocations = {}
+  def initialize
+    @allocations = {}
+  end
+
+  def add(port)
+    return if allocated_ports.include?(port)
+    pid = fork_process { Listener.new(port).run }
+    allocations[port] = pid
+  end
+
+  def allocated_ports
+    allocations.keys
+  end
+
+  def pids
+    allocations.values
+  end
+
+  private
+
+  attr_reader :allocations
+
+  def fork_process
+    Process.fork do
+      yield
+    end
+  end
 end
-def add(port)
-return if allocated_ports.include?(port)
-pid = fork_process { Listener.new(port).run }
-allocations[port] = pid
-end
-def allocated_ports
-allocations.keys
-end
-def pids
-allocations.values
-end
-private
-attr_reader :allocations
-def fork_process
-Process.fork do
-yield
-end
-end
-end
+
 class Listener
-def initialize(port)
-@port = port
-end
-def run
-app = Proc.new do |env|
-request = Rack::Request.new(env)
-log(request)
-['200', {'Content-Type' => 'text/html'}, ['Ruby ♥.']]
-end
-Rack::Handler::WEBrick.run(app, Port: port)
-end
-private
-attr_reader :port
-def log(request)
-output = "#{request.base_url} visited at #{Time.now} with params: #{request.params}\n"
-File.write("#{port}_log.txt", output, mode: "a")
-end
+  def initialize(port)
+    @port = port
+  end
+
+  def run
+    app = Proc.new do |env|
+        request = Rack::Request.new(env)
+        log(request)
+        ['200', {'Content-Type' => 'text/html'}, ['Ruby ♥.']]
+    end
+     
+    Rack::Handler::WEBrick.run(app, Port: port)
+  end
+
+  private
+  attr_reader :port
+
+  def log(request)
+    output = "#{request.base_url} visited at #{Time.now} with params: #{request.params}\n"
+    File.write("#{port}_log.txt", output, mode: "a")
+  end
 end
 ```
 
 ```ruby
 listeners = ListenerCommand.new
+
 listeners.add(8000)
 listeners.add(8010)
 listeners.add(8020)
+
 puts "Allocated ports: #{listeners.allocated_ports}"
 puts "PIDs: #{listeners.pids}"
+
 begin
-Process.waitall
+  Process.waitall
 rescue SignalException => e
-listeners.pids.each do |pid|
-Process.kill("HUP", pid)
-end
+  listeners.pids.each do |pid|
+    Process.kill("HUP", pid)    
+  end
 end
 ```
 
-```
-Allocated ports: [8000, 8010, 8020]
-PIDs: [5927, 5928, 5929]
+\=>
+Allocated ports: \[8000, 8010, 8020]
+PIDs: \[5927, 5928, 5929]
+
 ➜ `cat 8000_log.txt`
-```
 
+```
 http://localhost:8000 visited at 2019-07-27 09:35:08 +0200 with params: {"blah"=>"hoo"}
 http://localhost:8000 visited at 2019-07-27 09:35:54 +0200 with params: {"port"=>"8000"}
-
 ```
+
 ➜ `cat 8010_log.txt`
-```
 
+```
 http://localhost:8010 visited at 2019-07-27 09:40:17 +0200 with params: {"ruby"=>"yea"}\
 http://localhost:8010 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8010"}
-
 ```
+
 ➜ `cat 8020_log.txt`
-```
 
+```
 http://localhost:8020 visited at 2019-07-27 09:40:17 +0200 with params: {"foo"=>"bar"}\
 http://localhost:8020 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8020"}
-
-
+```
 
 The program above creates three new processes using the `.add` method defined in `ListenerCommand` class. After process fork, `ListenerCommand` adds the allocated port and pid of the process to the allocations hash.
 
@@ -469,11 +475,8 @@ After that program begins to wait for all processes: `Process.waitall`. If all p
 
 Of course, this is only a skeleton of application, for instance - what if other exceptions occur? We always should consider all possible cases.
 
-
-
 ### Is Multi-processing a Good Alternative to Threads?
 
 Everyone should take some time to consider the question – does my project really need multiple processes? Multi-process applications can generate many more problems and are harder to implement. Make sure you are aware of what you do and why you do it.
-
 
 It’s also good to know a bit about the operation system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
