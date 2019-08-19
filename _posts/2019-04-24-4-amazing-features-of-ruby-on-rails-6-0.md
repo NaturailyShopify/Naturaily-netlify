@@ -58,4 +58,4 @@ With this version of Ruby on Rails a new code loader was introduced - Zeitwerk. 
 
 According to the official sources, Ruby on Rails 6.0 will be released on the 30th of April, 2019. 
 
-**Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/){:rel=nofollow}. 
+**Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release){:rel=nofollow}. 
