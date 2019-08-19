@@ -114,8 +114,7 @@ In this way, the execution took 22 seconds less than when using a single process
 
 You may know multiprocessing from Chrome browser – each tab, for security reasons, exists in a separate process. In Ruby environment creating a new child-processes may increase performance, but it also entails certain restrictions. First of all, new processes put additional responsibilities on the developer. Extra care is required for their execution.
 
-We always have to answer a few questions: will this solve our problems? When should we use multi-process architecture? How many processes should we run at one time? Do we need some kind of process limiter? How can too many existing processes affect our system? Will we be able to control the number of children-processes? What happens to the children-processes if the parent-process is killed? When is it worth using?
-It clearly shows – there are a lot of considerations along the way. Let’s try to resolve a few of them.
+We always have to answer a few questions: will this solve our problems? When should we use multi-process architecture? How many processes should we run at one time? Do we need some kind of process limiter? How can too many existing processes affect our system? Will we be able to control the number of children-processes? What happens to the children-processes if the parent-process is killed? When is it worth using? It clearly shows – there are a lot of considerations along the way. Let’s try to resolve a few of them.
 
 ### When It makes Sense
 
@@ -132,6 +131,8 @@ Creating a multi-process application is much harder than creating a multi-thread
 | **Initialization:** | It’s faster in creating and deleting threads                                              | It’s much more complex and needs more time for creating and deleting processes                                                                     |
 | :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
 | **Maintenance:**    | It has fewer potential issues, is easier to implement, but can be more difficult to debug | It’s easier to debug, but we have to take care of process persistence, zombies, etc.                                                               |
+
+
 
 ### Too Many Existing Processes
 
@@ -450,16 +451,14 @@ http://localhost:8000 visited at 2019-07-27 09:35:54 +0200 with params: {"port"=
 ➜ `cat 8010_log.txt`
 ```
 
-http://localhost:8010 visited at 2019-07-27 09:40:17 +0200 with params: {"ruby"=>"yea"}
-
+http://localhost:8010 visited at 2019-07-27 09:40:17 +0200 with params: {"ruby"=>"yea"}\
 http://localhost:8010 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8010"}
 
 ```
 ➜ `cat 8020_log.txt`
 ```
 
-http://localhost:8020 visited at 2019-07-27 09:40:17 +0200 with params: {"foo"=>"bar"}
-
+http://localhost:8020 visited at 2019-07-27 09:40:17 +0200 with params: {"foo"=>"bar"}\
 http://localhost:8020 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8020"}
 
 
@@ -469,6 +468,8 @@ The program above creates three new processes using the `.add` method defined in
 After that program begins to wait for all processes: `Process.waitall`. If all processes are killed – the program will finish. Also if the user attempts to kill the parent process, to avoid orphans processes, the program will catch `SignalException` exception and kill created processes.
 
 Of course, this is only a skeleton of application, for instance - what if other exceptions occur? We always should consider all possible cases.
+
+
 
 ### Is Multi-processing a Good Alternative to Threads?
 
