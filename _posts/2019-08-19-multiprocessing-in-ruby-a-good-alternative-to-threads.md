@@ -24,7 +24,6 @@ tags:
 ---
 Parallel computing is a cure for performance issues. It allows to do several things at once, which sounds great in the context of background jobs. Inspired by [Python’s multiprocessing module](https://docs.python.org/3.7/library/multiprocessing.html){:rel="nofollow"}{:target="_blank"} I began to think about the parallelism in Ruby. Of course, there are several ways to get closer, but in this post I’ll try to focus on the `Process` class. But before we start, I recommend that you quickly recall the differences between a process and a thread:
 
-
 {% youtube Dhf-DYO1K78 %}
 
 ## What Is Wrong With Ruby as Multi-threaded Programming Language?
@@ -132,9 +131,7 @@ Creating a multi-process application is much harder than creating a multi-thread
 | :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
 | **Initialization:** | It’s faster in creating and deleting threads                                              | It’s much more complex and needs more time for creating and deleting processes                                                                     |
 | :-------------      | :-------------:                                                                           | :-----:                                                                                                                                            |
-| **Maintenance:**    | It has fewer potential issues, is easier to implement, but can be more difficult to debug | It’s easier to debug, but we have to take care of process persistence, zombies, etc.
-
-
+| **Maintenance:**    | It has fewer potential issues, is easier to implement, but can be more difficult to debug | It’s easier to debug, but we have to take care of process persistence, zombies, etc.                                                               |
 
 ### Too Many Existing Processes
 
@@ -196,7 +193,7 @@ So can there be too many tasks (processes) in the operating system scheduler? Th
 * **Hard** – only root can set this and it can’t be exceeded,
 * **Soft** – can be exceeded if necessary.
 
-In Linux the limit of processes is set in the file `/etc/security/limits.conf`. On MacOS we can use `launchctl limit maxproc` (the first value is a soft limit, the second one is a hard limit). You can read more [here](https://wilsonmar.github.io/maximum-limits/){:rel="nofollow"}{:target="_blank"} .
+In Linux the limit of processes is set in the file `/etc/security/limits.conf`. On MacOS we can use `launchctl limit maxproc` (the first value is a soft limit, the second one is a hard limit). You can read more [here](https://wilsonmar.github.io/maximum-limits/){:rel="nofollow"}{:target="_blank"}.
 
 Common sense says we shouldn’t create too many subprocesses. The screenshot from HTOP when Multi-processes script was running is a good example – processes requiring a large amount of computing power can consume even 100% of the CPU, which can lead to the loss of stability of the entire system! On top of that, we should care of memory. Let’s say one simple sub-process needs 10MB of memory and we want to fork it 10 times (1 parent, 10 children) – don’t be surprised, it will take more than 100MB of memory.
 
@@ -346,7 +343,8 @@ Process.waitall
 puts "After waitall:"
 puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
 ```
-=>
+
+```
 From parent process - PID: 15496, process group ID: 15496, session ID: 9817
 From #1 forked process - PID: 15509, process group ID: 15496, session ID: 9817
 From #1 forked process, after setsid - PID: 15509, process group ID: 15509, session ID: 15509
@@ -364,10 +362,13 @@ pid_child_1 exists?: false, pid_child_2 exists?: false
 
 After waitall:
 Process Group ID of child exists?: false, child pid exists?: false
-
 ```
 
+
+
 Please take a look at `pgid` in our forked process – the value is the same as the parent PID until we initialize a new session. This knowledge is quite important – we know that the PID value can also be a process group ID, so if we want to use `detach` or `kill` – we can provide `gpid` as well. This makes it much easier to manage our processes. When we called `Process.kill('HUP', -child_pgid)` ([negative value](https://ruby-doc.org/core-2.6.1/Process.html#method-c-kill){:rel="nofollow"}{:target="_blank"} is used to kill process groups instead of processes) we killed all processes in our group.
+
+
 If you want to learn more about groups and processes, definitely check out Linux Application Development by Michael K. Johnson and Erik W. Troan or at least [this](https://www.brianstorti.com/an_introduction_to_unix_processes/){:rel="nofollow"}{:target="_blank"} cool article, where you can find a bunch of useful information about processes, zombies, daemons, exit codes and signals.
 
 ### Real Life Example
@@ -462,6 +463,7 @@ http://localhost:8020 visited at 2019-07-27 09:40:17 +0200 with params: {"foo"=>
 http://localhost:8020 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8020"}
 
 
+
 The program above creates three new processes using the `.add` method defined in `ListenerCommand` class. After process fork, `ListenerCommand` adds the allocated port and pid of the process to the allocations hash.
 
 After that program begins to wait for all processes: `Process.waitall`. If all processes are killed – the program will finish. Also if the user attempts to kill the parent process, to avoid orphans processes, the program will catch `SignalException` exception and kill created processes.
@@ -471,5 +473,6 @@ Of course, this is only a skeleton of application, for instance - what if other 
 ### Is Multi-processing a Good Alternative to Threads?
 
 Everyone should take some time to consider the question – does my project really need multiple processes? Multi-process applications can generate many more problems and are harder to implement. Make sure you are aware of what you do and why you do it.
-It’s also good to know a bit about the operation system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
 
+
+It’s also good to know a bit about the operation system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
