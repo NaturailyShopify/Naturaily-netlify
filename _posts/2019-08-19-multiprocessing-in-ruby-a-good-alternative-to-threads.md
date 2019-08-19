@@ -143,7 +143,7 @@ In the previous example I forked 10 additional processes that counted the 35th-e
     write_stream.puts fib(35)
   end
 end
- # ...
+# ...
 ```
 
 When the program was running I called `ps`:
@@ -212,7 +212,7 @@ def execute
   Process.waitall
   write.close
   results = read.read
-  read.close 
+  read.close
 end
 
 def process_limiter
@@ -228,7 +228,7 @@ end
 execute
 ```
 
-`Process.waitall`, according to the [documentation](https://apidock.com/ruby/Process/waitall/class){:rel="nofollow"}{:target="_blank"} `waits for all children, returning an array of pid/status pairs`. All forked processes exists until the .waitall method is executed. Because of that, we can’t check `ps | grep "[r]uby"'` as above.
+`Process.waitall`, according to the [documentation](https://apidock.com/ruby/Process/waitall/class){:rel="nofollow"}{:target="_blank"} `waits for all children, returning an array of pid/status pairs`. All forked processes exists until the .waitall method is executed. Because of that, we can’t check `ps | grep "[r]uby"` as above.
 Children-processes send the [SIGCHLD signal](https://github.com/ruby/ruby/blob/master/process.c){:rel="nofollow"}{:target="_blank"} to the parent-process if they exist, are interrupted, or resumed after interruption. Unfortunately Ruby doesn’t have a method that can list all current processes.
 It would be great if we could check simple (pseudocode):
 
