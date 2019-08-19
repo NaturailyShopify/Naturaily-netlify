@@ -228,7 +228,7 @@ end
 execute
 ```
 
-`Process.waitall`, according to the [documentation](https://apidock.com/ruby/Process/waitall/class){:rel="nofollow"}{:target="_blank"} `waits for all children, returning an array of pid/status pairs`. All forked processes exists until the .waitall method is executed. Because of that, we can’t check `ps | grep "[r]uby"` as above.
+`Process.waitall`, according to the [documentation](https://apidock.com/ruby/Process/waitall/class){:rel="nofollow"}{:target="_blank"} "waits for all children, returning an array of pid/status pairs". All forked processes exists until the .waitall method is executed. Because of that, we can’t check `ps | grep "[r]uby"` as above.
 Children-processes send the [SIGCHLD signal](https://github.com/ruby/ruby/blob/master/process.c){:rel="nofollow"}{:target="_blank"} to the parent-process if they exist, are interrupted, or resumed after interruption. Unfortunately Ruby doesn’t have a method that can list all current processes.
 It would be great if we could check simple (pseudocode):
 
@@ -323,20 +323,7 @@ puts "After waitall:"
 puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
 ```
 
-```
-puts "From parent process:"
-puts "Process Group ID of child: #{child_pgid}, child pid: #{child}"
-puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
-puts "pid_child_1 exists?: #{exists?(pid_child_1)}, pid_child_2 exists?: #{exists?(pid_child_2)}"
-
-Process.kill('HUP', -child_pgid)
-puts "Killed child pgid: #{child_pgid}"
-puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
-puts "pid_child_1 exists?: #{exists?(pid_child_1)}, pid_child_2 exists?: #{exists?(pid_child_2)}"
-
-Process.waitall
-puts "After waitall:"
-puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exists?: #{exists?(child)}"
+```ruby
 
 From parent process - PID: 15496, process group ID: 15496, session ID: 9817
 From #1 forked process - PID: 15509, process group ID: 15496, session ID: 9817
@@ -443,7 +430,7 @@ end
 ```
 
 \=>
-Allocated ports: \[8000, 8010, 8020]  
+Allocated ports: \[8000, 8010, 8020] 
 PIDs: \[5927, 5928, 5929]
 
 ➜ `cat 8000_log.txt`
@@ -456,14 +443,14 @@ http://localhost:8000 visited at 2019-07-27 09:35:54 +0200 with params: {"port"=
 ➜ `cat 8010_log.txt`
 
 ```
-http://localhost:8010 visited at 2019-07-27 09:40:17 +0200 with params: {"ruby"=>"yea"}\
+http://localhost:8010 visited at 2019-07-27 09:40:17 +0200 with params: {"ruby"=>"yea"}
 http://localhost:8010 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8010"}
 ```
 
 ➜ `cat 8020_log.txt`
 
 ```
-http://localhost:8020 visited at 2019-07-27 09:40:17 +0200 with params: {"foo"=>"bar"}\
+http://localhost:8020 visited at 2019-07-27 09:40:17 +0200 with params: {"foo"=>"bar"}
 http://localhost:8020 visited at 2019-07-27 09:40:33 +0200 with params: {"port"=>"8020"}
 ```
 
@@ -477,4 +464,4 @@ Of course, this is only a skeleton of application, for instance - what if other 
 
 Everyone should take some time to consider the question – does my project really need multiple processes? Multi-process applications can generate many more problems and are harder to implement. Make sure you are aware of what you do and why you do it.
 
-It’s also good to know a bit about the operation system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
+It’s also good to know a bit about the operating system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
