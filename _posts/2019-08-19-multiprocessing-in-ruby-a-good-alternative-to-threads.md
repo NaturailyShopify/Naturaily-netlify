@@ -6,7 +6,7 @@ description: >-
   this post I’ll try to focus on the “Process” class.
 slug: multiprocessing-in-ruby
 layout: post
-date: '2019-08-14 10:01:00 +0200'
+date: '2019-08-19 12:59:00 +0200'
 category: Ruby on Rails development
 author: Kamil Sopata
 authors: Kamil Sopata
