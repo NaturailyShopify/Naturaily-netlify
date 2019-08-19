@@ -17,20 +17,19 @@ text-preview: >-
 tags:
   - Ruby on Rails development
 ---
-Rails 6.0. is finally released. We’re excited to see all the new stuff Rails 6.0 has to offer! With regular releases of the beta versions, developers had access to the upcoming framework for quite a while and they reported that it looks solid. Will the new Rails 6.0 bring back the [enormous popularity RoR once had](https://naturaily.com/blog/who-gives-f-about-rails)? 
+The release of the newest version of Ruby on Rails is just around the corner. With it, a ton of new features will be introduced to the public. We’re excited to see all the new stuff Ruby on Rails 6.0 has to offer! With regular releases of the beta versions, developers had access to the upcoming framework for quite a while and they reported that it looks solid. Will the new Ruby on Rails 6.0 bring back the [enormous popularity RoR once had](https://naturaily.com/blog/who-gives-f-about-rails)? 
 
-**Here are our most anticipated features of the upcoming version of Rails 6.0!**
+**Here are our most anticipated features of the new version of Rails 6.0!**
 
 ## Parallel Testing
 
-Test’s performance is finally going to be improved (a lot!). Now you can use cores to your advantage of running big tests much faster. Each testing worker runs in its own thread - it should be reflected in the CPU monitor. Thanks to Eileen Uchitelle and Aaron Patterson, parallel-testing will land in the upcoming, final version of the Rails framework.
+Test’s performance is finally going to be improved (a lot!). Now you can use cores to your advantage of running big tests much faster. Each testing worker runs in its own thread - it should be reflected in the CPU monitor. Thanks to Eileen Uchitelle and Aaron Patterson, parallel-testing will land in the upcoming, final version of Ruby on Rails framework.
 
-As you probably already know, the way of implementing tests is very important. We try to implement as many suitable tests as we can. It's great news for us as more tests will no longer have that much of an impact on the execution time. (Stay tuned for our guide on how to write great tests in Rails!)
+As you probably already know, the way of implementing tests is very important. We try to implement as many suitable tests as we can. It's great news for us as more tests will no longer have that much of an impact on the execution time. (Stay tuned for our guide on how to write great tests in Ruby on Rails!)
 
-“The default number \[of workers running  in parallel] is the actual core count on the machine you are on, but can be changed by the number passed to the parallelize method.” To enable executing tests parallel just set the number of workers in `rails_helper.rb`.
+“The default number [of workers running  in parallel] is the actual core count on the machine you are on, but can be changed by the number passed to the parallelize method.” To enable executing tests parallel just set the number of workers in `rails_helper.rb`.
 
-```
-ruby
+```ruby
 parallelize(workers: 10)
 ```
 
@@ -44,14 +43,19 @@ Currently, in modern applications, using traditional rails views is not so often
 
 ## Multiple database support
 
-Another great feature of upcoming Rails 6.0 is the support for multiple simultaneous database connections. It’s a new, simple API for making that happen without the need to reach deeply into Active Record. 
+Another great feature of upcoming Ruby on Rails 6.0 is the support for multiple simultaneous database connections. It’s a new, simple API for making that happen without the need to reach deeply into Active Record. 
 
 Official RoR blog suggests using two databases to for example split the workflow between two replica databases for a performance boost or records segmentation into databases for scaling. We can definitely see multiple database support as an improvement in building microservices architecture. 
 
-One of the real life examples where this feature could be really useful is our in-house project - Artinfo. In this project, there are two database connections, one for old users and one for those who just signed up. Now with Rails 6.0, this implementation would be much easier. 
+One of the real life examples where this feature could be really useful is our in-house project - Artinfo. In this project, there are two database connections, one for old users and one for those who just signed up. Now with Ruby on Rails 6, this implementation would be much easier. 
+
+
 
 ## Zeitwerk
 
-With this version of Rails a new code loader was introduced - Zeitwerk. It promises to load your project’s classes and modules on demand, no need to write `require` calls. Zeitwerk uses absolute file names making the loader more efficient. Your classes and modules are available everywhere. The team behind the loader claims that it is thread-safe and matches Ruby’s semantics for constants. 
+With this version of Ruby on Rails a new code loader was introduced - Zeitwerk. It promises to load your project’s classes and modules on demand, no need to write `require` calls. Zeitwerk uses absolute file names making the loader more efficient. Your classes and modules are available everywhere. The team behind the loader claims that it is thread-safe and matches Ruby’s semantics for constants. 
 
-**Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2019/8/18/this-week-in-rails-rails-6-is-released-sass-rails-6-improved-mysql2-error-and-more/){:rel=nofollow}{:target="_blank"}.
+
+According to the official sources, Ruby on Rails 6.0 will be released on the 30th of April, 2019. 
+
+**Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2018/12/20/timeline-for-the-release-of-Rails-6-0/){:rel=nofollow}. 
