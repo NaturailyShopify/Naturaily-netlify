@@ -264,6 +264,26 @@ pre, code {
     display: inline-block;
     max-width: 120px;
   }
+
+  table {
+      border: solid 1px $color-accent-yellow;
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: 14px;
+      margin-bottom: 30px;
+
+    & thead th {
+      background-color: $color-code-bg;
+      border: solid 1px $color-accent-yellow;
+      padding: 10px;
+      text-align: left;
+    }
+
+    & tbody td {
+      border: solid 1px $color-accent-yellow;
+      padding: 10px;
+    }
+  }
 }
 
 .meetus-social {
