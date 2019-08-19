@@ -55,7 +55,7 @@ Benchmark.measure { 10.times { fib(35) } }
 `=>AVG: 40.72s`
 
 ```ruby
-Benchmark.measure { 
+Benchmark.measure {
   threads = []
   10.times do
     threads << Thread.new { Thread.current[:output] = fib(35) }
@@ -72,7 +72,7 @@ Benchmark.measure {
 
 `=>AVG: 40.33s`
 
-The results are almost the same (the last column in bracket is the real time of execution). 
+The results are almost the same (the last column in bracket is the real time of execution).
 
 Why works it like this? Let’s dig a bit.
 [Ruby interpreter (Matz's Ruby Interpreter)](https://en.wikipedia.org/wiki/Ruby_MRI){:rel="nofollow"}{:target="_blank"} uses [Global Interpreter Lock (GIL)](https://en.wikipedia.org/wiki/Global_interpreter_lock){:rel="nofollow"}{:target="_blank"} which is also used by other interpreters, such as CPython. GIL controls the execution in threads – only one thread can be executed at a time. Thus the benchmarks above are the same – in both cases, only one task is processed at a time. Each Ruby process always has one dedicated GIL that handles this process. Probably your first thought is – can’t we just turn off GIL? But it is not as easy as it seems – Ruby needs GIL because it avoids executions that aren’t thread-safe – for instance by the execution of non-atomic operations.
@@ -173,7 +173,7 @@ When the program was running I called `ps`:
 68775 ttys010 0:00.42 ruby test.rb
 ```
 
-We have 21 ruby processes (1 parent and 20 subprocesses) – is it much? Actually we don’t know, because it depends on factors like hardware or current system load. 
+We have 21 ruby processes (1 parent and 20 subprocesses) – is it much? Actually we don’t know, because it depends on factors like hardware or current system load.
 
 Please take a look at the output from HTOP:
 
@@ -222,7 +222,7 @@ def process_limiter
 end
 
 def current_processes
-  IO.popen('ps | grep "[r]uby"').read.split("\n").size  
+  IO.popen('ps | grep "[r]uby"').read.split("\n").size
 end
 
 execute
@@ -395,7 +395,7 @@ class Listener
         log(request)
         ['200', {'Content-Type' => 'text/html'}, ['Ruby ♥.']]
     end
-     
+
     Rack::Handler::WEBrick.run(app, Port: port)
   end
 
@@ -423,14 +423,13 @@ begin
   Process.waitall
 rescue SignalException => e
   listeners.pids.each do |pid|
-    Process.kill("HUP", pid)    
+    Process.kill("HUP", pid)
   end
 end
 ```
 
-\=>
-Allocated ports:\[8000, 8010, 8020]  \
-PIDs:\[5927, 5928, 5929]
+\=> Allocated ports: \[8000, 8010, 8020]  
+PIDs: \[5927, 5928, 5929]
 
 ➜ `cat 8000_log.txt`
 
