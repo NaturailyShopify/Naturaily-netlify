@@ -324,7 +324,6 @@ puts "Process Group ID of child exists?: #{exists?(child_pgid)}, child pid exist
 ```
 
 ```ruby
-
 From parent process - PID: 15496, process group ID: 15496, session ID: 9817
 From #1 forked process - PID: 15509, process group ID: 15496, session ID: 9817
 From #1 forked process, after setsid - PID: 15509, process group ID: 15509, session ID: 15509
@@ -430,7 +429,7 @@ end
 ```
 
 \=>
-Allocated ports: \[8000, 8010, 8020] 
+Allocated ports: \[8000, 8010, 8020]  \
 PIDs: \[5927, 5928, 5929]
 
 ➜ `cat 8000_log.txt`
