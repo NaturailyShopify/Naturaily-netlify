@@ -29,7 +29,9 @@ Parallel computing is a cure for performance issues. It allows to do several thi
 ## What Is Wrong With Ruby as Multi-threaded Programming Language?
 
 Ruby offers the `Thread` class that implements several methods for handling concurrent tasks. It sounds really promising on paper – opening new threads in which we can execute code and then wait until each thread finishes. Awesome, right?
+
 Unfortunately, it is not as amazing as it seems. Why? First of all, you need to know what it really looks like under the hood.
+
 In the whole post I will be using a simple Fibonacci sequence algorithm, because it takes some time to compute:
 
 ```ruby
@@ -75,7 +77,10 @@ Benchmark.measure {
 The results are almost the same (the last column in bracket is the real time of execution).
 
 Why works it like this? Let’s dig a bit.
-[Ruby interpreter (Matz's Ruby Interpreter)](https://en.wikipedia.org/wiki/Ruby_MRI){:rel="nofollow"}{:target="_blank"} uses [Global Interpreter Lock (GIL)](https://en.wikipedia.org/wiki/Global_interpreter_lock){:rel="nofollow"}{:target="_blank"} which is also used by other interpreters, such as CPython. GIL controls the execution in threads – only one thread can be executed at a time. Thus the benchmarks above are the same – in both cases, only one task is processed at a time. Each Ruby process always has one dedicated GIL that handles this process. Probably your first thought is – can’t we just turn off GIL? But it is not as easy as it seems – Ruby needs GIL because it avoids executions that aren’t thread-safe – for instance by the execution of non-atomic operations.
+
+[Ruby interpreter (Matz's Ruby Interpreter)](https://en.wikipedia.org/wiki/Ruby_MRI){:rel="nofollow"}{:target="_blank"} uses [Global Interpreter Lock (GIL)](https://en.wikipedia.org/wiki/Global_interpreter_lock){:rel="nofollow"}{:target="_blank"} which is also used by other interpreters, such as CPython. GIL controls the execution in threads – only one thread can be executed at a time. Thus the benchmarks above are the same – in both cases, only one task is processed at a time. 
+
+Each Ruby process always has one dedicated GIL that handles this process. Probably your first thought is – can’t we just turn off GIL? But it is not as easy as it seems – Ruby needs GIL because it avoids executions that aren’t thread-safe – for instance by the execution of non-atomic operations.
 
 > We can define an atomic operation as any operation that is uninterruptible. – Robert C. Martin, Clean Code
 
@@ -114,7 +119,9 @@ In this way, the execution took 22 seconds less than when using a single process
 
 You may know multiprocessing from Chrome browser – each tab, for security reasons, exists in a separate process. In Ruby environment creating a new child-processes may increase performance, but it also entails certain restrictions. First of all, new processes put additional responsibilities on the developer. Extra care is required for their execution.
 
-We always have to answer a few questions: will this solve our problems? When should we use multi-process architecture? How many processes should we run at one time? Do we need some kind of process limiter? How can too many existing processes affect our system? Will we be able to control the number of children-processes? What happens to the children-processes if the parent-process is killed? When is it worth using? It clearly shows – there are a lot of considerations along the way. Let’s try to resolve a few of them.
+We always have to answer a few questions: will this solve our problems? When should we use multi-process architecture? How many processes should we run at one time? Do we need some kind of process limiter? How can too many existing processes affect our system? Will we be able to control the number of children-processes? What happens to the children-processes if the parent-process is killed? When is it worth using? 
+
+It clearly shows – there are a lot of considerations along the way. Let’s try to resolve a few of them.
 
 ### When It makes Sense
 
@@ -187,6 +194,7 @@ Please take a look at the output from HTOP:
 ![Multi-processes script](/assets/images/multiprocess.png)
 
 At first glance, we can see that multi-processes script makes better use of the computing power of my computer. I mentioned earlier that my processor has 2 physical cores, we can see here 4 thanks to Hyperthreading – Intel technology that divides one core into 2 virtual ones.
+
 So can there be too many tasks (processes) in the operating system scheduler? The OS provides some limitation (depending on the platform). Unix systems have a built-in command “ulimit” which defines 2 types of limits:
 
 * **Hard** – only root can set this and it can’t be exceeded,
@@ -253,7 +261,9 @@ To achieve it we can use process status, which we can find, for instance, in `ps
 ![User](/assets/images/user.png)
 
 As you can see – two processes have the status R+ (running in the foreground) and 1 has S+ (sleeping in the foreground). This can be quite useful information, description of all statuses can be found by entering: `man ps`.
+
 Because Ruby can’t simply kill the completed process when other processes are still running (this is the responsibility of the `.wait` method) it makes it much harder to implement a process limiter, so we have to rely on the OS features and our brainpower.
+
 The Process module offers also `.detach` method that we can use instead of `.wait` – it works similarly with the difference that with `detach` we don’t wait for the child process. In our example we care about the result: we have to wait.
 
 ### Killed Parent
@@ -393,7 +403,7 @@ class Listener
     app = Proc.new do |env|
         request = Rack::Request.new(env)
         log(request)
-        ['200', {'Content-Type' => 'text/html'}, ['Ruby ♥.']]
+        ["200", {"Content-Type" => "text/html"}, ["Ruby ♥."]]
     end
 
     Rack::Handler::WEBrick.run(app, Port: port)
