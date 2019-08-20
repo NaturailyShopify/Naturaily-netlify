@@ -16,7 +16,7 @@ date: '2019-06-18 02:48:11 +0200'
 category: Software development
 author: Michał Kosyk
 authors: Michał Kosyk
-avatar: /assets/images/michał-kosyk.png
+avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/legacy-code-refactor.png
 text-preview: >-
   In the darkest corners of every app development process dwell lines of code
