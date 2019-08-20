@@ -16,7 +16,7 @@ date: '2019-07-31 02:04:06 +0200'
 category: Clutch
 author: Leo Baz
 authors: Leo Baz
-avatar: /assets/images/leo.png
+avatar: /assets/images/leo_baz_profile.png
 image: /assets/images/how-to-find-the-best-development-company-on-clutch.png
 text-preview: >-
   Clutch is the industry go-to place for reliable reviews of potential software
