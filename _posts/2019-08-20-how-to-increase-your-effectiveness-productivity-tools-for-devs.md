@@ -156,8 +156,6 @@ Every note finds its way to an actual notebook, so let’s explore that part of 
 
 ![Notes](/assets/images/notes_4.png)
 
-
-
 These are all your notebooks, which you can manage from here. You can add a new one, change the name or delete them if you wish so. Remember, removing a notebook removes all the associated notes as well. You can still retrieve them from **Trash**.
 
 **Hint:** _Sometimes you have multiple notebooks for one general topic and few subdomains. As you can see, I already created one with the name programming/knowledge_base. It is really helpful to move around notebooks like that because it helps you organise a plethora of topics under a single prefix._
@@ -173,3 +171,65 @@ Now, the best part: integrating Evernote with Nozbe. It’s an easy process you 
 ![Evernote](/assets/images/notes_7.png)
 
 ![Evernote](/assets/images/notes_8.png)
+
+Click the green button _“Connect your Evernote account with Nozbe”_. Follow the instructions on the site. After successfully connecting the apps, get back to Nozbe and hit _File > Sync_ (CMD + s on iOS). The green button will turn red.
+
+![Evernote](/assets/images/notes_9.png)
+
+What did it give me? Well, let’s imagine you have a note that is a part of something you need to do. Let’s add a task in Nozbe. Then click on it in the **Inbox**.
+
+![Evernote](/assets/images/notes_10.png)
+
+After clicking the _“Add comment”_ section, you will see a new view where you can add the comment, or… an Evernote note!
+
+![Evernote](/assets/images/notes_11.png)
+
+Now, click the dropdown menu with _“Text”_ text. You will see a few options with the Evernote one as well.
+
+![Evernote](/assets/images/notes_12.png)
+
+After clicking it, you will get a filtered list of all the notes you have on your Evernote account. 
+
+![Evernote](/assets/images/notes_13.png)
+
+Pick what you need. **You can select multiple notes!**
+
+![Evernote](/assets/images/notes_14.png)
+
+After clicking the _“Save”_ button, you can see all the notes in the form of a comment with references to every note used:
+
+![Evernote](/assets/images/notes_15.png)
+
+After clicking one of them, a window will appear with the full note:
+
+![Notes](/assets/images/notes_16.png)
+
+Isn’t that great? Now you can take quick notes and manage them properly, but also use them in your Nozbe task management system. This is especially useful if you have multiple meetings in one day. At the end of the day, you can summarize them, create tasks with actions from notes and attach notes to every task without the need to shuffle all those browser tabs.
+
+### Drawings
+
+The last thing that we need in our information management system are drawings. It sometimes isn’t good to just take a picture with your phone and share it on your Slack. We often need something editable and accessible by people working remotely. A whiteboard in your conference room just doesn’t fit this description for an efficient tool. Let’s face it, remote work isn’t the most convenient one and it’s a shame that no one has solved that problem yet… unless they did. I present to you the underdog, hidden under a submenu of Google Drive, an older cousin of Draw.io: **Google Drawings**.
+
+![Google Drawings](/assets/images/drawings_1.png)
+
+You have everything in here you need for brain and event storming sessions, simple database schemas and so on. You can even create some basic templates for your views. 
+
+Don’t believe me? Look:
+
+![Google Drawings](/assets/images/drawings_2.png)
+
+Think, how much time is wasted before you can sync the business requirements with the design and the developers’ reality? Now, before an actual designer will start working on the app, you can solve a lot of user flow issues just by trying out different things in here. You can save a whole event storming session with ease. It’s all in the cloud so there is unlimited space for it.
+
+## Summary
+
+Using tools is necessary for us to be more productive as well as more effective. It isn’t about a tool in general, but the right one. It’s hard to get them right. Nature of our job changes constantly. Developers, managers, HR people, bosses or employees. I think that it isn’t hard to look for them but to start looking. I believe that the toolset above will give you a decent start on the path to better productivity.
+
+To sum it up, have a tool/system for managing your:
+
+* Tasks
+* Text notes
+* Visual notes
+
+I hope this will help you get a head start on the road to great results like met deadlines, f\*\**ups avoided and chaos organised.
+
+Farewell
