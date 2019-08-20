@@ -10,7 +10,7 @@ date: '2019-08-19 12:59:00 +0200'
 category: Ruby on Rails development
 author: Kamil Sopata
 authors: Kamil Sopata
-avatar: /assets/images/kamil-sopata.png
+avatar: /assets/images/kamil_sopata_profile.png
 image: /assets/images/multiprocessing-in-ruby-a-good-alternative-to-threads_.png
 text-preview: >-
   Parallel computing is a cure for performance issues. It allows to do several
