@@ -49,7 +49,7 @@ The first place on my list is the productivity Youtuber: [Thomas Frank](https://
 * [How to Get More Done and Waste Less Time](https://www.youtube.com/watch?v=J5SXT9r2214){:rel="nofollow"}{:target="_blank"}
 * [5 Lessons from "The Productivity Project" by Chris Bailey](https://www.youtube.com/watch?v=OW2F4dOCC3U){:rel="nofollow"}{:target="_blank"}
 
-These short videos can easily get you started with making your life more productive. But Thomas always gets his sources right and quotes additional scientific literature for those wanting the red pill.
+These short videos can easily get you started with making your life more productive. But Thomas always gets his sources right and quotes additional scientific literature for those wanting to see the big picture.
 
 The second item on the list is David’s Allen book [“Getting Things Done”](https://gettingthingsdone.com/){:rel="nofollow"}{:target="_blank"}. It introduces a coherent system for managing all the tasks that you have to handle every day, which could have an external or internal source (external: boss asking you to do something, internal: you want to buy a new microwave). To summarise Allen’s idea, you will need a few lists for ideas that will reduce the load required on your brain.
 
