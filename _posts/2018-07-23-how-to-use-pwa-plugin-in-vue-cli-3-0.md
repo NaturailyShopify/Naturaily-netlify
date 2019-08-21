@@ -276,3 +276,5 @@ PWA still have a long way to come, but it's on very good track!
 I hope the Apple will soon fully support PWA apps because that should help PWA in becoming better and more popular technology. Thanks to the **Vue CLI 3.0**, building **PWA apps** is as easy as pie, and thanks to the plugin structure you can easily inclue PWA to your project on every stage of the development.
 
 All what you have to worry about is preparing graphics and making decisions on what and how you want to cache, Vue PWA plugin will do the dirty work for you.
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
