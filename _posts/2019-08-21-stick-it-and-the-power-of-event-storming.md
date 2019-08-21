@@ -33,7 +33,7 @@ Another obstacle is time or, to be more specific, the daily burn rate. There is 
 
 ## Creating or Finding a Common Tongue
 
-Models, aggregates, tables, databases and so on – people unfamiliar with the jargon find it hard to comprehend what a developer is saying. Engineers seem to us mortals as some sort of aliens, with all their _message queues_,_ asynchronous programming_, _relational databases_, _http statuses_, _protocols_ and so on. And developers rarely know anything about the domain they are paid to model. Taxes, company rules and market reality are as mumbo-jumbo to them as their lingo is to the business people.
+Models, aggregates, tables, databases and so on – people unfamiliar with the jargon find it hard to comprehend what a developer is saying. Engineers seem to us mortals as some sort of aliens, with all their _message queues_, _asynchronous programming_, _relational databases_, _http statuses_, _protocols_ and so on. And developers rarely know anything about the domain they are paid to model. Taxes, company rules and market reality are as mumbo-jumbo to them as their lingo is to the business people.
 
 What both of us need is a _common tongue_, a **tool giving us access to each other’s understanding**. The common thing we understand, or at least can start a discussion with, are the most basic phenomena we can observe: **events**.
 
