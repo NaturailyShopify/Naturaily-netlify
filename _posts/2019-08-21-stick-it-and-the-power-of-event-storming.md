@@ -116,10 +116,10 @@ This is just a small example of how an **event storming session** can unfold its
 You already saw a few building blocks. As I was writing this article, I planned to use the collection above, yet I found out that in the middle of the process I need a new one, which we can call “business process”. Let’s go through them:
 
 * **Domain Event** displays “what happened” in the domain.
-* **Command **represents what its name is, i.e. a _command_. Sometimes a process starts because of different types of commands. So the “computer turned off” event can be initialized by the “turn off the computer” command from a user or by another annoying Windows 10 “critical” update.
+* **Command** represents what its name is, i.e. a _command_. Sometimes a process starts because of different types of commands. So the “computer turned off” event can be initialized by the “turn off the computer” command from a user or by another annoying Windows 10 “critical” update.
 * **Read Model** is an entity from which we can, well, read!
 * **Aggregate** forms a coherent boundary based on business rules. In other words, it is a snapshot of the system in the given moment and context.
-* **Rule **stands for a business rule that requires satisfaction to validate another block.
+* **Rule** stands for a business rule that requires satisfaction to validate another block.
 * **User** is an actor who  interacts with the system.
 * **Condition** covers situations when our process branches out into different paths.
 
