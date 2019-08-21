@@ -1,16 +1,16 @@
 ---
-title: How to increase your effectiveness? Productivity tools for devs
+title: How to increase your effectiveness? Productivity tools (not only) for devs
 description: >-
   Using tools is necessary for us to be more productive as well as more
   effective. It isn’t about a tool in general, but the right one.
-slug: productivity-tools-for-devs
+slug: productivity-tools-not-only-for-devs
 layout: post
 date: '2019-08-20 06:40:53 +0200'
 category: Software development
 author: Michał Kosyk
 authors: Michał Kosyk
 avatar: /assets/images/michal_kosyk_profile.png
-image: /assets/images/multiprocessing-in-ruby-a-good-alternative-to-threads_.png
+image: /assets/images/productivity-tools-why-use-productivity-tools-at-all_.jpg
 text-preview: >-
   In a world of distraction and endless procrastination, we are witnessing the
   birth of a whole-new currency, scarce but incredibly coveted: focus and
