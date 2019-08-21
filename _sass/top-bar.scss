@@ -3,6 +3,15 @@
   grid-template-columns: 1fr 540px 1fr;
   display: none;
   background: #FEFBF5;
+  grid-area: header;
+  position: relative;
+  z-index: 3;
+  top: 56px;
+  transition: top .2s ease;
+
+  .scrolled & {
+    top: 0;
+  }
 
   .topbar {
     grid-column: 2;
@@ -50,11 +59,15 @@
         margin: 0 10px;
         filter: grayscale(100%);
         opacity: 0.3;
+        transition: filter .2s ease, opacity .2s ease;
 
         &:hover {
           filter: grayscale(0);
           opacity: 1;
         }
+      }
+      a:last-child img {
+        margin-right: 0;
       }
     }
 

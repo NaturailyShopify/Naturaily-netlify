@@ -250,6 +250,40 @@ pre, code {
       color: $color-primary;
     }
   }
+
+  .kpz-subjects {
+    display: flex;
+
+    a {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .inline-image {
+    display: inline-block;
+    max-width: 120px;
+  }
+
+  table {
+      border: solid 1px $color-accent-yellow;
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: 14px;
+      margin-bottom: 30px;
+
+    & thead th {
+      background-color: $color-code-bg;
+      border: solid 1px $color-accent-yellow;
+      padding: 10px;
+      text-align: left;
+    }
+
+    & tbody td {
+      border: solid 1px $color-accent-yellow;
+      padding: 10px;
+    }
+  }
 }
 
 .meetus-social {
@@ -261,6 +295,7 @@ pre, code {
     margin: 0 15px;
     filter: grayscale(100%);
     opacity: 0.3;
+    transition: filter .2s ease, opacity .2s ease;
 
     &:hover {
       filter: grayscale(0);
@@ -387,4 +422,17 @@ pre, code {
     max-width: 310px !important;
   }
 
+}
+
+
+@media (max-width: 575px) {
+  .post {
+    .kpz-subjects {
+      flex-direction: column;
+
+      a {
+        margin-right: 0;
+      }
+    }
+  }
 }

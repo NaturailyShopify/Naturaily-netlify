@@ -151,10 +151,12 @@
   }
 
   .career-card {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    min-height: 230px;
     width: 100%;
     margin-top: 30px;
-    padding: 30px 0;
+    padding: 30px 0 20px;
     overflow: hidden;
     background: $color-white;
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.07);
@@ -173,14 +175,13 @@
     }
 
     &-job {
-      height: 80px;
+      height: 65px;
       line-height: 30px;
       color: $color-global-font;
       font-size: 1.7rem;
     }
 
     &-rate {
-      margin-top: 25px;
       color: $color-accent-gold;
       font-size: 1rem;
     }
@@ -188,7 +189,8 @@
     &-apply {
       display: block;
       width: 105px;
-      margin: 40px 0 0 50px;
+      margin-top: auto;
+      margin-left: 50px;
       padding: 8px 15px;
       color: $color-white;
       font-size: 0.8rem;
@@ -197,7 +199,7 @@
 
     .career-hover-wave {
       position: absolute;
-      top: 170px;
+      bottom: 0;
       z-index: -1;
       opacity: 0;
       transition: opacity .2s;
@@ -209,6 +211,10 @@
       }
     }
   }
+}
+
+.career-full-image {
+  min-height: 175px;
 }
 
 .career-carousel {
@@ -245,6 +251,10 @@
     &:before {
       margin-left: -35px;
     }
+  }
+
+  .career-full-image {
+    min-height: 270px;
   }
 }
 
@@ -406,6 +416,10 @@
       }
     }
   }
+
+  .career-full-image {
+    min-height: 480px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -432,6 +446,10 @@
         }
       }
     }
+  }
+
+  .career-full-image {
+    min-height: 560px;
   }
 }
 
@@ -470,6 +488,16 @@
 
   .l-career-header {
     padding: 0 135px;
+  }
+
+  .career-full-image {
+    min-height: 610px;
+  }
+
+  .l-content-offers {
+    .l-career-container {
+      padding: 0 90px;
+    }
   }
 }
 
@@ -677,9 +705,9 @@
     }
 
     &.person-2 img {
-      top: 45%;
-      right: 22%;
-      transform: scale(1.5);
+      top: -50%;
+      right: 0%;
+      transform: scale(1.2);
     }
   }
 }

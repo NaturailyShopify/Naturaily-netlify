@@ -1,4 +1,5 @@
 ---
+published: true
 title: React Developer
 description: >-
   Working at Naturaily is a great opportunity to enhance your skills and spend
@@ -6,13 +7,17 @@ description: >-
 layout: career-details
 image: /assets/images/naturaily-job-offer-react.png
 twitter-card: summary_large_image
-location: Wrocław / Warszawa / remote
+location: Wrocław
 who_we_are: >-
-  We are an agile development team using Ruby on Rails, node.js, React.js and
-  Vue.js craft great digital experiences. We work with startups and grown-up
-  companies.
+  At Naturaily we value individuality, professionalism, open communication and
+  honesty. We strive to provide our clients with the best, stable, reliable and
+  beautiful digital products. We achieve that by avoiding technical debt and
+  being thorough. After years of working with digital products we’re still
+  excited by new technologies, creative solutions and overcoming challenges. We
+  pride ourselves in knowledge of Vue.js, Ruby on Rails, Node.js and Internet of
+  Things.
 type: Development
-salary: from 6000 PLN net
+salary: 10 000 - 15 000 PLN net + VAT (B2B)/ 8400 - 12 500 PLN gross (UoP)
 responsibilities:
   - >-
     Development of web-based interface that has reusable components&#44; is both
@@ -42,14 +47,14 @@ nicehave:
   - Experience working in Agile environment
   - Experience with TypeScript
 offer:
-  - Work-Life balance
-  - 'Mac laptop&#44; multiple screens&#44; etc'
-  - Flexible working hours and/or home-office
-  - Location in the heart of Wrocław’s Old Town
-  - 'Coffee&#44; tea&#44; snacks&#44; fresh fruit'
-  - Pizza Friday
-  - 'Workshops&#44; conferences&#44; training'
+  - Great environment for personal development
+  - A chance to develop internal projects
+  - Bottom-up decision making culture
+  - Flexible working hours
+  - Remote work if needed
+  - Fresh fruits & snacks
+  - “Pizza Day".
 salary-range:
-  - 6 000 - 15 000 PLN + VAT B2B
+  - 10 000 - 15 000 PLN net + VAT (B2B)/ 8400 - 12 500 PLN gross (UoP)
 ---
 

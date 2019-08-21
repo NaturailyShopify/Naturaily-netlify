@@ -15,9 +15,8 @@ text-preview: >-
 tags:
   - Startups
 ---
-## Why failures and successes matter to other entrepreneurs?
 
-“Fail often so you can succeed sooner.” ~ Tom Kelley, Ideo partner
+> Fail often so you can succeed sooner. ~ Tom Kelley, Ideo partner
 
 Experience is the best teacher. Every fail or success is a lesson for CEOs and future entrepreneurs. They teach that you should plan your business very carefully because each step can lead you to fall down in a hole that you can’t get out of.
 

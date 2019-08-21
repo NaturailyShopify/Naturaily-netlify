@@ -5,7 +5,7 @@ description: >-
   they can be solved by patterns! Find out what are the basic design patterns in
   Ruby on Rails.
 slug: ruby-on-rails-design-patterns
-twitter-card: summart_large_image
+twitter-card: summary_large_image
 date: '2016-08-18 10:38:01 +0000'
 category: Ruby on Rails development
 author: Marcin Mantke

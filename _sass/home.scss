@@ -1,11 +1,18 @@
 .main__wave {
-  padding-top: 40%;
   grid-area: header;
-  background-image: url('../assets/images/main-wave.png');
-  background-position: 50% 0;
-  background-size: 133%;
-  background-repeat: no-repeat;
-  height: 900px;
+  height: 500px;
+  position: relative;
+  z-index: -1;
+
+  img {
+    width: 100%;
+    height: 100%;
+    min-width: 1440px;
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+    z-index: -1;
+  }
 }
 
 .main-point {
@@ -31,6 +38,21 @@
       color: $color-accent-blue;
     }
   }
+  &.red-dot {
+    &::before {
+      color: $color-primary;
+    }
+  }
+  &.gold-dot {
+    &::before {
+      color: $color-accent-gold;
+    }
+  }
+  &.pink-dot {
+    &::before {
+      color: $color-accent-pink;
+    }
+  }
 }
 
 .l-content {
@@ -48,6 +70,10 @@
 .l-full-page {
   min-width: 0;
   grid-column: left-sidebar / right-sidebar;
+
+  &--estimate {
+    max-width: 1380px;
+  }
 }
 
 .main-wave-1 {

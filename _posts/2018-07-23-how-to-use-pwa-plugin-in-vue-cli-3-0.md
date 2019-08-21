@@ -5,6 +5,7 @@ description: >-
   Let's jump into the world of PWA!
 slug: pwa-vue-cli-3
 layout: post
+twitter-card: summary_large_image
 date: '2018-08-06 10:42:09 +0000'
 category: JavaScript development
 author: Tomasz Żdanuk
@@ -26,7 +27,7 @@ According to Google Developers PWA description, Progressive Web Apps is a concep
 
 **Native mobile apps are more engaging** to users than web pages. It's way easier to just tap the icon on the home screen than to type a long URL. Native apps are also designed for mobile purposes, as well as in terms of graphic design, features and technical aspects. Unlike web apps, native apps have push notifications, access to your camera, or mic, but is that still true? No! PWA can that too!
 
-# Read: [A brief guide to PWAs in 2018.](https://naturaily.com/blog/pwa-guide)
+## Read: [A brief guide to PWAs in 2018.](https://naturaily.com/blog/pwa-guide)
 
 ## PWA Characteristics
 
@@ -275,3 +276,5 @@ PWA still have a long way to come, but it's on very good track!
 I hope the Apple will soon fully support PWA apps because that should help PWA in becoming better and more popular technology. Thanks to the **Vue CLI 3.0**, building **PWA apps** is as easy as pie, and thanks to the plugin structure you can easily inclue PWA to your project on every stage of the development.
 
 All what you have to worry about is preparing graphics and making decisions on what and how you want to cache, Vue PWA plugin will do the dirty work for you.
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 

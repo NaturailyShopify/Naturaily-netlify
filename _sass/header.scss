@@ -22,6 +22,7 @@
       a {
         color: $color-global-font;
         text-decoration: none;
+        transition: color .2s ease;
       }
 
       &.active {
@@ -57,6 +58,10 @@
       font-size: 12px;
       padding: 14px 40px;
     }
+  }
+
+  .menu-estimate {
+    display: none;
   }
 }
 
@@ -302,6 +307,12 @@
               width: 100%;
               background: #ffc273;
               z-index: -1;
+            }
+            &-estimate {
+              display: flex;
+              margin-top: 100%;
+              justify-content: center;
+              bottom: 60px;
             }
           }
 

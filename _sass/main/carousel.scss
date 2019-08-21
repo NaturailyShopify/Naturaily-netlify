@@ -1,6 +1,7 @@
 .carousel-point {
   margin: 70px 0 30px 0;
 }
+
 .main-carousel {
   .slick-prev {
     z-index: 1;
@@ -61,6 +62,7 @@
 
     }
   }
+
   .slick-list {
     padding: 30px 150px;
     margin-bottom: 100px;
@@ -69,42 +71,58 @@
       outline: none;
     }
   }
+
   .slick-dots {
     bottom: -100px;
+
+    li {
+      transition: all .2s ease;
+    }
   }
+
   .slick-dots li button {
     display: none;
   }
+
   ul.slick-dots li.slick-active {
-    filter: grayscale(0);
-    opacity: 1;
+     filter: grayscale(0%);
+     opacity: 1;
   }
+
   .slick-dots li:nth-child(1) {
     background-image: url('/assets/images/firefield.png');
     background-size: 100px;
     background-repeat: no-repeat;
     width: 100px;
     height: 30px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }
+
   .slick-dots li:nth-child(2) {
     background-image: url('/assets/images/format.png');
     background-size: 100px 50px;
     width: 100px;
     height: 40px;
     margin-top: 3px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }
+
   .slick-dots li:nth-child(3) {
     background-image: url('/assets/images/apptegy.png');
     background-size: 100px;
@@ -112,13 +130,17 @@
     width: 100px;
     height: 23px;
     margin-top: 4px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }
+
   .slick-dots li:nth-child(4) {
     margin-bottom: -15px;
     background-image: url('/assets/images/itm.png');
@@ -126,27 +148,35 @@
     width: 100px;
     height: 55px;
     margin-top: 4px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }
+
   .slick-dots li:nth-child(5) {
     background-image: url('/assets/images/ea-tech-logo.png');
     background-size: cover;
     width: 50px;
     height: 37px;
     margin-top: 4px;
+    margin-bottom: -6px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
     filter: grayscale(100%);
     opacity: 0.3;
-    margin-bottom: -6px;
+
     &:hover {
-      filter: grayscale(0);
+      filter: grayscale(0%);
       opacity: 1;
     }
   }
+
   .carousel-item {
     display: block;
     box-shadow: 0 8px 32px 2px rgba(0,0,0,0.1);
@@ -175,6 +205,7 @@
         box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
       }
     }
+
     .item-opinion {
       float: left;
       width: 100%;
@@ -220,10 +251,12 @@
     height: 200px;
     margin: 0 20px;
     width: 720px;
+
     .item-opinion {
       width: 73%;
       padding-left: 7%;
     }
+    
     .item-info {
       margin-top: 15px;
       padding-left: 3%;

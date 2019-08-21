@@ -1,8 +1,6 @@
 ---
 layout: default
 ---
-{% assign types = site.career | map: "type" %}
-{% assign carrer_types = types | uniq | join: ' ' %}
 
 <div class="career__wave"></div>
 
@@ -41,7 +39,9 @@ layout: default
       projects. Every week brings new challenges, and every week, we work
       together to meet them.
     </p>
-    <img class="full-width" src="/assets/images/career-image-1.jpg" alt="">
+    <div class="career-full-image full-width">
+      <img src="/assets/images/loader.gif" data-src="/assets/images/career-image-1.jpg" alt="">
+    </div>
     <h2 class="career-header margin-top">
       We notice potential
     </h2>
@@ -91,13 +91,13 @@ layout: default
       </blockquote>
     </div>
     <div class="career-person person-1">
-      <img class="career-image" src="/assets/images/career-image-2.jpg" alt="">
+      <img class="career-image" src="/assets/images/loader.gif" data-src="/assets/images/career-image-2.jpg" alt="">
     </div>
   </div>
 </div>
 
 <div class="l-content l-career-container no-gutters l-career-container-benefits">
-  {% include career-benefits.html %}
+  {% include careers/career-benefits.html %}
 </div>
 
 <div class="wave main-wave-2">
@@ -111,7 +111,9 @@ layout: default
       When you come to work with us you will most likely have to assemble your
       own workstation, it’s our special way of welcoming you into our ranks!
     </h2>
-    <img class="full-width" src="/assets/images/career-image-3.jpg" alt="">
+    <div class="career-full-image full-width">
+      <img src="/assets/images/loader.gif" data-src="/assets/images/career-image-3.jpg" alt="">
+    </div>
   </div>
 </div>
 
@@ -132,12 +134,14 @@ layout: default
       overcoming challenges. We pride ourselves in knowledge of Vue.js, Ruby on
       Rails and Internet of Things.
     </p>
-    <img class="full-width" src="/assets/images/career-image-4.jpg" alt="">
+    <div class="career-full-image full-width">
+      <img src="/assets/images/loader.gif" data-src="/assets/images/career-image-4.jpg" alt="">
+    </div>
   </div>
 </div>
 
 <div class="l-content">
-  {% include career-recruitment.html %}
+  {% include careers/career-recruitment.html %}
 </div>
 
 <div class="wave main-wave-3">
@@ -161,7 +165,7 @@ layout: default
       </blockquote>
     </div>
     <div class="career-person person-2">
-      <img class="career-image" src="/assets/images/career-image-5.jpg" alt="">
+      <img class="career-image" src="/assets/images/loader.gif" data-src="/assets/images/career-image-5.jpg" alt="">
     </div>
   </div>
 </div>
@@ -183,17 +187,27 @@ layout: default
   </div>
 </div>
 
+{% assign types_filtered = site.career | where: "published", "true"%}
+{% assign types = types_filtered | map: "type" %}
+{% assign carrer_types = types | uniq | join: ' ' %}
+
+
+{% assign development_type = types_filtered | where: "type", "Development" %}
+{% assign ux_type = types_filtered | where: "type", "UX/UI" %}
+{% assign marketing_type = types_filtered | where: "type", "Sales&Marketing" %}
+{% assign business_type = types_filtered | where: "type", "Business" %}
+{% assign operations_type = types_filtered | where: "type", "Operations" %}
+{% assign other_type = types_filtered | where: "type", "Other" %}
+
 {% for carrer_type in carrer_types %}
   <div class="l-content l-content-offers">
-    {% if carrer_type contains "Development" %}
+    {% if carrer_type contains "Development"  %}
       <div class="l-career-container">
         <div class="main-point pt-3">
           Development
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Development" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in development_type %}
+          {% include careers/career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
@@ -202,10 +216,8 @@ layout: default
         <div class="main-point blue-dot">
           UX/UI
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "UX/UI" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in ux_type %}
+          {% include careers/career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
@@ -214,46 +226,38 @@ layout: default
         <div class="main-point green-dot">
           Sales&Marketing
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Sales&Marketing" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in marketing_type %}
+          {% include careers/career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
-    {% if carrer_type contains "Business Development" %}
+    {% if carrer_type contains "Business" %}
       <div class="l-career-container">
-        <div class="main-point">
+        <div class="main-point red-dot">
           Business Development
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Business Development" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in business_type %}
+          {% include careers/career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
     {% if carrer_type contains "Operations" %}
       <div class="l-career-container">
-        <div class="main-point blue-dot">
+        <div class="main-point gold-dot">
           Operations
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Operations" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in operations_type %}
+          {% include careers/career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
     {% if carrer_type contains "Other" %}
       <div class="l-career-container">
-        <div class="main-point green-dot">
+        <div class="main-point pink-dot">
           Other
         </div>
-        {% for job in site.career %}
-          {% if job.type contains "Other" %}
-            {% include career-box.html %}
-          {% endif %}
+        {% for job in other_type %}
+          {% include careers/career-box.html %}
         {% endfor %}
       </div>
     {% endif %}
@@ -277,7 +281,7 @@ layout: default
 </div>
 
 <div class="l-full-page">
-  {% include career-form.html %}
+  {% include careers/career-form.html %}
 </div>
 
 <div class="l-content">
@@ -294,7 +298,7 @@ layout: default
 </div>
 
 <div class="l-full-page career-carousel">
-  {% include career-carousel.html %}
+  {% include careers/career-carousel.html %}
 </div>
 
 <script type="text/javascript">

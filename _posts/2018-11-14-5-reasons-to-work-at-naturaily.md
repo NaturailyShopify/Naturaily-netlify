@@ -1,5 +1,5 @@
 ---
-title: 5 Reasons To Work at Naturaily
+title: 5 Reasons Why You'll Love Working at Naturaily
 description: >-
   Are looking for a new job in the software development sector? Here are 5
   reasons why you will love working at Naturaily.
@@ -60,4 +60,5 @@ After time-consuming and challenging tasks you can go relax in our chill room. I
 
 There is no hierarchy in our teams. We highly value equality. Everyone is allowed to speak their minds and is treated equally, no matter their position or experience.
 
-# Check out [Careers at Naturaily](https://naturaily.com/careers)!
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
