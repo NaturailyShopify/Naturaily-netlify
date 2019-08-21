@@ -241,4 +241,4 @@ I hope this will help you get a headstart on the road to great results: met dead
 
 Farewell
 
-![Check out open possitions](/assets/images/join-the-team.png){:target="_blank"} 
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
