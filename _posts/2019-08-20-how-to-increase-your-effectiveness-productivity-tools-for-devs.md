@@ -240,3 +240,5 @@ To sum it up, getting more productive requires a tool/system for managing your:
 I hope this will help you get a headstart on the road to great results: met deadlines, avoided f\*\**ups and contained chaos.
 
 Farewell
+
+![Check out open possitions](/assets/images/join-the-team.png){:target="_blank"} 
