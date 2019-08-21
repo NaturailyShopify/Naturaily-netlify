@@ -64,3 +64,5 @@ Kafka is better suited for microservices. It has persistent storage, so events f
 Check out both tools here:
 * [Eclipse Mosquitto](https://mosquitto.org/){:rel=nofollow}
 * [Apache Kafka](https://kafka.apache.org/){:rel=nofollow}
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
