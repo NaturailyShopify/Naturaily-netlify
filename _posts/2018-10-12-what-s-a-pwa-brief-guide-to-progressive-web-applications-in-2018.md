@@ -144,3 +144,5 @@ Link: <https://m.uber.com/>{:rel=nofollow}
 As other mentioned above apps, Tinder Online was created to expand on new markets. The PWA took only 3 months to develop and it delivers the core Tinder experience with only 10th of the native app size! It takes only 5 seconds on 4G connection to get interactive. The development team has utilized JavaScript Route-based code-splitting to shrink down this time from initial 12 seconds to only 5 seconds. Tinder saw an increase in session time, messages and swiping compared to their native app.
 
 Link: [https://tinder.com/](https://tinder.com/?lang=en){:rel=nofollow}
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
