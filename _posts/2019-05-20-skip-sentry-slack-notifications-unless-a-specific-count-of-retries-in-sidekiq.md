@@ -110,3 +110,5 @@ end
 ## Summary
 
 Sentry will be notified after ninth retry of some errors. We wanted to avoid overflooding Sentry/Slack with notifications. Some jobs after some retries are successful and there’s no need to get notifications from the very beginning.
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
