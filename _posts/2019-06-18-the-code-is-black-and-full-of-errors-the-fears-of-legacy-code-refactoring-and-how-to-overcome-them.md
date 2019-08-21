@@ -104,3 +104,5 @@ Start small. Possibly from a method that isn’t really clear but is a good star
 Enjoy your small refactors!
 
 Farewell
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
