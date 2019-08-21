@@ -77,8 +77,6 @@ With that in mind, we can now apply this mapping and take action.
 * If a task is **urgent but not important**, we could try to **delegate it to someone else**. Example: We need to create a CRUD admin page which isn’t that important. We can delegate it to a Junior Developer.
 * If the task is **both unimportant and not urgent** we should **delete it out of our list of tasks**.
 
-
-
 ## Which tools should I use?
 
  [Nozbe](https://nozbe.com/pl/){:rel="nofollow"}{:target="_blank"} is a great task management tool. It introduces the concepts found in Allen’s book I mentioned before. It has all the tutorials, tips and hints you need to get you started. While it is quite challenging at first to comprehend all its functionalities, there is no need to get it right immediately. As I said (and will repeat it over and over again), **you don’t have to be an expert from the start**. Just start. Do it, learn from your mistakes and be a bit better every day.
@@ -131,8 +129,6 @@ And after you confirm it:
 The tool is an easy way to organise yourself. Even if you don’t use it on a regular basis, having this app at hand will teach you the habit of creating tasks. At least some of them, which seems not much – but having some of your daily goals written down is far better than none at all.
 
 These are the basics of personal task management, of course. I wouldn’t even dare to call myself an expert and firmly believe that it all depends on how you, as the user, see it.
-
-
 
 ### Notes
 
@@ -211,7 +207,7 @@ After clicking _“Save”_ button, you can see all the notes in the form of a c
 
 After clicking one of them, a window will appear with the full note:
 
-![Notes](/assets/images/notes_16.png)
+![Notes](/assets/images/notes_15_new.png)
 
 Isn’t that great? Now you have the ability to not only take quick, lightweight notes and manage them properly, but you can also use them in your Nozbe task management system. This is especially useful if you have multiple meetings in one day. At the end of the day you can summarize them, create tasks with actions from notes and attach notes to every task without the need to shuffle all those browser tabs.
 
