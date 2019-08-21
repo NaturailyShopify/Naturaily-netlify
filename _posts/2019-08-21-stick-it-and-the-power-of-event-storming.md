@@ -1,5 +1,5 @@
 ---
-title: Stick-it! and the power of Event Storming
+title: Stick-it! And the power of Event Storming
 description: >-
   Miscommunication between business people and engineers is a common issue.
   While we could start pointing fingers and blaming either side, the problem
