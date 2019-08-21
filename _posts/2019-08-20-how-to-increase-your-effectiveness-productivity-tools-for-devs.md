@@ -10,7 +10,7 @@ category: Software development
 author: Michał Kosyk
 authors: Michał Kosyk
 avatar: /assets/images/michal_kosyk_profile.png
-image: /assets/images/productivity-tools-why-use-productivity-tools-at-all_.jpg
+image: /assets/images/productivity-tools-why-use-productivity-tools-at-all_-1-.jpg
 text-preview: >-
   In a world of distraction and endless procrastination, we are witnessing the
   birth of a whole-new currency, scarce but incredibly coveted: focus and
