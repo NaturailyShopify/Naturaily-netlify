@@ -168,3 +168,5 @@ Great and easy way to implement the parallax effect in you project. Parallaxy is
 <br>
 
 ### Would you add anything to our list? Make sure to share the GitHub link with us in the comments down below!
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
