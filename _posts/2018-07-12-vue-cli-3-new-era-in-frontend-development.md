@@ -179,3 +179,5 @@ Out of the box, PWA support is an amazing feature and an opportunity to create t
 “_Plugins and Presets_” <strong>|</strong> <https://cli.vuejs.org/guide/plugins-and-presets.html#plugins>
 
 22.07.2016 Dan Abramov <strong>|</strong> “_Create Apps with No Configuration_” <strong>|</strong> <https://reactjs.org/blog/2016/07/22/create-apps-with-no-configuration.html>
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
