@@ -86,4 +86,5 @@ This solution might not fit every shop user needs. Remember, if you plan to use 
 
 Nevertheless, I hope you will find this small workaround interesting and also helpful.
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
