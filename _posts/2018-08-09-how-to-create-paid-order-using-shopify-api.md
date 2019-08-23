@@ -85,3 +85,5 @@ But…
 This solution might not fit every shop user needs. Remember, if you plan to use draft orders on your own and complete them manually then this might interfere with your current flow and will not work well for you. This solution is intended to be used in automated and predictable vendors which will use Shopify mostly as an admin panel.
 
 Nevertheless, I hope you will find this small workaround interesting and also helpful.
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
