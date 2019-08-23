@@ -76,3 +76,5 @@ EuroNews channel aims to cover the news from across Europe. Their headquarters a
 Buzzfeed is one of the biggest and most popular news outlets. With massive traffic going through the website, the dev team had to choose the best software to do the job. This is why **Buzzfeed has utilized the power of Vue.js** on some of their subsites.
 
 Are you interested in Vue.js development? Check out our blog for more Vue.js related posts! [Vue.js development](https://naturaily.com/blog/tags/vue-js-development/)
+
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
