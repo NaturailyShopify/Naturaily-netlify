@@ -70,3 +70,5 @@ Here’s a brief comparison between Vue.js and React we did a while back. Check 
 
 ## Read: [Vue.js resources](https://naturaily.com/vue-resources)
 *Edit 09.01.2018: Updated links*
+
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}

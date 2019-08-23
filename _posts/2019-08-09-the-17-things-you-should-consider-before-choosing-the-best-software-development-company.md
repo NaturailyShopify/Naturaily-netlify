@@ -75,7 +75,7 @@ Case in point: let’s say that a company X offers 35$ per man-hour, and a compa
 
 Once it’s delivered, you can finally monetize it (yay!). If you’d chosen Company X’s offer you would have to wait much longer for the same result.
 
-Companies often offer some sort of a **free trial** to give clients more confidence signing the final deal. If the expectations are not met you can terminate the cooperation but keep in mind that after doing so you lose all progress achieved by the team. At Naturaily, the trial usually lasts XXX weeks.
+Companies often offer some sort of a **free trial** to give clients more confidence signing the final deal. If the expectations are not met you can terminate the cooperation but keep in mind that after doing so you lose all progress achieved by the team. At Naturaily, the trial usually lasts 2 weeks.
 
 [![Company presentation](/assets/images/new-company-presentation.png)](https://docsend.com/view/q8rascf){:target="_blank"}
 

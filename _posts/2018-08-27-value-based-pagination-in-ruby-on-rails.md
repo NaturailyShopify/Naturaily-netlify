@@ -164,4 +164,6 @@ Thanks for reading!
 
 Sources:
 
-[The art of pagination – Offset vs. value based paging ](https://blog.novatec-gmbh.de/art-pagination-offset-vs-value-based-paging/){:rel="nofollow"}
+[The art of pagination – Offset vs. value based paging ](https://blog.novatec-gmbh.de/art-pagination-offset-vs-value-based-paging/){:rel="nofollow"}{:target="_blank"} 
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 

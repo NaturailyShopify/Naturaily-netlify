@@ -262,3 +262,5 @@ Table and chart show that the best way is using ```ActiveRecord::Import``` with 
 
 
 I know it’s a really simple case, without any other validations, but you can treat it as a hint how to use SQL validations to speed up saving data to database.
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
