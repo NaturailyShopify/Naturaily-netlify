@@ -166,3 +166,5 @@ There is definitely a lot of room for improvement in our implementation but at t
 What other solutions would you suggest for our case and why? We’re always happy to learn new things! 
 
 **Special thanks to the reviewer of this post: Jakub Flasiński.**
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
