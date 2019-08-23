@@ -109,3 +109,5 @@ Ending…
 We just removed all migrations by adding new one with the whole structure. We can now continue hacking and adding new migrations in normal way. Above steps can be repeated any time we want. So, you can keep small number of migrations. Just be careful when you have new migrations on your local branch, but they are not deployed to staging or production yet. It won’t work. You need too rollback your local migrations until it matches staging/production and then copy `schema.rb`
 
 Thanks all for now. Thank you and bye :)
+
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
