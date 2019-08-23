@@ -261,4 +261,4 @@ Even though, after reading this post, using Ruby and Ruby on Rails may seem coun
 
 Recent and upcoming releases of Ruby on Rails sound very promising. Many of developers' complaints have been fixed, new exciting features are added with every new [version](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/){:rel=nofollow}. Hopefully Ruby and Rails will both rise again in the near future.
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
