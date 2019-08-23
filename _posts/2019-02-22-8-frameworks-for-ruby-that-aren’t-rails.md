@@ -68,3 +68,5 @@ is a web framework built on top of **Rack**, created by Jeremy Evans, that start
 ## Conclusion
 
 Hopefully this round-up of some alternative Ruby frameworks will help expand your horizon. Chances are, you don’t always need a massive framework like Rails, and could sometimes use a micro one, like some of the aforementioned frameworks. That being said we’re still huge fans of [Ruby on Rails](https://naturaily.com/services/ruby-on-rails-development) and not to brag, but our developers are experts on the subject. Interested in working together? Contact us at **hello@naturaily.com**.
+
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
