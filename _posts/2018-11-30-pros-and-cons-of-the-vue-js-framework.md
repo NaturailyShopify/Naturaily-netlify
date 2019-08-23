@@ -64,3 +64,6 @@ Sure it’s nice to have flexibility and many options within a framework that yo
 ## Conclusion
 
 Vue certainly does the job it’s intended to do, and succeeds in some areas that other frameworks fail. If you’d like to read more about the state of Vue.js in 2018 check out our dedicated blog post [here](https://naturaily.com/blog/vue-js-2018).
+
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+
