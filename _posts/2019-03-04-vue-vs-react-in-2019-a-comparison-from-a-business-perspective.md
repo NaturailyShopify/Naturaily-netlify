@@ -103,3 +103,5 @@ What about React? It offers similar kind of support too! The React team provides
 React, a mature technology with a huge number of contributors. No wonder, it’s backed by one of the biggest tech giants in the world. It quickly became widely accepted among companies creating a great job market for developers as well as other businesses looking for a dev team. **React is a great option for MVPs and scalable products - it is efficient, modular and allows for quick prototyping.**
 
 Vue is the new kid in town. It’s a young and fresh technology with no strong backing. It doesn’t mean that the project is not being actively developed - everyday the project is being improved by hundreds of contributors. Statistics don’t lie, Vue is getting more and more popular among large companies, **2018 has been the best year for the framework by far**! Maybe the job market is not as great as React’s but it’s constantly growing, evolving and becoming more competitive. **Vue is a great option is you prefer simplicity and flexibility.**
+
+[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
