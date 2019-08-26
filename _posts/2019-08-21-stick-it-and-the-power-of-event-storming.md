@@ -41,31 +41,25 @@ We can easily understand things like: a fire started, the coffee machine broke. 
 
 Let us imagine programming a coffee machine. We have no idea about what a coffee machine does except that it gives coffee. We could start with something like this:
 
-![](/assets/images/stick_it_1.png)
-
-
+![null](/assets/images/1_stick_it.png)
 
 Okay, we see the beginning of a process and its end. We stand with a barista as a domain expert and he adds some few stick-its.
 
-![](/assets/images/stick_it_2.png)
+![null](/assets/images/2_stick_it.png)
 
 Okay, something fishy is going on here. You’re not an expert but this is really confusing. You ask – Is this right? Is the order right?
 
 The barista thinks for a second and comes up with a simple – “not really, let me fix it for you”:
 
-![](/assets/images/stick_it_3.png)
+![null](/assets/images/3_stick_it.png)
 
 Then the developer looks at the events and does some thinking. Finally, the question arises – what if there is no coffee?
 
-
-
 The barista takes a deep breath gazing at the stick-its. He understands the problem and answers “Yes, so, in a cafe-style coffee machine a barista takes care of that. But when you are not accustomed to that, you may forget to add coffee. You can face a situation when someone forgets to add coffee.
-
-
 
 The developer asks a few more questions and other problems pop out. The board looks like this:
 
-![](/assets/images/stick_it_4.png)
+![null](/assets/images/4._stick_itpng.png)
 
 The barista and the developer look at the board.
 
@@ -73,45 +67,37 @@ The barista and the developer look at the board.
 
 “Ok, let’s do it.”
 
-![](/assets/images/stick_it_5.png)
+![null](/assets/images/5_stick_it.png)
 
 “Does it look good?” Asks the developer.
 
 “Yeah. Let’s add espresso.” Says the barista.
 
-![](/assets/images/stick_it_6.png)
-
-
+![null](/assets/images/6_stick_it.png)
 
 They look at the board again. Without a word, they added more stick-its, change the order and, end up with something like:
 
-![](/assets/images/stick_it_7.png)
+![null](/assets/images/7_stick_it.png)
 
 “I think we have some redundancy here.” Says the developer. The barista nods and points at the ‘Coffee ground’ domain event and responds, “I think this has something in common, right?”
 
-
-
 They remove the redundancy the best way they could.
 
-![](/assets/images/stick_it_8.png)
+![null](/assets/images/8_stick_it.png)
 
 “Hey, right! This is it! Latte is just milk with some espresso. That means we can close the process of making espresso and use it as the basis for a latte.”  Says the barista.
 
-
-
 An interesting thing then happens. The business side of the story, a person who obviously knew all of the answers, realizes that a process can be streamlined by reorganizing it. The barista quickly shuffles the stick-its on the board:
 
-![](/assets/images/stick_it_9.png)
+![null](/assets/images/9__stick_it.png)
 
 Now, the cost of understanding the process is much smaller. They were also able to overcome the initial problem of communicating with each other, which **was the main goal in the first place**.
 
-
-
 This is just a small example of how an **event storming session** can unfold itself in the process of defining the domain via events. This is a way of tackling the most complicated business realities out there, for in every process there is something happening. If something happens, we can derive events out of it.
 
+## Building blocks
 
-
-![](/assets/images/blocks.png)
+![null](/assets/images/10__stick_it.png)
 
 You already saw a few building blocks. As I was writing this article, I planned to use the collection above, yet I found out that in the middle of the process I need a new one, which we can call “business process”. Let’s go through them:
 
@@ -141,4 +127,4 @@ Sources:
 * [Event storming](https://www.eventstorming.com/){:rel="nofollow"}{:target="_blank"} 
 * [Oracle](https://www.oracle.com/technetwork/articles/javase/devinsight-1-139780.html#1){:rel="nofollow"}{:target="_blank"} 
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
