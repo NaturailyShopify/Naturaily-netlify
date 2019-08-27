@@ -6,7 +6,7 @@ description: >-
   will not go away on its own. 
 slug: power-of-event-storming
 layout: post
-date: '2019-08-26 07:24:52 +0200'
+date: '2019-08-27 07:24:52 +0200'
 category: Software development
 author: Michał Kosyk
 authors: Michał Kosyk
