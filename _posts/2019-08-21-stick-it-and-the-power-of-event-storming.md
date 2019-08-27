@@ -6,7 +6,7 @@ description: >-
   will not go away on its own. 
 slug: power-of-event-storming
 layout: post
-date: '2019-08-21 07:24:52 +0200'
+date: '2019-08-26 07:24:52 +0200'
 category: Software development
 author: Michał Kosyk
 authors: Michał Kosyk
@@ -21,7 +21,7 @@ text-preview: >
 tags:
   - Software development
 ---
-Miscommunication between business people and engineers is a common issue. While we could start pointing fingers and blaming either side, the problem will not go away on its own. Teams will miss deadlines because something was not clear, the product will fail to meet the client’s expectations, ergo he won’t be willing to pay another invoice because.
+Miscommunication between business people and engineers is a common issue. While we could start pointing fingers and blaming either side, the problem will not go away on its own. Teams will miss deadlines because something was not clear, the product will fail to meet the client’s expectations, ergo he won’t be willing to pay another invoice because of it.
 
 Alberto Brandolini, the creator of the solution I would like to present here, said something really interesting:
 
