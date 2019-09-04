@@ -55,33 +55,44 @@ end
 Most of the times, this will be translated into:
 
 ```ruby
-class Human < ActiveRecord::Base 
+
+class Human < ActiveRecord::Base
   STATES = ["living", "dead"]
-   AGES = ["infant", "child", "teenager", "adult", "elder"] 
+  AGES = ["infant", "child", "teenager", "adult", "elder"]
+
+  aasm column: :state do
+    # state logic
+  end
+end
+
 ```
 
 Now, what typically happens is the programmer starts using it all over the place. The state of one class becomes the state of the whole app. It will end up in views:
 
 ```ruby
-<% if human.dead? && human.teanager? %> 
+
+<% if human.dead? && human.teanager? %>
   <p>DEAD TEENAGER</p>
- <% else %> 
-  <p>Lives</p> 
+<% else %>
+  <p>Lives</p>
 <% end %>
+
 ```
 
 and in your services:
 
 ```ruby
-class SendEmail 
+
+class SendEmail
   def call(human)
-     return if human.dead? || human.infant? || human.child?
+    return if human.dead? || human.infant? || human.child?
 
-      # logic
-   end
+    # logic
+  end
 
-    # some logic 
+  # some logic
 end
+
 ```
 
 ## But can we do any better?
@@ -91,10 +102,12 @@ Yes, we can! And it’s a matter of rethinking the abstraction. The worst habit 
 Let’s begin. First, remove the state machine from your ActiveRecord model:
 
 ```ruby
-class Human < ActiveRecord::Base 
+
+class Human < ActiveRecord::Base
   STATES = ["living", "dead"]
-   AGES = ["infant", "child", "teenager", "adult", "elder"]
- end
+  AGES = ["infant", "child", "teenager", "adult", "elder"]
+end
+
 ```
 
 Then, there is a problem. A **Human** can have two general states and a few specific ones. We cannot just create a _factory_. We need to create an _abstract factory_ which returns the right abstraction for creating the different states of a **Human**.
