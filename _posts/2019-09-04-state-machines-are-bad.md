@@ -8,7 +8,7 @@ category: Ruby on Rails development
 author: Michał Kosyk
 authors: Michał Kosyk
 avatar: /assets/images/michal_kosyk_profile.png
-image: /assets/images/stick-it_-and-the-power-of-event-storming-1-.png
+image: /assets/images/state-machines-are-bad.png
 text-preview: >-
   This is a loaded topic. Some would say that it is a matter of opinion, context
   and so on. Some would say that it is the right approach. I, on the other hand,
