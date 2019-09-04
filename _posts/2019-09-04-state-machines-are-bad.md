@@ -17,7 +17,7 @@ text-preview: >-
   altogether and follow SOLID principles of OOP.
 tags:
   - Ruby on Rails development
-  - state machines
+  - State machines
 ---
 This is a loaded topic. Some would say that it is a matter of opinion, context and so on. Some would say that it is the right approach. I, on the other hand, deeply believe that using state machines in your code is just a form of lazy programming. In this short article I would like to show how to remove them altogether and follow SOLID principles of OOP.
 
