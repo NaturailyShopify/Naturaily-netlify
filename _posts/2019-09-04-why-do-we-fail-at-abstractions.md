@@ -242,6 +242,4 @@ Although I didn’t mention them, it will make your tests a lot simpler.
 
 Use this knowledge to battle the unnecessary complexity of concretisation and reduce it to the simplicity of an abstraction.
 
-
-
 Farewell
