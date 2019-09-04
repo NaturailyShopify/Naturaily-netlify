@@ -5,7 +5,7 @@ description: >-
   We are looking for Senior Ruby on Rails Developer to help us build great
   digital products.
 layout: career-details
-image: /assets/images/kopia-senior_ror_developer_job_offer.png
+image: /assets/images/senior_ror_developer_job_offer.png
 location: Wrocław/ Remote
 who_we_are: >-
   At Naturaily we value individuality, professionalism, open communication and
