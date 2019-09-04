@@ -29,7 +29,7 @@ Wrong! Right now it’s just a wreck! A sorry piece of metal, mangled and clumpe
 
 ```ruby
 
-car = Car.new(state: ‘wreck’)
+car = Car.new(state: 'wreck')
 
 ```
 
