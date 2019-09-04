@@ -103,6 +103,7 @@ When we look at the views, we shouldn’t view them in terms of any business ent
 So let’s create a basic presenter
 
 ```ruby
+
 class TravelPresenter
   TYPE=””
 
@@ -122,6 +123,7 @@ class TravelPresenter
 
   attr_reader :means_of_traveling
 end
+
 ```
 
 We could either go with a plethora of conditional statements but that’s just evil. Instead, let’s rely purely on API, not the type of the object itself. It would be really bad if we had to ask if the server runs on Apache or Nginx, wouldn’t it? Now, it is time to create different subtypes of a TravelPresenter!
