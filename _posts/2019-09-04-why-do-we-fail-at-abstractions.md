@@ -11,7 +11,7 @@ category: Ruby on Rails development
 author: Michał Kosyk
 authors: Michał Kosyk
 avatar: /assets/images/michal_kosyk_profile.png
-image: /assets/images/stick-it_-and-the-power-of-event-storming-1-.png
+image: /assets/images/why-do-we-fail-at-abstractions_.png
 text-preview: >
   We have all been there. We got a task to introduce a totally new
   functionality. New database relations, controllers, services, models, views.
