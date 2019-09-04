@@ -224,7 +224,7 @@ presenters = travel_presenters(vehicles)
 
 presenters.each do |presenter|
   # print the type
-  p presenter.class::TYPE
+  p presenter.type
   # print the travel time
   p presenter.travel_time
   # print the address
