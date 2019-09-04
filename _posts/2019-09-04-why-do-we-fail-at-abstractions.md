@@ -105,7 +105,7 @@ So let’s create a basic presenter
 ```ruby
 
 class TravelPresenter
-  TYPE=””
+  TYPE=""
 
   def initialize(means_of_traveling)
     @means_of_traveling = means_of_traveling
