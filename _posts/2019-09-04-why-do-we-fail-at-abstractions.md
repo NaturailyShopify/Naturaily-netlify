@@ -105,7 +105,7 @@ So let’s create a basic presenter
 ```ruby
 
 class TravelPresenter
-  TYPE=""
+  TYPE= ""
 
   def initialize(means_of_traveling)
     @means_of_traveling = means_of_traveling
@@ -130,7 +130,7 @@ We could either go with a plethora of conditional statements but that’s just e
 
 ```ruby
 class CarTravelPresenter < TravelPresenter
-  TYPE="Car"
+  TYPE= "Car"
 
   def travel_time
     means_of_traveling.driving_time
@@ -142,7 +142,7 @@ class CarTravelPresenter < TravelPresenter
 end
 
 class TrainTravelPresenter < TravelPresenter
-  TYPE="Train"
+  TYPE= "Train"
 
   def travel_time
     means_of_traveling.ride_time
@@ -154,7 +154,7 @@ class TrainTravelPresenter < TravelPresenter
 end
 
 class AeroplaneTravelPresenter < TravelPresenter
-  TYPE="Plane"
+  TYPE= "Plane"
 
   def travel_time
     means_of_traveling.flight_time
