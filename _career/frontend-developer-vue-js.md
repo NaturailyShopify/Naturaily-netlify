@@ -19,11 +19,11 @@ type: Development
 salary: 7500 - 13 000 PLN net (B2B)
 responsibilities:
   - Growing with the company & be rewarded for following through
-  - Working on the business requirement within the project
-  - 'Driving software architecture&#44; design & development activities'
+  - Working on the business requirements within the project
   - Communicating with the Client on a daily basis
+  - 'Driving software architecture&#44; design & development activities'
   - Extending and maintaining DevTeam’s knowledge base
-  - Taking part in grass-roots initiatives and starting them
+  - Taking part in grass-roots initiatives and starting th
 requirements:
   - Commercial experience with software development (min. 2 years’)
   - >-
