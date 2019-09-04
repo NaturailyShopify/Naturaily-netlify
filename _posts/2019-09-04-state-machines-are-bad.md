@@ -21,20 +21,24 @@ tags:
 ---
 This is a loaded topic. Some would say that it is a matter of opinion, context and so on. Some would say that it is the right approach. I, on the other hand, deeply believe that using state machines in your code is just a form of lazy programming. In this short article I would like to show how to remove them altogether and follow SOLID principles of OOP.
 
-## Why do you even need state?
+## Why do you even need a state?
 
 That’s a good question but fear no longer! Bear with me, for I know the answer! Imagine you have a car. It is in perfect shape. Let us visualise a really messy accident. Miraculously, nothing happened to you but your super nice (and expensive) Porsche Carrera GT is wrecked (to put it kindly). It is still a car but in a different state, right?
 
 Wrong! Right now it’s just a wreck! A sorry piece of metal, mangled and clumped together with glass, plastic and some electronics. Now, would you rather define it as:
 
 ```ruby
+
 car = Car.new(state: ‘wreck’)
+
 ```
 
 or
 
 ```ruby
+
 car_wreck = CarWreck.new
+
 ```
 
 Which one is **easier to understand**?
