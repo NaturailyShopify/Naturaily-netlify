@@ -44,13 +44,18 @@ Which one is **easier to understand**?
 Another good question! Let’s define what the _state of an object_ is. States are a way to provide us information about what properties an object has. A state in itself is completely ok if not overused by programmers. It’s just not that useful. If you have a data source, why do you need states in your application? Your database is a big collection of states for different entities. By now, you’ll probably disagree, but bear with me. Let me provide an example:
 
 ```ruby
-class Human < ActiveRecord::Base   STATES = ["living", "dead"]   AGES = ["infant", "child", "teenager", "adult", "elder"] end
+class Human < ActiveRecord::Base
+   STATES = ["living", "dead"]
+   AGES = ["infant", "child", "teenager", "adult", "elder"]
+ end
 ```
 
 Most of the times, this will be translated into:
 
 ```ruby
-class Human < ActiveRecord::Base   STATES = ["living", "dead"]   AGES = ["infant", "child", "teenager", "adult", "elder"] 
+class Human < ActiveRecord::Base 
+  STATES = ["living", "dead"]
+   AGES = ["infant", "child", "teenager", "adult", "elder"] 
 ```
 
 Now, what typically happens is the programmer starts using it all over the place. The state of one class becomes the state of the whole app. It will end up in views:
