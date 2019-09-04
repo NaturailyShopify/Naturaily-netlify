@@ -13,16 +13,16 @@ authors: Michał Kosyk
 avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/why-do-we-fail-at-abstractions_.png
 text-preview: >
-  We have all been there. We got a task to introduce a totally new
-  functionality. New database relations, controllers, services, models, views.
-  We all said: “this time it will be different”. We asked the right business
-  questions, and designed exactly what was requested. In spite of that, three
-  sprints later, things got messy. The code is rigid, the business requirements
-  have changed and we the project is out of hand, again.
+  We have all been there. We got a task to introduce totally new functionality.
+  New database relations, controllers, services, models, views. We all said:
+  “this time it will be different”. We asked the right business questions, and
+  designed exactly what was requested. In spite of that, three sprints later,
+  things got messy. The code is rigid, the business requirements have changed
+  and the project is out of hand, again.
 tags:
   - Ruby on Rails development
 ---
-We have all been there. We got a task to introduce a totally new functionality. New database relations, controllers, services, models, views. We all said: _this time it will be **different**_. We asked the right business questions, and designed exactly what was requested. In spite of that, three sprints later, things got messy. The code is rigid, the business requirements have changed and we the project is out of hand, again.
+We have all been there. We got a task to introduce totally new functionality. New database relations, controllers, services, models, views. We all said: _this time it will be **different**_. We asked the right business questions, and designed exactly what was requested. In spite of that, three sprints later, things got messy. The code is rigid, the business requirements have changed and the project is out of hand, again.
 
 One of the problems I see time and time again are tightly coupled layers and classes. This happens especially in Ruby on Rails where the most common problem is presenting data directly from an ActiveRecord model without any layer between the presentation and persistence.
 
