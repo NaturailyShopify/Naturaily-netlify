@@ -124,7 +124,7 @@ class TravelPresenter
 end
 ```
 
-We could either go with a plethora of conditional statements but that’s just evil. Instead, let’s rely purely on API, not the type of the object itself. It would be really bad if we had to ask if the server is on Apache or Nginx, wouldn’t it? Now, it is time to create different subtypes of a TravelPresenter!
+We could either go with a plethora of conditional statements but that’s just evil. Instead, let’s rely purely on API, not the type of the object itself. It would be really bad if we had to ask if the server runs on Apache or Nginx, wouldn’t it? Now, it is time to create different subtypes of a TravelPresenter!
 
 ```ruby
 class CarTravelPresenter < TravelPresenter
