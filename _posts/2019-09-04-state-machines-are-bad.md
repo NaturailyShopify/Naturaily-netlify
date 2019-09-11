@@ -3,7 +3,7 @@ title: State machines are bad
 description: ' In this short article I would like to show how to remove them altogether and follow SOLID principles of OOP.'
 slug: state-machines-are-bad
 layout: post
-date: '2019-09-04 09:44:25 +0200'
+date: '2019-09-11 09:44:25 +0200'
 category: Ruby on Rails development
 author: Michał Kosyk
 authors: Michał Kosyk
