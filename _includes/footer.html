@@ -58,7 +58,7 @@
     } else if (document.selection && document.selection.type != 'Control') {
       text = document.selection.createRange().text;
     }
-    if (text.includes("735 220 414") || text.includes("533 294 604") ) {
+    if (text.includes("735 220 414") || text.includes("533 294 604") || text.includes("hello@naturaily.com") ) {
       return text;
     }
     else {
@@ -68,8 +68,8 @@
 
   document.addEventListener('copy', function(e){
     dataLayer.push({
-      'event': 'phoneCopied',
-      'phoneNumber': getSelectionText()
+      'event': 'linkCopied',
+      'linkCopied': getSelectionText()
     });
   });
 </script>
