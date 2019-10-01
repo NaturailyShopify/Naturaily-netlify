@@ -67,9 +67,12 @@
   }
 
   document.addEventListener('copy', function(e){
-    dataLayer.push({
-      'event': 'linkCopied',
-      'linkCopied': getSelectionText()
-    });
+    var textCopied = getSelectionText();
+    if (typeof(textCopied) === "string") {
+      dataLayer.push({
+        'event': 'linkCopied',
+        'linkCopied': getSelectionText()
+      });
+    }
   });
 </script>
