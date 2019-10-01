@@ -58,14 +58,18 @@
     } else if (document.selection && document.selection.type != 'Control') {
       text = document.selection.createRange().text;
     }
-    return text;
+    if (text.includes("735 220 414") || text.includes("533 294 604") ) {
+      return text;
+    }
+    else {
+      return false
+    }
   }
 
   document.addEventListener('copy', function(e){
     dataLayer.push({
-      'event': 'textCopied',
-      'clipboardText': getSelectionText(),
-      'clipboardLength': getSelectionText().length
+      'event': 'phoneCopied',
+      'phoneNumber': getSelectionText()
     });
   });
 </script>
