@@ -74,7 +74,7 @@ If you want to listen to the presentation, you will find it here:
 
 The third and the last is the presentation by Aleksander Dąbrowski: "10 performance sins of Rails application".
 
-> Aleksander is a CTO of koleo.pl - the fastest growing train ticket retailer in Poland. He has worked in a variety of start-ups and even in a marketing agency. Aleks has worked with Ruby for more than a decade, has co-organised Warsaw's Ruby User Group, and was the author of rubysfera.pl, the leading Polish blog focused on Ruby and Rails. - [source](https://rubyc.eu/#speakers){:rel="nofollow"}{:target="_blank"}
+> Aleksander is a CTO of koleo.pl - the fastest growing train ticket retailer in Poland. He has worked in a variety of start-ups and even in a marketing agency. Aleks has worked with Ruby for more than a decade, has co-organized Warsaw's Ruby User Group, and was the author of rubysfera.pl, the leading Polish blog focused on Ruby and Rails. - [source](https://rubyc.eu/#speakers){:rel="nofollow"}{:target="_blank"}
 
 This was a good-structured talk, wherein the speaker gave us few examples (actually 7, not 10) of what mistakes can be made in Rails applications in the context of performance. Some of them are:
 
@@ -105,7 +105,7 @@ Here are the most important tips I learned from the presentation:
 * Make the change easy and then make an easy change
 * Don't be afraid of ugly small changes if they help you to get things under control
 
-I also found out that Katrina is the creator of [exercism.io](https://exercism.io/){:rel="nofollow"}{:target="_blank"} - a platform for code practise and programming mentorship that looks very interesting for everyone who wants to learn a new programming language. 
+I also found out that Katrina is the creator of [exercism.io](https://exercism.io/){:rel="nofollow"}{:target="_blank"} - a platform for code practice and programming mentorship that looks very interesting for everyone who wants to learn a new programming language. 
 
 You can watch Katrina's presentation here:
 
