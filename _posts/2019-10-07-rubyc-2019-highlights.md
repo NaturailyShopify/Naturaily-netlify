@@ -66,7 +66,7 @@ The second presentation I find worth mentioning is the one given by **Yevhen Kuz
 In this talk, the speaker gave us some insights about using the Hanami framework on production environment. He explained what benefits Hanami has to offer, compared to what Rails offers us by default. I must admit that solutions like Entity-Repository (instead of ActiveRecord), separate class per action and a few others ideas, got me really interested. On the other hand, however, a lack of good docs and learning resources is a big disadvantage.  
 
 Also, before putting Hanami into your production code, you must know there is no out-of-the box authentication solution and many gems will have problems when used with Hanami, since they are ActiveModel oriented. You may have to spend more time on implementing caching mechanisms or websockets than when using the standard Rails solution. 
-Luckily, the presenter told us how he dealt with those issues and he even created a webpage with some ready-to-go recipes at https://hanami-cookbook.stdout.in/. Ultimately, while I am not convinced to use Hanami, I nevertheless found the presentation interesting. Your opinion may differ, so don't hesitate to check it out.
+Luckily, the presenter told us how he dealt with those issues and he even created a webpage with some ready-to-go recipes at [www.hanami-cookbook.stdout.in](https://hanami-cookbook.stdout.in/){:rel="nofollow"}{:target="_blank"}. Ultimately, while I am not convinced to use Hanami, I nevertheless found the presentation interesting. Your opinion may differ, so don't hesitate to check it out.
 
 If you want to listen to the presentation, you will find it here: 
 
