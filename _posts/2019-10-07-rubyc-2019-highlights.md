@@ -45,7 +45,7 @@ The most interesting and valuable presentation was the one given by **Ivan Shamo
 
 > Ivan is a Ruby developer since 1.8.6 and a Rails developer since Rails and Merbe merged. A huge part of his career has been connected with billing domains and how he is fully dedicated to the Ruby community at Saint Petersburg. - [source](https://rubyc.eu/#speakers){:rel="nofollow"}{:target="_blank"}
 
-If you are a Ruby Developer, there is a high probability that one of your recruitment tasks was to write a Fibonacci sequence using recurrency. The speaker of the presentation told us what other things we can thank Fibonacci for, gave a brief explanation about the Double Entry Accounting System and shared a few general rules on how to deal with money during a project.
+If you are a Ruby Developer, there is a high probability that one of your recruitment tasks was to write a Fibonacci sequence using recursion. The speaker of the presentation told us what other things we can thank Fibonacci for, gave a brief explanation about the Double Entry Accounting System and shared a few general rules on how to deal with money during a project.
 
 Here they are:
 
@@ -94,7 +94,7 @@ For me, the most memorable presentation was the one given by **Katrina Owen**, e
 
 Katrina has presented how you can refactor the code in a controlled, safe manner, using small steps. She explained this by using a funny song about creatures eating creatures. The song has a repetition in it that can be abstracted as an algorithm. 
 
-At the beginning, there is a program, reflected as the whole text of a song. This is a very simple representation that does not reveal the recurrency in that text. After several small steps of refactors, we end up with an algorithmic representation of this song that reveals recurrency in this text. 
+At the beginning, there is a program, reflected as the whole text of a song. This is a very simple representation that does not reveal the recursion in that text. After several small steps of refactors, we end up with an algorithmic representation of this song that reveals recursion in this text. 
 
 Then, Katrina showed how easily she can introduce new variations to this song by giving it different data. It was fun to watch and very valuable at the same time, because she showed us how, through small changes, you can eventually restructure your code to make it more robust and prepared for future changes. 
 
