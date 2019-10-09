@@ -30,9 +30,10 @@ sitemap: false
       id: "youtube",
       label: "Youtube",
       fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
-      pattern: /\{\%[\s\S]*?\%\}/,
+      pattern: /\{\% (\w*youtube\w*) (\S+) \%\}/,
 
       fromBlock: function(match) {
+        console.log(match);
         const matchStripped = match[0].replace(/\{\% youtube | \%\}/g, '');
         return {
           id: matchStripped
@@ -40,11 +41,49 @@ sitemap: false
       },
 
       toBlock: function(obj) {
+        console.log(obj.id);
         return '\{\% youtube ' + obj.id + ' \%\}';
       },
 
       toPreview: function(obj) {
         return '<iframe class="post-youtube" width="100%" height="300" src="https://www.youtube.com/embed/' + obj.id + '" frameborder="0" allowfullscreen ></iframe>'
+      }
+    });
+  </script>
+
+
+  <script>
+    CMS.registerEditorComponent({
+
+      id: "CTA",
+      label: "CTA",
+      fields: [
+        {name: 'cta_heading', label: 'Heading', widget: 'string'},
+        {name: 'cta_link_name', label: 'Link Name', widget: 'string'},
+        {name: 'cta_link_url', label: 'Link URL', widget: 'string'},
+        {name: 'cta_image', label: 'Link Image', widget: 'image'}
+
+      ],
+      pattern: /\{\% (\w*CTA\w*) (\S+) (\S+) (\S+) (\S+) \%\}/,
+
+      fromBlock: function(match) {
+        return {
+          cta_heading: match[2],
+          cta_link_name: match[3],
+          cta_link_url: match[4],
+          cta_image: match[5]
+        };
+      },
+
+      toBlock: function(obj) {
+        console.log(obj);
+        return '\{\% CTA ' + obj.cta_heading + " " + obj.cta_link_name + " " + obj.cta_link_url + " " + obj.cta_image + ' \%\}';
+      },
+
+      toPreview: function(obj) {
+        return '<div class="post-cta"><div class="post-cta-left"><p class="post-cta-heading">' + obj.cta_heading + '</p><a class="post-cta-link" href="' + obj.cta_link_url + '">' + obj.cta_link_name + '</a></div><img class="post-cta-image" src="' + obj.cta_image + '" alt="" /></div>'
+
+
       }
     });
   </script>
