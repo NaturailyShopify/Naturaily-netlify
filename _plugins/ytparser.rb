@@ -1,5 +1,5 @@
 class YouTube < Liquid::Tag
-  Syntax = /^\s*([^\s]+)(\s+(\d+)\s+(\d+)\s*)?/
+  Syntax = /(\S+)/
 
   def initialize(tagName, markup, tokens)
     super

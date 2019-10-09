@@ -81,9 +81,7 @@ sitemap: false
       },
 
       toPreview: function(obj) {
-        return '<div class="post-cta"><div class="post-cta-left"><p class="post-cta-heading">' + obj.cta_heading + '</p><a class="post-cta-link" href="' + obj.cta_link_url + '">' + obj.cta_link_name + '</a></div><img class="post-cta-image" src="' + obj.cta_image + '" alt="" /></div>'
-
-
+        return '<div class="post-cta"><div class="post-cta-left"><p class="post-cta-heading">' + obj.cta_heading + '</p><a class="post-cta-link" traget="_blank" href="' + obj.cta_link_url + '">' + obj.cta_link_name + '</a></div><img class="post-cta-image" src="' + obj.cta_image + '" alt="" /></div>'
       }
     });
   </script>
