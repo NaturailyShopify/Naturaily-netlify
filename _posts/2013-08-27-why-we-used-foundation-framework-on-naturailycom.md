@@ -18,9 +18,7 @@ text-preview: >-
 tags:
   - Frontend development
 ---
-{% CTA Testing cta widget This is link /blog/why-do-we-fail-at-abstractions /assets/images/MPG.png %}
-
-
+{% CTA head name /blog/why-do-we-fail-at-abstractions /assets/images/MPG.png %}
 
 ## Gentle normalize.css
 
