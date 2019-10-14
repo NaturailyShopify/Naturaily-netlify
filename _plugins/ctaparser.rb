@@ -1,15 +1,15 @@
 class CallToAction < Liquid::Tag
-  Syntax = /(\S+) (\S+) (\S+) (\S+)/
+  Syntax = /\(.*?\)\[.*?\]\<.*?\>\|.*?\|/
 
   def initialize(tagName, markup, tokens)
     super
 
     if markup =~ Syntax then
 
-      @cta_heading = $1
-      @cta_link_name = $2
-      @cta_link_url = $3
-      @cta_image = $4
+      @cta_heading = markup.match(/\((.*?)\)/)[1]
+      @cta_link_name = markup.match(/\[(.*?)\]/)[1]
+      @cta_link_url = markup.match(/\<(.*?)\>/)[1]
+      @cta_image = markup.match(/\|(.*?)\|/)[1]
 
     else
       raise "Wrong widget format"

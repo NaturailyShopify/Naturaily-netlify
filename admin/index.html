@@ -30,10 +30,9 @@ sitemap: false
       id: "youtube",
       label: "Youtube",
       fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
-      pattern: /\{\% (\w*youtube\w*) (\S+) \%\}/,
+      pattern: /\{\% (\w*youtube\w*) (.*) \%\}/,
 
       fromBlock: function(match) {
-        console.log(match);
         const matchStripped = match[0].replace(/\{\% youtube | \%\}/g, '');
         return {
           id: matchStripped
@@ -41,7 +40,6 @@ sitemap: false
       },
 
       toBlock: function(obj) {
-        console.log(obj.id);
         return '\{\% youtube ' + obj.id + ' \%\}';
       },
 
@@ -64,20 +62,25 @@ sitemap: false
         {name: 'cta_image', label: 'Link Image', widget: 'image'}
 
       ],
-      pattern: /\{\% (\w*CTA\w*) (\S+) (\S+) (\S+) (\S+) \%\}/,
+      pattern: /\{\% (\w*CTA\w*) \(.*?\)\[.*?\]\<.*?\>\|.*?\| \%\}/,
 
       fromBlock: function(match) {
+
+        const match_heading =  match[0].match(/\((.*?)\)/)
+        const match_link_name = match[0].match(/\[(.*?)\]/)
+        const match_link_url = match[0].match(/\<(.*?)\>/)
+        const match_image = match[0].match(/\|(.*?)\|/)
+
         return {
-          cta_heading: match[2],
-          cta_link_name: match[3],
-          cta_link_url: match[4],
-          cta_image: match[5]
+          cta_heading: match_heading[1],
+          cta_link_name: match_link_name[1],
+          cta_link_url: match_link_url[1],
+          cta_image: match_image[1]
         };
       },
 
       toBlock: function(obj) {
-        console.log(obj);
-        return '\{\% CTA ' + obj.cta_heading + " " + obj.cta_link_name + " " + obj.cta_link_url + " " + obj.cta_image + ' \%\}';
+        return '\{\%' + ' CTA ' + '\(' + obj.cta_heading + '\)' + '\[' + obj.cta_link_name + '\]' + '\<' + obj.cta_link_url + '\>' + '\|' + obj.cta_image + '\|' + ' \%\}';
       },
 
       toPreview: function(obj) {

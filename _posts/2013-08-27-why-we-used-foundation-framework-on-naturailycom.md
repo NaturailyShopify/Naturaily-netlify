@@ -18,6 +18,7 @@ text-preview: >-
 tags:
   - Frontend development
 ---
+
 ## Gentle normalize.css
 
 Your usual reset.css leaves you with absolutely nothing - each and every style has to be written by yourself, from scratch. We were looking for a set of rules that would remove browser inconsistencies while preserving some default and desirable styling. Foundation's normalize.css gives you just that.
