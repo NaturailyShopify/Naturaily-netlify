@@ -256,10 +256,11 @@ pre, code {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: #FF5E45;
+    font-size: 24px;
+    margin: 0 40px;
 
-    &-link {
-      @extend .btn;
-      @extend .btn-primary;
+    &-link.btn {
       color: #fff;
     }
   }

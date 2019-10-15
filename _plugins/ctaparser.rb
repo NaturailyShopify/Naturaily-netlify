@@ -17,7 +17,7 @@ class CallToAction < Liquid::Tag
   end
 
   def render(context)
-    "<div class='post-cta'><div class='post-cta-left'><p class='post-cta-heading'> #{@cta_heading} </p><a class='post-cta-link' href='#{@cta_link_url}' traget='_blank'>#{@cta_link_name} </a></div><img class='post-cta-image' src='#{@cta_image}' alt='' /></div>"
+    "<div class='post-cta'><div class='post-cta-left'><p class='post-cta-heading'> #{@cta_heading} </p><a class='btn btn-primary post-cta-link' href='#{@cta_link_url}' traget='_blank'>#{@cta_link_name} </a></div><img class='post-cta-image' src='#{@cta_image}' alt='' /></div>"
   end
 
   Liquid::Template.register_tag "CTA", self
