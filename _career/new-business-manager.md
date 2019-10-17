@@ -13,12 +13,12 @@ who_we_are: >+
   Every software house is a multi-element puzzle. For six years, we have been
   successfully constructing a team of people with complementary characters and
   skills, which has resulted in a truly beautiful picture. Only one piece is
-  missing. We believe it is you, Naturaily.
+  missing. We believe it is you, Naturaily.,
 
 
   You need to know that we value individuality, professionalism, open
   communication and honesty. We strive to provide our clients with the best,
-  stable, reliable and beautiful digital products. 
+  stable, reliable and beautiful digital products.,
 
 
   Being a New Business Manager at Naturaily means working with our CEO, building
