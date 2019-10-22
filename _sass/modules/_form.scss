@@ -1,0 +1,29 @@
+.form {
+  background-color: rgba(154, 168, 224, 0.1);
+  margin-top: 100px;
+  padding-left: 180px;
+
+  iframe {
+    max-width: 825px;
+    width: 100% !important;
+    min-width: initial !important;
+    position: relative;
+    left: -25px;
+  }
+
+  .section_heading {
+    padding-bottom: 30px;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 810px) {
+  .form {
+    margin: 0 5px 0 10px;
+    padding: 40px 15px 30px 15px;
+
+    iframe {
+      left: 0;
+    }
+  }
+}

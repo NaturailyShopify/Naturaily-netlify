@@ -1,0 +1,158 @@
+.who-we-are {
+  position: relative;
+
+  &_figure-wrap {
+    display: flex;
+    flex: 1 100%;
+    padding: 100px 0 70px 160px;
+    justify-content: space-between;
+
+    h3 {
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+  }
+
+  figure {
+    width: 48%;
+  }
+
+  &_paragraphs {
+    display: flex;
+    padding-right: 160px;
+  }
+
+  &_paragraphs .paragraph {
+    box-sizing: border-box;
+
+    &.paragraph-offset {
+      color: $color-global-font;
+      max-width: 100%;
+      flex: 1 0 50%;
+      padding-right: 60px;
+    }
+
+    &:last-child {
+      flex: 1 0 17.5%;
+      padding-left: 20px;
+    }
+  }
+
+  .btn {
+    margin-left: 45px;
+  }
+
+  .section_content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 160px;
+  }
+
+  .video-box {
+    margin-left: 160px;
+    padding-right: 30px;
+
+    &_caption {
+      max-width: 300px;
+    }
+  }
+
+  .floating-dots {
+    transform: scaleX(-1) rotateZ(-14deg);
+    right: 0;
+    z-index: -1;
+  }
+}
+
+@media (max-width: 1280px) {
+  .who-we-are {
+
+    &_paragraphs {
+      flex-wrap: wrap;
+    }
+
+    &_figure-wrap {
+      padding-left: 0;
+    }
+
+    .paragraph.paragraph-offset {
+      padding-left: 0;
+      padding-right: 0;
+      flex-basis: 100%;
+    }
+
+    .paragraph.text-greyed-out {
+      width: 50%;
+    }
+
+
+    .video-box {
+      margin-left: 0;
+      width: 100%;
+
+      iframe {
+        min-width: initial;
+        flex: 1;
+      }
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .who-we-are {
+    flex-direction: column;
+
+    &_paragraphs {
+      padding: 0;
+      padding: 0 25px;
+      padding-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    &_figure-wrap {
+      padding: 0;
+      padding-top: 65px;
+      padding-right: 25px;
+      flex-direction: column;
+
+      .image {
+        max-width: 100%
+      }
+
+      .paragraph {
+        padding: 15px 0px 45px;
+      }
+
+      h3 {
+        padding-top: 25px;
+        font-size: 20px;
+      }
+    }
+
+    figure {
+      width: 100%;
+    }
+
+    .section_content {
+      padding-right: 0;
+      padding-left: 25px;
+    }
+
+    .btn.btn-primary {
+      margin: 0;
+    }
+
+    .video-box {
+      margin: 0;
+      padding-right: 25px;
+
+      &_caption {
+        max-width: 100%;
+      }
+    }
+
+    .floating-dots {
+      display: none;
+    }
+  }
+}

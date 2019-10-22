@@ -1,0 +1,64 @@
+.path {
+  background-color: #FFF7F1;
+  padding-left: 160px;
+
+  .section_heading {
+    max-width: 630px;
+  }
+
+  &_accordion-left {
+    flex: 1;
+
+    .paragraph:first-child {
+      padding-top: 38px;
+    }
+  }
+
+  &_accordion-right {
+    width: 266px;
+    padding-left: 45px;
+    padding-top: 50px;
+    flex: 0 1 auto;
+  }
+
+  .section_heading a {
+    cursor: pointer;
+    transition: background-size .2s ease-in, color .1s ease;
+
+    &:hover {
+      color: #fff;
+      background-size: 100% 88%;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .path {
+    margin: 0 5px 0 10px;
+    padding: 40px 10px 30px 15px;
+
+    &_accordion-left {
+      padding-left: 0;
+      padding-right: 10px;
+    }
+
+    &_accordion-right {
+      padding: 0;
+      padding-top: 40px;
+      display: flex;
+      align-self: center;
+
+      .person_card {
+        max-width: 300px;
+      }
+    }
+
+    .table-area {
+      padding-right: 0;
+    }
+
+    .table-head th:first-child {
+      padding-right: 0;
+    }
+  }
+}

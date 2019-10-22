@@ -1,0 +1,163 @@
+.accordion {
+  padding-left: 200px;
+  padding-right: 100px;
+  position: relative;
+  overflow: hidden;
+  background:#FFF7F1;
+
+ &_content {
+    color: rgba(61, 35, 16, 0.5);
+    padding-left: 110px;
+    margin-left: 200px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: .4s all ease;
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+    left: 0;
+
+    .paragraph {
+      min-width: 100%;
+
+      small {
+        display: inline-block;
+        max-width: 440px;
+      }
+    }
+  }
+
+  &-item {
+    align-items: center;
+    background:#FFF7F1;
+    border-bottom: 1px solid rgba(61, 35, 16, 0.23);
+    color: rgba(61, 35, 16, 0.5);
+    cursor: pointer;
+    display: flex;
+    font-size: 24px;
+    height: 88px;
+    justify-content: flex-start;
+    position: relative;
+    transition: .4s color ease;
+    z-index: 1;
+  }
+
+  &_number {
+  	color: #C1C1C1;
+  	font-size: 12px;
+    padding-right: 96px;
+  }
+
+  &_more {
+    font-size: 12px;
+    width: 30px;
+    height: 18px;
+    margin-left: auto;
+    padding-right: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform .4s;
+    transform-style: preserve-3d;
+
+    .opened & {
+      transform: rotateX(180deg);
+    }
+
+    &::before, &::after {
+      position: absolute;
+      background-color: #FFF7F1;
+      backface-visibility: hidden;
+      width: 100%;
+    }
+
+    &::before {
+      content: "more";
+    }
+
+    &::after {
+      content: "less";
+      transform: rotateX(180deg);
+      padding-left: 7px;
+    }
+  }
+
+  &_position {
+    margin: 0;
+    position: relative;
+    top: -2px;
+  }
+
+  &_chevron {
+    display: flex;
+    justify-content: center;
+
+
+    &::before {
+      align-items: center;
+      background-color: $color-white;
+      border-radius: 50%;
+      box-shadow: 0 8px 32px 0 rgba(179,104,0,0.12);
+      color: $color-global-font;
+      display: flex;
+      font-size: 13px;
+      height: 40px;
+      justify-content: center;
+      transform: rotate(0deg);
+      transition: .4s transform ease;
+      width: 40px;
+    }
+  }
+
+  &-item {
+    position: relative;
+  }
+
+  input {
+    display: none;
+  }
+
+  &.opened {
+    .accordion-item {
+      color: $color-global-font;
+    }
+
+    .accordion_chevron::before {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .accordion {
+    margin: 0 20px 0 25px;
+    padding: 0;
+
+    &-item {
+      font-size: 20px;
+      font-weight: 300;
+      height: 79px;
+    }
+
+    &_content {
+      padding-top: 28px;
+      padding-left: 0;
+      margin: 0;
+      flex-direction:  column;
+    }
+
+    &_number {
+      padding-right: 35px;
+    }
+
+    &_more {
+      display: none;
+    }
+
+    &_chevron {
+      margin-left: auto;
+    }
+  }
+}

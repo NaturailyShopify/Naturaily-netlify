@@ -24,6 +24,8 @@
 
   {% if page.url == "/on-tour" %}
     <link rel="stylesheet" href="{{ "/assets/on-tour.css" | relative_url }}">
+  {% elsif page.url == "/careers" or page.url == "/career-offers" or page.url contains "/join" %}
+    <link rel="stylesheet" href="{{ "/assets/main-new.css" | relative_url }}">
   {% else %}
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {% endif %}
@@ -36,6 +38,8 @@
   <script src="/assets/js/sticky-kit.js"></script>
   <script src="/assets/js/jquery.smooth-scroll.js"></script>
   <script src="/assets/js/js-cookie.js"></script>
+  <script src="/assets/js/jquery.waypoints.min.js"></script>
+  <script src="/assets/js/sticky-waypoints.min.js"></script>
 
   <script src="https://use.typekit.net/cah0hop.js"></script>
   <script>try{Typekit.load({ async: false });}catch(e){}</script>

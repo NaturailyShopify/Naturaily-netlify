@@ -1,0 +1,155 @@
+<div class="benefits_carousel">
+  <div id="benefitsCarouselImages" class="benefits_images">
+    <div class="benefits_images" style="background-image:url(/assets/images/career/carousel/profits.jpg)"></div>
+    <div class="benefits_images" style="background-image:url(/assets/images/career/carousel/location.jpg)"></div>
+    <div class="benefits_images" style="background-image:url(/assets/images/career/carousel/snacks.jpg)"></div>
+    <div class="benefits_images" style="background-image:url(/assets/images/career/carousel/dinner.jpg)"></div>
+    <div class="benefits_images" style="background-image:url(/assets/images/career/carousel/balance.jpg)"></div>
+    <div class="benefits_images" style="background-image:url(/assets/images/career/carousel/eco.jpg)"></div>
+    <div class="benefits_images" style="background-image:url(/assets/images/career/carousel/kit.jpg)"></div>
+  </div>
+
+  <div class="benefits_box">
+    <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" data-progress-bar="">
+      <span class="progress-bar_label" data-progress-label="">
+    </div>
+    <div id="benefitCarouselBox">
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>1</strong> of 7</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          You have your share of profits
+        </p>
+        <p class="paragraph">
+          <span>We share a part of the company’s annual profit with <strong>our employees</strong>.</span>
+        </p>
+      </div>
+
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>2</strong> of 7</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          Your office is situated in a convenient location
+        </p>
+        <p class="paragraph">
+          <span>Our headquarters is located in the <strong>very heart</strong> of the Wrocław’s Old Town.</span>
+        </p>
+      </div>
+
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>3</strong> of 7</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          We provide you with healthy snacks and beverages in the office (vegan-friendly menu)
+        </p>
+        <p class="paragraph">
+          <span>We make sure that our kitchen never runs out of good coffee, a variety of teas, <strong>healthy</strong> snacks and fresh fruit.</span>
+        </p>
+      </div>
+
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>4</strong> of 7</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          Once a week your dinner is on the house
+        </p>
+        <p class="paragraph">
+          <span>Pizza, vegan sushi, pork chop, or a salad. <strong>You choose what you want</strong> and eat with others!</span>
+        </p>
+      </div>
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>5</strong> of 7</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          You take care of the work-life balance
+        </p>
+        <p class="paragraph">
+          <span>You <strong>benefit</strong> from flexible working hours and remote work twice a week.</span>
+        </p>
+      </div>
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>6</strong> of 7</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          You care about the environment
+        </p>
+        <p class="paragraph">
+          <span>We pay attention to what we eat, we are careful about what we buy and we reward <strong>eco</strong> transport! The electric company scooter will take you to the office, turning on the eco mode.</span>
+        </p>
+      </div>
+      <div>
+        <div class="section_name">
+          <span class="section_name-number"><strong>7</strong> of 7</span>
+        </div>
+        <p class="paragraph has-dot">
+          <span class="dot"></span>
+          You work on what you want
+        </p>
+        <p class="paragraph">
+          <span><strong>Choose</strong> your work equipment: PC/laptop, multiple screens, mobile devices, etc.</span>
+        </p>
+      </div>
+    </div>
+    <div id="benefitsArrowsContainer" class="benefits_box-footer"></div>
+  </div>
+</div>
+
+
+<script type="text/javascript">
+
+   $('#benefitsCarouselImages').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '#benefitCarouselBox',
+    dots: false,
+    fade: true,
+    cssEase: 'linear',
+    speed: 400
+  });
+
+  $(document).ready(function() {
+    var $slider = $('#benefitCarouselBox');
+    var $progressBar = $('[data-progress-bar]');
+    var $progressBarLabel = $( '[data-progress-label]' );
+
+    $slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+      var calc = ( (nextSlide) / (slick.slideCount-1) ) * 100;
+
+      $progressBar
+        .css('background-size', calc + '% 100%')
+        .attr('aria-valuenow', calc );
+
+      $progressBarLabel.text( calc + '% completed' );
+    });
+
+    $slider.slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      asNavFor: '#benefitsCarouselImages',
+      dots: false,
+      fade: true,
+      autoplay: true,
+      autoplaySpeed: 4000,
+      cssEase: 'linear',
+      appendArrows: $("#benefitsArrowsContainer"),
+      prevArrow: '<span class="icon-chevron-left"></span>',
+      nextArrow: '<span class="icon-chevron-right"></span>',
+      speed: 400
+    });
+  });
+
+</script>

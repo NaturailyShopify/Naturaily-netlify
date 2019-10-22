@@ -1,0 +1,162 @@
+.culture {
+  position: relative;
+
+  &_heading {
+    display: flex;
+  }
+
+  &_heading-paragraphs {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &_image-text-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+  }
+
+  .section_content {
+    flex-grow: 1;
+    padding-bottom: 130px;
+  }
+
+  .section_desc {
+    max-width: 319px;
+    padding-right: 150px;
+  }
+
+  .image {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .paragraph {
+    max-width: 270px;
+    padding-right: 60px;
+    padding-bottom: 0;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .section_content--full {
+    display: flex;
+    padding-right: 178px;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    .image {
+      width: auto;
+      margin-bottom: 0;
+      min-height: 340px;
+    }
+
+    .paragraph {
+      padding-right: 0px;
+      min-width: 300px;
+    }
+
+    .paragraph.has-dot {
+      box-sizing: border-box;
+      padding-right: 30px;
+      padding-bottom: 20px;
+      padding-left: 25px;
+      font-size: 16px;
+      color: $color-global-font;
+    }
+
+    .paragraph .dot {
+      top: 6px;
+    }
+
+    &:last-child .culture_image-text-block {
+      margin-left: 0;
+      margin-right: 60px;
+    }
+  }
+
+  .floating-dots {
+    top: 20%;
+    left: -5%;
+  }
+}
+
+@media (max-width: 810px) {
+  .culture {
+    padding-left: 15px;
+    &_image-text-block {
+      margin: 0;
+    }
+
+    &_image-text-block {
+      padding-top: 25px;
+
+      &:first-child {
+        order: 1;
+      }
+    }
+
+    &_heading {
+      padding: 0;
+    }
+
+    &_heading-paragraphs {
+      flex-direction: column;
+      padding-bottom: 50px;
+      padding-right: 45px;
+      padding-top: 20px;
+    }
+
+    &_image-text-block {
+      margin-right: 0;
+    }
+
+    .section_desc {
+      padding-right: 50px;
+    }
+
+    .section_content {
+      flex-direction: column;
+      padding: 20px 0px 0 0;
+      overflow: hidden;
+
+      &--full {
+        padding-right: 25px;
+        align-items: flex-start;
+
+        .image {
+          min-height: 0;
+        }
+      }
+    }
+
+    .section_heading {
+      padding-right: 20px;
+      padding-top: 20px;
+    }
+
+    .image {
+      margin: 20px 0;
+
+    }
+
+    .paragraph {
+      padding-bottom: 25px;
+      padding-right: 0;
+      max-width: 100%;
+    }
+
+    .paragraph.has-dot {
+      font-size: 16px;
+      color: #3B220F;
+    }
+
+    .floating-dots {
+      top: -5%;
+      left: -61%;
+      transform: rotatez(55deg);
+      width: 500px;
+    }
+  }
+}

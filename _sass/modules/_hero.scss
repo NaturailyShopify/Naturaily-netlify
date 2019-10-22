@@ -1,0 +1,184 @@
+.hero {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 150px auto 120px;
+
+  &--career {
+    background-image: url("../assets/images/career_hero_left.png"), url("../assets/images/career_hero_right.png");
+    background-repeat: no-repeat;
+    background-position: 0px 170px, 100% 50px;
+    background-size: 379px 321px, 390px 520px;
+    .hero_background-text {
+      top: -80px;
+      font-size: 175px;
+    }
+  }
+
+  &--about {
+    background-image: url("../assets/images/about_hero_right.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: 30%;
+    padding-bottom: 150px;
+
+    .hero_background-text {
+      width: 800px;
+    }
+  }
+
+  &--career-offers {
+    .hero_background-text {
+      top: -80px;
+    }
+  }
+
+  &_background-text {
+    position: absolute;
+    z-index: -2;
+    width: auto;
+    color: #FFF7F1;
+    font-weight: bold;
+    text-align: center;
+    top: -115px;
+    font-size: 172px;
+  }
+
+  &_box {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  &_box-heading {
+	  font-size: 36px;
+    font-weight: 200;
+    line-height: 50px;
+    padding-bottom: 26px;
+    margin: 0 auto;
+  }
+
+  &_box-footer {
+    padding-top: 75px;
+
+    .hero_text {
+      font-size: 14px;
+    }
+  }
+
+  &_text {
+    max-width: 630px;
+    margin: 0 auto;
+  	color: rgba(59,34,15,0.7);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+
+    a {
+      text-decoration: underline;
+      font-weight: 500;
+    }
+  }
+
+  &_back {
+    position: absolute;
+    left: calc(-100% - -20px);
+    top: calc(-100% - 40px);
+    color: $color-secondary;
+    text-transform: uppercase;
+    font-size: 12px;
+    .image {
+      width: 23px;
+      margin-right: 20px;
+      transform: scaleX(-1);
+    }
+  }
+
+  .btn {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width:1280px) {
+  .hero {
+
+    &--career {
+      background-size: 200px;
+
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    &--career {
+      background-position: -140px 81%, calc(100% - -28px) 77px;
+      background-size: 200px 169px, 100px 150px;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .hero {
+
+    &--layout {
+      background-position: -140px 81%, calc(100% - -28px) 77px;
+      background-size: 200px 169px, 100px 150px;
+    }
+
+    &--career {
+      background-position: -140px 81%, calc(100% - -28px) 77px;
+      background-size: 200px 169px, 100px 150px;
+      .hero_background-text {
+        font-size: 100px;
+        top: 35px;
+      }
+    }
+
+    &--career-offers {
+      .hero_background-text {
+        font-size: 80px;
+        top: 40px;
+      }
+    }
+
+    &--about {
+      background-position: 100% 130%;
+      background-size: 90%;
+      padding-bottom: 150px;
+
+      .hero_background-text {
+        width: 100%;
+        font-size: 100px;
+        line-height: 71px;
+        top: 40px;
+      }
+    }
+
+    &_box {
+      padding: 0 30px;
+    }
+
+    &_box-heading {
+  	  font-size: 28px;
+      font-weight: 200;
+      line-height: 40px;
+    }
+
+    &_text {
+      font-size: 14px;
+      font-weight: 300;
+      padding: 0 10px;
+      padding-top: 20px;
+    }
+
+    &_back {
+      display: none;
+    }
+  }
+}

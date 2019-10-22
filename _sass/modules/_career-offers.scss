@@ -1,0 +1,122 @@
+.offers {
+  background-color: #FFF7F1;
+  padding-left: 160px;
+
+  &_tiles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  &_tile {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 240px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    padding: 30px 40px;
+    position: relative;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: .4s box-shadow ease;
+
+    &:hover {
+      box-shadow: 0 8px 32px 0 rgba(179,104,0,0.27);
+
+      .offers_tile-footer {
+        background-position: 35% 0%;
+        color: #fff;
+      }
+
+      .image {
+        filter: brightness(400%);
+      }
+    }
+
+    .image {
+      transition: .6s all ease;
+    }
+  }
+
+  &_tile-title {
+  	font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: $color-global-font;
+  }
+
+  &_tile-salary {
+	  font-size: 14px;
+    line-height: 24px;
+    color: rgba(59,34,15,0.7);
+  }
+
+  &_tile-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    line-height: 60px;
+    color: #FF5E45;
+	  font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 1px rgba(59, 34, 15, 0.1);
+    transition: .6s all ease;
+    background: linear-gradient(270deg, #fff 50%, #FF5E45 0%, #FF2C2C 100%);
+    background-position: 65% 0%;
+    background-size: 500%;
+  }
+
+  .image {
+    height: 11px;
+    margin-left: 10px;
+    margin-bottom: -1px;
+  }
+
+  .l-full {
+    flex-wrap: wrap;
+  }
+
+  .section_heading {
+    padding-left: 0;
+  }
+
+  .section_content {
+    padding-top: 70px;
+  }
+
+  .paragraph.has-dot {
+    color: $color-global-font;
+  }
+
+  .floating-dots {
+    right: 14%;
+    top: 200px;
+    transform: scaleX(-1) rotateZ(-15deg);
+  }
+}
+
+@media (max-width: 810px) {
+  .offers {
+    margin: 0 5px 0 10px;
+    padding: 40px 0px 30px 15px;
+
+    &_tiles {
+      flex-direction: column;
+      padding-bottom: 30px;
+    }
+
+    &_tile  {
+      margin: 0 auto;
+      margin-bottom: 30px;
+      width: 310px;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+<section class="section extra-narrow position">
+  <a class="hero_back" href="/career-offers"><img class="image" src="/assets/images/arrow-orange.png" alt="arrow">go back to all openings</a>
+  <div class="section_desc">
+    <div class="section_name">
+      Job offer
+    </div>
+
+    <div class="position_job-title">
+      <h2 class="section_heading">{{page.title}}</h2>
+      <a id="scrollToForm" href="#jobForm" type="button" class="btn btn-primary btn-arrow">
+        apply
+        <img src="/assets/images/btn-arrow.png" alt="arrow">
+      </a>
+    </div>
+  </div>
+  <div class="section_content">
+    <p class="position_salary">
+      {% if page.salaries %}
+        {% for salary in page.salaries %}
+          <span class="cash">
+            {{ salary.salary.sum }}
+            <small class="cash-currency">{{ salary.salary.contract }}</small>
+          </span>
+        {% endfor %}
+      {% endif %}
+    </p>
+    <br>
+    <span class="position_location">
+      {{page.location}}
+    </span>
+  </div>
+</section>

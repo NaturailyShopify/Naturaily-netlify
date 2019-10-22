@@ -1,0 +1,45 @@
+.about {
+  padding: 0;
+
+  &_top.paragraph {
+    max-width: 840px;
+    color: $color-global-font;
+  }
+
+  &_mid {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1070px;
+    padding-bottom: 40px;
+
+    .paragraph {
+      max-width: 100%;
+      font-size: 14px;
+      padding-right: 102px;
+      box-sizing: border-box;
+    }
+  }
+
+  .section_content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 810px) {
+  .about {
+    padding-right: 25px;
+
+    &_top.paragraph {
+
+    }
+
+    &_mid {
+      flex-direction: column;
+
+      .paragraph {
+        padding-right: 0;
+      }
+    }
+  }
+}

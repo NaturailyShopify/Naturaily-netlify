@@ -1,0 +1,66 @@
+.person {
+
+  &_card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px 0 rgba(179,104,0,0.08);
+
+    .image {
+      margin-bottom: -100px;
+    }
+
+    figcaption {
+      padding: 27px;
+      font-size: 12px;
+      color: rgba(61, 35, 16, 0.5);
+      background-color: #fff;
+      line-height: 18px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .paragraph {
+      margin-top: 20px;
+      padding-top: 2px;
+      padding-left: 32px;
+      padding-bottom: 0;
+      color: $color-global-font;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    small {
+      color: rgba(61, 35, 16, 0.5);
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .person {
+    display: flex;
+    position: relative;
+
+    &_card {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+
+      .image {
+        margin: 0;
+        position: relative;
+        width: auto;
+        margin-bottom: -160px;
+      }
+
+      .paragraph {
+        margin-top: 10px;
+      }
+
+      figcaption {
+        padding: 20px;
+        font-size: 12px;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
