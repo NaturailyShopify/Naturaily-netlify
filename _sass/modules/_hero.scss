@@ -125,15 +125,15 @@
 
 @media (max-width: 810px) {
   .hero {
-
+    margin: 120px auto 40px;
     &--layout {
       background-position: -140px 81%, calc(100% - -28px) 77px;
       background-size: 200px 169px, 100px 150px;
     }
 
     &--career {
-      background-position: -140px 81%, calc(100% - -28px) 77px;
-      background-size: 200px 169px, 100px 150px;
+      background-position: -140px 83%, calc(100% - -25px) 60px;
+      background-size: 200px 169px, 90px auto;
       .hero_background-text {
         font-size: 100px;
         top: 80px;
@@ -166,6 +166,10 @@
 
     &_box {
       padding: 0 30px;
+
+      &_box-footer {
+        padding-top: 60px;
+      }
     }
 
     &_box-heading {
