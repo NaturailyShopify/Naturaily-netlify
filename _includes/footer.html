@@ -17,8 +17,11 @@
       <li><a href="/vue-resources">Vue.js</a></li>
     </ul>
     <ul class="footer_list footer_list--jobs">
+      {% assign job_offers = site.career | where: "published", "true"%}
       <li class="footer_list-heading">Job offers</li>
-      <li><a href="/vue-resources">Job offer</a></li>
+      {% for job_offer in job_offers %}
+        <li><a href="{{job_offer.url}}">{{job_offer.title}}</a></li>
+      {% endfor %}
     </ul>
 
     <div class="footer_contact">
