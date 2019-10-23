@@ -23,13 +23,6 @@ collections:
       - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0200", widget: "datetime"}
       - {label: "Category(with spaces)", name: "category", widget: "string"}
       - {label: "Author name(name and surname, with spaces)", name: "author", widget: "string"}
-      - label: "Author"
-        name: "authors"
-        widget: "relation"
-        collection: "test"
-        searchFields: ["name"]
-        valueField: "name"
-        required: false
       - {label: "Author avatar(optimally 100x100px)", name: "avatar", widget: "image"}
       - {label: "Post image(optimally 800x313px)", name: "image", widget: "image"}
       - {label: "Post preview(160 to 360 characters)", name: "text-preview", widget: "text"}
@@ -39,17 +32,18 @@ collections:
         allow_add: true
       - {label: "Body", name: "body", widget: "markdown"}
   -
-    name: "test"
-    label: "Test"
+    name: "posts-authors"
+    label: "Posts authors"
     editor:
        preview: false
     files:
-      - label: "Test autorz"
-        name: "authors"
+      - label: "Authors list"
+        name: "authors-list"
         file: "_data/authors.yml"
         fields:
-          - label: Team
-            name: team
+          - label: Authors
+            label_singular: Author
+            name: authors
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
