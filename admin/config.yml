@@ -62,37 +62,88 @@ collections:
       - {label: "Meta Image", name: "image", widget: "image", required: false}
       - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
       - {label: "Location", name: "location", widget: "string"}
-      - {label: "Who we are", name: "who_we_are", widget: "text"}
+      - {label: "Who we are", name: "who-we-are", widget: "markdown"}
+      - {label: "About left section", name: "about-left", widget: "markdown"}
+      - {label: "About right section", name: "about-right", widget: "markdown"}
+      - {label: "About imnage(optimally 1260x610)", name: "about-image", widget: "image"}
       - label: "Offer type"
         name: "type"
         widget: "select"
         options: ["Development", "UX/UI", "Sales&Marketing", "Business", "Operations", "Other"]
-      - {label: "Salary", name: "salary", widget: "string", default: "salary from XXXX pln net"}
-      - label: "Responsibilities"
-        name: "responsibilities"
+      - label: "Salary preview"
+        name: "salary-preview"
         widget: "list"
         allow_add: true
-        required: false
-      - label: "Requirements"
-        name: "requirements"
+        fields:
+          - label: "Salary"
+            name: "salary"
+            widget: "object"
+            fields:
+              - {label: "Sum", name: "sum", widget: "string"}
+              - {label: "Contract type", name: "contract", widget: "string"}
+      - label: "What we expect from you is"
+        name: "what-we-expect"
         widget: "list"
         allow_add: true
-        required: false
-      - label: "Nicehave"
-        name: "nicehave"
+        fields:
+          - label: "Expectation"
+            name: "expectation"
+            widget: "object"
+            field:
+              - {label: "What we expect text", name: "contents", widget: "string"}
+      - label: "What you can expect from us is"
+        name: "what-you-expect"
         widget: "list"
         allow_add: true
-        required: false
-      - label: "Offer"
-        name: "offer"
+        fields:
+          - label: "Expectation"
+            name: "expectation"
+            widget: "object"
+            field:
+              - {label: "What you expect text", name: "contents", widget: "string"}
+      - label: "We need you to be"
+        name: "we-need-you-to"
         widget: "list"
         allow_add: true
-        required: false
-      - label: "Salary range"
-        name: "salary-range"
+        fields:
+          - label: "Expectation"
+            name: "expectation"
+            widget: "object"
+            field:
+              - {label: "Nice have text", name: "contents", widget: "string"}
+      - label: "It would be great if you"
+        name: "would-be-great"
         widget: "list"
         allow_add: true
-        required: false
+        fields:
+          - label: "Expectation"
+            name: "expectation"
+            widget: "object"
+            field:
+              - {label: "Nice have text", name: "contents", widget: "string"}
+      - label: "Benefits"
+        name: "benefits"
+        widget: "list"
+        allow_add: true
+        fields:
+          - label: "Benefit"
+            name: "benefit"
+            widget: "object"
+            fields:
+              - {label: "Benefit icon", name: "benefit-icon", widget: "string"}
+              - {label: "Benefit title", name: "benefit-title", widget: "string"}
+              - {label: "Benefit content", name: "benefit-content", widget: "string"}
+      - label: "Salaries"
+        name: "salaries"
+        widget: "list"
+        allow_add: true
+        fields:
+          - label: "Salary"
+            name: "salary"
+            widget: "object"
+            fields:
+              - {label: "Sum", name: "sum", widget: "string"}
+              - {label: "Contract type", name: "contract", widget: "string"}
   -
     name: "portfolio"
     label: "Portfolio"
