@@ -89,7 +89,7 @@ collections:
           - label: "Expectation"
             name: "expectation"
             widget: "object"
-            field:
+            fields:
               - {label: "What we expect text", name: "contents", widget: "string"}
       - label: "What you can expect from us is"
         name: "what-you-expect"
