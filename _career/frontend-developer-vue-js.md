@@ -23,8 +23,8 @@ about-image: /assets/images/career-image-4.jpg
 type: Development
 salary-preview:
   - salary:
-      contract: B2B
-      sum: 7500 - 13 000 PLN net + VAT
+      contract: + VAT (B2B)
+      sum: 7500 - 13 000 PLN net
 what-we-expect:
   - expectation:
       undefined: to grow along with the company & be rewarded for following through
@@ -124,7 +124,7 @@ benefits:
       benefit-title: You will grow along with the company
 salaries:
   - salary:
-      contract: B2B
-      sum: 7500 - 13 000 PLN net + VAT
+      contract: + VAT (B2B)
+      sum: 7500 - 13 000 PLN net
 ---
 
