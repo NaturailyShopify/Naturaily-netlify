@@ -25,8 +25,8 @@ about-image: /assets/images/career-image-4.jpg
 type: Development
 salary-preview:
   - salary:
-      contract: B2B
-      sum: 4000 - 6500 PLN net + VAT
+      contract: + VAT (B2B)
+      sum: 4000 - 6500 PLN net
 what-we-expect:
   - expectation:
       contents: to develop Ruby on Rails application with the help of other developers
