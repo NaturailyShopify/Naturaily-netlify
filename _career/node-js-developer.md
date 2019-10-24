@@ -126,4 +126,3 @@ salaries:
       contract: B2B
       sum: 13 500 - 18 000 PLN net + VAT
 ---
-

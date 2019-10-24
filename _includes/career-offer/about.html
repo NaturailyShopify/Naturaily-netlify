@@ -12,7 +12,7 @@
         {{page.about-right}}
       </p>
     </div>
-    {% if page.about-image %}
+    {% if !page.about-image.empty %}
       <img class="image about_image" src="{{page.about-image}}" alt="">
     {% else %}
       <img class="image about_image" src="/assets/images/career-image-4.jpg" alt="">
