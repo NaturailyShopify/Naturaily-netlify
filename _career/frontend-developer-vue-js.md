@@ -27,80 +27,80 @@ salary-preview:
       sum: 7500 - 13 000 PLN net
 what-we-expect:
   - expectation:
-      undefined: to grow along with the company & be rewarded for following through
+      contents: to grow along with the company & be rewarded for following through
   - expectation:
-      undefined: to work on the business requirements within the project
+      contents: to work on the business requirements within the project
   - expectation:
-      undefined: to communicate with the client on behalf of the team
+      contents: to communicate with the client on behalf of the team
   - expectation:
-      undefined: to extend & maintain DevTeam’s knowledge base
+      contents: to extend & maintain DevTeam’s knowledge base
   - expectation:
-      undefined: 'to drive software architecture, design & development activities '
+      contents: 'to drive software architecture, design & development activities '
   - expectation:
-      undefined: >-
+      contents: >-
         to keep abreast of new technology trends & to identify opportunities and
         risks
   - expectation:
-      undefined: to learn & adopt new tools/ technologies/ programming languages
+      contents: to learn & adopt new tools/ technologies/ programming languages
   - expectation:
-      undefined: >-
+      contents: >-
         to initiate/ to take part in grass-roots, both internal & external
         activities
 what-you-expect:
   - expectation:
-      undefined: >-
+      contents: >-
         the possibility to work with clients from around the world representing,
         among other industries: art, e-commerce, energy, and construction
   - expectation:
-      undefined: >-
+      contents: >-
         to be a part of a team that strives for the best solutions for client
         and project itself
   - expectation:
-      undefined: to have the freedom of action
+      contents: to have the freedom of action
   - expectation:
-      undefined: to have a real impact on the company's development trends
+      contents: to have a real impact on the company's development trends
   - expectation:
-      undefined: the software needed to deliver good results
+      contents: the software needed to deliver good results
   - expectation:
-      undefined: 'an additional budget for trainings, workshops, conferences, etc.'
+      contents: 'an additional budget for trainings, workshops, conferences, etc.'
   - expectation:
-      undefined: the flexibility of working hours
+      contents: the flexibility of working hours
   - expectation:
-      undefined: >-
+      contents: >-
         a nice office in the heart of Wrocław surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
-      undefined: a co-financed Multisport Card
+      contents: a co-financed Multisport Card
   - expectation:
-      undefined: a MacBook
+      contents: a MacBook
 we-need-you-to:
   - expectation:
-      undefined: experienced in software development (min. 2 years)
+      contents: experienced in software development (min. 2 years)
   - expectation:
-      undefined: >-
+      contents: >-
         acquainted with the following technologies: JS ES6+, Vue.js, HTML,
         CSS/SCSS
   - expectation:
-      undefined: aware of front-end performance optimization
+      contents: aware of front-end performance optimization
   - expectation:
-      undefined: aware of architectural & Object Oriented Programming design patterns
+      contents: aware of architectural & Object Oriented Programming design patterns
   - expectation:
-      undefined: 'experienced with Git usage '
+      contents: 'experienced with Git usage '
   - expectation:
-      undefined: 'independent as a tech lead within a small team '
+      contents: 'independent as a tech lead within a small team '
   - expectation:
-      undefined: eager to mentor other developers
+      contents: eager to mentor other developers
   - expectation:
-      undefined: proficient in English - both in writing and speaking
+      contents: proficient in English - both in writing and speaking
 would-be-great:
   - expectation:
-      undefined: >-
+      contents: >-
         have additional knowledge of Webpack, Redis, GraphQL, TypeScript,
         ElasticSearch
   - expectation:
-      undefined: are not afraid of Unit testing
+      contents: are not afraid of Unit testing
   - expectation:
-      undefined: contribute to Open Source community
+      contents: contribute to Open Source community
 benefits:
   - benefit:
       benefit-content: >-
@@ -119,7 +119,7 @@ benefits:
   - benefit:
       benefit-content: >-
         You can be a team leader in a chosen technology or you can share your
-        knowledge & experience during in-company Tech-Friday. 
+        knowledge & experience during in-company Tech-Friday.
       benefit-icon: profit-chart
       benefit-title: You will grow along with the company
 salaries:
@@ -127,4 +127,3 @@ salaries:
       contract: + VAT (B2B)
       sum: 7500 - 13 000 PLN net
 ---
-
