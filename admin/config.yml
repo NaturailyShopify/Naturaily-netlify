@@ -65,7 +65,7 @@ collections:
       - {label: "Who we are", name: "who-we-are", widget: "markdown"}
       - {label: "About left section", name: "about-left", widget: "markdown"}
       - {label: "About right section", name: "about-right", widget: "markdown"}
-      - {label: "About imnage(optimally 1260x610)", name: "about-image", widget: "image"}
+      - {label: "About imnage(optimally 1260x610)", name: "about-image", widget: "image", required: false}
       - label: "Offer type"
         name: "type"
         widget: "select"
