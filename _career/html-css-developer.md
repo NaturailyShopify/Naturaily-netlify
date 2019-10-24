@@ -25,76 +25,76 @@ salary-preview:
       sum: '5000 - 7200 PLN net '
 what-we-expect:
   - expectation:
-      undefined: >-
+      contents: >-
         to work closely with Software Developers in order to create high quality
-        and usability IT systems 
+        and usability IT systems
   - expectation:
-      undefined: to design and implement RWD user interfaces
+      contents: to design and implement RWD user interfaces
   - expectation:
-      undefined: 'to implement best UI practices within the project teams '
+      contents: 'to implement best UI practices within the project teams '
   - expectation:
-      undefined: to conduct CSS/HTML code review
+      contents: to conduct CSS/HTML code review
   - expectation:
-      undefined: to adapt the design of applications/ systems to new graphic requirements
+      contents: to adapt the design of applications/ systems to new graphic requirements
   - expectation:
-      undefined: to extend & maintain DevTeam’s knowledge base
+      contents: to extend & maintain DevTeam’s knowledge base
   - expectation:
-      undefined: to learn & adopt new tools/ technologies/ programming languages
+      contents: to learn & adopt new tools/ technologies/ programming languages
   - expectation:
-      undefined: >-
+      contents: >-
         to initiate/ to take part in grass-roots, both internal & external
         activities
 what-you-expect:
   - expectation:
-      undefined: >-
+      contents: >-
         the possibility to work with clients from around the world representing,
         among other industries: art, e-commerce, energy, and construction
   - expectation:
-      undefined: >-
+      contents: >-
         to be a part of a team that strives for the best solutions for client
         and project itself
   - expectation:
-      undefined: to have the freedom of action
+      contents: to have the freedom of action
   - expectation:
-      undefined: to have a real impact on the company's development trends
+      contents: to have a real impact on the company's development trends
   - expectation:
-      undefined: the software needed to deliver good results
+      contents: the software needed to deliver good results
   - expectation:
-      undefined: 'an additional budget for trainings, workshops, conferences, etc.'
+      contents: 'an additional budget for trainings, workshops, conferences, etc.'
   - expectation:
-      undefined: the flexibility of working hours
+      contents: the flexibility of working hours
   - expectation:
-      undefined: >-
+      contents: >-
         a nice office in the heart of Wrocław surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
-      undefined: a co-financed Multisport Card
+      contents: a co-financed Multisport Card
   - expectation:
-      undefined: a MacBook
+      contents: a MacBook
 we-need-you-to:
   - expectation:
-      undefined: 'experienced in software development using HTML5, CSS3 (min. 2 years)'
+      contents: 'experienced in software development using HTML5, CSS3 (min. 2 years)'
   - expectation:
-      undefined: 'acquainted with Bootstrap/ Foundation UI '
+      contents: 'acquainted with Bootstrap/ Foundation UI '
   - expectation:
-      undefined: 'knowledgeable about HTML/CSS validation '
+      contents: 'knowledgeable about HTML/CSS validation '
   - expectation:
-      undefined: experienced with CSS preprocessors - LESS/SASS
+      contents: experienced with CSS preprocessors - LESS/SASS
   - expectation:
-      undefined: aware of trends in user interface design and implementation
+      contents: aware of trends in user interface design and implementation
   - expectation:
-      undefined: proficient in English - both in writing and speaking
+      contents: proficient in English - both in writing and speaking
 would-be-great:
   - expectation:
-      undefined: have additional knowledge of JavaScript/ JQuery UI
+      contents: have additional knowledge of JavaScript/ JQuery UI
   - expectation:
-      undefined: 'have practical knowledge of Bower, Gulp, Node.js'
+      contents: 'have practical knowledge of Bower, Gulp, Node.js'
   - expectation:
-      undefined: have basic knowledge of Web Accessibility and User Experience
+      contents: have basic knowledge of Web Accessibility and User Experience
   - expectation:
-      undefined: have worked with Netlify CMS
+      contents: have worked with Netlify CMS
   - expectation:
-      undefined: boost your work with creative and innovative thinking
+      contents: boost your work with creative and innovative thinking
 benefits:
   - benefit:
       benefit-content: >-
@@ -121,4 +121,3 @@ salaries:
       contract: + VAT (B2B)
       sum: '5000 - 7200 PLN net '
 ---
-
