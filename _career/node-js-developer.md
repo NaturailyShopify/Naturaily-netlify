@@ -19,7 +19,7 @@ about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
   We are waiting for you!
-about-image: /assets/images/career-image-5.jpg
+about-image: ''
 type: Development
 salary-preview:
   - salary:
@@ -126,3 +126,4 @@ salaries:
       contract: B2B
       sum: 13 500 - 18 000 PLN net + VAT
 ---
+
