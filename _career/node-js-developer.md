@@ -27,74 +27,74 @@ salary-preview:
       sum: 13 500 - 18 000 PLN net + VAT
 what-we-expect:
   - expectation:
-      undefined: 'to drive software architecture, design & development activities '
+      contents: 'to drive software architecture, design & development activities '
   - expectation:
-      undefined: >-
+      contents: >-
         to keep abreast of new technology trends & to identify opportunities and
         risks
   - expectation:
-      undefined: to learn &  adopt new tools/ technologies/ programming languages
+      contents: to learn &  adopt new tools/ technologies/ programming languages
   - expectation:
-      undefined: to communicate with the client on behalf of team
+      contents: to communicate with the client on behalf of team
   - expectation:
-      undefined: to extend &  maintain DevTeam’s knowledge base
+      contents: to extend &  maintain DevTeam’s knowledge base
   - expectation:
-      undefined: to mentor other Developers
+      contents: to mentor other Developers
   - expectation:
-      undefined: >-
+      contents: >-
         to initiate/ to take part in grass-roots, both internal & external
         activities
 what-you-expect:
   - expectation:
-      undefined: >-
+      contents: >-
         the possibility to work with clients from around the world representing,
         among other industries: art, e-commerce, energy, and construction
   - expectation:
-      undefined: >-
+      contents: >-
         to be a part of a team that strives for the best solutions for client
         and project itself
   - expectation:
-      undefined: to have the freedom of action
+      contents: to have the freedom of action
   - expectation:
-      undefined: to have a real impact on the company's development trends
+      contents: to have a real impact on the company's development trends
   - expectation:
-      undefined: the software needed to deliver good results
+      contents: the software needed to deliver good results
   - expectation:
-      undefined: 'an additional budget for trainings, workshops, conferences, etc.'
+      contents: 'an additional budget for trainings, workshops, conferences, etc.'
   - expectation:
-      undefined: the flexibility of working hours
+      contents: the flexibility of working hours
   - expectation:
-      undefined: >-
+      contents: >-
         a nice office in the heart of Wrocław surrounded by cafés, restaurants,
         art galleries, etc.
   - expectation:
-      undefined: a co-financed Multisport Card
+      contents: a co-financed Multisport Card
   - expectation:
-      undefined: a MacBook
+      contents: a MacBook
 we-need-you-to:
   - expectation:
-      undefined: commercially experienced Node.js software development
+      contents: commercially experienced Node.js software development
   - expectation:
-      undefined: 'knowledgeable of MySQL, PostgreSQL or noSQL databases'
+      contents: 'knowledgeable of MySQL, PostgreSQL or noSQL databases'
   - expectation:
-      undefined: knowledgeable of JavaScript ES6+/ Typescript
+      contents: knowledgeable of JavaScript ES6+/ Typescript
   - expectation:
-      undefined: 'experienced in working with following: ElasticSearch, Docker'
+      contents: 'experienced in working with following: ElasticSearch, Docker'
   - expectation:
-      undefined: aware of architectural & Object Oriented Programming design patterns
+      contents: aware of architectural & Object Oriented Programming design patterns
   - expectation:
-      undefined: 'experienced with Git usage '
+      contents: 'experienced with Git usage '
   - expectation:
-      undefined: 'independent as a tech lead within a small team '
+      contents: 'independent as a tech lead within a small team '
   - expectation:
-      undefined: eager to mentor other developers
+      contents: eager to mentor other developers
   - expectation:
-      undefined: proficient in English - both in writing and speaking
+      contents: proficient in English - both in writing and speaking
 would-be-great:
   - expectation:
-      undefined: have additional knowledge of React/Vue.js
+      contents: have additional knowledge of React/Vue.js
   - expectation:
-      undefined: contribute to Open Source community
+      contents: contribute to Open Source community
 benefits:
   - benefit:
       benefit-content: >-
@@ -126,4 +126,3 @@ salaries:
       contract: B2B
       sum: 13 500 - 18 000 PLN net + VAT
 ---
-

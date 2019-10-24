@@ -99,7 +99,7 @@ collections:
           - label: "Expectation"
             name: "expectation"
             widget: "object"
-            field:
+            fields:
               - {label: "What you expect text", name: "contents", widget: "string"}
       - label: "We need you to be"
         name: "we-need-you-to"
@@ -109,7 +109,7 @@ collections:
           - label: "Expectation"
             name: "expectation"
             widget: "object"
-            field:
+            fields:
               - {label: "Nice have text", name: "contents", widget: "string"}
       - label: "It would be great if you"
         name: "would-be-great"
@@ -119,7 +119,7 @@ collections:
           - label: "Expectation"
             name: "expectation"
             widget: "object"
-            field:
+            fields:
               - {label: "Nice have text", name: "contents", widget: "string"}
       - label: "Benefits"
         name: "benefits"
