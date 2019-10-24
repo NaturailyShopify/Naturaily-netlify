@@ -2,14 +2,14 @@
   <div class="section_content">
 
     <p class="paragraph about_top">
-      {{page.who-we-are}}
+      {{page.who-we-are | markdownify}}
     </p>
     <div class="about_mid">
       <p class="paragraph about_left">
-        {{page.about-left}}
+        {{page.about-left | markdownify}}
       </p>
       <p class="paragraph about_right">
-        {{page.about-right}}
+        {{page.about-right | markdownify}}
       </p>
     </div>
     {% if !page.about-image.empty %}
