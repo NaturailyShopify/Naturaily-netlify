@@ -29,7 +29,7 @@ An IoT project is the act of connecting any physical object to the Internet to c
 
 Occasionally known as the **Industrial IoT**, the benefits of the IoT for business depend on the particular implementation, but the key is that enterprises should have access to more data about their own products and their own internal systems, and a greater ability to make changes as a result. IoT thrives in improving logistics of transport and production. It helps with tracking inventory, supply, demand and even consumer experience. It’s also extremely useful in developing Smart Cities where it enables monitoring of everything starting with public transport to waste management. It shows immense potential in the field of healthcare - like drug monitoring devices that could ensure patients are taking the correct doses of medication as well as measuring patient’s vitals remotely. Another domain where IoT is gaining popularity in agriculture and meteorology where it enables tracking and gathering information in remote places. 
 
-![smart_city_iot](/assets/images/1.png)
+![smart_city_iot](/assets/images/smart-city.jpg)
 
 ## The challenges of developing an IoT Project
 
@@ -75,11 +75,9 @@ For your IoT project you will need:
 
 Only after you've assembled a team or engineers, designer and testers you can start building a **prototype**. Developing it allows to discover the minimum parameters for your IoT project before the full deploy. 
 
-
 **Step 5** Quality Assurance. 
 
 A prototype should be thoroughly tested (both its software and hardware). Then it will probably...fail! But don’t worry, it’s just how the process works. You build something, test it, it fails and then you can improve it. It’s a crucial step to any project.
-
 
 **Step 6** Build and deploy your IoT project.
 
