@@ -10,6 +10,7 @@
 
   &-heading {
     padding-bottom: 30px;
+    padding-left: 10px;
     margin-bottom: 48px;
     border-bottom: 2px solid rgba(232, 225, 213, 0.8);
   }
@@ -20,9 +21,12 @@
   }
 
   &-body {
-    padding-right: 110px;
-    padding-bottom: 60px;
+    padding: 0 10px 60px;
     display: flex;
+  }
+
+  &-footer {
+    padding-left: 10px;
   }
 
   &-regon {
@@ -34,6 +38,7 @@
   }
 
   &_contact {
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -111,12 +116,20 @@
 
 @media (max-width: 810px) {
   .footer {
-    padding: 0 20px;
     padding-top: 100px;
 
     &-body {
       padding-right: 0;
       flex-wrap: wrap;
+      padding: 0 20px 60px;
+    }
+
+    &-heading {
+      padding-left: 20px;
+    }
+
+    &-footer {
+      padding-left: 20px;
     }
 
     &-regon {
