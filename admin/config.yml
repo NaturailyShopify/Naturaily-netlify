@@ -26,7 +26,8 @@ collections:
       - {label: "Author avatar(optimally 100x100px)", name: "avatar", widget: "image"}
       - {label: "Post image(optimally 800x313px)", name: "image", widget: "image"}
       - {label: "Post preview(160 to 360 characters)", name: "text-preview", widget: "text"}
-      - label: "Tags(with spaces and separated by commas, ex: 'React Js Development, Ruby on Rails development')"
+      - label: "Tags"
+        description: "with spaces and separated by commas, ex: 'React Js Development, Ruby on Rails development'"
         name: "tags"
         widget: "list"
         allow_add: true
@@ -61,7 +62,11 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "career-offer"}
       - {label: "Meta Image", name: "image", widget: "image", required: false}
       - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
-      - {label: "Location", name: "location", widget: "string"}
+      - label: "Location"
+        description: "Add location with spaces and separated by commas, ex: 'Wrocław, Remote'"
+        name: "location"
+        widget: "list"
+        allow_add: true
       - {label: "Who we are", name: "who-we-are", widget: "markdown"}
       - {label: "About left section", name: "about-left", widget: "markdown"}
       - {label: "About right section", name: "about-right", widget: "markdown"}

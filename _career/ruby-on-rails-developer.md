@@ -6,7 +6,8 @@ description: >-
   digital products.
 layout: career-offer
 image: /assets/images/kopia-template-recrutation-01.png
-location: Wrocław
+location:
+  - Wrocław
 who-we-are: >
   Software house is a multi-element puzzle. For six years, we have been successfully constructing the team of people with matching characters and skills, which resulted in a truly beautiful picture. Only one piece is missing. We believe it is you, Naturaily.
 about-left: >

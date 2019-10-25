@@ -5,7 +5,9 @@ description: >-
   There is one piece missing in the organization! We believe it is you,
   Naturaily.
 layout: career-offer
-location: Wrocław/ Remote
+location:
+  - Wrocław
+  - Remote
 who-we-are: >-
   **Software house is a multi-element puzzle. For six years, we have been
   successfully constructing the team of people with matching characters and

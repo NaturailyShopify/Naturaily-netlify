@@ -6,7 +6,8 @@ description: >-
   Marketing Team!
 layout: career-offer
 image: /assets/images/junior_marketing_specialist.png
-location: Wrocław
+location:
+  - Wrocław
 who-we-are: >
   Every software house is a multi-element puzzle. For six years, we have been successfully constructing a team of people with complementary characters and skills, which has resulted in a truly beautiful picture. Only one piece is missing. We believe it is you, Naturaily.
 about-left: >

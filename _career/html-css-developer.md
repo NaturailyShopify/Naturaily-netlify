@@ -3,7 +3,8 @@ published: true
 title: HTML/CSS Developer
 description: 'There is still one piece missing! We believe it''s you, Naturaily!'
 layout: career-offer
-location: Wrocław
+location:
+  - Wrocław
 who-we-are: >-
   **Software house is a multi-element puzzle. For six years, we have been
   successfully constructing the team of people with matching characters and

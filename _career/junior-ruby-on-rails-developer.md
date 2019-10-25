@@ -7,7 +7,8 @@ description: >-
 layout: career-offer
 image: /assets/images/kopia-template-recrutation-01-2-.png
 twitter-card: summary_large_image
-location: Wrocław
+location:
+  - Wrocław
 who-we-are: >
   Software house is a multi-element puzzle. For six years, we have been
   successfully constructing the team of people with matching characters and
@@ -111,4 +112,3 @@ salaries:
       contract: B2B
       sum: 4000 - 6500 PLN net + VAT
 ---
-
