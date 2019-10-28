@@ -142,7 +142,7 @@ With the right analytical software installed on your website, you will be able t
 
 ### SEO optimization
 
-![](/assets/images/product-desription.png)
+![null](/assets/images/product-desription.png)
 
 Technical SEO optimization for e-commerce stores is a constant process. With crawlers constantly changing their patterns and behavior, e-commerce websites need to be constantly updated to meet Google’s more demanding needs.
 
@@ -155,10 +155,10 @@ Some of the technical SEO optimizations you can perform at your store include:
 
 To sum up, with Shopify & Shopify Plus becoming one of the most popular platforms for medium and big e-commerce businesses, it provides merchants with endless opportunities when it comes to their choice of systems’ integration. 
 
-
-
 Yet sometimes, native integrations and marketplace applications are not enough to optimize workflow and ensure seamless processes across the organization. This is where custom API integrations can become a necessity, connecting your software solutions with proper middleware.
 
-
-
 Eventually, they can actually help you grow revenue, via wider multi-channel distribution, and save time with tasks such as synchronization & processes’ automation.
+
+
+
+{% CTA (Do you need custom Shopify integrations?)[Contact us]<naturaily.com/get-an-estimate>|undefined| %}
