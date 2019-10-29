@@ -15,6 +15,15 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - label: Relacja
+        name: authors
+        widget: custom-file-relation
+        collection: posts-authors
+        file: authors
+        target_field: authors
+        id_field: id
+        display_fields: ['name', 'id']
+        multiple: true
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -32,21 +41,27 @@ collections:
         allow_add: true
       - {label: "Body", name: "body", widget: "markdown"}
   -
-    name: "posts-authors"
     label: "Posts authors"
+    name: "posts-authors"
     editor:
        preview: false
     files:
       - label: "Authors list"
-        name: "authors-list"
+        name: "authors"
         file: "_data/authors.yml"
         fields:
           - label: "Authors"
             label_singular: "Author"
             name: "authors"
             widget: list
+            allow_add: true
             fields:
-              - {label: Name, name: name, widget: string}
+              - label: Name
+                name: name
+                widget: string
+              - label: ID
+                name: id
+                widget: string
   -
     name: "career"
     label: "Job offers"
