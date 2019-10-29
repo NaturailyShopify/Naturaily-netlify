@@ -1,55 +1,55 @@
 authors:
   - name: Wojciech Miśta
-    id: 0
-  - name: Tomasz Żdanuk
     id: 1
-  - name: Agata Zięba
+  - name: Tomasz Żdanuk
     id: 2
-  - name: Błażej Pichur
+  - name: Agata Zięba
     id: 3
-  - name: Sebastian Kubiak
+  - name: Błażej Pichur
     id: 4
-  - name: Marcin Sulikowski
+  - name: Sebastian Kubiak
     id: 5
-  - name: Mikołaj Grygiel
+  - name: Marcin Sulikowski
     id: 6
-  - name: Jan Wieczorkowski
+  - name: Mikołaj Grygiel
     id: 7
-  - name: Patryk Szeliga
+  - name: Jan Wieczorkowski
     id: 8
-  - name: Kamil Buczel
+  - name: Patryk Szeliga
     id: 9
-  - name: Marcin Mantke
+  - name: Kamil Buczel
     id: 10
-  - name: Jacek Hiszpański
+  - name: Marcin Mantke
     id: 11
-  - name: Agnieszka Bugajska
+  - name: Jacek Hiszpański
     id: 12
-  - name: Sebastian Brych
+  - name: Agnieszka Bugajska
     id: 13
-  - name: Przemysław Świercz
+  - name: Sebastian Brych
     id: 14
-  - name: Maciej Kucharski
+  - name: Przemysław Świercz
     id: 15
-  - name: Mateusz Barczak
+  - name: Maciej Kucharski
     id: 16
-  - name: Arek Poczobut
+  - name: Mateusz Barczak
     id: 17
-  - name: Bartek Zienkiewicz
+  - name: Arek Poczobut
     id: 18
-  - name: Piotrek Musielak
+  - name: Bartek Zienkiewicz
     id: 19
-  - name: Paweł Cybulski
+  - name: Piotrek Musielak
     id: 20
-  - name: Epifany Bojanowska
+  - name: Paweł Cybulski
     id: 21
-  - name: Klaudia Chudy
+  - name: Epifany Bojanowska
     id: 22
-  - name: Beata Twardowska
+  - name: Klaudia Chudy
     id: 23
-  - name: Kamil Sopata
+  - name: Beata Twardowska
     id: 24
-  - name: Leo Baz
+  - name: Kamil Sopata
     id: 25
-  - name: Michał Kosyk
+  - name: Leo Baz
     id: 26
+  - name: Michał Kosyk
+    id: 27
