@@ -25,7 +25,7 @@ module Jekyll
         dir = site.config['blog']['authors']['url'] || 'blog/authors/'
         site.data["authors"]["authors"].each do |author|
           author_name = author["name"].gsub(/\s+/, '-')
-          site.pages << AuthorPage.new(site, site.source, File.join(dir, author_name), author["name"])
+          site.pages << AuthorPage.new(site, site.source, File.join(dir, author_name), author["id"])
         end
       end
     end

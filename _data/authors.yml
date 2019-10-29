@@ -1,28 +1,55 @@
 authors:
   - name: Wojciech Miśta
+    id: 0
   - name: Tomasz Żdanuk
+    id: 1
   - name: Agata Zięba
+    id: 2
   - name: Błażej Pichur
+    id: 3
   - name: Sebastian Kubiak
+    id: 4
   - name: Marcin Sulikowski
+    id: 5
   - name: Mikołaj Grygiel
+    id: 6
   - name: Jan Wieczorkowski
+    id: 7
   - name: Patryk Szeliga
+    id: 8
   - name: Kamil Buczel
+    id: 9
   - name: Marcin Mantke
+    id: 10
   - name: Jacek Hiszpański
+    id: 11
   - name: Agnieszka Bugajska
+    id: 12
   - name: Sebastian Brych
+    id: 13
   - name: Przemysław Świercz
+    id: 14
   - name: Maciej Kucharski
+    id: 15
   - name: Mateusz Barczak
+    id: 16
   - name: Arek Poczobut
+    id: 17
   - name: Bartek Zienkiewicz
+    id: 18
   - name: Piotrek Musielak
+    id: 19
   - name: Paweł Cybulski
+    id: 20
   - name: Epifany Bojanowska
+    id: 21
   - name: Klaudia Chudy
+    id: 22
   - name: Beata Twardowska
+    id: 23
   - name: Kamil Sopata
+    id: 24
   - name: Leo Baz
+    id: 25
   - name: Michał Kosyk
+    id: 26
