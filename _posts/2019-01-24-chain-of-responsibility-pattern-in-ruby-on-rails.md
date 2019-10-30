@@ -6,7 +6,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-01-24 12:45:21 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Klaudia Chudy
   value: author-23
   avatar: /assets/images/klaudusia.jpg

@@ -8,7 +8,7 @@ slug: faster-easier-frontend-development
 layout: post
 date: '2018-09-17 12:00:15 +0200'
 category: Frontend development
-author:
+authors:
   label: Bartek Zienkiewicz
   value: author-19
   avatar: /assets/images/bartek.jpg

@@ -10,7 +10,7 @@ slug: shopify-stores-problems
 layout: post
 date: '2019-10-30 11:20:08 +0200'
 category: Shopify development
-author:
+authors:
   label: Mateusz Pliszka
   value: author-28
   avatar: /assets/images/mateusz-pliszka.jpg

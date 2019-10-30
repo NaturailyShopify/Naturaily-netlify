@@ -7,7 +7,7 @@ slug: productivity-tools-not-only-for-devs
 layout: post
 date: '2019-08-20 06:40:53 +0200'
 category: Software development
-author:
+authors:
   label: Michał Kosyk
   value: author-27
   avatar: /assets/images/michal_kosyk_profile.png

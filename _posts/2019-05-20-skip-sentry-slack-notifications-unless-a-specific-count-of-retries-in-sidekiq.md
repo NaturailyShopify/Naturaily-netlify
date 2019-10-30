@@ -12,7 +12,7 @@ twitter-card: >-
   of retries in Sidekiq
 date: '2019-05-20 09:36:13 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Arek Poczobut
   value: author-18
   avatar: /assets/images/arek.jpg

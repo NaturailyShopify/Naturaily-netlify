@@ -8,7 +8,7 @@ description: >-
 slug: android-developer-guide-help-screens
 date: '2016-09-22 10:38:01 +0000'
 category: Native mobile development
-author:
+authors:
   label: Kamil Buczel
   value: author-10
   avatar: /assets/images/kamil.jpg

@@ -7,7 +7,7 @@ description: >-
 slug: meteor-autoform-translations
 date: '2016-01-11 10:38:01 +0000'
 category: JavaScript development
-author:
+authors:
   label: Jan Wieczorkowski
   value: author-8
   avatar: /assets/images/janpol.png

@@ -8,7 +8,7 @@ slug: multiprocessing-in-ruby
 layout: post
 date: '2019-08-19 12:59:00 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Kamil Sopata
   value: author-25
   avatar: /assets/images/kamil_sopata_profile.png

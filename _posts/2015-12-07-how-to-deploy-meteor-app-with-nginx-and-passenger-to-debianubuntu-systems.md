@@ -6,7 +6,7 @@ description: >-
 slug: meteor-app-ngnix-debian
 date: '2015-12-07 10:38:01 +0000'
 category: JavaScript development
-author:
+authors:
   label: Jacek Hiszpański
   value: author-12
   avatar: /assets/images/jacek.png

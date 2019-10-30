@@ -6,7 +6,7 @@ description: >-
 slug: analyzing-competitions-tweeting-patterns
 date: '2016-08-12 10:38:01 +0000'
 category: Online marketing
-author:
+authors:
   label: Marcin Sulikowski
   value: author-6
   avatar: /assets/images/marcin.jpg

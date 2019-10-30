@@ -7,7 +7,7 @@ slug: life-revolutionized-by-fin-tech
 twitter-card: summary_large_image
 date: '2016-11-09 10:38:01 +0000'
 category: Startups
-author:
+authors:
   label: Marcin Sulikowski
   value: author-6
   avatar: /assets/images/marcin.jpg

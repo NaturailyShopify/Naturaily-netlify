@@ -9,7 +9,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-03-05 12:55:17 +0200'
 category: JavaScript development
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

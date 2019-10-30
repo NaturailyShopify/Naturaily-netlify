@@ -6,7 +6,7 @@ description: >-
 slug: ruby-on-rails-apps
 date: '2017-12-07 10:38:01 +0000'
 category: Ruby on Rails development
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

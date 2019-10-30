@@ -7,7 +7,7 @@ slug: ruby-on-rails-trailblazer-cells
 twitter-card: summary_large_image
 date: '2016-10-03 10:38:01 +0000'
 category: Ruby on Rails development
-author:
+authors:
   label: Mikołaj Grygiel
   value: author-7
   avatar: /assets/images/claus.jpg

@@ -12,7 +12,7 @@ twitter-card: >-
   partnering with a software house.
 date: '2019-08-13 11:16:00 +0200'
 category: Software development
-author:
+authors:
   label: Marcin Sulikowski
   value: author-6
   avatar: /assets/images/marcin.jpg

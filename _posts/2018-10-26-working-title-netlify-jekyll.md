@@ -8,7 +8,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-10-31 10:40:17 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Paweł Cybulski
   value: author-21
   avatar: /assets/images/lighto.jpg

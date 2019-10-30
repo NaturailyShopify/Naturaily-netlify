@@ -9,7 +9,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-03-29 04:05:01 +0200'
 category: Events
-author:
+authors:
   label: Beata Twardowska
   value: author-24
   avatar: /assets/images/beata.jpg

@@ -10,7 +10,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-09-24 12:30:25 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Piotrek Musielak
   value: author-20
   avatar: /assets/images/piotrek-musielak.jpg

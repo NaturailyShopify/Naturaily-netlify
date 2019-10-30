@@ -6,7 +6,7 @@ description: >-
 slug: marionette-tutorial-objects-commands
 date: '2014-07-15 10:38:01 +0000'
 category: JavaScript development
-author:
+authors:
   label: Maciej Kucharski
   value: author-16
   avatar: /assets/images/maciek.png

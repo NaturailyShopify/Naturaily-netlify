@@ -6,7 +6,7 @@ description: >-
 slug: api-authentication-devise-doorkeeper-setup
 date: '2016-08-22 10:38:01 +0000'
 category: Ruby on Rails development
-author:
+authors:
   label: Jan Wieczorkowski
   value: author-8
   avatar: /assets/images/janpol.png

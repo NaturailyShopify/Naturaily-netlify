@@ -6,7 +6,7 @@ description: >-
 slug: entrepreneurs-snapchat
 date: '2016-06-24 10:38:01 +0000'
 category: Startups
-author:
+authors:
   label: Marcin Sulikowski
   value: author-6
   avatar: /assets/images/marcin.jpg

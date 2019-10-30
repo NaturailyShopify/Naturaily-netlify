@@ -8,7 +8,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-01-15 11:45:05 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

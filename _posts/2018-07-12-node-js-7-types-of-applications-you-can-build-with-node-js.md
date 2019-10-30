@@ -8,7 +8,7 @@ slug: node-js-applications
 layout: post
 date: '2018-07-30 10:18:26 +0000'
 category: JavaScript development
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

@@ -8,7 +8,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-12-10 12:28:16 +0200'
 category: Recruitment
-author:
+authors:
   label: Epifany Bojanowska
   value: author-22
   avatar: /assets/images/epifany_bojanowska-2.jpg

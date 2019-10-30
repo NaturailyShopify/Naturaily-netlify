@@ -7,7 +7,7 @@ description: >-
 slug: women-in-it
 date: '2015-04-08 10:38:01 +0000'
 category: Diversity
-author:
+authors:
   label: Agnieszka Bugajska
   value: author-13
   avatar: /assets/images/aga.png

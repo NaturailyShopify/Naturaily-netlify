@@ -8,7 +8,7 @@ slug: client-designer-struggles
 layout: post
 date: '2018-07-16 02:10:29 +0000'
 category: UX/UI
-author:
+authors:
   label: Agata Zięba
   value: author-3
   avatar: /assets/images/agata.jpg

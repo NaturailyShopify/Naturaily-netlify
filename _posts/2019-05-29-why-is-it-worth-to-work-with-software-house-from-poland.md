@@ -10,7 +10,7 @@ twitter-card: >-
   We are the best to work with and here is why.
 date: '2019-05-29 08:46:38 +0200'
 category: Software development
-author:
+authors:
   label: Marcin Sulikowski
   value: author-6
   avatar: /assets/images/marcin.jpg

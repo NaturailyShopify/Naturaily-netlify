@@ -14,7 +14,7 @@ twitter-card: >-
   find a reliable software development partner.
 date: '2019-07-31 02:04:06 +0200'
 category: Clutch
-author:
+authors:
   label: Leo Baz
   value: author-26
   avatar: /assets/images/leo_baz_profile.png

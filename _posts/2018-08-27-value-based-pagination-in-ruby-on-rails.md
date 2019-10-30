@@ -7,7 +7,7 @@ slug: value-based-pagination-rails
 layout: post
 date: '2018-09-03 09:29:02 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Tomasz Żdanuk
   value: author-2
   avatar: /assets/images/tomasz.jpg

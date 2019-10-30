@@ -7,7 +7,7 @@ slug: rubyc-2019-highlights
 layout: post
 date: '2019-10-07 08:55:38 +0200'
 category: Events
-author:
+authors:
   label: Beata Twardowska
   value: author-24
   avatar: /assets/images/beata.jpg

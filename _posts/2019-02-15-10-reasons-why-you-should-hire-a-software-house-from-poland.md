@@ -10,7 +10,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-02-15 12:31:43 +0200'
 category: Startups
-author:
+authors:
   label: Epifany Bojanowska
   value: author-22
   avatar: /assets/images/epifany_bojanowska-2.jpg

@@ -8,7 +8,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-04-09 11:30:30 +0200'
 category: JavaScript development
-author:
+authors:
   label: Bartek Zienkiewicz
   value: author-19
   avatar: /assets/images/bartek.jpg

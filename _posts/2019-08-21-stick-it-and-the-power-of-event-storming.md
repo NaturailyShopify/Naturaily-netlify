@@ -8,7 +8,7 @@ slug: power-of-event-storming
 layout: post
 date: '2019-08-27 07:24:52 +0200'
 category: Software development
-author:
+authors:
   label: Michał Kosyk
   value: author-27
   avatar: /assets/images/michal_kosyk_profile.png

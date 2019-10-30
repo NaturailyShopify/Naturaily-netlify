@@ -10,7 +10,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-01-04 09:00:45 +0200'
 category: Frontend development
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

@@ -8,7 +8,7 @@ slug: ruby-on-rails-design-patterns
 twitter-card: summary_large_image
 date: '2016-08-18 10:38:01 +0000'
 category: Ruby on Rails development
-author:
+authors:
   label: Marcin Mantke
   value: author-11
   avatar: /assets/images/mantle.png

@@ -6,7 +6,7 @@ description: >-
 slug: meteor-blog-tutorial
 date: '2015-03-04 10:38:01 +0000'
 category: JavaScript development
-author:
+authors:
   label: Sebastian Brych
   value: author-14
   avatar: /assets/images/no-image.png

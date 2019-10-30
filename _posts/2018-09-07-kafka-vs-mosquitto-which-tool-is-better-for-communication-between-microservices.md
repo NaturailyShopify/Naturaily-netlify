@@ -11,7 +11,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-10-01 10:00:04 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Marcin Mantke
   value: author-11
   avatar: /assets/images/mantle.png

@@ -8,7 +8,7 @@ slug: rails-elastic-aggregation-drapper
 layout: post
 date: '2018-08-27 11:55:08 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Arek Poczobut
   value: author-18
   avatar: /assets/images/arek.jpg
@@ -60,7 +60,7 @@ I'll skip steps taken to create the app and to add some layout. I'll use control
 ```ruby
    rails g model category name:string
     rails g model author name:string
-    rails g model article name:string author:references
+    rails g model article name:string authors:references
     rails g model article_category article:references category:references
     rake db:migrate
     rails generate draper:install
@@ -183,13 +183,13 @@ cool = Category.create(name: 'cool jazz')
 
 author = Author.create(name: 'Miles Davis')
 ['Bitches Brew', 'A Tribute to Jack Johnson', 'Miles In The Sky', 'Pangaea'].each do |title|
-  article = Article.create(name: title, author: author )
+  article = Article.create(name: title, authors: author )
   ArticleCategory.create(category: jazz, article: article)
   ArticleCategory.create(category: fusion, article: article)
 end
 
 ['Kind of Blue', 'Sketches Of Spain', 'Birth of the Cool', 'Porgy And Bess'].each do |title|
-  article = Article.create(name: title, author: author )
+  article = Article.create(name: title, authors: author )
   ArticleCategory.create(category: jazz, article: article)
   ArticleCategory.create(category: cool, article: article)
   ArticleCategory.create(category: bebop, article: article)
@@ -197,47 +197,47 @@ end
 
 author = Author.create(name: 'Sonny Rollins')
 ['Sonny Rollins With The Modern Jazz Quartet'].each do |title|
-  article = Article.create(name: title, author: author )
+  article = Article.create(name: title, authors: author )
   ArticleCategory.create(category: jazz, article: article)
   ArticleCategory.create(category: cool, article: article)
 end
 
 ['Next Album', 'Easy Living', 'The Way I Feel ', "Don't Stop the Carnival"].each do |title|
-  article = Article.create(name: title, author: author )
+  article = Article.create(name: title, authors: author )
   ArticleCategory.create(category: jazz, article: article)
   ArticleCategory.create(category: fusion, article: article)
 end
 
 ['Saxophone Colossus', 'Plus Three'].each do |title|
-  article = Article.create(name: title, author: author )
+  article = Article.create(name: title, authors: author )
   ArticleCategory.create(category: jazz, article: article)
   ArticleCategory.create(category: bebop, article: article)
 end
 
 author = Author.create(name: 'Chet Baker')
 ['Chet', 'My Funny Valentine'].each do |title|
-  article = Article.create(name: title, author: author )
+  article = Article.create(name: title, authors: author )
   ArticleCategory.create(category: jazz, article: article)
   ArticleCategory.create(category: cool, article: article)
 end
 
 author = Author.create(name: 'Paul Desmond')
 ['Feeling Blue', 'Bossa Antigua', "We're all together again"].each do |title|
-  article = Article.create(name: title, author: author )
+  article = Article.create(name: title, authors: author )
   ArticleCategory.create(category: jazz, article: article)
   ArticleCategory.create(category: cool, article: article)
 end
 
 author = Author.create(name: 'Dave Brubeck')
 ['Concord on a Summer Night', 'Time Further Out', "Time Out"].each do |title|
-  article = Article.create(name: title, author: author )
+  article = Article.create(name: title, authors: author )
   ArticleCategory.create(category: jazz, article: article)
   ArticleCategory.create(category: cool, article: article)
 end
 
 author = Author.create(name: 'The Mahavishnu Orchestra')
 ['Birds Of Fire', 'Between Nothingness & Eternity', 'The Inner Mounting Flame'].each do |title|
-  article = Article.create(name: title, author: author )
+  article = Article.create(name: title, authors: author )
   ArticleCategory.create(category: jazz, article: article)
   ArticleCategory.create(category: fusion, article: article)
 end

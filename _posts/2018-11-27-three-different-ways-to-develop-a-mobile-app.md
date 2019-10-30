@@ -6,7 +6,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-11-28 11:15:00 +0200'
 category: Native mobile development
-author:
+authors:
   label: Epifany Bojanowska
   value: author-22
   avatar: /assets/images/epifany_bojanowska-2.jpg

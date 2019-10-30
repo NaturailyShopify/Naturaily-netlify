@@ -6,7 +6,7 @@ description: >-
 slug: remote-work-pros
 date: '2016-07-04 10:38:01 +0000'
 category: Agile
-author:
+authors:
   label: Marcin Sulikowski
   value: author-6
   avatar: /assets/images/marcin.jpg

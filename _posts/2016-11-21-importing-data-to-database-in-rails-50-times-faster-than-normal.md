@@ -6,7 +6,7 @@ description: >-
 slug: ruby-on-rails-fast-data-import
 date: '2016-11-21 10:38:01 +0000'
 category: Ruby on Rails development
-author:
+authors:
   label: Mikołaj Grygiel
   value: author-7
   avatar: /assets/images/claus.jpg

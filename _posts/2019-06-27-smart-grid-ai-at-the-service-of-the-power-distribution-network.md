@@ -12,7 +12,7 @@ twitter-card: >-
   transmission of electricity and its faster restoration after power blackouts.
 date: '2019-06-28 12:43:53 +0200'
 category: IoT
-author:
+authors:
   label: Marcin Sulikowski
   value: author-6
   avatar: /assets/images/marcin.jpg

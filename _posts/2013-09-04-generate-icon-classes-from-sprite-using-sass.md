@@ -6,7 +6,7 @@ description: >-
 slug: sprite-icon-classes-sass
 date: '2013-09-04 10:38:01 +0000'
 category: Frontend development
-author:
+authors:
   label: Maciej Kucharski
   value: author-16
   avatar: /assets/images/maciek.png

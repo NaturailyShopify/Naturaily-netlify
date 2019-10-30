@@ -6,7 +6,7 @@ description: >-
 slug: google-sheets-breeze-time-tracker
 date: '2017-08-22 10:38:01 +0000'
 category: Agile
-author:
+authors:
   label: Sebastian Kubiak
   value: author-5
   avatar: /assets/images/seba.jpg

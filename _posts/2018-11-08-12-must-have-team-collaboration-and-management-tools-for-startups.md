@@ -8,7 +8,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-11-09 12:50:51 +0200'
 category: Agile
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

@@ -6,7 +6,7 @@ description: >-
 slug: responsive-text-guide
 date: '2014-01-28 10:38:01 +0000'
 category: Frontend development
-author:
+authors:
   label: Maciej Kucharski
   value: author-16
   avatar: /assets/images/maciek.png

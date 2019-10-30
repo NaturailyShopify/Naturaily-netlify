@@ -8,7 +8,7 @@ slug: why-do-we-fail-at-abstractions
 layout: post
 date: '2019-09-04 08:40:22 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Michał Kosyk
   value: author-27
   avatar: /assets/images/michal_kosyk_profile.png

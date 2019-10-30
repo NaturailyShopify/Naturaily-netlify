@@ -7,7 +7,7 @@ description: >-
 slug: ruby-on-rails-background-services
 date: '2016-11-04 10:38:01 +0000'
 category: Ruby on Rails development
-author:
+authors:
   label: Jan Wieczorkowski
   value: author-8
   avatar: /assets/images/janpol.png

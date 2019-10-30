@@ -8,7 +8,7 @@ slug: startup-entrepreneurship-podcasts
 layout: post
 date: '2018-08-13 12:59:01 +0000'
 category: Startups
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

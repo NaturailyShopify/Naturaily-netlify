@@ -6,7 +6,7 @@ description: >-
 slug: what-is-design-sprint
 date: '2018-01-08 10:38:01 +0000'
 category: Agile
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

@@ -9,7 +9,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-02-04 09:55:56 +0200'
 category: IoT
-author:
+authors:
   label: Epifany Bojanowska
   value: author-22
   avatar: /assets/images/epifany_bojanowska-2.jpg

@@ -6,7 +6,7 @@ description: >-
 slug: ruby-on-rails-enum
 date: '2018-06-18 10:00:00 +0000'
 category: Ruby on Rails development
-author:
+authors:
   label: Błażej Pichur
   value: author-4
   avatar: /assets/images/blazej.png

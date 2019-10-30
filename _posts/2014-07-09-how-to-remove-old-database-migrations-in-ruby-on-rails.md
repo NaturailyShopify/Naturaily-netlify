@@ -7,7 +7,7 @@ slug: remove-old-migrations-ruby-on-rails
 twitter-card: summary_large_image
 date: '2019-01-11 10:38:01 +0200'
 category: Ruby on Rails development
-author:
+authors:
   label: Jacek Hiszpański
   value: author-12
   avatar: /assets/images/jacek.png

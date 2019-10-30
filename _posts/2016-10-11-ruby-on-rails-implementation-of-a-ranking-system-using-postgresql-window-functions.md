@@ -8,7 +8,7 @@ description: >-
 slug: ranking-system-implementation-postgresql
 date: '2016-10-11 10:38:01 +0000'
 category: Ruby on Rails development
-author:
+authors:
   label: Patryk Szeliga
   value: author-9
   avatar: /assets/images/ciabos.jpg

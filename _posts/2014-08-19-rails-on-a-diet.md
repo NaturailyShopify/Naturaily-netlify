@@ -7,7 +7,7 @@ description: >-
 slug: diet-rails
 date: '2014-08-19 10:38:01 +0000'
 category: Ruby on Rails development
-author:
+authors:
   label: Przemysław Świercz
   value: author-15
   avatar: /assets/images/swierszcz.png

@@ -7,7 +7,7 @@ slug: react-vue-similarities-and-differences
 twitter-card: summary_large_image
 date: '2017-11-28 10:38:01 +0000'
 category: JavaScript development
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

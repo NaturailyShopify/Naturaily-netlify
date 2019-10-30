@@ -6,7 +6,7 @@ description: >-
 slug: working-with-development-team
 date: '2016-09-09 10:38:01 +0000'
 category: Remote work
-author:
+authors:
   label: Sebastian Kubiak
   value: author-5
   avatar: /assets/images/seba.jpg

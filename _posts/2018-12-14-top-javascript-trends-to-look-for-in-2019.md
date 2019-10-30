@@ -8,7 +8,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-12-14 01:54:58 +0200'
 category: JavaScript development
-author:
+authors:
   label: Epifany Bojanowska
   value: author-22
   avatar: /assets/images/epifany_bojanowska-2.jpg

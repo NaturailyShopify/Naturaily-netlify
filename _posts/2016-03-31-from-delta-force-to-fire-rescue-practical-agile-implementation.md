@@ -6,10 +6,10 @@ description: >-
 slug: practical-agile-implementation
 date: '2016-03-31 10:38:01 +0000'
 category: Agile
-author:
-  label: Maciej Kucharski
-  value: author-16
-  avatar: /assets/images/maciek.png
+authors:
+  label: Sebastian Kubiak
+  value: author-5
+  avatar: /assets/images/seba.jpg
 image: /assets/images/fire.jpg
 text-preview: >-
   We are a small (over a dozen people) remote development team. That kind of

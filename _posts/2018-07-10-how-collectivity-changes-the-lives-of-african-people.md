@@ -10,7 +10,7 @@ slug: collectivity-interview
 layout: post
 date: '2018-09-10 11:35:00 +0200'
 category: Naturaily Client
-author:
+authors:
   label: Wojciech Miśta
   value: author-1
   avatar: /assets/images/wojciech.jpg

@@ -6,7 +6,7 @@ description: >-
 slug: kpz-projekt-sledzenie-uczestnikow-beacon
 date: '2017-04-06 10:38:01 +0000'
 category: Events
-author:
+authors:
   label: Marcin Sulikowski
   value: author-6
   avatar: /assets/images/marcin.jpg

@@ -14,7 +14,7 @@ twitter-card: >-
   sweat.
 date: '2019-06-18 02:48:11 +0200'
 category: Software development
-author:
+authors:
   label: Michał Kosyk
   value: author-27
   avatar: /assets/images/michal_kosyk_profile.png
