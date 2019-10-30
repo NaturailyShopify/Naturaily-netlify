@@ -10,7 +10,6 @@ author:
   label: Sebastian Kubiak
   value: author-5
   avatar: /assets/images/seba.jpg
-
 image: /assets/images/fire.jpg
 text-preview: >-
   We are a small (over a dozen people) remote development team. That kind of
