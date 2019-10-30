@@ -63,7 +63,7 @@ collections:
                 name: id
                 widget: string
               - label: Author avatar(optimally 100x100px)
-                name: avatar
+                name: author-avatar
                 widget: image
   -
     name: "career"
