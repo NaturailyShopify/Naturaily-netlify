@@ -15,14 +15,14 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - label: Relacja
+      - label: Author
         name: authors
         widget: custom-file-relation
         collection: posts-authors
         file: authors
         target_field: authors
         id_field: id
-        display_fields: ['name', 'id']
+        display_fields: name
         multiple: true
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
@@ -62,6 +62,9 @@ collections:
               - label: ID
                 name: id
                 widget: string
+              - label: Author avatar(optimally 100x100px)
+                name: avatar
+                widget: image
   -
     name: "career"
     label: "Job offers"
