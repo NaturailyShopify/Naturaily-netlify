@@ -12,7 +12,8 @@ date: '2019-10-28 01:49:08 +0200'
 category: Shopify development
 author: Klaudia Chudy
 avatar: /assets/images/klaudusia.jpg
-image: /assets/images/stick-it_-and-the-power-of-event-storming-1-.png
+image: >-
+  /assets/images/most-common-problems-of-growingshopify-stores-and-how-to-solve-themwith-the-right-native-or-customintegrations.png
 text-preview: >
   The issues which arise in larger e-commerce stores can be related to
   technology, logistics or communication. In our daily work here, we focus on
