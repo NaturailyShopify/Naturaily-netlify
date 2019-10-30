@@ -1,8 +1,8 @@
 ---
-published: true
+published: false
 title: Junior Marketing Specialist
 description: >-
-  We are looking for Junior Marketing Specialist to extend our two-person  
+  We are looking for Junior Marketing Specialist to extend our two-person
   Marketing Team!
 layout: career-offer
 image: /assets/images/junior_marketing_specialist.png
@@ -139,4 +139,3 @@ salaries:
   - salary:
       sum: from 3000 PLN net
 ---
-
