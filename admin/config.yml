@@ -23,7 +23,7 @@ collections:
         target_field: authors
         id_field: id
         display_fields: name
-        multiple: true
+        required: false
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
