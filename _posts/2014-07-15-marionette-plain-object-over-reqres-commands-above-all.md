@@ -8,7 +8,7 @@ date: '2014-07-15 10:38:01 +0000'
 category: JavaScript development
 author:
   label: Maciej Kucharski
-  value: author-8
+  value: author-16
   avatar: /assets/images/maciek.png
 image: /assets/images/marionette.jpg
 text-preview: >-
