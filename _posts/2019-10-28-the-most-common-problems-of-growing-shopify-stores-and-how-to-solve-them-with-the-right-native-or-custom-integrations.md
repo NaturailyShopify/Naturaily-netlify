@@ -159,4 +159,4 @@ Yet sometimes, native integrations and marketplace applications are not enough t
 
 Eventually, they can actually help you grow revenue, via wider multi-channel distribution, and save time with tasks such as synchronization & processes’ automation.
 
-{% CTA (Do you need custom Shopify integrations?)[Get an estimate]<naturaily.com/get-an-estimate>|/assets/images/get-an-estimate.png| %}
+{% CTA (Do you need custom Shopify integrations?)[Get an estimate]<naturaily.com/get-an-estimate>|/assets/images/cta_get_an_estimate_new-1-.png| %}
