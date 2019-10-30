@@ -10,8 +10,8 @@ slug: shopify-stores-problems
 layout: post
 date: '2019-10-30 11:20:08 +0200'
 category: Shopify development
-author: Klaudia Chudy
-avatar: /assets/images/klaudusia.jpg
+author: Mateusz Pliszka
+avatar: /assets/images/mateusz-pliszka.jpg
 image: >-
   /assets/images/most-common-problems-of-growingshopify-stores-and-how-to-solve-themwith-the-right-native-or-customintegrations.png
 text-preview: >
