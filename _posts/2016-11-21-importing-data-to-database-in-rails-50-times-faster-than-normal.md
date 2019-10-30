@@ -6,8 +6,11 @@ description: >-
 slug: ruby-on-rails-fast-data-import
 date: '2016-11-21 10:38:01 +0000'
 category: Ruby on Rails development
-author: Mikołaj Grygiel
-avatar: /assets/images/claus.jpg
+author:
+  label: Mikołaj Grygiel
+  value: author-7
+  avatar: /assets/images/claus.jpg
+
 image: /assets/images/speed_up.jpg
 text-preview: >-
   Have you ever needed to save lots of records with unique attribute to database

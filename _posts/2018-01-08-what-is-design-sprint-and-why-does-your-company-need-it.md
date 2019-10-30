@@ -6,8 +6,11 @@ description: >-
 slug: what-is-design-sprint
 date: '2018-01-08 10:38:01 +0000'
 category: Agile
-author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/google-sprint.jpg
 text-preview: >-
   It is very common for clients to not know what kind of product they want to

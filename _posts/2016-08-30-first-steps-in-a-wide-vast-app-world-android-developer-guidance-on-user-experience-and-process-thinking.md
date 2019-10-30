@@ -9,8 +9,11 @@ description: >-
 slug: android-development-guide-user-experience-process-thinking
 date: '2016-08-30 10:38:01 +0000'
 category: Native mobile development
-author: Kamil Buczel
-avatar: /assets/images/kamil.jpg
+author:
+  label: Kamil Buczel
+  value: author-10
+  avatar: /assets/images/kamil.jpg
+
 image: /assets/images/first-steps.jpg
 text-preview: >-
   Creating apps on Android seems like a pretty straightforward task. Just take

@@ -10,8 +10,11 @@ slug: collectivity-interview
 layout: post
 date: '2018-09-10 11:35:00 +0200'
 category: Naturaily Client
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/collectivity.jpg
 text-preview: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper

@@ -6,8 +6,11 @@ description: >-
 slug: remote-work-pros
 date: '2016-07-04 10:38:01 +0000'
 category: Agile
-author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+
 image: /assets/images/release-employees.jpg
 text-preview: >-
   We provide services remotely to customers around the world. The distance and

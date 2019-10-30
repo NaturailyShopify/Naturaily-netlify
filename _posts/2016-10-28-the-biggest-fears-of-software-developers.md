@@ -7,8 +7,11 @@ slug: software-developers-fears
 twitter-card: summary_large_image
 date: '2016-10-28 10:38:01 +0000'
 category: Startups
-author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+    
 image: /assets/images/fears.png
 text-preview: >-
   Software development is not a walk in the park. It’s rather a 24-hour run

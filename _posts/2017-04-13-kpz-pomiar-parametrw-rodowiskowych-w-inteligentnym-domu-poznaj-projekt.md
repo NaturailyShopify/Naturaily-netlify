@@ -6,8 +6,11 @@ description: >-
 slug: kpz-projekt-inteligentny-dom
 date: '2017-04-13 10:30:01 +0000'
 category: Events
-author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+
 image: /assets/images/kpz-3-pomiar-parametrow.jpg
 text-preview: >-
   Celem projektu jest stworzenie systemu mierzącego różne parametry, takie jak:

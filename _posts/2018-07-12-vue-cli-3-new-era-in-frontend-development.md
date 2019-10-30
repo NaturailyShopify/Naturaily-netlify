@@ -8,8 +8,11 @@ slug: vue-cli-3-overview
 layout: post
 date: '2018-07-23 12:26:02 +0000'
 category: JavaScript development
-author: Tomasz Żdanuk
-avatar: /assets/images/tomasz.jpg
+author:
+  label: Tomasz Żdanuk
+  value: author-2
+  avatar: /assets/images/tomasz.jpg
+
 image: /assets/images/vue-js-cli.jpg
 text-preview: >-
   Vue.js gets better and better with each update but this time, the inclusion of
@@ -180,4 +183,4 @@ Out of the box, PWA support is an amazing feature and an opportunity to create t
 
 22.07.2016 Dan Abramov <strong>|</strong> “_Create Apps with No Configuration_” <strong>|</strong> <https://reactjs.org/blog/2016/07/22/create-apps-with-no-configuration.html>
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}

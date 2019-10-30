@@ -8,8 +8,11 @@ description: >-
 slug: celebrities-who-invest-in-startups
 date: '2016-07-09 10:38:01 +0000'
 category: Startups
-author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+
 image: /assets/images/leonardo-naturaily.jpg
 text-preview: >-
   Sportsmen, rock stars, pop singers and actors eagerly invest in startups,

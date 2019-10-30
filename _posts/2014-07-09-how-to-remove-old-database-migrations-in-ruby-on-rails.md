@@ -7,8 +7,10 @@ slug: remove-old-migrations-ruby-on-rails
 twitter-card: summary_large_image
 date: '2019-01-11 10:38:01 +0200'
 category: Ruby on Rails development
-author: Jacek Hiszpański
-avatar: /assets/images/jacek.png
+author:
+  label: Jacek Hiszpański
+  value: author-12
+  avatar: /assets/images/jacek.png
 image: /assets/images/migrations.jpg
 text-preview: >-
   Recently we’ve overtaken a big project for maintenance and further
@@ -110,4 +112,4 @@ We just removed all migrations by adding new one with the whole structure. We ca
 
 Thanks all for now. Thank you and bye :)
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}

@@ -6,8 +6,11 @@ description: >-
 slug: startup-failures-successes-2017
 date: '2017-12-30 10:38:01 +0000'
 category: Startups
-author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/rise-and-fall.jpeg
 text-preview: >-
   We’re bringing you the biggest fails of 2017 as well as some startups that you

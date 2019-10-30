@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-01-08 11:19:26 +0200'
 category: Frontend development
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/vue-in-2019.png
 text-preview: >-
   Vue JS is coming really strong into 2019, and with every month is getting

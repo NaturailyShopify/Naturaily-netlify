@@ -6,8 +6,10 @@ description: >-
 slug: responsive-text-guide
 date: '2014-01-28 10:38:01 +0000'
 category: Frontend development
-author: Maciej Kucharski
-avatar: /assets/images/maciek.png
+author:
+  label: Maciej Kucharski
+  value: author-8
+  avatar: /assets/images/maciek.png
 image: /assets/images/responsivetext.jpg
 text-preview: >-
   When thinking RWD most of you picture fluid grids and responsive images,

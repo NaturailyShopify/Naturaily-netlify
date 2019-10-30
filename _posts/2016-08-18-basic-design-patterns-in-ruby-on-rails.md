@@ -8,8 +8,11 @@ slug: ruby-on-rails-design-patterns
 twitter-card: summary_large_image
 date: '2016-08-18 10:38:01 +0000'
 category: Ruby on Rails development
-author: Marcin Mantke
-avatar: /assets/images/mantle.png
+author:
+  label: Marcin Mantke
+  value: author-11
+  avatar: /assets/images/mantle.png
+
 image: /assets/images/patterns.jpg
 text-preview: >-
   Not only as programmers, but in day-to-day life, we encounter some problems.

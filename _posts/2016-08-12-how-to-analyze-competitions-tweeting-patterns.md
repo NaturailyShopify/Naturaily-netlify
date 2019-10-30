@@ -6,8 +6,11 @@ description: >-
 slug: analyzing-competitions-tweeting-patterns
 date: '2016-08-12 10:38:01 +0000'
 category: Online marketing
-author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+
 image: /assets/images/analyze_competition.jpg
 text-preview: >-
   Ever wondered what approach your competition has to Twitter? If so, I’ve got

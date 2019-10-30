@@ -6,8 +6,11 @@ description: >-
 slug: meteor-blog-tutorial
 date: '2015-03-04 10:38:01 +0000'
 category: JavaScript development
-author: Sebastian Brych
-avatar: /assets/images/no-image.png
+author:
+  label: Sebastian Brych
+  value: author-14
+  avatar: /assets/images/no-image.png
+
 image: /assets/images/meteor_blog.jpg
 text-preview: >-
   The purpose of this post is to show you how to create a very simple blog app

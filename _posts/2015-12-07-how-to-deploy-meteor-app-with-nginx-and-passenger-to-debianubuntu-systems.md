@@ -6,8 +6,10 @@ description: >-
 slug: meteor-app-ngnix-debian
 date: '2015-12-07 10:38:01 +0000'
 category: JavaScript development
-author: Jacek Hiszpański
-avatar: /assets/images/jacek.png
+author:
+  label: Jacek Hiszpański
+  value: author-12
+  avatar: /assets/images/jacek.png
 image: /assets/images/meteor2.jpg
 text-preview: >-
   Meteor is getting more and more popular these days. Creating a web application

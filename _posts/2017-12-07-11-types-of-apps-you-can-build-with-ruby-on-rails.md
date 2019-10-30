@@ -6,8 +6,11 @@ description: >-
 slug: ruby-on-rails-apps
 date: '2017-12-07 10:38:01 +0000'
 category: Ruby on Rails development
-author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/ruby-is-cool.png
 text-preview: >-
   Wondering what platform to use for your next startup project? When it comes to

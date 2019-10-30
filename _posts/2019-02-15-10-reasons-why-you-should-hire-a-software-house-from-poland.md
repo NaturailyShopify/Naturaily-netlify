@@ -10,8 +10,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-02-15 12:31:43 +0200'
 category: Startups
-author: Epifany Bojanowska
-avatar: /assets/images/epifany_bojanowska-2.jpg
+author:
+  label: Epifany Bojanowska
+  value: author-22
+  avatar: /assets/images/epifany_bojanowska-2.jpg
+
 image: /assets/images/software-house.jpeg
 text-preview: >-
   Whether you’re a part of a Start-Up or a grown up company, when your product

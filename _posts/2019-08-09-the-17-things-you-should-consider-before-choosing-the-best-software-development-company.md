@@ -12,9 +12,11 @@ twitter-card: >-
   partnering with a software house.
 date: '2019-08-13 11:16:00 +0200'
 category: Software development
-author: Marcin Sulikowski
-authors: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+
 image: /assets/images/how-to-find-a-reliable-software-house-in-7-steps_.png
 text-preview: >-
   Whether you’re after a team that would build your future project from scratch
@@ -65,7 +67,7 @@ Hopefully, you will find a company that has developed a project similar to yours
 
 Finding a software house with experience in similar projects to the idea you want to develop helps a lot. A company that **understands your business goals** will, at the end of the day, help you create a better product.
 
-What’s more important is the technological stack, especially when you’ve already decided what technology you want your project to be developed with. Find a software house that is using these frameworks, libraries or languages. They are typically listed under the ‘Services’ section on the software house’s website. 
+What’s more important is the technological stack, especially when you’ve already decided what technology you want your project to be developed with. Find a software house that is using these frameworks, libraries or languages. They are typically listed under the ‘Services’ section on the software house’s website.
 
 ## 3. Rates
 
@@ -95,7 +97,7 @@ At the same time, it’s worth noting that **you shouldn’t expect one company 
 
 ## 6. Communication
 
-One of the major problems clients of offshore software houses quote is bad communication. This may result from a number of factors – from significant time zone differences to lack of internal organization. **But “bad communication” does not have to stem solely from speaking different languages.** 
+One of the major problems clients of offshore software houses quote is bad communication. This may result from a number of factors – from significant time zone differences to lack of internal organization. **But “bad communication” does not have to stem solely from speaking different languages.**
 
 Most good software houses hire people who speak English fluently. You can experience problems when working with people fluently speaking the same language as you. It’s actually more about the communication habits, as they may reflect the company’s general approach to software development. For example, you can consider it a warning when responding to your email takes the (potential) partner more than two days. Communication bottlenecks can have a serious impact on the course of the project.
 
@@ -103,7 +105,7 @@ From our experience, communication between the product owner/client and the soft
 
 ## 7. Formal Agreement
 
-It’s totally understandable if you are hesitant towards sending your brief over to a company from the other end of the globe. You want to protect your Intellectual Property. The good news is there is nothing to worry about. **Most software houses offer NDAs (Non-Disclosure Agreements)** – which restrict them from revealing confidential information to their other clients (your potential competitors). It gives you the security and protects you against copyright infringement over a specified timeframe. 
+It’s totally understandable if you are hesitant towards sending your brief over to a company from the other end of the globe. You want to protect your Intellectual Property. The good news is there is nothing to worry about. **Most software houses offer NDAs (Non-Disclosure Agreements)** – which restrict them from revealing confidential information to their other clients (your potential competitors). It gives you the security and protects you against copyright infringement over a specified timeframe.
 
 Reliable companies will sign this contract with no hesitation. Avoid companies that shy away from signing it. Some offer it before you even engage in more detailed discussions.
 

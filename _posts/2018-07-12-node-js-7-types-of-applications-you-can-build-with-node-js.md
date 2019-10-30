@@ -8,8 +8,11 @@ slug: node-js-applications
 layout: post
 date: '2018-07-30 10:18:26 +0000'
 category: JavaScript development
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/node-js-applications.jpg
 text-preview: >-
   Node.js took IT world by storm, no surprise the number of Node.js applications

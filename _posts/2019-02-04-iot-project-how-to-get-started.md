@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-02-04 09:55:56 +0200'
 category: IoT
-author: Epifany Bojanowska
-avatar: /assets/images/epifany_bojanowska-2.jpg
+author:
+  label: Epifany Bojanowska
+  value: author-22
+  avatar: /assets/images/epifany_bojanowska-2.jpg
+
 image: /assets/images/iot_project_how_to_get_started.png
 text-preview: >-
   So you’re thinking of developing your own IoT (Internet of Things) project but

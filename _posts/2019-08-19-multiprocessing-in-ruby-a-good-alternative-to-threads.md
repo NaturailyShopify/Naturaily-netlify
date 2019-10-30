@@ -8,9 +8,10 @@ slug: multiprocessing-in-ruby
 layout: post
 date: '2019-08-19 12:59:00 +0200'
 category: Ruby on Rails development
-author: Kamil Sopata
-authors: Kamil Sopata
-avatar: /assets/images/kamil_sopata_profile.png
+author:
+  label: Kamil Sopata
+  value: author-25
+  avatar: /assets/images/kamil_sopata_profile.png
 image: /assets/images/multiprocessing-in-ruby-a-good-alternative-to-threads_.png
 text-preview: >-
   Parallel computing is a cure for performance issues. It allows to do several
@@ -78,7 +79,7 @@ The results are almost the same (the last column in bracket is the real time of 
 
 Why works it like this? Let’s dig a bit.
 
-[Ruby interpreter (Matz's Ruby Interpreter)](https://en.wikipedia.org/wiki/Ruby_MRI){:rel="nofollow"}{:target="_blank"} uses [Global Interpreter Lock (GIL)](https://en.wikipedia.org/wiki/Global_interpreter_lock){:rel="nofollow"}{:target="_blank"} which is also used by other interpreters, such as CPython. GIL controls the execution in threads – only one thread can be executed at a time. Thus the benchmarks above are the same – in both cases, only one task is processed at a time. 
+[Ruby interpreter (Matz's Ruby Interpreter)](https://en.wikipedia.org/wiki/Ruby_MRI){:rel="nofollow"}{:target="_blank"} uses [Global Interpreter Lock (GIL)](https://en.wikipedia.org/wiki/Global_interpreter_lock){:rel="nofollow"}{:target="_blank"} which is also used by other interpreters, such as CPython. GIL controls the execution in threads – only one thread can be executed at a time. Thus the benchmarks above are the same – in both cases, only one task is processed at a time.
 
 Each Ruby process always has one dedicated GIL that handles this process. Probably your first thought is – can’t we just turn off GIL? But it is not as easy as it seems – Ruby needs GIL because it avoids executions that aren’t thread-safe – for instance by the execution of non-atomic operations.
 
@@ -119,7 +120,7 @@ In this way, the execution took 22 seconds less than when using a single process
 
 You may know multiprocessing from Chrome browser – each tab, for security reasons, exists in a separate process. In Ruby environment creating a new child-processes may increase performance, but it also entails certain restrictions. First of all, new processes put additional responsibilities on the developer. Extra care is required for their execution.
 
-We always have to answer a few questions: will this solve our problems? When should we use multi-process architecture? How many processes should we run at one time? Do we need some kind of process limiter? How can too many existing processes affect our system? Will we be able to control the number of children-processes? What happens to the children-processes if the parent-process is killed? When is it worth using? 
+We always have to answer a few questions: will this solve our problems? When should we use multi-process architecture? How many processes should we run at one time? Do we need some kind of process limiter? How can too many existing processes affect our system? Will we be able to control the number of children-processes? What happens to the children-processes if the parent-process is killed? When is it worth using?
 
 It clearly shows – there are a lot of considerations along the way. Let’s try to resolve a few of them.
 
@@ -438,7 +439,7 @@ rescue SignalException => e
 end
 ```
 
-\=> Allocated ports: \[8000, 8010, 8020]  
+\=> Allocated ports: \[8000, 8010, 8020]
 PIDs: \[5927, 5928, 5929]
 
 ➜ `cat 8000_log.txt`
@@ -474,4 +475,4 @@ Everyone should take some time to consider the question – does my project real
 
 It’s also good to know a bit about the operating system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}

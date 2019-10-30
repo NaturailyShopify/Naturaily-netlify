@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-08-20 11:59:20 +0200'
 category: JavaScript development
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/vuejs-2018.jpg
 text-preview: >-
   Vue.js, the so-called progressive framework took the JavaScript community by

@@ -8,8 +8,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-01-02 11:30:43 +0200'
 category: Recruitment
-author: Epifany Bojanowska
-avatar: /assets/images/epifany_bojanowska-2.jpg
+author:
+  label: Epifany Bojanowska
+  value: author-22
+  avatar: /assets/images/epifany_bojanowska-2.jpg
+
 image: /assets/images/modelin-agency-manager-software-developer.png
 text-preview: >-
   While scouring the internet for an interesting topic for my newest company

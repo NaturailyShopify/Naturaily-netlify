@@ -7,9 +7,10 @@ slug: productivity-tools-not-only-for-devs
 layout: post
 date: '2019-08-20 06:40:53 +0200'
 category: Software development
-author: Michał Kosyk
-authors: Michał Kosyk
-avatar: /assets/images/michal_kosyk_profile.png
+author:
+  label: Michał Kosyk
+  value: author-27
+  avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/productivity-tools-why-use-productivity-tools-at-all_-1-.jpg
 text-preview: >-
   In a world of distraction and endless procrastination, we are witnessing the
@@ -22,7 +23,7 @@ tags:
 ---
 In a world of distraction and endless procrastination, we are witnessing the birth of a whole-new currency, scarce but incredibly coveted: focus and efficiency. The challenges that digital reality confronts us with – information overdose and action paralysis – gave birth to a completely new breed of productivity preachers, coaches and influencers.
 
-People like Thomas Frank, Tim Ferriss or Gary Vaynerchuk make their living raving about how certain systems, platforms and mindsets can help you boost your potential and achieve your dreams. And they are right. 
+People like Thomas Frank, Tim Ferriss or Gary Vaynerchuk make their living raving about how certain systems, platforms and mindsets can help you boost your potential and achieve your dreams. And they are right.
 
 Let me be your productivity preacher today and teach you something. You need proper tools to unleash your full potential.
 
@@ -37,9 +38,9 @@ Although I am specifically addressing IT folks, the advice in this post should u
 
 ## Where to get knowledge from?
 
-We need some sources of knowledge to start with. There is a multitude of different books, manuals, scripts and youtube tutorials that claim they have “THE ULTIMATE PRODUCTIVITY HACK”. 
+We need some sources of knowledge to start with. There is a multitude of different books, manuals, scripts and youtube tutorials that claim they have “THE ULTIMATE PRODUCTIVITY HACK”.
 
-Spoiler alert: they don’t. 
+Spoiler alert: they don’t.
 
 It really boils down to you. If something doesn’t mesh well with your personal habits, it will not work. That’s it. Experiment with different tools and see if they help you get better at delivering what you are supposed to deliver. Although it may be challenging at first, you will find great joy in finally nailing the right process for thought collection, processing and refining.
 
@@ -193,7 +194,7 @@ Now, click the dropdown menu with “Text” text. You will see few options with
 
 ![Evernote](/assets/images/notes_12.png)
 
-After clicking it, you will get a filtered list of all the notes you have on your Evernote account. 
+After clicking it, you will get a filtered list of all the notes you have on your Evernote account.
 
 ![Evernote](/assets/images/notes_13.png)
 
@@ -213,13 +214,13 @@ Isn’t that great? Now you have the ability to not only take quick, lightweight
 
 ### Drawings
 
-The last thing that we need in our custom information management system are drawings. Simply taking a photo with your phone and sharing it on your Slack does not always cut the mustard. Sometimes we need something that is editable and allows remote people to access it conveniently. A whiteboard in your conference room does not meet the criteria of an efficient tool. Let’s face it, remote work is not particularly convenient one and it’s a shame that no one has solved that problem yet. Or did they? 
+The last thing that we need in our custom information management system are drawings. Simply taking a photo with your phone and sharing it on your Slack does not always cut the mustard. Sometimes we need something that is editable and allows remote people to access it conveniently. A whiteboard in your conference room does not meet the criteria of an efficient tool. Let’s face it, remote work is not particularly convenient one and it’s a shame that no one has solved that problem yet. Or did they?
 
 I present to you the underdog, hidden deep under a submenu of Google Drive, an older cousin of Draw.io: **Google Drawings**.
 
 ![Google Drawings](/assets/images/drawings_1.png)
 
-There’s everything you need for your brain and event storming sessions, simple database schemas and so on. You can even create some basic templates for your views. 
+There’s everything you need for your brain and event storming sessions, simple database schemas and so on. You can even create some basic templates for your views.
 
 Don’t believe me? Just look:
 
@@ -241,4 +242,4 @@ I hope this will help you get a headstart on the road to great results: met dead
 
 Farewell
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}

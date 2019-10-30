@@ -7,8 +7,11 @@ description: >-
 slug: slack-apps-improving-team-communication
 date: '2017-08-08 10:38:01 +0000'
 category: Agile
-author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+
 image: /assets/images/slack.jpg
 text-preview: >-
   Communication between our team members is the key to success. To provide

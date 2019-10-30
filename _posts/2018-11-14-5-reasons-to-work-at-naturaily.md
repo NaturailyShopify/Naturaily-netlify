@@ -8,8 +8,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-11-23 11:20:14 +0200'
 category: Recruitment
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/5-reasons-to-work-at-naturaily.jpg
 text-preview: >-
   Are looking for a new job in the software development sector? Here are 5

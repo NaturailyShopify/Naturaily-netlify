@@ -8,8 +8,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-01-15 11:45:05 +0200'
 category: Ruby on Rails development
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/ror_doa_2019.png
 text-preview: >-
   Let’s face it. Ruby on Rails is old. Really old. But judging by the changes

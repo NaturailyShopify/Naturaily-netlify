@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-10-08 10:40:31 +0200'
 category: Frontend development
-author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/companies-vue-js-applications.jpg
 text-preview: >-
   The popularity of Vue.js is continuously growing at a rapid rate, so now it's

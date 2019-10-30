@@ -6,32 +6,35 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-01-24 12:45:21 +0200'
 category: Ruby on Rails development
-author: Klaudia Chudy
-avatar: /assets/images/klaudusia.jpg
+author:
+  label: Klaudia Chudy
+  value: author-23
+  avatar: /assets/images/klaudusia.jpg
+
 image: /assets/images/chain-of-responsibility-pattern.jpg
 text-preview: >-
   While we were working on a project we stumbled upon some legacy code that
   consists of huge ‘if else’ statements. In this post we’ll show you how we
-  refactored it using the Chain of responsibility pattern. 
+  refactored it using the Chain of responsibility pattern.
 tags:
   - Ruby on Rails development
 ---
-While we were working on a project we stumbled upon some legacy code that consists of huge ‘if else’ statements. In this post we’ll show you how we refactored it using the Chain of responsibility pattern. 
+While we were working on a project we stumbled upon some legacy code that consists of huge ‘if else’ statements. In this post we’ll show you how we refactored it using the Chain of responsibility pattern.
 
-## What is the definition of the Chain of responsibility pattern? 
+## What is the definition of the Chain of responsibility pattern?
 
 >Chain the receiving objects and pass the request along the chain until an object handles it.
 >
 >~Krzysztof Kempiński, [Chain of Responsibility Design Pattern in Ruby](https://medium.com/kkempin/chain-of-responsibility-design-pattern-in-ruby-e0b756d4bb3b){:rel=nofollow}
 
-It may be useful if we need to store some data that is not related to any model. Essentially, it’s an object oriented version of `if … elsif … elsif … else … end` that is much much easier to extend. Because of that we can’t use hashes. Processing objects, aka handlers, contain logic for handling exactly one case. 
+It may be useful if we need to store some data that is not related to any model. Essentially, it’s an object oriented version of `if … elsif … elsif … else … end` that is much much easier to extend. Because of that we can’t use hashes. Processing objects, aka handlers, contain logic for handling exactly one case.
 
-So where can we use it? For example we could define a chain for handling payments. One handler would take care of payment for one provider such as payU, credit card, bank transfer. 
+So where can we use it? For example we could define a chain for handling payments. One handler would take care of payment for one provider such as payU, credit card, bank transfer.
 
 
 ## So why did we use it?
 
-We were working with big and messy legacy code. There was a gigant `if else` statement in one of the services. In our case it was responsible for choosing shipping provider based on selected carrier and shipment. It was taking into account saved api keys for providers, which provider was enabled in the given store and some other stuff. There were a lot of different cases, every case was handled differently, each one of them consisted of about 50-line method. 
+We were working with big and messy legacy code. There was a gigant `if else` statement in one of the services. In our case it was responsible for choosing shipping provider based on selected carrier and shipment. It was taking into account saved api keys for providers, which provider was enabled in the given store and some other stuff. There were a lot of different cases, every case was handled differently, each one of them consisted of about 50-line method.
 
 
 ## Another reason
@@ -40,10 +43,10 @@ Services are usually used for everything in Rails, which may not always be an id
 
 
 ### Our Idea?
-Check which provider supports chosen carrier, then make sure that selected carrier is active for current provider. If not, continue checking. 
+Check which provider supports chosen carrier, then make sure that selected carrier is active for current provider. If not, continue checking.
 
 ## Implementation
-We have created main Chain object, which initializes all handlers and creates a “chain”. 
+We have created main Chain object, which initializes all handlers and creates a “chain”.
 
 ```ruby
 class BasicChain
@@ -161,9 +164,9 @@ end
 
 ## Conclusion
 
-There is definitely a lot of room for improvement in our implementation but at the same time it’s a huge step forward compared to the original legacy code. Our solution also may not be perfect in this particular application, as there are not that many conditionals but it’s much easier to read and easier to extend in the future (for example when new providers will be added). Adding new Chains is now really easy, thanks to `BasicChain` and `BaseHandler`. 
+There is definitely a lot of room for improvement in our implementation but at the same time it’s a huge step forward compared to the original legacy code. Our solution also may not be perfect in this particular application, as there are not that many conditionals but it’s much easier to read and easier to extend in the future (for example when new providers will be added). Adding new Chains is now really easy, thanks to `BasicChain` and `BaseHandler`.
 
-What other solutions would you suggest for our case and why? We’re always happy to learn new things! 
+What other solutions would you suggest for our case and why? We’re always happy to learn new things!
 
 **Special thanks to the reviewer of this post: Jakub Flasiński.**
 

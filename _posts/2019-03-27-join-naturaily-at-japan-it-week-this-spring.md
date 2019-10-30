@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-03-27 12:30:12 +0200'
 category: Events
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/japan_it_week_header_post.jpeg
 text-preview: >-
   We're extremely excited to announce that the next stop on our ongoing

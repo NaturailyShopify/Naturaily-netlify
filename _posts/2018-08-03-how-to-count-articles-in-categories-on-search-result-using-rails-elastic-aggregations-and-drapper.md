@@ -8,8 +8,11 @@ slug: rails-elastic-aggregation-drapper
 layout: post
 date: '2018-08-27 11:55:08 +0200'
 category: Ruby on Rails development
-author: Arek Poczobut
-avatar: /assets/images/arek.jpg
+author:
+  label: Arek Poczobut
+  value: author-18
+  avatar: /assets/images/arek.jpg
+
 image: /assets/images/rails-elastic-aggregation-drapper.jpg
 text-preview: >
   Have you ever wanted to calculate how many articles will be left in a certain

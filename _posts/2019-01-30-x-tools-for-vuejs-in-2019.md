@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-02-08 10:50:02 +0200'
 category: Frontend development
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/libraries-vue-2019.jpg
 text-preview: >-
   We guarantee that these JavaScript libraries will significantly speed up the

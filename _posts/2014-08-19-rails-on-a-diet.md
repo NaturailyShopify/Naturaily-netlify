@@ -7,8 +7,10 @@ description: >-
 slug: diet-rails
 date: '2014-08-19 10:38:01 +0000'
 category: Ruby on Rails development
-author: Przemysław Świercz
-avatar: /assets/images/swierszcz.png
+author:
+  label: Przemysław Świercz
+  value: author-15
+  avatar: /assets/images/swierszcz.png
 image: /assets/images/railsondiet.jpg
 text-preview: >-
   More and more apps are being created with an API support. Growing popularity

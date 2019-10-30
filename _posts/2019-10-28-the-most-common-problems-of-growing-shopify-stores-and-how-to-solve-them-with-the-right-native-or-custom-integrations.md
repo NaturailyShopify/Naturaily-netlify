@@ -5,13 +5,15 @@ title: >-
 description: >-
   There are quite a few problems that are common among growing online stores.
   Some of them can be solved by implementing the right technological
-  integrations. 
+  integrations.
 slug: shopify-stores-problems
 layout: post
 date: '2019-10-30 11:20:08 +0200'
 category: Shopify development
-author: Mateusz Pliszka
-avatar: /assets/images/mateusz-pliszka.jpg
+author:
+  label: Mateusz Pliszka
+  value: author-28
+  avatar: /assets/images/mateusz-pliszka.jpg
 image: >-
   /assets/images/most-common-problems-of-growingshopify-stores-and-how-to-solve-themwith-the-right-native-or-customintegrations.png
 text-preview: >
@@ -58,7 +60,7 @@ With the right delivery providers’ Shopify integration, you can save tons of t
 
 When your store sells larger volumes of products or tries to reach a wider audience, you likely don’t sell through one channel only. With the scale provided by Amazon or Facebook, becoming visible on external marketplaces becomes more important than ever.
 
-This can result in potential logistics’ issues updating your inventory level in numerous different places or syncing between deliveries booked through different channels. 
+This can result in potential logistics’ issues updating your inventory level in numerous different places or syncing between deliveries booked through different channels.
 
 While these issues can be solved by using some of Shopify’s native applications, like [Codisto](https://apps.shopify.com/codisto-linq?surface_detail=amazon&surface_inter_position=1&surface_intra_position=2&surface_type=search){:rel="nofollow"}{:target="_blank"}, or a dedicated software solution such as [Linnworks](https://www.linnworks.com){:rel="nofollow"}{:target="_blank"}, more complex problems like real-time multi-channel inventory syncing will likely need to be set up by using a custom API Shopify integration, linking all your custom solutions with Shopify.
 
@@ -77,9 +79,9 @@ A growing number of product pages, categories and subpages will result in your w
 When planning for SEO optimization, you’d need to look into two separate areas:
 
 * Technical SEO (e.g. page speed, proper meta tags)
-* Business SEO (e.g. matching the keywords with the right searcher’s intent or proper website’s structure) 
+* Business SEO (e.g. matching the keywords with the right searcher’s intent or proper website’s structure)
 
-With Shopify being one of the top ecommerce platforms, it offers extensive SEO features, a user-friendly interface and [everything your site needs to compete in search](https://www.websitebuilderexpert.com/ecommerce-website-builders/shopify/shopify-seo-review/){:rel="nofollow"}{:target="_blank"}. 
+With Shopify being one of the top ecommerce platforms, it offers extensive SEO features, a user-friendly interface and [everything your site needs to compete in search](https://www.websitebuilderexpert.com/ecommerce-website-builders/shopify/shopify-seo-review/){:rel="nofollow"}{:target="_blank"}.
 
 One of the big advantages of the Shopify platform is the ability to easily arrange your store’s structure. This can help your SEO positioning, as Google favors stores with properly organized products and information.
 
@@ -154,7 +156,7 @@ Some of the technical SEO optimizations you can perform at your store include:
 * Optimizing product descriptions for keywords
 * Page speed optimization
 
-To sum up, with Shopify & Shopify Plus becoming one of the most popular platforms for medium and big e-commerce businesses, it provides merchants with endless opportunities when it comes to their choice of systems’ integration. 
+To sum up, with Shopify & Shopify Plus becoming one of the most popular platforms for medium and big e-commerce businesses, it provides merchants with endless opportunities when it comes to their choice of systems’ integration.
 
 Yet sometimes, native integrations and marketplace applications are not enough to optimize workflow and ensure seamless processes across the organization. This is where custom API integrations can become a necessity, connecting your software solutions with proper middleware.
 

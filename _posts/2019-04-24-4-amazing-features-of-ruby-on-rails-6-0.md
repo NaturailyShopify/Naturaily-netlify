@@ -8,8 +8,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-04-24 09:22:32 +0200'
 category: Ruby on Rails development
-author: Klaudia Chudy
-avatar: /assets/images/klaudusia.jpg
+author:
+  label: Klaudia Chudy
+  value: author-23
+  avatar: /assets/images/klaudusia.jpg
+
 image: /assets/images/4-best-features-of-ruby-on-rails-6.0.png
 text-preview: >-
   Rails 6.0. is finally released. We’re excited to see all the new stuff Rails

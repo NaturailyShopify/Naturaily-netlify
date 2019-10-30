@@ -12,8 +12,11 @@ twitter-card: >-
   of retries in Sidekiq
 date: '2019-05-20 09:36:13 +0200'
 category: Ruby on Rails development
-author: Arek Poczobut
-avatar: /assets/images/arek.jpg
+author:
+  label: Arek Poczobut
+  value: author-18
+  avatar: /assets/images/arek.jpg
+
 image: >-
   /assets/images/how-to-skip-sentry-slack-notifications-until-a-specific-count-of-retries-in-sidekiq.jpg
 text-preview: >-

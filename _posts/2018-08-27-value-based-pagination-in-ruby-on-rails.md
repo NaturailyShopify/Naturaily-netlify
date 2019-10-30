@@ -7,8 +7,11 @@ slug: value-based-pagination-rails
 layout: post
 date: '2018-09-03 09:29:02 +0200'
 category: Ruby on Rails development
-author: Tomasz Żdanuk
-avatar: /assets/images/tomasz.jpg
+author:
+  label: Tomasz Żdanuk
+  value: author-2
+  avatar: /assets/images/tomasz.jpg
+
 image: /assets/images/value-based-pagination.jpg
 text-preview: >-
   This is a quick tutorial that will show you how to properly handle value-based

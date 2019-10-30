@@ -6,8 +6,11 @@ description: >-
 slug: what-happened-to-soundcloud-and-why
 date: '2017-08-17 10:38:01 +0000'
 category: Startups
-author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/soundcloud.jpg
 text-preview: >-
   Site loved by many almost collapsed after questionable choices made by

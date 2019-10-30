@@ -6,8 +6,11 @@ description: >-
 slug: google-sheets-breeze-time-tracker
 date: '2017-08-22 10:38:01 +0000'
 category: Agile
-author: Sebastian Kubiak
-avatar: /assets/images/seba.jpg
+author:
+  label: Sebastian Kubiak
+  value: author-5
+  avatar: /assets/images/seba.jpg
+
 image: /assets/images/macierevicz.jpg
 text-preview: >-
   Some of our everyday issues and tasks can be solved or simplified with a

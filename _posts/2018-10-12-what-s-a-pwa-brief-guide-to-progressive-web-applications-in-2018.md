@@ -10,8 +10,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-01-04 09:00:45 +0200'
 category: Frontend development
-author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/pwa-guide-2018.png
 text-preview: >-
   Many say that PWAs will be the new standard in the future world of mobile

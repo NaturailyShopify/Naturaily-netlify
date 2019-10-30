@@ -8,8 +8,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-04-09 11:30:30 +0200'
 category: JavaScript development
-author: Bartek Zienkiewicz
-avatar: /assets/images/bartek.jpg
+author:
+  label: Bartek Zienkiewicz
+  value: author-19
+  avatar: /assets/images/bartek.jpg
+
 image: >-
   /assets/images/migrating-from-angularjs-to-vuejs-using-typescript-a-case-study.png
 text-preview: >-

@@ -10,8 +10,10 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-09-24 12:30:25 +0200'
 category: Ruby on Rails development
-author: Piotrek Musielak
-avatar: /assets/images/piotrek-musielak.jpg
+author:
+  label: Piotrek Musielak
+  value: author-20
+  avatar: /assets/images/piotrek-musielak.jpg
 image: /assets/images/paid-order-shopify-api.jpg
 text-preview: >-
   Creating an order using Shopify API with status set to 'paid' might be
@@ -74,9 +76,9 @@ end
 
 ### This example shows how this logic might be used in real action.
 
-Choosing this solution has **one additional advantage**. 
+Choosing this solution has **one additional advantage**.
 
-Every failure leaves a trace in the Shopify admin panel. It can be investigated by the shop administrator. He might not have any access to the application's errors or logs but he can check the abandoned Draft Orders. 
+Every failure leaves a trace in the Shopify admin panel. It can be investigated by the shop administrator. He might not have any access to the application's errors or logs but he can check the abandoned Draft Orders.
 
 Additionally, we do not pollute our 'Orders' section with failed transactions, etc. Every failure ends up in Drafts what leaves our Order panel nice and clean.
 

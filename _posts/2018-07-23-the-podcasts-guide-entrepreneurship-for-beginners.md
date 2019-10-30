@@ -8,8 +8,11 @@ slug: startup-entrepreneurship-podcasts
 layout: post
 date: '2018-08-13 12:59:01 +0000'
 category: Startups
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/entrepreneurship-podcasts.jpg
 text-preview: >-
   This post will guide you through the world of podcasts. Our list is composed

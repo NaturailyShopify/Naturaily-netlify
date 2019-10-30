@@ -8,8 +8,10 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-10-31 10:40:17 +0200'
 category: Ruby on Rails development
-author: Paweł Cybulski
-avatar: /assets/images/lighto.jpg
+author:
+  label: Paweł Cybulski
+  value: author-21
+  avatar: /assets/images/lighto.jpg
 image: /assets/images/netlify-jekyll.jpg
 text-preview: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
@@ -75,4 +77,4 @@ In my opinion widgets are the main awesomeness of using Netlify CMS. They give u
 
 Of course not, there are many more features that Netlify along with Netlify CMS offer that we haven't used like _Forms_, _Prerendering_ for single page applications, _Split Testing_, _Lambda functions_ for thoese who want more, we can even create custom _Widgets_ and remember that features are constantly added so you can check and test (or use) some _Beta Features_. You can check all that on Netlify Documentation [page](https://www.netlify.com/docs){:rel="nofollow" target="_blank"}, as well as Netlify CMS Docs [page](https://www.netlifycms.org/docs){:rel="nofollow" target="_blank"}
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}

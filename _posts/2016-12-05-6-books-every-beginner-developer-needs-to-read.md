@@ -6,8 +6,11 @@ description: >-
 slug: books-for-beginner-developers
 date: '2016-12-05 10:38:01 +0000'
 category: Startups
-author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+
 image: /assets/images/recommended-books.jpg
 text-preview: >-
   When you're a newbie in the complex code world and crave for knowledge, good

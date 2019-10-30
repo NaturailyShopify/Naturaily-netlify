@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-11-30 12:58:51 +0200'
 category: Frontend development
-author: Epifany Bojanowska
-avatar: /assets/images/epifany_bojanowska-2.jpg
+author:
+  label: Epifany Bojanowska
+  value: author-22
+  avatar: /assets/images/epifany_bojanowska-2.jpg
+
 image: /assets/images/pros-cons-vue-js.png
 text-preview: >-
   Despite being relatively new, the Vue.js framework is growing more and more

@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-03-05 12:55:17 +0200'
 category: JavaScript development
-author: Wojciech Miśta
-avatar: /assets/images/wojciech.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/vue-vs-react-business-perspective-v2.jpg
 text-preview: >-
   At some point you have to choose the technological stack for your application.

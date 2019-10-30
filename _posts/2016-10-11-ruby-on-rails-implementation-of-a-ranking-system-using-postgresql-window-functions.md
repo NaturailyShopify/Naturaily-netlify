@@ -8,8 +8,11 @@ description: >-
 slug: ranking-system-implementation-postgresql
 date: '2016-10-11 10:38:01 +0000'
 category: Ruby on Rails development
-author: Patryk Szeliga
-avatar: /assets/images/ciabos.jpg
+author:
+  label: Patryk Szeliga
+  value: author-9
+  avatar: /assets/images/ciabos.jpg
+
 image: /assets/images/rails-elephant.jpg
 text-preview: >-
   Hello, this article will show, how easily you can add ranking functionality to

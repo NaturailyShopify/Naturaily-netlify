@@ -6,8 +6,11 @@ description: >-
 slug: ruby-on-rails-enum
 date: '2018-06-18 10:00:00 +0000'
 category: Ruby on Rails development
-author: Błażej Pichur
-avatar: /assets/images/blazej.png
+author:
+  label: Błażej Pichur
+  value: author-4
+  avatar: /assets/images/blazej.png
+
 image: /assets/images/perfect-enum.jpg
 text-preview: >-
   When your project starts you probably design ERD diagram or a similar one.
@@ -414,4 +417,4 @@ That’s all - **5 steps** to build a better implementation of **enums** in Rail
 
 Sometimes all steps will be necessary and another time only a few of them. You can adjust this solution to your needs. Hope that you have found something useful in this article. Let me know in the comments what’s your opinions about **enums**. Maybe you can recommend any further improvements?
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}

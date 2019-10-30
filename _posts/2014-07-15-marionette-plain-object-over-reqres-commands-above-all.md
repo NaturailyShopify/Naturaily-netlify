@@ -6,8 +6,10 @@ description: >-
 slug: marionette-tutorial-objects-commands
 date: '2014-07-15 10:38:01 +0000'
 category: JavaScript development
-author: Maciej Kucharski
-avatar: /assets/images/maciek.png
+author:
+  label: Maciej Kucharski
+  value: author-8
+  avatar: /assets/images/maciek.png
 image: /assets/images/marionette.jpg
 text-preview: >-
   A brief introduction to Marionette’s reqres ( request-response ) and commands

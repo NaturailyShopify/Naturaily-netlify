@@ -3,14 +3,15 @@ title: Stick-it! And the power of Event Storming
 description: >-
   Miscommunication between business people and engineers is a common issue.
   While we could start pointing fingers and blaming either side, the problem
-  will not go away on its own. 
+  will not go away on its own.
 slug: power-of-event-storming
 layout: post
 date: '2019-08-27 07:24:52 +0200'
 category: Software development
-author: Michał Kosyk
-authors: Michał Kosyk
-avatar: /assets/images/michal_kosyk_profile.png
+author:
+  label: Michał Kosyk
+  value: author-27
+  avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/stick-it_-and-the-power-of-event-storming-1-.png
 text-preview: >
   Miscommunication between business people and engineers is a common issue.
@@ -121,10 +122,10 @@ Farewell
 
 Sources:
 
-* [Amazon](https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420){:rel="nofollow"}{:target="_blank"} 
-* [Youtube](https://www.youtube.com/watch?v=NGXl1D-KwRI){:rel="nofollow"}{:target="_blank"} 
-* [Github](https://github.com/mariuszgil/awesome-eventstorming){:rel="nofollow"}{:target="_blank"} 
-* [Event storming](https://www.eventstorming.com/){:rel="nofollow"}{:target="_blank"} 
-* [Oracle](https://www.oracle.com/technetwork/articles/javase/devinsight-1-139780.html#1){:rel="nofollow"}{:target="_blank"} 
+* [Amazon](https://www.amazon.com/Domain-Driven-Design-Distilled-Vaughn-Vernon/dp/0134434420){:rel="nofollow"}{:target="_blank"}
+* [Youtube](https://www.youtube.com/watch?v=NGXl1D-KwRI){:rel="nofollow"}{:target="_blank"}
+* [Github](https://github.com/mariuszgil/awesome-eventstorming){:rel="nofollow"}{:target="_blank"}
+* [Event storming](https://www.eventstorming.com/){:rel="nofollow"}{:target="_blank"}
+* [Oracle](https://www.oracle.com/technetwork/articles/javase/devinsight-1-139780.html#1){:rel="nofollow"}{:target="_blank"}
 
 [![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}

@@ -16,12 +16,12 @@ layout: default
                 {% endif %}
               </a>
               <div class="post-meta">
-                {% if post.avatar %}
-                  <img class="avatar" src="/assets/images/loader.gif" data-src="{{ post.avatar }}" alt="Post author">
+                {% if post.author.avatar %}
+                  <img class="avatar" src="/assets/images/loader.gif" data-src="{{ post.author.avatar }}" alt="Post author">
                 {% endif %}
                 <p class="author">
-                  {% if post.author %}
-                    <a href="/blog/authors/{{ post.author | replace: " ", "-" | downcase }}/">{{ post.author }}</a>
+                  {% if post.author.label %}
+                    <a href="/blog/authors/{{ post.author.label | replace: " ", "-" | downcase }}/">{{ post.author.label }}</a>
                   {% endif %}
                   <time>
                     {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}

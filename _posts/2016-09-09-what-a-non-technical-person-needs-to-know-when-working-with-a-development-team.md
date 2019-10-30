@@ -6,8 +6,11 @@ description: >-
 slug: working-with-development-team
 date: '2016-09-09 10:38:01 +0000'
 category: Remote work
-author: Sebastian Kubiak
-avatar: /assets/images/seba.jpg
+author:
+  label: Sebastian Kubiak
+  value: author-5
+  avatar: /assets/images/seba.jpg
+
 image: /assets/images/mister-yoda.jpg
 text-preview: Dive in and read the 7 precious tips from Master Yoda himself!
 tags:

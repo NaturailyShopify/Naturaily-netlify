@@ -8,8 +8,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-08-06 10:42:09 +0000'
 category: JavaScript development
-author: Tomasz Żdanuk
-avatar: /assets/images/tomasz.jpg
+author:
+  label: Tomasz Żdanuk
+  value: author-2
+  avatar: /assets/images/tomasz.jpg
+
 image: /assets/images/pwa-vue-cli-3.jpg
 text-preview: >-
   In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin

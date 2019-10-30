@@ -7,8 +7,11 @@ slug: react-vue-similarities-and-differences
 twitter-card: summary_large_image
 date: '2017-11-28 10:38:01 +0000'
 category: JavaScript development
-author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/vue-v-react.png
 text-preview: >-
   Both React and Vue have gained a lot of attention and interest from the

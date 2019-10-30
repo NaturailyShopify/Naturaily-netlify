@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-03-29 04:05:01 +0200'
 category: Events
-author: Beata Twardowska
-avatar: /assets/images/beata.jpg
+author:
+  label: Beata Twardowska
+  value: author-24
+  avatar: /assets/images/beata.jpg
+
 image: /assets/images/wrocloverb_highlights.jpeg
 text-preview: >-
   Wroclove.rb’s main goal is to help Ruby professionals get better at what they
@@ -35,19 +38,19 @@ How was it? What were the most interesting topics? Check out what Błażej, Stef
 
 
 
-## Błażej:  
+## Błażej:
 
 Definitely, the most noteworthy talks were:
 
 1. **Mutation Testing - Markus Schrimp**
 
-> The purpose of mutation testing is to evaluate unit test coverage. During mutation tests, mutations (minor, random changes in the code) are made automatically and unit tests are performed after each such change. 
+> The purpose of mutation testing is to evaluate unit test coverage. During mutation tests, mutations (minor, random changes in the code) are made automatically and unit tests are performed after each such change.
 >
 > Based on the results of the tests carried out after each change, you can tell when code coverage is poor, or that you are dealing with redundant code. After the introduction of the mutation the test result should change. Otherwise, it means that the quality of the code could be improved.
 >
-> Mutation testing differs from static coverage tests, which only allow to verify if the code is covered by tests, but say nothing about the quality of testing. With static analysis, we can deal with situations where assertions are empty, but coverage statistics are still satisfactory. 
+> Mutation testing differs from static coverage tests, which only allow to verify if the code is covered by tests, but say nothing about the quality of testing. With static analysis, we can deal with situations where assertions are empty, but coverage statistics are still satisfactory.
 >
-> The idea discussed by Markus is very interesting, but the process itself is quite resource-intensive, which is why it is gaining popularity now when developers have sufficient computing power at hand. 
+> The idea discussed by Markus is very interesting, but the process itself is quite resource-intensive, which is why it is gaining popularity now when developers have sufficient computing power at hand.
 >
 > Introduction of mutational tests to the project increases the development time of new functionalities – that's a fact. However, in the long-term perspective, it certainly pays off. I encourage you to familiarize yourself with the [tool](https://github.com/mbj/mutant) proposed by Markus.
 
@@ -55,7 +58,7 @@ Definitely, the most noteworthy talks were:
 
 > Andrzej's speech was devoted to business logic, but he also delved into technicalities a bit. Among other things, Andrzej presented Arkency's idea for the implementation of the State Machine and made public [the following repository](https://github.com/arkency/aggregates).
 >
-> The creators assumed that a state can be presented as a class. Andrzej decided to use Duck Typing. We are also dealing with metaprogramming (that is all that should satisfy Ruby programmers). It all fits the DDD (Domain Driven Design) approach and CQRS (Command Query Responsibility Segregation), which Arkency advocates. 
+> The creators assumed that a state can be presented as a class. Andrzej decided to use Duck Typing. We are also dealing with metaprogramming (that is all that should satisfy Ruby programmers). It all fits the DDD (Domain Driven Design) approach and CQRS (Command Query Responsibility Segregation), which Arkency advocates.
 >
 > I think it's worth taking a closer look at this solution when you implement the State Machine next time.
 
@@ -69,7 +72,7 @@ Definitely, the most noteworthy talks were:
 
 **4. The TruffleRuby Compilation Pipeline (Chris Seaton)**
 
-> [TruffleRuby](https://github.com/oracle/truffleruby) is an Oracle project whose idea is to speed up Ruby without affecting its syntax. TruffleRuby is part of a much wider project (more about it [here](https://www.graalvm.org/)), the aim of which is to improve and preserve current languages, so that programmers choose those that they like, rather than those that are the fastest. 
+> [TruffleRuby](https://github.com/oracle/truffleruby) is an Oracle project whose idea is to speed up Ruby without affecting its syntax. TruffleRuby is part of a much wider project (more about it [here](https://www.graalvm.org/)), the aim of which is to improve and preserve current languages, so that programmers choose those that they like, rather than those that are the fastest.
 
 **5. Development with Axioms (Martin Gamsjaeger)**
 
@@ -89,4 +92,4 @@ Definitely, the most noteworthy talks were:
 
 > Optimistic UI is also worth mentioning here. According to this approach, after each action performed by the user, we do not have to wait for the response from the back end, but immediately send the message that the action was successful. We assume that this will be the case, as statistically 98% of requests are successful. You can find more information about Optimistic UI [here](https://uxplanet.org/optimistic-1000-34d9eefe4c05).
 
-If you've also been to Wroclove.rb, be sure to share your opinion in a comment and let them know what you found the most interesting. 
+If you've also been to Wroclove.rb, be sure to share your opinion in a comment and let them know what you found the most interesting.

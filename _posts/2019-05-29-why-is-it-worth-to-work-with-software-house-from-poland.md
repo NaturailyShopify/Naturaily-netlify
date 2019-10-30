@@ -10,8 +10,11 @@ twitter-card: >-
   We are the best to work with and here is why.
 date: '2019-05-29 08:46:38 +0200'
 category: Software development
-author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+
 image: /assets/images/why-is-it-worth-to-work-with-a-software-house-from-poland.png
 text-preview: >
   There are over 100,000 software companies around the world and some predict

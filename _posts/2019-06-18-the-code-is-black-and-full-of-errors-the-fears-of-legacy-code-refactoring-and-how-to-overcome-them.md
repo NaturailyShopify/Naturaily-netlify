@@ -5,18 +5,19 @@ title: >-
 description: >-
   In the darkest corners of every app development process dwell lines of code
   that make even the bravest of developers wake up at night drenched with
-  sweat. 
+  sweat.
 slug: legacy-code-refactoring
 layout: post
 twitter-card: >-
   In the darkest corners of every app development process dwell lines of code
   that make even the bravest of developers wake up at night drenched with
-  sweat. 
+  sweat.
 date: '2019-06-18 02:48:11 +0200'
 category: Software development
-author: Michał Kosyk
-authors: Michał Kosyk
-avatar: /assets/images/michal_kosyk_profile.png
+author:
+  label: Michał Kosyk
+  value: author-27
+  avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/legacy-code-refactor.png
 text-preview: >-
   In the darkest corners of every app development process dwell lines of code
@@ -44,7 +45,7 @@ Then Joe, the eager guy, says:
 
 \-	_Hey, maybe we can make a big refactor? You know, straighten out what’s wicked, split what’s coupled. Start over and do it in a better way!_
 
-Everyone seems suddenly excited about the idea. A few following hours are spent analysing, another few on planning as the team creates first diagrams. Models are made, all the good that is left in the team is suddenly channeled into one goal. 
+Everyone seems suddenly excited about the idea. A few following hours are spent analysing, another few on planning as the team creates first diagrams. Models are made, all the good that is left in the team is suddenly channeled into one goal.
 
 And that’s a common scenario. Legacy code is made a bit worse with every commit, it reaches the point when it’s too expensive to change. Adding new features is sometimes awkward, tricky – or simply impossible. You get an idea to “refactor” it in a big way, then you start to plan the refactor, you start the refactor and end up with a brand new code… That needs to change because the business requirements changed.
 
@@ -54,7 +55,7 @@ What’s the problem? **Are we supposed to accept our lives as legacy code suppo
 
 ### Legacy code is like a truck
 
-Elon Musk presented his incredible, electric truck a year ago: 
+Elon Musk presented his incredible, electric truck a year ago:
 
 
 
@@ -62,7 +63,7 @@ Elon Musk presented his incredible, electric truck a year ago:
 
 We still use the old, diesel trucks that stink, aren’t really fuel-efficient, and take a lot of time to learn to drive. New Tesla truck is slick, super fast and great looking. And it does most of the work for you. You just enjoy your life and the drive while watching your favourite show on Netflix.
 
-Yet, I urge you to take a step back and look at the bigger picture. And, most importantly, think for a second. If it’s so great, why don’t we just dump old technology and start using the new one? 
+Yet, I urge you to take a step back and look at the bigger picture. And, most importantly, think for a second. If it’s so great, why don’t we just dump old technology and start using the new one?
 
 Well, there are two reasons:
 
@@ -89,9 +90,9 @@ We are the gardeners in our software development orchard and we need to take car
 
 Start small. Possibly from a method that isn’t really clear but is a good starting point, and you know how to make it better? Do it. Don’t wait, don’t ask permission for it. Does it have tests? No? Write them, at least for the cases you know should happen – it’s still better than no tests at all. Do what you can and soon you will have one good looking tree in your orchard. You see a class coupled with a few others but you know that with Dependency Inversion Principle you can make it easier? **Do it.**
 
-1. Imagine you have a product view. You have a product name, price, description and other stuff with some logic inside the view. 
-2. After investigating, you see there are no tests – add them, you know what should happen. After that, you analyse the view’s logic and you see it really shouldn’t be here. A Presenter should take care of showing the data in a specific way. 
-3. You start by creating a test, write some code until it fails, then write the production code, then test the code, then production, etc. 
+1. Imagine you have a product view. You have a product name, price, description and other stuff with some logic inside the view.
+2. After investigating, you see there are no tests – add them, you know what should happen. After that, you analyse the view’s logic and you see it really shouldn’t be here. A Presenter should take care of showing the data in a specific way.
+3. You start by creating a test, write some code until it fails, then write the production code, then test the code, then production, etc.
 4. Now, a really simple thing happens: you just added some tests, a Presenter class, and filled the instance with some methods and attributes. But what you did is profound in consequences. By decoupling the view from the data model, value object or ActiveRecord model, you separated two layers – the presentation layer and the persistence layer which gives you the freedom to put whatever you want in that presenter – even mocked data if you don’t really know the source of data to feed it with.
 
 **So, the takeaways for today are:**
@@ -105,4 +106,4 @@ Enjoy your small refactors!
 
 Farewell
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}

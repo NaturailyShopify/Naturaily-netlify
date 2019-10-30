@@ -8,9 +8,10 @@ slug: why-do-we-fail-at-abstractions
 layout: post
 date: '2019-09-04 08:40:22 +0200'
 category: Ruby on Rails development
-author: Michał Kosyk
-authors: Michał Kosyk
-avatar: /assets/images/michal_kosyk_profile.png
+author:
+  label: Michał Kosyk
+  value: author-27
+  avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/why-do-we-fail-at-abstractions_.png
 text-preview: >
   We have all been there. We got a task to introduce totally new functionality.
@@ -119,7 +120,7 @@ class TravelPresenter
 
   def address; end
 
-  private 
+  private
 
   attr_reader :means_of_traveling
 end
@@ -207,7 +208,7 @@ end
 Which removes the ugly responsibility of creating the objects from other parts of the system, making the previous code look like this:
 
 ```ruby
-def travel_presenters(vehicles, 
+def travel_presenters(vehicles,
                       presenter_factory = TravelPresenterFactory.new)
   vehicles.map do |vehicle|
     presenter_factory.build(vehicle)

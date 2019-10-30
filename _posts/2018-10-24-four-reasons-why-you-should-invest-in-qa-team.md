@@ -9,8 +9,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-10-25 11:00:01 +0200'
 category: Agile
-author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
+author:
+  label: Wojciech Miśta
+  value: author-1
+  avatar: /assets/images/wojciech.jpg
+
 image: /assets/images/four-reasons-why-qa-team.jpg
 text-preview: >
   The need for Quality Assurance Engineers has been strikingly increasing in the

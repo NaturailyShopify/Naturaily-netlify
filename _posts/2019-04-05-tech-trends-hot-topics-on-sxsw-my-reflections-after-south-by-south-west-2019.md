@@ -1,7 +1,7 @@
 ---
 title: >-
   Tech trends & hot topics on SXSW. My reflections after South by South West
-  2019 
+  2019
 description: >-
   South by South West 2019 was the 1st stop on Naturaily’s Tour through the
   biggest tech conferences around the world. Check out Marcin’s our CEO
@@ -11,8 +11,11 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-04-05 10:41:22 +0200'
 category: Events
-author: Marcin Sulikowski
-avatar: /assets/images/marcin.jpg
+author:
+  label: Marcin Sulikowski
+  value: author-6
+  avatar: /assets/images/marcin.jpg
+    
 image: /assets/images/naturaily-blog-sxsw.jpg
 text-preview: >-
   South by South West 2019 was the 1st stop on Naturaily’s Tour through the
@@ -31,7 +34,7 @@ Among the hottest topics that were discussed both in keynotes on stages and in f
 
 ## Waking up from the American Dream
 
-One of the most interesting lectures I was able to attend was also a panel organized by Flourish (VC). Three CEOs of start-ups belonging to the Flourish portfolio participated in it. The common denominator of all three projects was their "social value" - a mission to help Americans who, for various reasons, struggle with financial problems or difficulties they face on the labour market. 
+One of the most interesting lectures I was able to attend was also a panel organized by Flourish (VC). Three CEOs of start-ups belonging to the Flourish portfolio participated in it. The common denominator of all three projects was their "social value" - a mission to help Americans who, for various reasons, struggle with financial problems or difficulties they face on the labour market.
 
 One of them was Steadyapp.com - an application helping to find an additional, casual job close to where you live. Despite a good economic condition, many people living in the US barely make ends meet. Statistics show that 43% of Americans work two jobs. The discussion of the representatives of solutions that could help in finding an additional source of income or reducing mortgage costs allowed us to look in a broader perspective at the personal situation of recipients of many technological solutions often created in isolation from the reality and the real needs of a large social group that goes far beyond the stereotypical citizen of the rich West. It was a very informative lesson followed by great discussions with **Adam Roseman** (CEO, Steady), **Paul Kesserwani** (CEO, Cushion.ai) and **Nadim Homsany** (Cofounder, EarnUp)!
 

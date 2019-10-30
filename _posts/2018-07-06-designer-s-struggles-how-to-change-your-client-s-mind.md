@@ -8,8 +8,11 @@ slug: client-designer-struggles
 layout: post
 date: '2018-07-16 02:10:29 +0000'
 category: UX/UI
-author: Agata Zięba
-avatar: /assets/images/agata.jpg
+author:
+  label: Agata Zięba
+  value: author-3
+  avatar: /assets/images/agata.jpg
+
 image: /assets/images/designer.jpg
 text-preview: >-
   In my experience, when it comes to project design, clients tend to make

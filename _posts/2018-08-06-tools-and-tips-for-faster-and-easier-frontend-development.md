@@ -8,8 +8,11 @@ slug: faster-easier-frontend-development
 layout: post
 date: '2018-09-17 12:00:15 +0200'
 category: Frontend development
-author: Bartek Zienkiewicz
-avatar: /assets/images/bartek.jpg
+author:
+  label: Bartek Zienkiewicz
+  value: author-19
+  avatar: /assets/images/bartek.jpg
+
 image: /assets/images/frontend-development-easier-faster.jpg
 text-preview: >-
   In this post, I'll share some tips, tricks, and tools I use every day in
@@ -90,5 +93,4 @@ I highly recommend using bundlers such as Webpack or Parcel. They are great for 
 
 That’s all folks. If you have any questions or suggestions make sure to leave a comment down below! And remember: work smart, not hard. :)
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
-
+[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
