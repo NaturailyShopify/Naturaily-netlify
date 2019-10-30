@@ -159,5 +159,3 @@ To sum up, with Shopify & Shopify Plus becoming one of the most popular platform
 Yet sometimes, native integrations and marketplace applications are not enough to optimize workflow and ensure seamless processes across the organization. This is where custom API integrations can become a necessity, connecting your software solutions with proper middleware.
 
 Eventually, they can actually help you grow revenue, via wider multi-channel distribution, and save time with tasks such as synchronization & processes’ automation.
-
-{% CTA (Do you need custom Shopify integrations?)[Get an estimate]<naturaily.com/get-an-estimate>|/assets/images/cta_get_an_estimate_new-1-.png| %}
