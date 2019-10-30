@@ -23,7 +23,7 @@ collections:
       - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0200", widget: "datetime"}
       - {label: "Category(with spaces)", name: "category", widget: "string"}
       - label: Author
-        name: author
+        name: authors
         widget: custom-file-relation
         collection: posts-authors
         file: authors
