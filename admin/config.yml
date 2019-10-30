@@ -15,6 +15,13 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
+      - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0200", widget: "datetime"}
+      - {label: "Category(with spaces)", name: "category", widget: "string"}
       - label: Author
         name: author
         widget: custom-file-relation
@@ -23,13 +30,6 @@ collections:
         target_field: authors
         id_field: id
         display_fields: name
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
-      - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0200", widget: "datetime"}
-      - {label: "Category(with spaces)", name: "category", widget: "string"}
       - {label: "Post image(optimally 800x313px)", name: "image", widget: "image"}
       - {label: "Post preview(160 to 360 characters)", name: "text-preview", widget: "text"}
       - label: "Tags(with spaces and separated by commas, ex: 'React Js Development, Ruby on Rails development')"
