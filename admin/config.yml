@@ -16,14 +16,13 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Author
-        name: authors
+        name: author
         widget: custom-file-relation
         collection: posts-authors
         file: authors
         target_field: authors
         id_field: id
         display_fields: name
-        required: false
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -31,8 +30,6 @@ collections:
       - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
       - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0200", widget: "datetime"}
       - {label: "Category(with spaces)", name: "category", widget: "string"}
-      - {label: "Author name(name and surname, with spaces)", name: "author", widget: "string"}
-      - {label: "Author avatar(optimally 100x100px)", name: "avatar", widget: "image"}
       - {label: "Post image(optimally 800x313px)", name: "image", widget: "image"}
       - {label: "Post preview(160 to 360 characters)", name: "text-preview", widget: "text"}
       - label: "Tags(with spaces and separated by commas, ex: 'React Js Development, Ruby on Rails development')"
@@ -63,7 +60,7 @@ collections:
                 name: id
                 widget: string
               - label: Author avatar(optimally 100x100px)
-                name: author-avatar
+                name: avatar
                 widget: image
   -
     name: "career"
