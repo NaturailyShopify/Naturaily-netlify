@@ -1,24 +1,21 @@
 ---
-title: Why we used Foundation Framework on naturaily.com
+title: From “Delta Force” to “Fire Rescue”. Practical Agile implementation.
 description: >-
-  We will go over through some of the best features of the Foundation Framework
-  which are the reasons why we used it to develop our website.
-slug: foundation-framework-naturaily
-date: '2013-08-27 10:38:01 +0000'
-category: Frontend development
+  Learn how we have practically implemented agile manifesto, including Scrum and
+  Kanban, in our everyday work in software development.
+slug: practical-agile-implementation
+date: '2016-03-31 10:38:01 +0000'
+category: Agile
 authors:
-  label: Maciej Kucharski
-  value: author-16
-  avatar: /assets/images/maciek.png
-image: /assets/images/foundation.jpg
+  label: Sebastian Kubiak
+  value: author-5
+  avatar: /assets/images/seba.jpg
+image: /assets/images/fire.jpg
 text-preview: >-
-  Gentle normalize.css ----------------------- Your usual reset.css leaves you
-  with absolutely nothing - each and every style has to be written by yourself,
-  from scratch. We were looking for a set of rules that would remove browser
-  inconsistencies while preserving some default and desirable styling.
-  Foundation's normalize.css gives you just that.
+  We are a small (over a dozen people) remote development team. That kind of
+  team has pretty standard and diversified portfolio of projects.
 tags:
-  - Frontend development
+  - Agile
 ---
 
 We are a small (over a dozen people) remote development team. That kind of team has pretty standard and diversified portfolio of projects.
