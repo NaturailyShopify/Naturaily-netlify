@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign posts = site.posts | where: "author.label", page.filter_author %}
+{% assign posts = site.posts | where: "authors.label", page.filter_author %}
 <div class="blog__wave"></div>
 
 <div class="l-content l-blog">
