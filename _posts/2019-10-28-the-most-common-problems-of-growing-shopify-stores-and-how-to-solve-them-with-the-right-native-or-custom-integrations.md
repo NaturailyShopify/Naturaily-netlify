@@ -1,7 +1,7 @@
 ---
 title: >-
-  The most common problems of growing Shopify stores and how to solve them with
-  the right native or custom integrations
+  The Most Common Problems of Growing Shopify Stores and How to Solve Them with
+  the Right Native or Custom Integrations
 description: >-
   There are quite a few problems that are common among growing online stores.
   Some of them can be solved by implementing the right technological
@@ -11,9 +11,9 @@ layout: post
 date: '2019-10-30 11:20:08 +0200'
 category: Shopify development
 authors:
+  avatar: /assets/images/mateusz-pliszka.jpg
   label: Mateusz Pliszka
   value: author-28
-  avatar: /assets/images/mateusz-pliszka.jpg
 image: >-
   /assets/images/most-common-problems-of-growingshopify-stores-and-how-to-solve-themwith-the-right-native-or-customintegrations.png
 text-preview: >
@@ -161,3 +161,5 @@ To sum up, with Shopify & Shopify Plus becoming one of the most popular platform
 Yet sometimes, native integrations and marketplace applications are not enough to optimize workflow and ensure seamless processes across the organization. This is where custom API integrations can become a necessity, connecting your software solutions with proper middleware.
 
 Eventually, they can actually help you grow revenue, via wider multi-channel distribution, and save time with tasks such as synchronization & processes’ automation.
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
