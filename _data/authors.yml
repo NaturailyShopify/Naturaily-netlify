@@ -1,85 +1,85 @@
 authors:
-  - name: Wojciech Miśta
-    id: "author-1"
-    avatar: /assets/images/wojciech.jpg
-  - name: Tomasz Żdanuk
-    id: "author-2"
-    avatar: /assets/images/tomasz.jpg
-  - name: Agata Zięba
-    id: "author-3"
-    avatar: /assets/images/agata.jpg
-  - name: Błażej Pichur
-    id: "author-4"
-    avatar: /assets/images/blazej.png
-  - name: Sebastian Kubiak
-    id: "author-5"
-    avatar: /assets/images/seba.jpg
-  - name: Marcin Sulikowski
-    id: "author-6"
-    avatar: /assets/images/marcin.jpg
-  - name: Mikołaj Grygiel
-    id: "author-7"
-    avatar: /assets/images/claus.jpg
-  - name: Jan Wieczorkowski
-    id: "author-8"
-    avatar: /assets/images/janpol.png
-  - name: Patryk Szeliga
-    id: "author-9"
-    avatar: /assets/images/ciabos.jpg
-  - name: Kamil Buczel
-    id: "author-10"
-    avatar: /assets/images/kamil.jpg
-  - name: Marcin Mantke
-    id: "author-11"
-    avatar: /assets/images/mantle.png
-  - name: Jacek Hiszpański
-    id: "author-12"
-    avatar: /assets/images/jacek.png
-  - name: Agnieszka Bugajska
-    id: "author-13"
-    avatar: /assets/images/aga.png
-  - name: Sebastian Brych
-    id: "author-14"
-    avatar: /assets/images/no-image.png
-  - name: Przemysław Świercz
-    id: "author-15"
-    avatar: /assets/images/swierszcz.png
-  - name: Maciej Kucharski
-    id: "author-16"
-    avatar: /assets/images/maciek.png
-  - name: Mateusz Barczak
-    id: "author-17"
-    avatar: /assets/images/mateusz.png
-  - name: Arek Poczobut
-    id: "author-18"
-    avatar: /assets/images/arek.jpg
-  - name: Bartek Zienkiewicz
-    id: "author-19"
-    avatar: /assets/images/bartek.jpg
-  - name: Piotrek Musielak
-    id: "author-20"
-    avatar: /assets/images/piotrek-musielak.jpg
-  - name: Paweł Cybulski
-    id: "author-21"
-    avatar: /assets/images/lighto.jpg
-  - name: Epifany Bojanowska
-    id: "author-22"
-    avatar: /assets/images/epifany_bojanowska-2.jpg
-  - name: Klaudia Chudy
-    id: "author-23"
-    avatar: /assets/images/klaudusia.jpg
-  - name: Beata Twardowska
-    id: "author-24"
-    avatar: /assets/images/beata.jpg
-  - name: Kamil Sopata
-    id: "author-25"
-    avatar: /assets/images/kamil_sopata_profile.png
-  - name: Leo Baz
-    id: "author-26"
-    avatar: /assets/images/leo_baz_profile.png
-  - name: Michał Kosyk
-    id: "author-27"
-    avatar: /assets/images/michal_kosyk_profile.png
-  - name: Mateusz Pliszka
-    id: "author-28"
-    avatar: /assets/images/mateusz-pliszka.jpg
+  - avatar: /assets/images/wojciech.jpg
+    id: author-1
+    name: Wojciech Miśta
+  - avatar: /assets/images/tomasz.jpg
+    id: author-2
+    name: Tomasz Żdanuk
+  - avatar: /assets/images/agata.jpg
+    id: author-3
+    name: Agata Zięba
+  - avatar: /assets/images/blazej.png
+    id: author-4
+    name: Błażej Pichur
+  - avatar: /assets/images/seba.jpg
+    id: author-5
+    name: Sebastian Kubiak
+  - avatar: /assets/images/marcin.jpg
+    id: author-6
+    name: Marcin Sulikowski
+  - avatar: /assets/images/claus.jpg
+    id: author-7
+    name: Mikołaj Grygiel
+  - avatar: /assets/images/janpol.png
+    id: author-8
+    name: Jan Wieczorkowski
+  - avatar: /assets/images/ciabos.jpg
+    id: author-9
+    name: Patryk Szeliga
+  - avatar: /assets/images/kamil.jpg
+    id: author-10
+    name: Kamil Buczel
+  - avatar: /assets/images/mantle.png
+    id: author-11
+    name: Marcin Mantke
+  - avatar: /assets/images/jacek.png
+    id: author-12
+    name: Jacek Hiszpański
+  - avatar: /assets/images/aga.png
+    id: author-13
+    name: Agnieszka Bugajska
+  - avatar: /assets/images/no-image.png
+    id: author-14
+    name: Sebastian Brych
+  - avatar: /assets/images/swierszcz.png
+    id: author-15
+    name: Przemysław Świercz
+  - avatar: /assets/images/maciek.png
+    id: author-16
+    name: Maciej Kucharski
+  - avatar: /assets/images/mateusz.png
+    id: author-17
+    name: Mateusz Barczak
+  - avatar: /assets/images/arek.jpg
+    id: author-18
+    name: Arek Poczobut
+  - avatar: /assets/images/bartek.jpg
+    id: author-19
+    name: Bartek Zienkiewicz
+  - avatar: /assets/images/piotrek-musielak.jpg
+    id: author-20
+    name: Piotrek Musielak
+  - avatar: /assets/images/lighto.jpg
+    id: author-21
+    name: Paweł Cybulski
+  - avatar: /assets/images/epifany_bojanowska-2.jpg
+    id: author-22
+    name: Epifany Bojanowska
+  - avatar: /assets/images/klaudusia.jpg
+    id: author-23
+    name: Klaudia Chudy
+  - avatar: /assets/images/beata.jpg
+    id: author-24
+    name: Beata Twardowska
+  - avatar: /assets/images/kamil_sopata_profile.png
+    id: author-25
+    name: Kamil Sopata
+  - avatar: /assets/images/leo_baz_profile.png
+    id: author-26
+    name: Leo Baz
+  - avatar: /assets/images/michal_kosyk_profile.png
+    id: author-27
+    name: Michał Kosyk
+  - avatar: /assets/images/mateusz-pliszka.jpg
+    id: author-28
+    name: Mateusz Pliszka
