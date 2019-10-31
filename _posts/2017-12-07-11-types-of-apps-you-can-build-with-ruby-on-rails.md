@@ -7,10 +7,9 @@ slug: ruby-on-rails-apps
 date: '2017-12-07 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/ruby-is-cool.png
 text-preview: >-
   Wondering what platform to use for your next startup project? When it comes to
@@ -22,16 +21,12 @@ tags:
   - Ruby on Rails development
   - Startups
 ---
-
-
 Wondering what platform to use for your next startup project? When it comes to building MVPs, Ruby on Rails still remains the king of frameworks but not only startups use Rails - a lot of very mature services, services you probably use every day, managed to utilize its full potential by creating applications used by hundreds of thousands of users.
 
 ## Why Ruby on Rails? - quick summary
 
 * It is great for fast and cost-effective development of MVPs - Ruby on Rails was specifically designed to improve the productivity of the developer.
-
 * With time and commitment, developers can quickly learn RoR because Ruby is one of the most natural programming languages to work with.
-
 * Supportive community - Ruby on Rails community is constantly growing. There are more than 200,000 questions tagged with “Rails” on StackOverflow.
 
 Here is our list of different websites and applications that are built using Rails, proving that Rails is very versatile and can be used to create pretty much everything :)
@@ -80,7 +75,6 @@ Zendesk is a platform that allows you to get closer to your customers by a simpl
 
 With 150M users, 500,000 stays per night, and 4M listings, Airbnb remains the leader among modern hotel and room renting services. The most important fact - Airbnb was created using Ruby on Rails, making it one of the most popular services that use this framework.
 
-
 Did you know that the services we mentioned use Ruby on Rails? What would you add to our list? Share your thoughts with us in the comments!
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
