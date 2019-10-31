@@ -30,22 +30,21 @@ sitemap: false
       },
       componentDidMount: function() {
 
-
         const { loadEntry, field } = this.props;
 
         const collection = field.get("collection");
         const file = field.get("file");
         const fieldName = field.get("target_field");
         const fieldId = field.get("id_field");
+        const fieldAvatar = field.get("avatar_field");
         const fieldDisplay = field.get("display_fields") || fieldId;
-
         loadEntry(collection, file).then(results => {
           const data = results.payload.entry.data[fieldName];
           const options = data.map(option => ({
             value: option[fieldId],
-            label: option[fieldDisplay]
+            label: option[fieldDisplay],
+            avatar: option[fieldAvatar]
           }));
-
           this.setState({ options });
         });
 
@@ -65,6 +64,7 @@ sitemap: false
       getSelectedValue: function(value, options) {
         let selected = { value: "" };
         if (!value) return selected;
+
 
         const maybeOption = options.find(
           option => option.value === value.get("value")
