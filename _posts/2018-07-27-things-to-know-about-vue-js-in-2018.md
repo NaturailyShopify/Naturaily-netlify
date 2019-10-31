@@ -10,10 +10,9 @@ twitter-card: summary_large_image
 date: '2018-08-20 11:59:20 +0200'
 category: JavaScript development
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/vuejs-2018.jpg
 text-preview: >-
   Vue.js, the so-called progressive framework took the JavaScript community by
@@ -72,6 +71,7 @@ It’s also worth mentioning that Vue.js stands really strong in the Chinese mar
 Here’s a brief comparison between Vue.js and React we did a while back. Check it out if you’re interested in both frameworks - [React vs Vue - similarities and differences](https://naturaily.com/blog/react-vue-similarities-and-differences).
 
 ## Read: [Vue.js resources](https://naturaily.com/vue-resources)
-*Edit 09.01.2018: Updated links*
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+_Edit 09.01.2018: Updated links_
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
