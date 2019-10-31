@@ -38,6 +38,15 @@ collections:
         widget: "list"
         allow_add: true
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Related posts"
+        name: "related_posts"
+        widget: "relation"
+        collection: "post"
+        searchFields: ["title"]
+        valueField: "title"
+        displayFields: ["title"]
+        multiple: true
+        required: false
   -
     label: "Posts authors"
     name: "posts-authors"
