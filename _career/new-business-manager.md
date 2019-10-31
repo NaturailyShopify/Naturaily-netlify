@@ -67,7 +67,7 @@ what-you-expect:
       contents: >-
         the possibility to work with clients from around the world representing,
         among other industries and domains: energy, construction, IoT,
-        ecommerce, cloud adoption
+        e-commerce, cloud adoption
   - expectation:
       contents: >-
         to be a part of a team that strives for the best solutions for each
