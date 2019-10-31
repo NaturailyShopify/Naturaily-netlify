@@ -9,12 +9,12 @@ layout: default
         <img src="/assets/images/loader.gif" data-src="{{page.image}}" alt="Post image">
       {% endif %}
       <div class="post-meta">
-        {% if page.author.avatar %}
-          <img class="avatar" src="/assets/images/loader.gif" data-src="{{ page.author.avatar }}" alt="Author avatar">
+        {% if page.authors.avatar %}
+          <img class="avatar" src="/assets/images/loader.gif" data-src="{{ page.authors.avatar }}" alt="Author avatar">
         {% endif %}
         <p class="author">
-          {% if page.author.label %}
-            <a href="/blog/authors/{{ page.author.label | replace: " ", "-" | downcase }}/">{{ page.author.label }}</a>
+          {% if page.authors.label %}
+            <a href="/blog/authors/{{ page.authors.label | replace: " ", "-" | downcase }}/">{{ page.authors.label }}</a>
           {% endif %}
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
