@@ -1,7 +1,7 @@
 ---
 title: >-
-  First steps in a wide, vast app world. Android developer guidance on showing
-  help screens
+  First Steps in a Wide, Vast App World. Android Developer Guidance on Showing
+  Help Screens
 description: >-
   Creating user-friendly experience in your Android applications can be tricky
   and difficult. Luckily, this guide is here to help!
@@ -9,10 +9,9 @@ slug: android-developer-guide-help-screens
 date: '2016-09-22 10:38:01 +0000'
 category: Native mobile development
 authors:
+  avatar: /assets/images/kamil.jpg
   label: Kamil Buczel
   value: author-10
-  avatar: /assets/images/kamil.jpg
-
 image: /assets/images/android-hipster.jpg
 text-preview: >-
   There are only a few things more deadly for apps than a situation when the
@@ -60,3 +59,5 @@ Still, it may not be enough. Android 6.0 Marshmallow lets users decide what perm
 <img class="android-image" src="/assets/images/help-4.png">
 
 In sum, the ultimate answer always lies in the middle and it’s best to rely on your users. This shows the importance of gathering data and being up to speed on UX and development practices.
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
