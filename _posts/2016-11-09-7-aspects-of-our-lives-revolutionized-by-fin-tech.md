@@ -23,7 +23,7 @@ tags:
   - Fintech
 ---
 
-Fin-tech is a term which conveys the inevitable marriage of **fi**nance and **tech**. It also serves as a convenient handle for the technological revolution happening in financial services today. The changes we see in payments, insurance, lending, deposits and funding, however, are not limited to sheer convenience. The ultimate goal is also to make transactions much faster, cheaper and, most importantly, more secure for everyone.
+Fin-tech is a term which conveys the inevitable marriage of **fin**ance and **tech**. It also serves as a convenient handle for the technological revolution happening in financial services today. The changes we see in payments, insurance, lending, deposits and funding, however, are not limited to sheer convenience. The ultimate goal is also to make transactions much faster, cheaper and, most importantly, more secure for everyone.
 
 
 But what is all this fuss about? Imagine a world in which you never have to type your credit card number again, and all your payments are fast and secure. Imagine a world in which complex algorithms constantly monitor market events to automatically analyse and rebalance your investments and savings portfolio so you don’t have to.
@@ -154,5 +154,3 @@ The only thing hampering the growth for such companies (and thus delaying the bo
 
 
 Yes, this is uncharted territory and a lot of work needs to be done to ensure security of online payments, marketplace lending, finance management or crowdfunding. It will also take long to establish uniform standards. But who knows, maybe in five years today’s startups will have joined—or completely displaced—the banks as providers of financial services? Such scenario is not completely unlikely. We have already successfully embraced some parts of the revolution like online payments and crowdfunding. Possibilities of fin-tech are endless, and we should be expecting big things to come in the foreseeable future.
-
-[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
