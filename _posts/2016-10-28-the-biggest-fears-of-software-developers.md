@@ -6,7 +6,7 @@ description: >-
 slug: software-developers-fears
 twitter-card: summary_large_image
 date: '2016-10-28 10:38:01 +0000'
-category: Startups
+category: Software development
 authors:
   avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
