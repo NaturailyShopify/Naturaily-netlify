@@ -1,5 +1,5 @@
 ---
-title: Ruby on Rails view components with Trailblazer Cells
+title: Ruby on Rails View Components with Trailblazer Cells
 description: >-
   How to create view components in your Ruby on Rails applications? With this
   tutorial, you'll be able to see how to create them using Trailblazer Cells!
@@ -8,10 +8,9 @@ twitter-card: summary_large_image
 date: '2016-10-03 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/claus.jpg
   label: Mikołaj Grygiel
   value: author-7
-  avatar: /assets/images/claus.jpg
-
 image: /assets/images/trailblazer.jpg
 text-preview: >-
   In recent times view components became a really popular web design pattern.
@@ -361,3 +360,5 @@ As you can see we have used the same cells for all controllers. That is the powe
 That’s all. The change at one file is propagated to all views. How cool is that? And that is the sense of cells.
 
 Of course, cells have more advantages, but I had only one goal in this article. I wanted to show you that with cells you can create flexible and reusable views at rails. I hope that now you can see it.
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
