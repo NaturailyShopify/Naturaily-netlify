@@ -1,5 +1,5 @@
 ---
-title: 10 entrepreneurs you need to follow on Snapchat
+title: 10 Entrepreneurs You Need to Follow on Snapchat
 description: >-
   Are you interested in IT? Do you want to be up to date with IT gurus? Here it
   is! The top 10 list of entrepreneurs that you have to follow on Snapchat!
@@ -7,10 +7,9 @@ slug: entrepreneurs-snapchat
 date: '2016-06-24 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
-      
 image: /assets/images/snapchat_entrepreneurs.jpeg
 text-preview: >-
   As you might have guessed I'm not one of those selfie-loving teenage boys (ok,
@@ -90,3 +89,5 @@ PS. Don't forget to follow me (suleiro) if you want to see what a life of a soft
 
 <br>
 ![suleiro](/assets/images/snapchat-suler.png)
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
