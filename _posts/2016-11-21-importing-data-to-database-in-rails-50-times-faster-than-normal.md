@@ -1,5 +1,5 @@
 ---
-title: Importing data to database in Rails 50 times faster than normal
+title: Importing Data to Database in Rails 50 Times Faster Than Normal
 description: >-
   Have you noticed how time-consuming is saving records to Ruby on Rails
   database using ActiveRecord? With this tutorial, you can do it much faster!
@@ -7,10 +7,9 @@ slug: ruby-on-rails-fast-data-import
 date: '2016-11-21 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/claus.jpg
   label: Mikołaj Grygiel
   value: author-7
-  avatar: /assets/images/claus.jpg
-
 image: /assets/images/speed_up.jpg
 text-preview: >-
   Have you ever needed to save lots of records with unique attribute to database
@@ -266,4 +265,4 @@ Table and chart show that the best way is using ```ActiveRecord::Import``` with 
 
 I know it’s a really simple case, without any other validations, but you can treat it as a hint how to use SQL validations to speed up saving data to database.
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
