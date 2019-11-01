@@ -1,5 +1,5 @@
 ---
-title: Buying software development services is a skill
+title: Buying Software Development Services Is a Skill
 description: >-
   Let's debunk some of the myths, that you probably believe, regarding buying
   software development services, shall we?
@@ -7,14 +7,20 @@ slug: buying-software-development-services
 date: '2015-11-02 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
-
 image: /assets/images/hipster2.jpg
 text-preview: Don't believe the software development myths. Read on to learn why.
 tags:
   - Startups
+related_posts:
+  - >-
+    The 17 Things You Should Consider Before Choosing the Best Software
+    Development Company
+  - >-
+    How to find the best development company on Clutch and not to fall into a
+    trap! A Clutch reader’s guide
 ---
 
 > “Nothing worthwhile is achieved suddenly.” - Robert Fripp
@@ -54,3 +60,5 @@ Oh, and one more thing: don’t believe your developer friends. They always do i
 There are of course more myths than these described above. The key takeaway is: buying and owning software product is a skill. A skill that can be possessed, but it takes time and money to learn.
 
 You need to understand how software is built to omit errors. And you need to know what you want to build. If you don’t know, you need experience and know-how to go agile. Agile is great, but only for experienced product owners.
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
