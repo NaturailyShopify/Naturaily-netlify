@@ -13,7 +13,7 @@ authors:
   value: author-6
 image: /assets/images/fin-tech.png
 text-preview: >-
-  Fin-tech is a term which conveys the inevitable marriage of **fi**nance and
+  Fin-tech is a term which conveys the inevitable marriage of **fin**ance and
   **tech**. It also serves as a convenient handle for the technological
   revolution happening in financial services today. The changes we see in
   payments, insurance, lending, deposits and funding, however, are not limited
