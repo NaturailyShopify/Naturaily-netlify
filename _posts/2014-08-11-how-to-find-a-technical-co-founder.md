@@ -1,5 +1,5 @@
 ---
-title: How to find a technical co-founder?
+title: How to Find a Technical Co-founder?
 description: >-
   Finding a technical co-founder is one of the most important tasks, whether
   you're building a startup or an IT development company. Find out how in this
@@ -8,9 +8,9 @@ slug: how-to-find-technical-co-founder
 date: '2014-08-11 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
 image: /assets/images/cofounder.jpg
 text-preview: >-
   Whether you're building a ONE BILLION startup or a smallish web developement
@@ -23,8 +23,7 @@ text-preview: >-
 tags:
   - Startups
 ---
-
-Whether you're building a ONE BILLION startup or a smallish web developement agency, as an entrepreneur you have one tough task: finding a technical co-founder. That's probably one of the most important tasks in early days of your empire *in spe*.<!--more--> I've been there a couple of times and I can only say that choosing the right person will result in peace of your mind and growth of your business. But choosing the wrong one, you may end up with plenty of troubles.
+Whether you're building a ONE BILLION startup or a smallish web developement agency, as an entrepreneur you have one tough task: finding a technical co-founder. That's probably one of the most important tasks in early days of your empire _in spe_.<!--more--> I've been there a couple of times and I can only say that choosing the right person will result in peace of your mind and growth of your business. But choosing the wrong one, you may end up with plenty of troubles.
 
 Here's a list of six things which I find important. Bear in mind one note: it's an entreprenurial point of view. It might not match all situations.
 
@@ -33,6 +32,7 @@ Here's a list of six things which I find important. Bear in mind one note: it's 
 You don't go to the dentist if your leg is broken. So, if you think about building a large scale messaging app, consider co-founding with Erlang, not Rails, developer. It's your job to understand basic technical issues behind your product and find the right engineer. Having said that, I must admit that sometimes you will be forced to co-found with people without the right skills. It will be harder, but not impossible.
 
 Remember to check the level of experience. Are you trying to make a deal with a junior developer, lead developer or software production manager. Who exactly do you need?
+
 ### He/she needs to morph
 
 If your technical co-founder, apart from writing great code, can transform into managerial beast later on, it's just fantastic. In the early days there's plenty of coding, but your business will grow eventually and your roles will change. There won't be time for code polishing or user interface tweaking. You both will need to manage your business.
@@ -60,11 +60,9 @@ Motivations and values are more important than engineering skills. If your motiv
 
 ### Communication skills
 
-
 Co-found with someone who communicates clearly and easily. It's just necessary. There are exceptions, however remember that this game is for team players. You'll have enough communication problems with employees, you don't need such with a co-founder.
 
-Naturaily’s search for CTO
-----------------------------
+## Naturaily’s search for CTO
 
 When I started Naturaily, I was acting solo. It wasn't a problem, I had plenty of experience in running web application development agency. However, after hiring the 5th developer, I felt I need an engineer at heart to take over software production management.
 
@@ -81,10 +79,15 @@ Luckily for me, an old friend moved to Wrocław. An old friend with experience i
 Why this time it worked? We have known each other for a long time. We share motivations and values. We have complementary skills. We were born the same year. You don't necessarily need a technical co-founder who's born exactly the same year, but your age matters. I'd find it hard to co-found with a person much younger.
 
 Apart from the list above, there are some additional lessons that can be drawn from this story:
+
 * it's good to be lucky,
 * you must learn how to spot an opportunity. Sometimes it's really hard to notice it even when it's laying naked in front of you. It was my wife who actually noticed my old friend can be a great co-founder,
 * have mentors. They don't have to be professionals. Your uncle may serve as one as well.
 
 Now go out and find someone to build things with!
 
-PS If you have trouble with finding your CTO, you can always start building your dream web application with a remote team such as Naturaily
+PS: If you have trouble with finding your CTO, you can always start building your dream web application with a remote team such as Naturaily.
+
+
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
