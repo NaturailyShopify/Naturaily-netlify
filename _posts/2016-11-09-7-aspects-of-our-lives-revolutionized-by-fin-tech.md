@@ -1,5 +1,5 @@
 ---
-title: 7 Aspects of our Lives Revolutionized by Fin-Tech
+title: 7 Aspects of Our Lives Revolutionized by Fin-Tech
 description: >-
   Fin-tech is a term which conveys the inevitable marriage of finance and tech.
   It's no surprise that it has a huge impact on many aspects of our lives.
