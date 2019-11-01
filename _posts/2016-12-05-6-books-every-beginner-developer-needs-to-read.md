@@ -1,5 +1,5 @@
 ---
-title: 6 books every beginner developer needs to read
+title: 6 Books Every Beginner Developer Needs to Read
 description: >-
   When you're a newbie in the world of software development, where can you find
   good sources? Check out the best books to start your journey with programming!
@@ -7,10 +7,9 @@ slug: books-for-beginner-developers
 date: '2016-12-05 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
-
 image: /assets/images/recommended-books.jpg
 text-preview: >-
   When you're a newbie in the complex code world and crave for knowledge, good
@@ -24,8 +23,6 @@ tags:
   - Frontend development
   - Ruby on Rails development
 ---
-
-
 
 When you're a newbie in the complex code world and crave for knowledge, good resources are key to success. Blogs, forums, dev meetings - where to start? All of these options are worth trying but there are also those old-fashioned artefacts called books which could be very helpful. Here is a special list created by our team members. Check out what to read at the beginning of your coding journey...
 
@@ -188,3 +185,5 @@ When you're a newbie in the complex code world and crave for knowledge, good res
 
 
 I'm sure all of you have your own favourite books, so feel free to add comments and share your recommendations.
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
