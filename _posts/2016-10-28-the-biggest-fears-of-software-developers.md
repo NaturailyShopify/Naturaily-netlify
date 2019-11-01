@@ -20,6 +20,8 @@ text-preview: >-
 tags:
   - Startups
 ---
+
+
 Software development is not a walk in the park. It’s rather a 24-hour run through a misty jungle full of spiderwebs and creepy creatures. Developers need to be brave and have a spirit of adventure. But none of them is fearless. Time to face the biggest dev’s fears! Hold on!
 
 
