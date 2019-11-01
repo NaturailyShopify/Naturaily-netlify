@@ -3,14 +3,12 @@ title: Rails on a diet
 description: >-
   So you're working with Ruby on Rails but you don't know how to make it more
   'lightweight'? In this Ruby on Rails tutorial, we are going to take Rails on a
-  diet.
+  diet. 
 slug: diet-rails
 date: '2014-08-19 10:38:01 +0000'
 category: Ruby on Rails development
-authors:
-  label: Przemysław Świercz
-  value: author-15
-  avatar: /assets/images/swierszcz.png
+author: Przemysław Świercz
+avatar: /assets/images/swierszcz.png
 image: /assets/images/railsondiet.jpg
 text-preview: >-
   More and more apps are being created with an API support. Growing popularity
@@ -39,7 +37,7 @@ There is a nice gem called [rails-api](https://github.com/rails-api/rails-api) w
 ## Middlewares
 
 Rails applications have few middlewares enabled by default. For Rails 4.1.4 these are:
-```ruby
+
     Rack::Sendfile
     ActionDispatch::Static
     Rack::Lock
@@ -62,12 +60,12 @@ Rails applications have few middlewares enabled by default. For Rails 4.1.4 thes
     Rack::ConditionalGet
     Rack::ETag
     YouApp::Application.routes
-```
+
 You can check enabled middlewares on your own by running **rake middleware**. As you can see almost all of these are classes. Only LocalCache is an object so you wll have a different address here.
 
 We won't need all of these so let's get rid of the unnecessary ones. It is a good thing to keep middlewares configuration in a seperate file so we create **config/middlewares.rb** and put the following code in here:
 
-```ruby
+
     # load rb files from app/middlewares directory
     # these are our custom middlewares
     Dir[Rails.root.join('app/middlewares/*.rb')].each{|f| require f}
@@ -86,7 +84,7 @@ We won't need all of these so let's get rid of the unnecessary ones. It is a goo
       # remove headers: X-Frame-Options, X-XSS-Protection, X-Content-Type-Options
       config.action_dispatch.default_headers = {}
     end
-```
+
 You can drop a different set of middlewares if you want to.
 Next, we need to load this file from **config/environment.rb**
 
@@ -95,12 +93,12 @@ Next, we need to load this file from **config/environment.rb**
 
 
 Now, you can put your custom middlewares in **app/middlwares** directory. But remember to load them from **config/middleware.rb** e.g. if we want not to return **X-Runtime** header in every single response we need to manually hide it using a custom middleware. Deleting **Rack::Runtime** will fail in this case. In this situation you should insert your hiding middleware using:
-```ruby
+
     # remove X-Runtime header
     config.middleware.insert_before(::Rack::Runtime, ::HideRuntime)
-```
+
 The code for app/middlewares/hide_runtime.rb may look like this:
-```ruby
+
     class HideRuntime
       def initialize(app)
         @app = app
@@ -111,11 +109,11 @@ The code for app/middlewares/hide_runtime.rb may look like this:
         [status, headers, body]
       end
     end
-```
+
 ## Rails frameworks
 
 OK, so we have dropped some unnecessary middlewares so far. The next thing to consider is to choose which of the default Rails frameworks we actually need. Let's take a look at **config/application.rb**.
-```ruby
+
     require File.expand_path('../boot', __FILE__)
 
     # Pick the frameworks you want:
@@ -146,9 +144,9 @@ OK, so we have dropped some unnecessary middlewares so far. The next thing to co
         # config.i18n.default_locale = :de
       end
     end
-```
+
 You can freely comment out some of *require* statements. We will not need *action_view* orsprocets. If you prefer RSpec you can also drop *test_unit*. ActiveRecord is kinda fat so if you are going to use some NoSQL database you should check out MongoDB and its Mongoid framework. For SQL databases check out the DataMapper framework. Mongoid still depends on ActiveModel so we can leave it uncommented. If you are not planning to send emails from within your application then you should comment action_mailer and remember to drop config statements from files in **config/environments** directory. Finally we can end up with something like this:
-```ruby
+
     # Pick the frameworks you want:
     require 'active_model/railtie'
     # require 'active_record/railtie'
@@ -157,11 +155,11 @@ You can freely comment out some of *require* statements. We will not need *actio
     # require 'action_view/railtie'
     # require 'sprockets/railtie'
     # require 'rails/test_unit/railtie'
-```
+
 ## Gemfile
 
 In your Gemfile do not hestitate to use groups. Every gem which is essential only in development and/or test should be put in its group e.g. capistrano or pry-byebug should be wrapped in development group
-```ruby
+
     group :development do
       gem 'better_errors'
       gem 'binding_of_caller'
@@ -169,11 +167,11 @@ In your Gemfile do not hestitate to use groups. Every gem which is essential onl
       gem 'capistrano'
       # ...
     end
-```
+
 This will prevent from loading extra code in your staging/production environments. Also feel free to use *require: false* for gems you do not want to be automatically loaded from your **config/application.rb** file.
-```ruby
+
     gem 'koala', require: false
-```
+
 It means that if you want to use that gem you should first require it on top of your file - like in pure ruby code. It may be inconvinient but should speed up your application.
 
 
@@ -182,7 +180,7 @@ It means that if you want to use that gem you should first require it on top of 
 The most important part of your application. Since it's an API project we don't call it *ApplicationController*. It's just *ApiController*. First, don't declare this class as inherited from *ActionController::Base*. We don't want that. We don't need that. Use *ActionController::Metal* instead which is more lightweight and add only the modules you need.
 
 OK, so now you have two strategies to follow. You can either *include what you want* or *exclude what you don't want*. I personally prefer the second approach. Notice that if you're using rabl or jbuilder templates you probably want to have rendering stuff included. Your *ApiController* should be something like this:
-```ruby
+
     module Api
       class ApiController < ActionController::Metal
         WITHOUT = [
@@ -214,9 +212,9 @@ OK, so now you have two strategies to follow. You can either *include what you w
         prepend_view_path 'app/views'
       end
     end
-```
+
 If ou want your views to load correctly remember to set the view path as above. Keep in mind that if you don't like *excluding approach* you can always take a look into *ActionController::Base* class and include only those modules you really need. Here's the array of all the modules included in *ActionController::Base* by default:
-```ruby
+
     MODULES = [
       AbstractController::Rendering,
       AbstractController::Translation,
@@ -261,7 +259,7 @@ If ou want your views to load correctly remember to set the view path as above. 
       # properly showed in logs
       ParamsWrapper
     ]
-```
+
 ## Dependencies
 
 Whan using the described setup you should be aware of the fact that you can get errors if some of your gems are using something you dropped from your application. As an example you may take *Draper* (decorators framework) which won't work untill you have  *ActionDispatch::RequestId* middleware laoded.
