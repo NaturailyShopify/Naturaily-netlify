@@ -1,5 +1,5 @@
 ---
-title: Basic design patterns in Ruby on Rails
+title: Basic Design Patterns in Ruby on Rails
 description: >-
   When you, as a programmer, encounter a problem, don't worry! In most cases,
   they can be solved by patterns! Find out what are the basic design patterns in
@@ -9,10 +9,9 @@ twitter-card: summary_large_image
 date: '2016-08-18 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/mantle.png
   label: Marcin Mantke
   value: author-11
-  avatar: /assets/images/mantle.png
-
 image: /assets/images/patterns.jpg
 text-preview: >-
   Not only as programmers, but in day-to-day life, we encounter some problems.
@@ -125,3 +124,5 @@ And then, we can use this code in our views:
 ## That’s all?
 
 Of course not, you silly! The world of design patterns is a lot lot bigger than that. Not every of them would be applicable in RoR application, though. Or that particular problem you have. But still, it's very good to know some design patterns, even their main ideas. Because maybe one day, you'll have some problem and it can be solved with design pattern you know or at least heard of. Or maybe you will develop your own design pattern, that will be described in books? ;)
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
