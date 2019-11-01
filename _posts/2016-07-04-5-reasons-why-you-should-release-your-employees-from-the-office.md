@@ -1,5 +1,5 @@
 ---
-title: 5 reasons why you should release your employees from the office
+title: 5 Reasons Why You Should Release Your Employees from the Office
 description: >-
   If you provide remote services then why your employees can't work remotely
   too? Here are 5 reasons, from our experience, why you should let them!
@@ -7,10 +7,9 @@ slug: remote-work-pros
 date: '2016-07-04 10:38:01 +0000'
 category: Agile
 authors:
+  avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
-
 image: /assets/images/release-employees.jpg
 text-preview: >-
   We provide services remotely to customers around the world. The distance and
@@ -77,3 +76,5 @@ Speaking of which: Greetings from my living room couch ;)
    Of course, we do recognize the value of direct contact with people and teams. We also know how valuable such contact is—even the most trivial chit-chat in the snack room has some merit. And even though not every position is equally fit for the "Remote development team" setting, remote work is still worth considering.
 
    We're making our first steps in implementing remote work and are open to reading about your experiences. Is allowing telecommuting a good idea? If not, what are the consequences?
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
