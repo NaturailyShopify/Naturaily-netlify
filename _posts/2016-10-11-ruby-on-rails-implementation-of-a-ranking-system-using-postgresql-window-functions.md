@@ -1,7 +1,7 @@
 ---
 title: >-
-  Ruby on Rails implementation of a ranking system using PostgreSQL window
-  functions
+  Ruby on Rails Implementation of a Ranking System Using PostgreSQL Window
+  Functions
 description: >-
   This tutorial will show you how you can easily implement tracking
   functionality in your Ruby on Rails project using PostgreSQL window functions.
@@ -9,10 +9,9 @@ slug: ranking-system-implementation-postgresql
 date: '2016-10-11 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/ciabos.jpg
   label: Patryk Szeliga
   value: author-9
-  avatar: /assets/images/ciabos.jpg
-
 image: /assets/images/rails-elephant.jpg
 text-preview: >-
   Hello, this article will show, how easily you can add ranking functionality to
@@ -160,3 +159,5 @@ Pros of this approach:
 
 Cons:
   You tell me. Are there any?
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
