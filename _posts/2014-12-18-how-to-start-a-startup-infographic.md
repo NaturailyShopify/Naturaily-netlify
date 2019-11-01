@@ -1,5 +1,5 @@
 ---
-title: ' How to start a startup [infographic]'
+title: ' How to Start a Startup [Infographic]'
 description: >-
   There are many ways to start a startup. We hope that this infographic will
   help you find the right place to start!
@@ -7,9 +7,9 @@ slug: how-to-start-startup
 date: '2014-12-18 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
 image: /assets/images/startup-info.jpg
 text-preview: >-
   Wondering how to start a startup? There are few ways. Building it on your own
@@ -27,3 +27,5 @@ Wondering how to start a startup? There are few ways. Building it on your own (i
 
 
 ![infostartup](/assets/images/info-startup.jpg "Info-startup")
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
