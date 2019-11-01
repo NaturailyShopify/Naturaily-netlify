@@ -1,7 +1,7 @@
 ---
 title: >-
-  From the red carpet to Silicon Valley. Meet 14 celebrities who invest in
-  startups!
+  From the Red Carpet to Silicon Valley. Meet 14 Celebrities Who Invest in
+  Startups!
 description: >-
   Startup celebrities! Sportsmen, rock stars, pop singers and actors eagerly
   invest in startups. Who invested in what and was it worth it?
@@ -9,10 +9,9 @@ slug: celebrities-who-invest-in-startups
 date: '2016-07-09 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
-
 image: /assets/images/leonardo-naturaily.jpg
 text-preview: >-
   Sportsmen, rock stars, pop singers and actors eagerly invest in startups,
@@ -123,3 +122,5 @@ There is one exception - **Robert Lewandowski** - a football player and an undou
 ![lewy](/assets/images/lewy.jpg)
 
 I am truly curious how does it look in other countries. And I know that we've got here an audience from all around the world: Singapore, Scandinavia, Germany, Canada, UK. So leave a comment and tell me if celebrities in your countries invest in startups or not. I would be grateful for the insights.
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
