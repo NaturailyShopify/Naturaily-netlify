@@ -1,5 +1,5 @@
 ---
-title: From “Delta Force” to “Fire Rescue”. Practical Agile implementation.
+title: From “Delta Force” to “Fire Rescue”. Practical Agile Implementation
 description: >-
   Learn how we have practically implemented agile manifesto, including Scrum and
   Kanban, in our everyday work in software development.
@@ -7,9 +7,9 @@ slug: practical-agile-implementation
 date: '2016-03-31 10:38:01 +0000'
 category: Agile
 authors:
+  avatar: /assets/images/seba.jpg
   label: Sebastian Kubiak
   value: author-5
-  avatar: /assets/images/seba.jpg
 image: /assets/images/fire.jpg
 text-preview: >-
   We are a small (over a dozen people) remote development team. That kind of
@@ -71,3 +71,5 @@ To sum up, we implement the following “Natudologies” actually:
 * WATERFAILY aka. “Pain&NoGain” - just kidding ;)
 
 Remember, every organization is different and has its own history. How it evolved in your company?
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
