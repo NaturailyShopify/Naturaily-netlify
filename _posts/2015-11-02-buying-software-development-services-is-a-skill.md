@@ -14,13 +14,7 @@ image: /assets/images/hipster2.jpg
 text-preview: Don't believe the software development myths. Read on to learn why.
 tags:
   - Startups
-related_posts:
-  - >-
-    The 17 Things You Should Consider Before Choosing the Best Software
-    Development Company
-  - >-
-    How to find the best development company on Clutch and not to fall into a
-    trap! A Clutch reader’s guide
+related_posts: []
 ---
 
 > “Nothing worthwhile is achieved suddenly.” - Robert Fripp
