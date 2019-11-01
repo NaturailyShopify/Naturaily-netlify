@@ -1,7 +1,7 @@
 ---
 title: >-
-  First steps in a wide, vast app world. Android developer guidance on user
-  experience and process thinking
+  First Steps in a Wide, Vast App World. Android Developer Guidance on User
+  Experience and Process Thinking
 description: >-
   How not to get lost with different screen resolutions, densities and device
   parameters? Take a look at our UX and process thinking guide in Android
@@ -10,10 +10,9 @@ slug: android-development-guide-user-experience-process-thinking
 date: '2016-08-30 10:38:01 +0000'
 category: Native mobile development
 authors:
+  avatar: /assets/images/kamil.jpg
   label: Kamil Buczel
   value: author-10
-  avatar: /assets/images/kamil.jpg
-
 image: /assets/images/first-steps.jpg
 text-preview: >-
   Creating apps on Android seems like a pretty straightforward task. Just take
@@ -26,10 +25,6 @@ tags:
   - Java development
   - User experience design
 ---
-
-
-
-
 Creating apps on Android seems like a pretty straightforward task. Just take working solutions and put them on mobile devices. On about 11 thousand devices, to be exact. With different resolutions, screen densities and parameters. So users of every age category can install it on a system that gets a new version every year. Well, yeah, let's talk about it...
 
 Some of the things described below may seem obvious, but you would be really surprised to hear how many big players forget about them. If you are an app adventurer like myself, chances are you’ll run into one of these quirks along your journey. But if you are just a regular user, you may not be so lucky. Why? Because these apps have probably never soared above the mystical 500-1k downloads and got shamefully branded as “maybe it wasn’t such as good idea”, unless… when they actually were great apps... Only served in an exceptionally uninventive or, even worse, annoying way. So, for posterity, let’s have a look at examples of these little things that can compromise the success of your new brainchild, or make the app disappear, forgotten in the infinitude of Google Play Store. From there, we will continue our journey with a review of traps waiting for a developer in the android world.
@@ -41,8 +36,6 @@ Most developers tend to think of their apps as their own children. They want eac
 Let’s think about it as something very expensive. Say, a large TV. One with the best 4K screen and sharpest colors money can buy. But change just one, tiny thing in it. Like the way remote control works — for example, changing programs takes a double tap. Believe me, the TV may look fancy, but that mall difference will doom it to landfill... Okay, maybe not literally, but surely it will not be a product that you would recommend to anyone, or be happy to use it yourself.
 
 With mobile apps the situation is even worse. There are few things in the world which are easier than deleting an app (or turning it off and forgetting about it forever). But let’s cut to the chase, what is the “broken remote control” in the world of mobile development? I'll show you a few examples of possible solutions, and by them guide you through optimal process thinking.
-
-
 
 
 
@@ -146,3 +139,5 @@ With mobile apps the situation is even worse. There are few things in the world 
 
   ** Which it really did… On the one of devices (oldy LG) I got some weird mallufoctiong as described [here](http://stackoverflow.com/questions/13526690/why-setcanceledontouchoutsidefalse-doesnt-work-in-alert-builder/13567411#13567411).
   And was in a place where you stop and have to weigh what is more important to you, potential problems on samsung device, compatibility with one of LG devices or trying to make everyone happy. Long story short - you can’t make everyone happy.
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
