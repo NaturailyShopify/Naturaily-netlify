@@ -1,5 +1,5 @@
 ---
-title: What a non-technical person needs to know when working with a development team
+title: What a Non-technical Person Needs to Know When Working with a Development Team
 description: >-
   Are you working with a development team for the first time? Dive in and read
   the 7 precious tips from Master Yoda himself!
@@ -7,10 +7,9 @@ slug: working-with-development-team
 date: '2016-09-09 10:38:01 +0000'
 category: Remote work
 authors:
+  avatar: /assets/images/seba.jpg
   label: Sebastian Kubiak
   value: author-5
-  avatar: /assets/images/seba.jpg
-
 image: /assets/images/mister-yoda.jpg
 text-preview: Dive in and read the 7 precious tips from Master Yoda himself!
 tags:
@@ -18,11 +17,9 @@ tags:
 ---
 
 
+We work with different teams on projects which are at various stages of development. The teams differ in terms of experience working with developers or software houses. Finding your role and properly taking advantage of such an arrangement is something you have to learn. 
 
-
-## Dive in and read the 7 precious tips from Master Yoda himself!
-
-We work with different teams on projects which are at various stages of development. The teams differ in terms of experience working with developers or software houses. Finding your role and properly taking advantage of such an arrangement is something you have to learn. **Efficient cooperation with an external team of developers requires knowledge, preparation and appropriate approach.** Does this mean that a person with no experience cannot effectively carry out a project involving the work of developer teams? Not at all! There is ample evidence in the form of successful implementations for less experienced clients that says otherwise.
+**Efficient cooperation with an external team of developers requires knowledge, preparation and appropriate approach.** Does this mean that a person with no experience cannot effectively carry out a project involving the work of developer teams? Not at all! There is ample evidence in the form of successful implementations for less experienced clients that says otherwise.
 
 We want to share some thoughts and advice to help you streamline this process and mentally prepare you for the job. Since we really like Star Wars (but do not necessarily want to come across as smarty-pants), we have decided to collect these wise words for you in the form of **7 tips from Master Yoda.** And given that Yoda is a Jedi, you just have to take him at his word. **May the force be with you.**
 
@@ -88,3 +85,5 @@ We want to share some thoughts and advice to help you streamline this process an
 Yes, we like fairy tales. But we are also quite down-to-earth and know that some things are only possible in the movies. Nevertheless, we always try to do all we can to **write screenplays for successful cooperation, where the main role is played by the only hero and author of the story: our client.**
 
 What are your thoughts? Do you have some interesting experience in this field that you would like to share? **Send us your suggestions and advice on how to facilitate cooperation with development teams for people without technical knowledge.**
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
