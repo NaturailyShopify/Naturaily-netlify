@@ -1,5 +1,5 @@
 ---
-title: Run services in the background
+title: Run Services in the Background
 description: >-
   In this tutorial you will find the best and easiest way to run Ruby on Rails
   services in the background. We will create an universal Job for all the
@@ -8,10 +8,9 @@ slug: ruby-on-rails-background-services
 date: '2016-11-04 10:38:01 +0000'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/janpol.png
   label: Jan Wieczorkowski
   value: author-8
-  avatar: /assets/images/janpol.png
-
 image: /assets/images/random_console.png
 text-preview: >-
   Some time ago [Marcin wrote about basic design patterns in Ruby on
@@ -107,3 +106,5 @@ end
 It is very easy, nothing fancy. However, there is a hidden message: you have to be lazy and remember that future-you is also lazy! You can create code that will solve your current problem (e. g. wrapper-job for your service), it's easy and fast, you don't need to think at all. But you should think a bit more and create code that will solve your problem and prevent the emergence of similar problems in the future(e. g. our ServiceInvocationJob). Future-you will be thankful.
 
 Thank you! Bye!
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
