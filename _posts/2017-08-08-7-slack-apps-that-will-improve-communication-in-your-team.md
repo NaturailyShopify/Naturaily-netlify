@@ -1,5 +1,5 @@
 ---
-title: 7 Slack apps that will improve communication in your team
+title: 7 Slack Apps That Will Improve Communication in Your Team
 description: >-
   Communication between our team members is the key to success. That is why we
   use Slack as our main communicator with some great apps that improve our
@@ -8,10 +8,9 @@ slug: slack-apps-improving-team-communication
 date: '2017-08-08 10:38:01 +0000'
 category: Agile
 authors:
+  avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
-
 image: /assets/images/slack.jpg
 text-preview: >-
   Communication between our team members is the key to success. To provide
@@ -120,3 +119,7 @@ The process of saving screenshots, annotating them, and then sharing them with y
 Capturing your screen, annotating and sending it to a person or channel on Slack has never been this easy. Marker has many uses – from reporting typos and bugs to sharing ideas or interesting articles.
 
 https://marker.io/
+
+
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
