@@ -54,7 +54,7 @@ boost(Highcharts);
 
 You may be wondering, what this boost module is. I think that, to best explain it, the official documentation can be cited:
 
-> [Boost](https://www.highcharts.com/docs/advanced-chart-features/boost-module){:rel="nofollow"}{:target="_blank"} is a stripped-down renderer-in-a-module for Highcharts and Highstock. It bypasses some of the standard Highcharts features (such as animation), and focuses on pushing as many points as possible as quickly as possible
+> [Boost](https://www.highcharts.com/docs/advanced-chart-features/boost-module){:rel="nofollow"}{:target="_blank"} is a stripped-down renderer-in-a-module for Highcharts and Highstock. It bypasses some of the standard Highcharts features (such as animation), and focuses on pushing as many points as possible as quickly as possible.
 
 So, to sum it up, this module will make our charts run faster, but at the cost of some minor drawbacks. For example, you won’t be able to use dotted lines for your series. But, don’t you worry,  the key parts are still fully functional. 
 
@@ -77,7 +77,7 @@ Now that we have some data to show, we can filtrate it. Even though this is a si
 * Chart.vue
 * store.js
 
-`ChartFiltration.vue` will be, a parent of a Chart component. Its job will be issuing fetches and to know when the data is ready. Chart.vue will simply be used to show the series that are being passed by props. All logic related to processing the chart data will be stored in a store module.
+`ChartFiltration.vue` will be, a parent of a Chart component. Its job will be issuing fetches and to know when the data is ready. `Chart.vue` will simply be used to show the series that are being passed by props. All logic related to processing the chart data will be stored in a store module.
 
 **First App.vue**
 
@@ -316,7 +316,7 @@ series: this is where we put the processed array of highcharts objects
 
 xAxis: it’s used for informing chart, what is the type of series, specifying title, label format, and lots of other things.
 
-The list of values that can be set for any of those attributes can be found here: https://api.highcharts.com/highcharts/{:rel="nofollow"}{:target="_blank"}  
+The list of values that can be set for any of those attributes can be found here: <https://api.highcharts.com/highcharts/> {:rel="nofollow"}{:target="_blank"}  
 
 And, honestly, this is all. By moving processing logic to the store, we won’t cause any unnecessary computations inside of the component, which will improve speed immensely. In ChartFiltrations, we can add some buttons to add additional filtrations to the chart. For example, we can add buttons to specify if we want to see only one type of attribute (remember that we need to still do the filtrations inside the store). Additionally, as in this example, we have both current and voltage. As you should know, they have different units, so to make our chart more lucid, we can use multiple y axises. It can be done simply by adding a yAxis object:
 
@@ -357,5 +357,4 @@ As you can see, we had two series of 100k points and they are working smoothly. 
 In this article, I have hopefully shown you that lots of data does not come with a need to make performance cuts. This implementation is only one of numerous approaches to this particular topic. If you have any comments or questions, I will be happy to answer them through the comments.  
 
 You can clone this repo with the code from here :
-
-https://github.com/Dziejo93/highcharts-demo{:rel="nofollow"}{:target="_blank"}  
+<https://github.com/Dziejo93/highcharts-demo>{:rel="nofollow"}{:target="_blank"}
