@@ -81,7 +81,7 @@ Now that we have some data to show, we can filtrate it. Even though this is a si
 
 **First App.vue**
 
-```javascript
+```vue
 <template>
   <div id="app">
     <ChartFiltration />
@@ -101,7 +101,7 @@ Nothing too fancy here, just some imports.
 
 **ChartFiltration.vue**
 
-```javascript
+```vue
 <template>
   <div v-if="series">
     <Chart :series="series" />
