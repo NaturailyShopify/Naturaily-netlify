@@ -1,5 +1,5 @@
 ---
-title: From $1B valuation to rescue plan. What have happened to SoundCloud and why?
+title: From $1B Valuation to Rescue Plan. What Have Happened to SoundCloud and Why?
 description: >-
   Website loved by many almost collapsed after questionable choices made by its
   management. Will SoundCloud learn from their own mistakes?
@@ -7,10 +7,9 @@ slug: what-happened-to-soundcloud-and-why
 date: '2017-08-17 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/soundcloud.jpg
 text-preview: >-
   Site loved by many almost collapsed after questionable choices made by
@@ -19,9 +18,6 @@ tags:
   - Startups
   - Agile
 ---
-
-
-
 Site loved by many almost collapsed after questionable choices made by management. Will SoundCloud learn from their own mistakes?
 
 ## Why does SoundCloud matter?
@@ -74,3 +70,5 @@ Then she expressed her admiration for CEOs of SoundCloud saying that
 ## SoundCloud is saved… for now
 
 The recent report from Music Business Worldwide states that a pair of mystery investors have purchased SoundCloud’s stakes. Their identity is unknown, but MBW suggests that these two “saviors” are The Raine Group and Temasek Holdings – both investors value site at 300$M in total (SoundCloud was valued for $1B in 2014) and bought stakes that combined are worth around $150M-$160M. In other words, two companies are taking control over SoundCloud. Considering the fact that the platform had only enough funds to stay alive for about 50-day period makes this purchase a miracle. We will definitely see SoundCloud change in the near future. Maybe new investors will implement some fresh ideas into the service and help in getting it back on “the right track”.
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
