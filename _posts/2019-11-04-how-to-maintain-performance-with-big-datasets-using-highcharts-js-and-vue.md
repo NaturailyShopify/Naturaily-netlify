@@ -219,7 +219,7 @@ What can we set additionally ?
 * color: remember that, when using the boost module, you can only use simple colors (rgb/hex). You can also set them with css, but it’s trickier.
 * Honestly, whatever you want, as this is a simple object that you will have access to by using this keyword in the chart object (for example, in the tooltip formatter). You can add units for series, or another type of name to show, but remember that you will need to handle logic for those by yourself.
 
-Here is a list of attributes that you can officially assign for a series: https://api.highcharts.com/highcharts/plotOptions.series{:rel="nofollow"}{:target="_blank"}.
+Here is a list of attributes that you can officially assign for a series: <https://api.highcharts.com/highcharts/plotOptions.series>{:rel="nofollow"}{:target="_blank"}.
 
 Now that we have our data processed, we can focus on showing it.
 
