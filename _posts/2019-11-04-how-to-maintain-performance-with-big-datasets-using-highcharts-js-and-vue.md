@@ -225,7 +225,7 @@ Now that we have our data processed, we can focus on showing it.
 
 **Chart.vue**
 
-```javascript
+```vue
 <template>
   <highcharts :options="chartOptions" />
 </template>
