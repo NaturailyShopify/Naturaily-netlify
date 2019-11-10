@@ -1,5 +1,5 @@
 ---
-title: Ruby on Rails - how to create perfect enum in 5 steps
+title: Ruby on Rails - How to Create Perfect Enum in 5 Steps
 description: >-
   In this tutorial you'll learn how to create perfect enum in just 5 steps! Read
   on to find out how to better implement enums in Ruby on Rails.
@@ -7,10 +7,9 @@ slug: ruby-on-rails-enum
 date: '2018-06-18 10:00:00 +0000'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/blazej.png
   label: Błażej Pichur
   value: author-4
-  avatar: /assets/images/blazej.png
-
 image: /assets/images/perfect-enum.jpg
 text-preview: >-
   When your project starts you probably design ERD diagram or a similar one.
@@ -20,8 +19,6 @@ text-preview: >-
 tags:
   - Ruby on Rails development
 ---
-
-
 When your project starts you probably design ERD diagram or a similar one. Then, each time when a client passes new requirements to you it’s necessary to modify it. That process helps to understand the specific domain and mirrors the reality. Entities that you model contain many attributes of various types. A quite popular requirement is to create an attribute that can be assigned to one of a few available values. In programming, that type is called **enumeration** or just **enum**.
 
   As an example, that could be a type of delivery: "courier", "parcel station" or "personal". Rails supports **enums** from version **4.1**.
@@ -77,7 +74,7 @@ List all published catalogs:
 
 `Catalog.published`
 
-To see all provided methods check [ActiveRecord::Enum](http://api.rubyonrails.org/v5.1/classes/ActiveRecord/Enum.html).
+To see all provided methods check [ActiveRecord::Enum](http://api.rubyonrails.org/v5.1/classes/ActiveRecord/Enum.html){:rel="nofollow"}{:target="_blank"}.
 
 This simple solution is great for a start, but you may run into some troubles when your project will grow. To be prepared, you can implement a few improvements making your **enums** easier to maintain:
 
@@ -417,4 +414,5 @@ That’s all - **5 steps** to build a better implementation of **enums** in Rail
 
 Sometimes all steps will be necessary and another time only a few of them. You can adjust this solution to your needs. Hope that you have found something useful in this article. Let me know in the comments what’s your opinions about **enums**. Maybe you can recommend any further improvements?
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+
