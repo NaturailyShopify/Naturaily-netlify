@@ -1,7 +1,7 @@
 ---
 title: >-
-  How Collectivity improves knowledge sharing and co-production in the Global
-  Health sector
+  How Collectivity Improves Knowledge Sharing and Co-production in the Global
+  Health Sector
 description: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper
   look at how Collectivity, with our help, improves knowledge sharing and
@@ -11,10 +11,9 @@ layout: post
 date: '2018-09-10 11:35:00 +0200'
 category: Naturaily Client
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/collectivity.jpg
 text-preview: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper
@@ -100,6 +99,10 @@ The coming months will be a very exciting phase for our platform : as the projec
 
 <hr>
 
-Make sure to take a look at **Collectivity** here - <https://www.thecollectivity.org/>
+Make sure to take a look at **Collectivity** here - <https://www.thecollectivity.org/>{:rel="nofollow"}{:target="_blank"}
 
-Want to **learn more about this project**? Read **[Collectivity case study](https://naturaily.com/project/thecollectivity)**!
+Want to **learn more about this project**? Read **[Collectivity case study](https://naturaily.com/project/thecollectivity){:rel="nofollow"}{:target="_blank"}**!
+
+<hr>
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
