@@ -1,5 +1,5 @@
 ---
-title: Interesting German startups you should definitely check out!
+title: Interesting German Startups You Should Definitely Check Out!
 description: >-
   Here is another portion of interesting, Germany-based startup that you should
   definitely check out! Who knows, maybe some of them will take the world by
@@ -8,10 +8,9 @@ slug: interesting-german-startups
 date: '2017-10-26 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/more-berlin-startups.jpg
 text-preview: >-
   Here’s another portion of interesting, Germany-based startups that are
@@ -75,3 +74,5 @@ Plantix, developed by German startup Peat.technology, is an intelligent assistan
 Peat Technology claims that their product is 95% accurate. The list of diseases recognisable by the app is growing everyday.
 
 What do you think about list? What startups should we add here? Share your thoughts with us in the comments below!
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
