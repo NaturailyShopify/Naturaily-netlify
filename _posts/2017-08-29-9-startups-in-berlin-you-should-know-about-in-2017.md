@@ -1,5 +1,5 @@
 ---
-title: 9 startups in Berlin you should know about in 2017
+title: 9 Startups in Berlin You Should Know About in 2017
 description: >-
   Berlin is the second largest startup hub in Europe (right after London)! We
   took a closer look at German startups that are worth your attention.
@@ -7,10 +7,9 @@ slug: berlin-startups-2017
 date: '2017-08-29 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/berlin-startups.jpg
 text-preview: >-
   Berlin is the second largest startup hub in Europe (right after London)! We
@@ -100,3 +99,5 @@ SoundCloud has 40M users (2013) and 175 million unique monthly listeners (2014).
 
 
 Did we miss any interesting startups from Germany that are worth watching out for in 2017? Let us know in the comments!
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
