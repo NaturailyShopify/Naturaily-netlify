@@ -1,5 +1,5 @@
 ---
-title: Things you need to know about React Native
+title: Things You Need to Know about React Native
 description: >-
   The popularity of React Native has skyrocketed in the past 2 years. Here's a
   brief introduction to the framework, its advantages and uses in software
@@ -8,10 +8,9 @@ slug: react-native-things-to-know
 date: '2017-11-10 10:38:01 +0000'
 category: JavaScript development
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/react-native.jpg
 text-preview: >-
   The popularity of React Native has skyrocketed for the past 2 years. Meet the
@@ -97,3 +96,5 @@ React Native is a strong competitor to native app development and other mobile f
 ###### [3] Carey Wodehouse | “7 Reasons Why Facebook’s React Native Is the Future of Hybrid App Development” | https://www.upwork.com/
 
 ###### [4] “Message from Apple Review...“ | https://forums.developer.apple.com/thread/73640
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
