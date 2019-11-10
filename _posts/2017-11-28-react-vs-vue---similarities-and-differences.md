@@ -1,5 +1,5 @@
 ---
-title: React vs Vue - similarities and differences
+title: React vs Vue - Similarities and Differences
 description: >-
   Both React and Vue have gained a lot of attention and interest from developers
   in the past 3 years. Here's a brief comparison based on our experience.
@@ -8,10 +8,9 @@ twitter-card: summary_large_image
 date: '2017-11-28 10:38:01 +0000'
 category: JavaScript development
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/vue-v-react.png
 text-preview: >-
   Both React and Vue have gained a lot of attention and interest from the
@@ -119,7 +118,7 @@ On the other hand, if you prefer **easy-to-learn, highly performant yet lightwei
 
 **The decision should always be up to the team** because most of the time it is made based on personal preferences of the developers. You will be happy with whatever you choose. Both technologies are awesome.
 
-### Are you interested in React applications? <a href="/#hire-us" title="Build your startup with a great Polish developers" class="button--pink-small">Let's talk!</a>
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 ###### [1] Vivian Cromwell (3.11.2016) | “Evan You” | https://betweenthewires.org/
 
