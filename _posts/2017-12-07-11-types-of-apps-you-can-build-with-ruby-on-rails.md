@@ -1,5 +1,5 @@
 ---
-title: 11 types of apps you can build with Ruby on Rails
+title: 11 Types of Apps You Can Build with Ruby on Rails
 description: >-
   Wondering what technology you should use in your next project? Let's take a
   deep look at the kind of apps you can build with Ruby on Rails.
