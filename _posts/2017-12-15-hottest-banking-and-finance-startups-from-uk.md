@@ -1,5 +1,5 @@
 ---
-title: Hottest banking and finance startups from UK
+title: Hottest Banking and Finance Startups from UK
 description: >-
   Despite Brexit, London still remains as one of the biggest startup hubs in the
   world. This list covers the most interesting UK startups from 2017.
@@ -7,10 +7,9 @@ slug: finance-banking-startups-uk-2017
 date: '2017-12-15 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/uk-banking.jpg
 text-preview: >-
   Despite Brexit London still remains as one of the biggest hubs and places for
@@ -78,5 +77,7 @@ Recently (in September of 2017) Luno received a major funding of €9M in Series
 What would you add to our list? Share your thoughts in the comments!
 
 Check out our other Startup lists right here:
-- [9 startups in Berlin you should know about in 2017](http://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017)
-- [Interesting German startups you should definitely check out!](http://naturaily.com/blog/post/interesting-german-startups-you-should-definitely-check-out)
+- [9 Startups in Berlin You Should Know about in 2017](http://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017)
+- [Interesting German Startups You Should Definitely Check Out!](http://naturaily.com/blog/post/interesting-german-startups-you-should-definitely-check-out)
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
