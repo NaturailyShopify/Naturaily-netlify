@@ -1,5 +1,5 @@
 ---
-title: Designer's struggles. How to change your client's mind?
+title: Designer's Struggles. How to Change Your Client's Mind?
 description: >-
   In my experience, when it comes to project design, clients tend to make
   unreasonable decisions based on their inner beliefs, convictions, and
@@ -9,8 +9,10 @@ layout: post
 twitter-card: summary_large_image
 date: '2018-07-16 02:10:29 +0000'
 category: UX/UI
-author: Agata Zięba
-avatar: /assets/images/agata.jpg
+authors:
+  avatar: /assets/images/agata.jpg
+  label: Agata Zięba
+  value: author-3
 image: /assets/images/designer.jpg
 text-preview: >-
   In my experience, when it comes to project design, clients tend to make
@@ -97,5 +99,7 @@ When a client is getting emotional we need to play it cool. Give logical argumen
 
 Special thanks to:
 
-* [Luke Chesser](https://unsplash.com/@lukechesser) on Unsplash
-* [rawpixel](https://unsplash.com/@rawpixel/collections) on Unsplash
+* [Luke Chesser](https://unsplash.com/@lukechesser){:rel="nofollow"}{:target="_blank"} on Unsplash
+* [rawpixel](https://unsplash.com/@rawpixel/collections){:rel="nofollow"}{:target="_blank"} on Unsplash
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
