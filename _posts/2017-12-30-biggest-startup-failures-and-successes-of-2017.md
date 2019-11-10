@@ -1,5 +1,5 @@
 ---
-title: Biggest startup failures and successes of 2017
+title: Biggest Startup Failures and Successes of 2017
 description: >-
   We're bringing you the biggest fails of 2017 as well as startups that we think
   are worth keeping an eye on!
@@ -7,10 +7,9 @@ slug: startup-failures-successes-2017
 date: '2017-12-30 10:38:01 +0000'
 category: Startups
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/rise-and-fall.jpeg
 text-preview: >-
   We’re bringing you the biggest fails of 2017 as well as some startups that you
@@ -44,8 +43,8 @@ Jawbone is not dead yet - co-founder and CEO Hosain Rahman created a new company
 
 Would you buy a $699 (release date price) juicer that is not quite a... “juicer”? Meet Juicero Press, a device that delivers cold-pressed juice in just 2 minutes with almost non-existent clean up. It received $120 million in funding before its launch on April 18 last year.
 
-To use the juicer you need to buy Juicero bags which contain the juice with fruit/vegetable pulp (the idea behind it is similar to coffee caps like Nespresso). There is one huge issue with this idea though… To make cold-press Juicero juice you don’t actually need the expensive Juicero Press. [Bloomberg Technology](https://www.bloomberg.com/news/features/2017-04-19/silicon-valley-s-400-juicer-may-be-feeling-the-squeeze) found out that there is a much cheaper alternative - you can just squeeze the bags in your hands. The amount of the juice you get is almost the same as from the actual juicer.
-On September 1st the company announced on their [website](https://www.juicero.com/company-news) that they are suspending sales of the device and the packs.
+To use the juicer you need to buy Juicero bags which contain the juice with fruit/vegetable pulp (the idea behind it is similar to coffee caps like Nespresso). There is one huge issue with this idea though… To make cold-press Juicero juice you don’t actually need the expensive Juicero Press. [Bloomberg Technology](https://www.bloomberg.com/news/features/2017-04-19/silicon-valley-s-400-juicer-may-be-feeling-the-squeeze){:rel="nofollow"}{:target="_blank"} found out that there is a much cheaper alternative - you can just squeeze the bags in your hands. The amount of the juice you get is almost the same as from the actual juicer.
+On September 1st the company announced on their [website](https://www.juicero.com/company-news){:rel="nofollow"}{:target="_blank"} that they are suspending sales of the device and the packs.
 
 ## SoundCloud - rescue plan that saved the service from fail
 
@@ -63,9 +62,9 @@ Forward’s office in San Francisco is equipped with the latest medical instrume
 
 They offer health monitoring using wearable sensors, support and access to their AI and 24/7 access to medical staff through the app for $149 a month. Aoun hopes that the service will focus on prevention rather than sickness. Forward is a great example of a new emerging market - telemedicine, a market that soon will completely change the world.
 
-Check it out [here](http://goforward.com)
+Check it out [here](http://goforward.com){:rel="nofollow"}{:target="_blank"}
 
-Twitter: [@GoForward](https://twitter.com/GoForward)
+Twitter: [@GoForward](https://twitter.com/GoForward){:rel="nofollow"}{:target="_blank"} 
 
 ## Essential Phone - phone designed by the creator of Android
 
@@ -77,8 +76,10 @@ Bezel-less phones are surely the future of the mobile platform and judging by th
 
 ## Atrium - making legal service better and faster
 
-The face of Atrium - [Justin Kan](http://naturaily.com/blog/post/10-entrepreneurs-you-need-to-follow-on-snapchat), co-founder of Atrium is better known for the past services that he has created - TwitchTV and JustinTV. The team behind Atrium consists of experienced entrepreneurs and startup lawyers, both working on one goal - building technology-first law company of the future. They want to build a technology that would let clients get better and faster service from lawyers.
+The face of Atrium - [Justin Kan](http://naturaily.com/blog/post/10-entrepreneurs-you-need-to-follow-on-snapchat){:target="_blank"}, co-founder of Atrium is better known for the past services that he has created - TwitchTV and JustinTV. The team behind Atrium consists of experienced entrepreneurs and startup lawyers, both working on one goal - building technology-first law company of the future. They want to build a technology that would let clients get better and faster service from lawyers.
 
 Atrium learned that it is quite uncommon for companies to introduce innovation in software to their services. It is mainly caused because of the difficulties in learning new technology by lawyers and the lack of time to look for new solutions for existing in law companies issues. Atrium wants to change these problems by offering help in automating legal workflow within law firms what will result in better communication, client experience and speed of the service.
 
 What do you think about 2017 as a year for startups? Did we miss anything on our list? Tell us in the comments down below!
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
