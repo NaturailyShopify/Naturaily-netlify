@@ -9,10 +9,9 @@ layout: post
 date: '2018-09-17 12:00:15 +0200'
 category: Frontend development
 authors:
+  avatar: /assets/images/bartek.jpg
   label: Bartek Zienkiewicz
   value: author-19
-  avatar: /assets/images/bartek.jpg
-
 image: /assets/images/frontend-development-easier-faster.jpg
 text-preview: >-
   In this post, I'll share some tips, tricks, and tools I use every day in
@@ -29,9 +28,9 @@ In this post, I'll share some tips, tricks, and tools I use every day in fronten
 
 First of all, use bug and time trackers, such as:
 
-* [**JIRA**](https://www.atlassian.com/software/jira){:rel=nofollow} - bug and issue tracking, project management
-* [**Breeze**](https://www.breeze.pm/){:rel=nofollow} - project management and collaboration tool
-* [**Trello**](https://trello.com/){:rel=nofollow} - project management tool
+* [**JIRA**](https://www.atlassian.com/software/jira){:rel="nofollow"}{:target="_blank"} - bug and issue tracking, project management
+* [**Breeze**](https://www.breeze.pm/){:rel="nofollow"}{:target="_blank"} - project management and collaboration tool
+* [**Trello**](https://trello.com/){:rel="nofollow"}{:target="_blank"} - project management tool
 
 These tools will help you in carefully planning your tasks, time and process reporting what will eventually lead to easier frontend development.
 
@@ -47,11 +46,11 @@ If you are a front-end developer, you probably don’t need all the features Pho
 
 There are tons of applications that can replace Photoshop in terms of exporting PSD files to use them with CSS or HTML. Here’s a list of tools I use on daily basis:
 
-* [**Avocode**](https://avocode.com/?lng=en){:rel=nofollow}
-* [**Adobe Cloud**](https://www.adobe.io/apis/creativecloud/overview.html){:rel=nofollow}
-* [**Photopea**](https://www.photopea.com/){:rel=nofollow}
+* [**Avocode**](https://avocode.com/?lng=en){:rel="nofollow"}{:target="_blank"}
+* [**Adobe Cloud**](https://www.adobe.io/apis/creativecloud/overview.html){:rel="nofollow"}{:target="_blank"}
+* [**Photopea**](https://www.photopea.com/){:rel="nofollow"}{:target="_blank"}
 
-Besides Sketch and other tools mentioned above, there are many more, of course, that can be used to design the UI of your application. Check out [Figma](https://www.figma.com/){:rel=nofollow} that offers collaborative design, [Adobe XD](https://www.adobe.com/products/xd.html){:rel=nofollow} or [Affinity Designer](https://affinity.serif.com/en-gb/){:rel=nofollow} which is a great and inexpensive tool for vector graphics.
+Besides Sketch and other tools mentioned above, there are many more, of course, that can be used to design the UI of your application. Check out [Figma](https://www.figma.com/){:rel="nofollow"}{:target="_blank"} that offers collaborative design, [Adobe XD](https://www.adobe.com/products/xd.html){:rel="nofollow"}{:target="_blank"} or [Affinity Designer](https://affinity.serif.com/en-gb/){:rel="nofollow"}{:target="_blank"} which is a great and inexpensive tool for vector graphics.
 
 ## Frontend development stage
 
@@ -93,4 +92,4 @@ I highly recommend using bundlers such as Webpack or Parcel. They are great for 
 
 That’s all folks. If you have any questions or suggestions make sure to leave a comment down below! And remember: work smart, not hard. :)
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
