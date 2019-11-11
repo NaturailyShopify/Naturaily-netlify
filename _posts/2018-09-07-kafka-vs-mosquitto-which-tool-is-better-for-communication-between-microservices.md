@@ -1,7 +1,7 @@
 ---
 title: >-
-  Kafka vs Mosquitto - which tool is better for communication between
-  microservices?
+  Kafka vs Mosquitto - Which Tool is Better for Communication between
+  Microservices?
 description: >-
   Recently microservices architecture is becoming more and more popular. In this
   post, we'll compare the two most popular messaging brokers - Kafka and MQTT
@@ -12,9 +12,9 @@ twitter-card: summary_large_image
 date: '2018-10-01 10:00:04 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/mantle.png
   label: Marcin Mantke
   value: author-11
-  avatar: /assets/images/mantle.png
 image: /assets/images/kafka-mosquitto-microservices.jpg
 text-preview: >-
   Recently microservices architecture is becoming more and more popular. In this
@@ -47,7 +47,7 @@ Kafka was originally created by LinkedIn employees back in 2011 with their messa
 
 It has an ability to scale services without the fear of duplicated processing of event. Kafka scales by adding more partitions so that the messages from each partition can be processed in parallel making the tool **easily and highly scalable**. That’s because, from the very beginning, it was being developed for big systems. It scales better than other similar ‘stateful’ message brokers.
 
-Kafka can **easily deal with high-velocity data ingestion**. On top of that, the libraries are written in the most popular languages. It has some really interesting frameworks, check out this Ruby-based one - **[Karafka](https://github.com/karafka/karafka){:rel=nofollow}**.
+Kafka can **easily deal with high-velocity data ingestion**. On top of that, the libraries are written in the most popular languages. It has some really interesting frameworks, check out this Ruby-based one - **[Karafka](https://github.com/karafka/karafka){:rel="nofollow"}{:target="_blank"}**.
 
 Unfortunately **Kafka depends on Zookeeper in order to work properly.**
 
@@ -64,7 +64,7 @@ Mosquitto is licensed under EPL/END meaning that it is open source, also it is a
 Kafka is better suited for microservices. It has persistent storage, so events from particular topic can be replayed from the beginning allowing to introduce **Event Sourcing** pattern.
 
 Check out both tools here:
-* [Eclipse Mosquitto](https://mosquitto.org/){:rel=nofollow}
-* [Apache Kafka](https://kafka.apache.org/){:rel=nofollow}
+* [Eclipse Mosquitto](https://mosquitto.org/){:rel="nofollow"}{:target="_blank"}
+* [Apache Kafka](https://kafka.apache.org/){:rel="nofollow"}{:target="_blank"}
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
