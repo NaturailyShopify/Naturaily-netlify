@@ -1,5 +1,5 @@
 ---
-title: IoT Project - How to get started
+title: IoT Project - How to Get Started
 description: >-
   So you’re thinking of developing your own IoT (Internet of Things) project but
   have no idea what the process looks like and where you should start? Check out
@@ -10,10 +10,9 @@ twitter-card: summary_large_image
 date: '2019-02-04 09:55:56 +0200'
 category: IoT
 authors:
+  avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-  avatar: /assets/images/epifany_bojanowska-2.jpg
-
 image: /assets/images/iot_project_how_to_get_started.png
 text-preview: >-
   So you’re thinking of developing your own IoT (Internet of Things) project but
@@ -94,6 +93,10 @@ IoT projects need constant improvement and maintenance to justify their developm
 
 The success of your IoT project depends on its use case, market demand, research, funding and management. The bottom line is - you need an extensive business plan and be certain you can afford to develop an IoT project. Make sure you actually need it and that there’s sufficient benefits to it, that justify implementing an IoT solution (the time and cost it generates). If it does - start building and testing, you need not rush it, otherwise you will lose a lot of time and money.
 
-Look out for more articles about the development stages of an IoT project where we'll explore each step in depth.
+<br>
 
-If you’d like to learn more or need a team to develop your IoT solution - contact us at **hello@naturaily.com**.
+|If you want to know more about developing IoT solutions, read the [case study of LVCloud](https://naturaily.com/project/lvcloud){:target="_blank"} - an Internet of Things (IoT) application that monitors and takes care of the grid.|
+
+<br>
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
