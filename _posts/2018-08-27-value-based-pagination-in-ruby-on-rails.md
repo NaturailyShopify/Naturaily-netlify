@@ -1,5 +1,5 @@
 ---
-title: Value based pagination in Ruby on Rails
+title: Value Based Pagination in Ruby on Rails
 description: >-
   This is a quick tutorial that will show you how to handle properly value-based
   pagination in Ruby on Rails and where to use it.
@@ -8,10 +8,9 @@ layout: post
 date: '2018-09-03 09:29:02 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/tomasz.jpg
   label: Tomasz Żdanuk
   value: author-2
-  avatar: /assets/images/tomasz.jpg
-
 image: /assets/images/value-based-pagination.jpg
 text-preview: >-
   This is a quick tutorial that will show you how to properly handle value-based
@@ -31,8 +30,8 @@ There are a few different gems which can be used to paginate your content.
 
 The most popular ones, among the Ruby on Rails community, are:
 
-* [kaminari](https://github.com/kaminari/kaminari)
-* [will_paginate](https://github.com/mislav/will_paginate)
+* [kaminari](https://github.com/kaminari/kaminari){:rel="nofollow"}{:target="_blank"}
+* [will_paginate](https://github.com/mislav/will_paginate){:rel="nofollow"}{:target="_blank"}
 
 The main principle of their work is quite simple: get _n_ records with _m_ offset, or in other words get first/second/… page containing _n_ records, where _n_ and _m/page number_ is set by user or developer. We used to call it _offset pagination_.
 
@@ -165,8 +164,9 @@ To check this type of pagination in practice take a look at [Gizmodo](https://gi
 
 Thanks for reading!
 
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+
 Sources:
 
 [The art of pagination – Offset vs. value based paging ](https://blog.novatec-gmbh.de/art-pagination-offset-vs-value-based-paging/){:rel="nofollow"}{:target="_blank"} 
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
