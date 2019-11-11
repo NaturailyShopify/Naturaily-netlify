@@ -104,7 +104,7 @@ At Naturaily, unlike in many other software development companies, we try to tre
 
 When you contact us to discuss your project, we will be ready to provide you with in-depth portfolios and detailed testimonials of each of our specialists. If you want to, you will also get an opportunity to talk to them directly in your first calls.
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 ## Reach out directly
 
