@@ -81,8 +81,7 @@ I'll describe in more details the most important files in next sections of this 
 
 ## Make your web app installable
 
-One of the ways to make your app more engaging is making it installable. Thanks to that users can have easy access to your site by simple tapping icon on home screen, what is way much faster than typing whole URL. To make it possible, you only need to create and/or fill manifest file.
-The manifest provides the most crucial information about your application, such as app name, an icon displayed on a home screen and more. The full list of settings you can find in [official MDN web docs](https://developer.mozilla.org/en-US/docs/Web/Manifest){:rel="nofollow"}{:target="_blank"}
+One of the ways to make your app more engaging is making it installable. Thanks to that users can have easy access to your site by simple tapping icon on home screen, what is way much faster than typing whole URL. To make it possible, you only need to create and/or fill manifest file. The manifest provides the most crucial information about your application, such as app name, an icon displayed on a home screen and more. The full list of settings you can find in [official MDN web docs](https://developer.mozilla.org/en-US/docs/Web/Manifest){:rel="nofollow"}{:target="_blank"}.
 
 Vue CLI 3.0 and PWA plugin would create default `manifest.json` file for you, but remember to customize it for your needs! Here's how the default `manifest.json` file looks like (file is located in `/public` folder):
 
