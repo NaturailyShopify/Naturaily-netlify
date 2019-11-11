@@ -62,7 +62,7 @@ Unfortunately PWA are still relatively new and not broadly supported (Android on
 
 As the technology improves, there definitely emerge some good use cases for PWAs. For instance, large social media sites are a good example of something that would do well as a PWA. Twitter Lite and Pinterest both demonstrate how you can bring your mobile web experience almost on par with your native app, which would work well in markets with poor or expensive connectivity.
 
-\|**Find out more about PWAs** [**here**](https://naturaily.com/blog/pwa-guide){:target="_blank"}.|
+|**Find out more about PWAs** [**here**](https://naturaily.com/blog/pwa-guide){:target="_blank"}.|
 
 ## Conclusion
 
