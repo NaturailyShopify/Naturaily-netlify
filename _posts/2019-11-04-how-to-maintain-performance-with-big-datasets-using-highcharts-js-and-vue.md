@@ -11,7 +11,8 @@ authors:
   avatar: /assets/images/andrzej_profile.png
   label: Andrzej Gatkowski
   value: author-29
-image: /assets/images/wrocloverb_highlights.jpeg
+image: >-
+  /assets/images/how-to-maintain-performance-with-big-datasets-using-highcharts.js-and-vue.jpg
 text-preview: >-
   Sometimes you just need to show big datasets in your project. However, the
   library that you’ve used so far, as soon as you start to add data, becomes
