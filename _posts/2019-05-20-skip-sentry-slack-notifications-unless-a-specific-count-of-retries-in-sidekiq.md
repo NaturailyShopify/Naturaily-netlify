@@ -1,6 +1,6 @@
 ---
 title: >-
-  How to skip Sentry Slack notifications until a specific count of retries in
+  How to Skip Sentry Slack Notifications Until a Specific Count of Retries in
   Sidekiq
 description: >-
   Filter out Slack alerts Sentry messages from Sidekiq jobs using Sidekiq
@@ -13,10 +13,9 @@ twitter-card: >-
 date: '2019-05-20 09:36:13 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/arek.jpg
   label: Arek Poczobut
   value: author-18
-  avatar: /assets/images/arek.jpg
-
 image: >-
   /assets/images/how-to-skip-sentry-slack-notifications-until-a-specific-count-of-retries-in-sidekiq.jpg
 text-preview: >-
@@ -29,7 +28,7 @@ tags:
 ---
 We’ve been working on integrations of many different warehouse systems with the Shopify platform. All data exchange between them utilizes Sidekiq workers’ background jobs. Generally, we want to be notified about the first occurrence of an error. So most exceptions are caught by Raven and sent to Sentry. However, we faced some exceptions at remote systems, for example, connection issues. Luckily, after some worker retries the problems were solved without any additional actions. In such cases we wanted Sidekiq workers to have silent retries without spamming our Slack channel with Sentry messages.
 
-The bad news is that Sidekiq doesn’t offer access to retry_count param from a worker. Fortunately, Sidekiq offers us developers [middleware](https://github.com/mperham/sidekiq/wiki/Middleware#server-middleware) that allows us to add a functionality which has access to job attributes including `retry_count`. Raven allows to specify in [config](https://docs.sentry.io/clients/ruby/config/) `should_capture` where we will add `Proc`, where we exclude custom error `Sidekiq::SilentRetryError`.
+The bad news is that Sidekiq doesn’t offer access to retry_count param from a worker. Fortunately, Sidekiq offers us developers [middleware](https://github.com/mperham/sidekiq/wiki/Middleware#server-middleware){:rel="nofollow"}{:target="_blank"} that allows us to add a functionality which has access to job attributes including `retry_count`. Raven allows to specify in [config](https://docs.sentry.io/clients/ruby/config/){:rel="nofollow"}{:target="_blank"} `should_capture` where we will add `Proc`, where we exclude custom error `Sidekiq::SilentRetryError`.
 
 Let’s start with registering our retry middleware.
 
@@ -114,4 +113,4 @@ end
 
 Sentry will be notified after ninth retry of some errors. We wanted to avoid overflooding Sentry/Slack with notifications. Some jobs after some retries are successful and there’s no need to get notifications from the very beginning.
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
