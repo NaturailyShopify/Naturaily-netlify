@@ -301,12 +301,18 @@ chartOptions() {
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chart: has basic information about chart.
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type: specifies which type of chart we are going to show
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: we can simply specify how much height in px this chart is going to have
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animation: disables all animations which may slow down the chart
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zoomType: specifies what type of zoom we can use. ‘xy’ means that we can zoom in both directions
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;panning: true allows us to pan the chart after zooming
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;panKey: specifies which key is used for panning
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type: specifies which type of chart we are going to show
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height: we can simply specify how much height in px this chart is going to have
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animation: disables all animations which may slow down the chart
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zoomType: specifies what type of zoom we can use. ‘xy’ means that we can zoom in both directions
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;panning: true allows us to pan the chart after zooming
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;panKey: specifies which key is used for panning
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;boost: {enabled: true} : this is used to tell the chart to use the boost module
 
