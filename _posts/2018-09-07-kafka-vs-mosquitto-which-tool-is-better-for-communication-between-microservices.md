@@ -1,6 +1,6 @@
 ---
 title: >-
-  Kafka vs Mosquitto - Which Tool is Better for Communication between
+  Kafka vs Mosquitto - Which Tool is Better for Communication Between
   Microservices?
 description: >-
   Recently microservices architecture is becoming more and more popular. In this
