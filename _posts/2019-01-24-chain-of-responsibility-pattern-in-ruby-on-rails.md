@@ -1,5 +1,5 @@
 ---
-title: Chain of responsibility pattern in Ruby on Rails
+title: Chain of Responsibility Pattern in Ruby on Rails
 description: ' While we were working on a project we stumbled upon some legacy code that consists of huge ‘if else’ statements. In this post we’ll show you how we refactored it using the Chain of responsibility pattern. '
 slug: chain-of-responsibility-ruby-on-rails
 layout: post
@@ -7,10 +7,9 @@ twitter-card: summary_large_image
 date: '2019-01-24 12:45:21 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/klaudusia.jpg
   label: Klaudia Chudy
   value: author-23
-  avatar: /assets/images/klaudusia.jpg
-
 image: /assets/images/chain-of-responsibility-pattern.jpg
 text-preview: >-
   While we were working on a project we stumbled upon some legacy code that
@@ -25,7 +24,7 @@ While we were working on a project we stumbled upon some legacy code that consis
 
 >Chain the receiving objects and pass the request along the chain until an object handles it.
 >
->~Krzysztof Kempiński, [Chain of Responsibility Design Pattern in Ruby](https://medium.com/kkempin/chain-of-responsibility-design-pattern-in-ruby-e0b756d4bb3b){:rel=nofollow}
+>~Krzysztof Kempiński, [Chain of Responsibility Design Pattern in Ruby](https://medium.com/kkempin/chain-of-responsibility-design-pattern-in-ruby-e0b756d4bb3b){:rel="nofollow"}{:target="_blank"}
 
 It may be useful if we need to store some data that is not related to any model. Essentially, it’s an object oriented version of `if … elsif … elsif … else … end` that is much much easier to extend. Because of that we can’t use hashes. Processing objects, aka handlers, contain logic for handling exactly one case.
 
@@ -170,4 +169,4 @@ What other solutions would you suggest for our case and why? We’re always happ
 
 **Special thanks to the reviewer of this post: Jakub Flasiński.**
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
