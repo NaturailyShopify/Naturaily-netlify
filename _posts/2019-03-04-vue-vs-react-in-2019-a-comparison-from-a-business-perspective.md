@@ -84,7 +84,7 @@ What benefits using Vue or React gives you? Quite a lot actually! Developing an 
 
 Large projects typically mean large teams. JavaScript framework or library ensures that all developers have to follow one convention making the code more readable for any new team members and easier to manage in the future.
 
-## Features ‍🖇
+## Features  ‍🖇
 
 When it comes to standalone features of both technologies, it’s safe to assume that, for the most part, they are similar. Of course, we could go into details and for example say that React team has introduced Hooks, feature praised by developers that is missing in Vue, but it is not that significant. There are no groundbreaking differences between React and Vue that would make you unable to create a certain application in only one of them. 
 
