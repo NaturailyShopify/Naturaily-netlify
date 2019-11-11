@@ -9,10 +9,9 @@ twitter-card: summary_large_image
 date: '2018-11-23 11:20:14 +0200'
 category: Recruitment
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/5-reasons-to-work-at-naturaily.jpg
 text-preview: >-
   Are looking for a new job in the software development sector? Here are 5
@@ -63,4 +62,4 @@ After time-consuming and challenging tasks you can go relax in our chill room. I
 
 There is no hierarchy in our teams. We highly value equality. Everyone is allowed to speak their minds and is treated equally, no matter their position or experience.
 
-# Check out [Careers at Naturaily](https://naturaily.com/careers)!
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
