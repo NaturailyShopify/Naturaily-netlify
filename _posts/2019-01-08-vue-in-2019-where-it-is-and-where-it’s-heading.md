@@ -1,5 +1,5 @@
 ---
-title: Vue in 2019 - where it is and where it’s heading
+title: Vue in 2019 - Where It Is and Where It Is Heading
 description: >-
   Vue JS is coming really strong into 2019, and with every month is getting
   closer to stand against giants such as Angular or even React in terms of
@@ -10,10 +10,9 @@ twitter-card: summary_large_image
 date: '2019-01-08 11:19:26 +0200'
 category: Frontend development
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/vue-in-2019.png
 text-preview: >-
   Vue JS is coming really strong into 2019, and with every month is getting
@@ -38,7 +37,7 @@ Next up, NPM downloads.
 
 December of 2018 has been the best month for Vue by far. That month there were over **2 600 000 downloads of the Vue package**! React had a great year too! In October there were over 14 millions downloads of React. 
 
-As we have mentioned in this post [Vue JS 2018](https://naturaily.com/blog/vue-js-2018), developers are most excited to learn Vue JS out of any other frontend JavaScript frameworks. We can see that from the results of a survey conducted by [StateOfJS.com](https://2018.stateofjs.com/front-end-frameworks/vuejs/){:rel="nofollow"}. Statistically, more developers would use VueJS again in future projects than Ember, Polymer or even Angular. 
+As we have mentioned in this post [Vue JS 2018](https://naturaily.com/blog/vue-js-2018){:target="_blank"}, developers are most excited to learn Vue JS out of any other frontend JavaScript frameworks. We can see that from the results of a survey conducted by [StateOfJS.com](https://2018.stateofjs.com/front-end-frameworks/vuejs/){:rel="nofollow"}{:target="_blank"}. Statistically, more developers would use VueJS again in future projects than Ember, Polymer or even Angular. 
 
 ### What do developers like most about Vue?
 
@@ -48,7 +47,7 @@ First of all, it’s easy to learn due to detailed and easy to follow documentat
 
 Quite a lot! The Vue codebase is now written using TypeScript. Wait, what? Yeah, it’s really happening. It’s going to be entirely rewritten from ground up. But why?
 
-Multiple sources show that TypeScript is growing with tremendous speed. In 2017 and 2018 it’s surpassed Shell, Ruby and C in the number of projects created on [GitHub](https://octoverse.github.com/projects){:rel="nofollow"}. 
+Multiple sources show that TypeScript is growing with tremendous speed. In 2017 and 2018 it’s surpassed Shell, Ruby and C in the number of projects created on [GitHub](https://octoverse.github.com/projects){:rel="nofollow"}{:target="_blank"}. 
 
 ![github octoverse typescript 2019](/assets/images/typescript-2019-github.jpg)
 
@@ -60,11 +59,11 @@ TypeScript is a superset of ECMAScript. As a Vue developer, you don’t have to 
 
 Yes! _Evan You_, in his recent presentation, has stated that Vue 3 will be much faster than Vue 2 thanks to the mentioned above migration. Source code will be more maintainable and the whole Vue package will be shrinked down from 20kb gzipped to just below 10kb. 
 
-Considering everything I’ve mentioned above, I think it’s no surprise that the previous TypeScript [support](https://vuejs.org/v2/guide/typescript.html){:rel="nofollow"} Vue’s had is going to be significantly improved with Vue 3.
+Considering everything I’ve mentioned above, I think it’s no surprise that the previous TypeScript [support](https://vuejs.org/v2/guide/typescript.html){:rel="nofollow"}{:target="_blank"} Vue’s had is going to be significantly improved with Vue 3.
 
 ### Virtual DOM improvement
 
-Another major change is the Virtual DOM’s major performance improvement. Evan You utilized some tricks from [InfernoJS](https://infernojs.org/){:rel="nofollow"} framework that appear to double the Vue’s app boot up speed! Also, static tree hoisting, static prop hoisting etc. are expected to have a compile time improvement.
+Another major change is the Virtual DOM’s major performance improvement. Evan You utilized some tricks from [InfernoJS](https://infernojs.org/){:rel="nofollow"}{:target="_blank"} framework that appear to double the Vue’s app boot up speed! Also, static tree hoisting, static prop hoisting etc. are expected to have a compile time improvement.
 
 ### Observers
 
@@ -78,10 +77,10 @@ Debugging is going to see some changes too! As Evan’s post suggests, it’s go
 
 Other changes expected in Vue 3.0 are optimized slots generation meaning that a parent and a child can be re-rendered separately, platform agnosticism - easier to render-to-native projects such as Weex and NativeScript Vue, and, lo and behold, IE11 Support.
 
-To read the whole article with all the goods that are coming with Vue 3.0 head over to [Plans for the next iteration of Vue JS](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf){:rel="nofollow"}.
+To read the whole article with all the goods that are coming with Vue 3.0 head over to [Plans for the next iteration of Vue JS](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf){:rel="nofollow"}{:target="_blank"}.
 
 ## Conclusion
 
 That’s a lot of new features! Hopefully they will be good enough to make more significant changes in the frontend JavaScript frameworks market. Vue is still going strong and showing no signs of stopping. Will Vue finally catch up with React? Only time will tell.
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
