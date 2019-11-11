@@ -1,5 +1,5 @@
 ---
-title: 5 tips on how to survive in an open space office and get work done
+title: 5 Tips on How to Survive In an Open Space Office and Get Work Done
 description: >-
   Want to know how to work and survive in an open-space office? Check out our 5
   tips and you'll do just fine!
@@ -9,10 +9,9 @@ twitter-card: summary_large_image
 date: '2018-12-10 12:28:16 +0200'
 category: Recruitment
 authors:
+  avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-  avatar: /assets/images/epifany_bojanowska-2.jpg
-
 image: /assets/images/5-tips-survive-open-space-office-work.jpg
 text-preview: >
   There is no doubt that office design plays an important role in how a company
@@ -55,7 +54,7 @@ Remember to **breathe** deeply when you're outside, too, to get as much air into
 
 ### 4. Technology
 
-Sometimes all it takes is a little technology to help you withstand the challenges of an open office. Can't stand your colleagues' constant chatter? Try wearing **noise-cancelling headphones** while you work. You can also look for a website that has a variety of **white noise** and environmental sounds to use for background. If you prefer music at work, a [study](https://www.telegraph.co.uk/business/2016/06/02/this-is-the-kind-of-music-you-should-listen-to-at-work) showed that, for best results, listen to classical music if you're dealing with numbers; pop music for data entry or deadlines and dance music when proofreading or problem-solving. 
+Sometimes all it takes is a little technology to help you withstand the challenges of an open office. Can't stand your colleagues' constant chatter? Try wearing **noise-cancelling headphones** while you work. You can also look for a website that has a variety of **white noise** and environmental sounds to use for background. If you prefer music at work, a [study](https://www.telegraph.co.uk/business/2016/06/02/this-is-the-kind-of-music-you-should-listen-to-at-work){:rel="nofollow"}{:target="_blank"} showed that, for best results, listen to classical music if you're dealing with numbers; pop music for data entry or deadlines and dance music when proofreading or problem-solving. 
 
 ### 5. The Pomodoro Technique
 
@@ -71,4 +70,4 @@ If you have a large and varied to-do list, using the Pomodoro Technique can help
 
 If you find yourself having to work in an **open office** space for the first time, don’t be afraid. Talk to your colleagues to see how they’ve adjusted. Everyone has a different approach that may be beneficial to finding your groove. Be considerate of those around you and **you will do just fine**.
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
