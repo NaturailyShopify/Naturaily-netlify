@@ -1,5 +1,5 @@
 ---
-title: Three different ways to develop a mobile app
+title: Three Different Ways to Develop a Mobile App
 description: Hybirid? Native? PWA? Which one should you choose to develop a mobile app.
 slug: three-ways-to-develop-mobile-apps
 layout: post
@@ -7,10 +7,9 @@ twitter-card: summary_large_image
 date: '2018-11-28 11:15:00 +0200'
 category: Native mobile development
 authors:
+  avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-  avatar: /assets/images/epifany_bojanowska-2.jpg
-
 image: /assets/images/ways-to-develop-mobile-apps.jpg
 text-preview: >-
   So you have a mobile app you would like to build. The first question you need
@@ -42,8 +41,8 @@ The biggest disadvantage to building native apps is the cost. The developers mus
 
 Hybrid apps are build using a multi-platform technology powered by JavaScript, CSS, HTML5 or all three, and are essentially web apps in a native wrapper. See examples of hybrid frameworks below:
 
-* Vue Native - [read more](https://naturaily.com/blog/vue-js-2018)
-* React Native (developed by Facebook) - [read more](https://naturaily.com/blog/react-native-things-to-know)
+* Vue Native - [read more](https://naturaily.com/blog/vue-js-2018){:target="_blank"}
+* React Native (developed by Facebook) - [read more](https://naturaily.com/blog/react-native-things-to-know){:target="_blank"}
 * Angular Mobile (developed by Google)
 * Flutter (developed by Google)
 * Xamarin (developed by Microsoft)
@@ -63,10 +62,12 @@ Unfortunately PWA are still relatively new and not broadly supported (Android on
 
 As the technology improves, there definitely emerge some good use cases for PWAs. For instance, large social media sites are a good example of something that would do well as a PWA. Twitter Lite and Pinterest both demonstrate how you can bring your mobile web experience almost on par with your native app, which would work well in markets with poor or expensive connectivity.
 
-Find out more about PWAs [here](https://naturaily.com/blog/pwa-guide).
+\|**Find out more about PWAs** [**here**](https://naturaily.com/blog/pwa-guide){:target="_blank"}.|
 
 ## Conclusion
 
 Once you develop and release your app, it will most likely grow and change, so the conditions that caused you to make your original choice as to which type of app to built might also change. Whether you decide on native, hybrid or web, very much depends on the nature of your project, what your goals are, and what your users’ expectations are. There is no single answer for every project.
 
 The golden rule for an app developer is: no matter what type of application, it has to make life easier. And all types of apps, be it native, hybrid or web, should primarily cater to the needs of the end user. **Each type of app has its pros and cons, and therefore sometimes the business requirements may dictate the choice of one or the other.**
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
