@@ -1,5 +1,5 @@
 ---
-title: What's a PWA? Brief guide to Progressive Web Applications in 2019
+title: What's a PWA? Brief Guide to Progressive Web Applications in 2019
 description: >-
   Many say that PWAs will be the new standard in the future world of mobile
   apps, and they're probably right! With tech giants behind it, Progressive Web
@@ -11,10 +11,9 @@ twitter-card: summary_large_image
 date: '2019-01-04 09:00:45 +0200'
 category: Frontend development
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/pwa-guide-2018.png
 text-preview: >-
   Many say that PWAs will be the new standard in the future world of mobile
@@ -32,15 +31,15 @@ The Progressive Web Application is a relatively new concept in the mobile and In
 
 Thanks to the concept of Progressive Enhancement they work no matter what browser you use. PWAs give users a great experience on every modern smart device - phone, tablet, PC, you name it. Even though they are ‘just’ web applications, **PWAs act like a regular native app** (with some limitations of course).
 
-The cool thing about Progressive Web Apps is that they are not like other regular web apps you’d find on the Internet. They have access to internals of your device, so for example, they can utilize sensors such GPS to find your location, accelerators or camera (even with advanced controls!) and many more [for more info check out [What Web Can Do Today?](http://whatwebcando.today/){:rel=nofollow}].
+The cool thing about Progressive Web Apps is that they are not like other regular web apps you’d find on the Internet. They have access to internals of your device, so for example, they can utilize sensors such GPS to find your location, accelerators or camera (even with advanced controls!) and many more [for more info check out [What Web Can Do Today?](http://whatwebcando.today/){:rel="nofollow"}{:target="_blank"}].
 
 PWA concept as a whole allows for easier user engagement with your content. Since the semi-native app can be saved to your app drawer and send notifications to your device, more people can come back to it. It’s much more convenient to just tap on an icon instead of typing the whole URL.
 
-As we’ve mentioned in one of our [previous posts](https://naturaily.com/blog/pwa-vue-cli-3), during the Google I/O 2017 presentation dedicated to PWA, it was mentioned that even though web applications on mobile have almost **3 times more unique users** compared to native apps, the native apps are 20 times more engaging than web apps. It clearly shows that **PWA is a perfect technology** that will merge these two worlds for your and users’ benefit.
+As we’ve mentioned in one of our [previous posts](https://naturaily.com/blog/pwa-vue-cli-3){:target="_blank"}, during the Google I/O 2017 presentation dedicated to PWA, it was mentioned that even though web applications on mobile have almost **3 times more unique users** compared to native apps, the native apps are 20 times more engaging than web apps. It clearly shows that **PWA is a perfect technology** that will merge these two worlds for your and users’ benefit.
 
-## Read: [How to use PWA plugin in Vue CLI 3.0](https://naturaily.com/blog/pwa-vue-cli-3)
+|**Read:** [How to use PWA plugin in Vue CLI 3.0](https://naturaily.com/blog/pwa-vue-cli-3){:target="_blank"}|
 
-Here’s a cool showcase of what PWAs can are capable of. Grab your phone and go to this link in your browser: <http://paperplanes.world/>{:rel=nofollow}.
+Here’s a cool showcase of what PWAs can are capable of. Grab your phone and go to this link in your browser: <http://paperplanes.world/>{:rel="nofollow"}{:target="_blank"}.
 
 To have the best experience I recommend you to open it on your PC or laptop as well. As you will see, even though you’re just in a browser, the web application behaves just like a native app. It gets an access to your location, accelerometers, and goes fullscreen giving you a **native app-like experience**. How cool is that?!
 
@@ -80,7 +79,7 @@ Unfortunately, when it comes to PWAs, many of the features from the native equiv
 
 As we’ve mentioned before, PWAs are essentially web apps that, with some help, behave like a native application. What does that mean? The development process for a PWA is quite similar as for a regular web application.
 
-Of course, there are some requirements that have to be met but, fear not, the Internet is full of online tools that will guide you, and make the PWA development simple. Judah Gabriel Himango in his [blog post](https://medium.freecodecamp.org/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned-7cb3f56daf9b){:rel=nofollow} has briefly explained the whole process of converting and publishing a web application as a PWA on 3 major platforms - iOS, Android and Windows. He mentioned a very interesting tool called [PWABuilder](https://www.pwabuilder.com/){:rel=nofollow} which can convert a web application into a PWA, give developers some tips on what’s missing in their app and even return ready to publish packages for major platforms.
+Of course, there are some requirements that have to be met but, fear not, the Internet is full of online tools that will guide you, and make the PWA development simple. Judah Gabriel Himango in his [blog post](https://medium.freecodecamp.org/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned-7cb3f56daf9b){:rel="nofollow"}{:target="_blank"} has briefly explained the whole process of converting and publishing a web application as a PWA on 3 major platforms - iOS, Android and Windows. He mentioned a very interesting tool called [PWABuilder](https://www.pwabuilder.com/){:rel="nofollow"}{:target="_blank"} which can convert a web application into a PWA, give developers some tips on what’s missing in their app and even return ready to publish packages for major platforms.
 
 ### So… what do developers use?
 
@@ -96,7 +95,7 @@ Speaking of React, there’s a really exciting alternative to this popular frame
 
 With the recent release of Vue CLI 3, easy PWA implementation was introduced to the world of Vue. Developers can use plugins at any point of the development to implement a Progressive Web Application in their project.
 
-## Read: [Vue CLI 3: New Era in Frontend Development](https://naturaily.com/blog/vue-cli-3-overview)
+|**Read:** [Vue CLI 3: New Era in Frontend Development](https://naturaily.com/blog/vue-cli-3-overview){:target="_blank"}|
 
 ## Use Cases
 
@@ -106,25 +105,25 @@ Let’s jump into some examples of PWAs you may be using today without even noti
 
 Aliexpress pays close attention to mobile commerce. Unfortunately, they’ve noticed that the mobile Aliexpress website is not as fast and responsive as the native counterpart. The solution was creating a cross-browser Progressive Web Application to reach a broader audience. Aliexpress noted a 104% increase (!!!) in conversion rate across all browsers and 74% increase in time spent per session.
 
-Link: <http://m.aliexpress.com/>{:rel=nofollow}
+Link: <http://m.aliexpress.com/>{:rel="nofollow"}{:target="_blank"}
 
 ### Twitter Lite
 
 You can think of Twitter Lite as one of the flagship Progressive Web Applications. It works almost as smooth as the native counterpart. Twitter was aiming to expand their service in emerging markets. This is why Lite version was specifically designed to work great with a poor connection. Twitter Lite takes only 5 seconds to get interactive over 3G! They saw a 75% increase in Tweets sent and 65% increase in pages per session. Average load times were reduced by over 30%.
 
-Link: <http://mobile.twitter.com/>{:rel=nofollow}
+Link: <http://mobile.twitter.com/>{:rel="nofollow"}{:target="_blank"}
 
 ### Trivago
 
 More people are accessing Trivago on mobile rather than on computers or laptops. That was a clear sign for Trivago to continue expanding their mobile services in order to stay ahead of the competition. The development of PWA resulted in an increased by 150% user engagement as well as significant improvements in conversion. Offline access allowed users to use the app even when the connection was poor. It saved them lots of frustration and by that, it helped Trivago keep loyal users.
 
-Link: [https://trivago.com/](https://trivago.com){:rel=nofollow}
+Link: [https://trivago.com/](https://trivago.com){:rel="nofollow"}{:target="_blank"}
 
 ### OLX
 
 Over 90% of OLX visitors are mobile users. The company found that at that time, their mobile website experience was too slow. This is why OLX opted for a PWA as they wanted to give users native app-like fast and immersive experience. OLX visitors’ engagement has increased by 250%! Over a period of 7 months, over 600,000 users have signed up thanks to the push notifications OLX app can send. Now, the OLX PWA takes 23% less time to be interactive and it displays ads much faster, what leads to higher CTR (146%).
 
-Link: [https://m.olx.com/](https://m.olx.com){:rel=nofollow}
+Link: [https://m.olx.com/](https://m.olx.com){:rel="nofollow"}{:target="_blank"}
 
 ### Forbes
 
@@ -134,19 +133,18 @@ The user experience of Forbes’ mobile website was poor, to say the least. Even
 
 Pinterest saw a massive improvement when it switched its mobile website to a PWA. Thanks to cashing CSS, JavaScript and static UI assets using Service Worker,  the time needed for the app to be interactive was reduced from 23 seconds to only 6 seconds. On top of that, the mobile traffic and conversion were significantly increased.
 
-Link: [https://pinterest.com/](https://pinterest.com){:rel=nofollow}
+Link: [https://pinterest.com/](https://pinterest.com){:rel="nofollow"}{:target="_blank"}
 
 ### Uber
 
 Uber wanted to implement native experience in a lightweight web application to expand their services on new markets and platforms. The release of Uber PWA was a great success. The m.uber app loads quickly even with a poor, 2G connection. They’ve used several tricks to make the app as lightweight as possible, and it worked! Core m.uber app comes in at just 50 kB.
 
-Link: <https://m.uber.com/>{:rel=nofollow}
+Link: <https://m.uber.com/>{:rel="nofollow"}{:target="_blank"}
 
 ### Tinder
 
 As other mentioned above apps, Tinder Online was created to expand on new markets. The PWA took only 3 months to develop and it delivers the core Tinder experience with only 10th of the native app size! It takes only 5 seconds on 4G connection to get interactive. The development team has utilized JavaScript Route-based code-splitting to shrink down this time from initial 12 seconds to only 5 seconds. Tinder saw an increase in session time, messages and swiping compared to their native app.
 
-Link: [https://tinder.com/](https://tinder.com/?lang=en){:rel=nofollow}
+Link: [https://tinder.com/](https://tinder.com/?lang=en){:rel="nofollow"}{:target="_blank"}
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
-
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
