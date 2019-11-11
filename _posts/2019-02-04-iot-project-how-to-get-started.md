@@ -95,9 +95,8 @@ The success of your IoT project depends on its use case, market demand, research
 
 <br>
 
-|If you want to know more about developing IoT solutions, read thw case study of LVCloud - an Internet of Things (IoT) application that monitors and takes care of the grid.|
+|If you want to know more about developing IoT solutions, read the [case study of LVCloud](https://naturaily.com/project/lvcloud){:target="_blank"} - an Internet of Things (IoT) application that monitors and takes care of the grid.|
 
 <br>
 
 [![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
-
