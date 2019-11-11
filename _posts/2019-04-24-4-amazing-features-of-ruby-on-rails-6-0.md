@@ -1,5 +1,5 @@
 ---
-title: 4 amazing features of Rails 6.0
+title: 4 Amazing Features of Rails 6.0
 description: >-
   The release of the newest version of Rails is just around the corner. With it,
   a ton of new features will be introduced to the public.
@@ -9,10 +9,9 @@ twitter-card: summary_large_image
 date: '2019-04-24 09:22:32 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/klaudusia.jpg
   label: Klaudia Chudy
   value: author-23
-  avatar: /assets/images/klaudusia.jpg
-
 image: /assets/images/4-best-features-of-ruby-on-rails-6.0.png
 text-preview: >-
   Rails 6.0. is finally released. We’re excited to see all the new stuff Rails
@@ -20,7 +19,7 @@ text-preview: >-
 tags:
   - Ruby on Rails development
 ---
-Rails 6.0. is finally released. We’re excited to see all the new stuff Rails 6.0 has to offer! With regular releases of the beta versions, developers had access to the upcoming framework for quite a while and they reported that it looks solid. Will the new Rails 6.0 bring back the [enormous popularity RoR once had](https://naturaily.com/blog/who-gives-f-about-rails)? 
+Rails 6.0. is finally released. We’re excited to see all the new stuff Rails 6.0 has to offer! With regular releases of the beta versions, developers had access to the upcoming framework for quite a while and they reported that it looks solid. Will the new Rails 6.0 bring back the [enormous popularity RoR once had](https://naturaily.com/blog/who-gives-f-about-rails){:target="_blank"}? 
 
 **Here are our most anticipated features of the new version of Rails 6.0!**
 
@@ -59,6 +58,6 @@ One of the real life examples where this feature could be really useful is our i
 With this version of Rails a new code loader was introduced - Zeitwerk. It promises to load your project’s classes and modules on demand, no need to write `require` calls. Zeitwerk uses absolute file names making the loader more efficient. Your classes and modules are available everywhere. The team behind the loader claims that it is thread-safe and matches Ruby’s semantics for constants. 
 
 
-**Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release){:rel=nofollow}. 
+**Still curious for more?** You can find more new stuff over at [rubyonrails.org](https://weblog.rubyonrails.org/2019/8/15/Rails-6-0-final-release){:rel="nofollow"}{:target="_blank"}. 
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
