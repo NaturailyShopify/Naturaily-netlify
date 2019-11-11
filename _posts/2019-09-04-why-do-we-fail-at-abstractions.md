@@ -1,5 +1,5 @@
 ---
-title: Why do we fail at abstractions?
+title: Why Do We Fail at Abstractions?
 description: >-
   One of the problems I see time and time again are tightly coupled layers and
   classes. This happens especially in Ruby on Rails where the most common
@@ -9,9 +9,9 @@ layout: post
 date: '2019-09-04 08:40:22 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/michal_kosyk_profile.png
   label: Michał Kosyk
   value: author-27
-  avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/why-do-we-fail-at-abstractions_.png
 text-preview: >
   We have all been there. We got a task to introduce totally new functionality.
@@ -246,3 +246,5 @@ Although I didn’t mention them, it will make your tests a lot simpler.
 Use this knowledge to battle the unnecessary complexity of concretisation and reduce it to the simplicity of an abstraction.
 
 Farewell
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
