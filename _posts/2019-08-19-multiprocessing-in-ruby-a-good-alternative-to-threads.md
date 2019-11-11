@@ -9,9 +9,9 @@ layout: post
 date: '2019-08-19 12:59:00 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/kamil_sopata_profile.png
   label: Kamil Sopata
   value: author-25
-  avatar: /assets/images/kamil_sopata_profile.png
 image: /assets/images/multiprocessing-in-ruby-a-good-alternative-to-threads_.png
 text-preview: >-
   Parallel computing is a cure for performance issues. It allows to do several
@@ -475,4 +475,4 @@ Everyone should take some time to consider the question – does my project real
 
 It’s also good to know a bit about the operating system – how will the new processes be scheduled? Why are they scheduled in this particular way? But if you want to try, it’s always worth checking if the pros and cons of multiprocessing are in line with business and technological requirements. `Thread.new` seems to be safer and has fewer potential issues, so if you really need parallelisation, you should also consider using JRuby or Rubinius.
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
