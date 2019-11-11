@@ -57,7 +57,7 @@ By partnering with a full-service software development company, you are essentia
 
 <br>
 
-|If you want to know how to find the best development company on Clutch and not to fall into a trap - read our Clutch reader’s guide.|
+|If you want to know how to find the best development company on Clutch and not to fall into a trap - read our [Clutch reader’s guide](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch){:target="_blank"}.|
 
 <br>
 
