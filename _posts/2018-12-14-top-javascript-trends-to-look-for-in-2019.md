@@ -1,5 +1,5 @@
 ---
-title: The top JavaScript trends to look forward to in 2019
+title: The Top JavaScript Trends to Look Forward to In 2019
 description: >-
   If you’re wondering what 2019 will bring when it comes to top JavaScript
   development check out our newest blog post about upcoming trends. 
@@ -9,10 +9,9 @@ twitter-card: summary_large_image
 date: '2018-12-14 01:54:58 +0200'
 category: JavaScript development
 authors:
+  avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-  avatar: /assets/images/epifany_bojanowska-2.jpg
-
 image: /assets/images/javascript-trends-2019.png
 text-preview: >-
   If you’re wondering what 2019 will bring when it comes to top JavaScript
@@ -35,15 +34,15 @@ Despite being relatively new, the Vue.js framework is growing more and more popu
 
 Programmers familiar with other JavaScript frameworks can pick up Vue very easily due to its simplicity and clarity. Experienced developers that start working with Vue find its structure very intuitive as the Vue components are pretty much a combination of HTML and JavaScript. It has been learning from the mistakes and successes of React & Angular and only taking the best, while leaving the bad parts behind. The fact that Vue creators are constantly working on native TypeScript support(rumored to be ready in 2019) is just a cherry on top.
 
-“_I can’t wait for the newest Vue (3) version and if what its creator - Evan You, is [saying](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf){:rel=nofollow} is true they’re going to hit a homerun and surpass other frameworks._” said one of our front-end developers Bartosz Zienkiewicz.
+“_I can’t wait for the newest Vue (3) version and if what its creator - Evan You, is [saying](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf){:rel="nofollow"}{:target="_blank"} is true they’re going to hit a homerun and surpass other frameworks._” said one of our front-end developers Bartosz Zienkiewicz.
 
-To read more about Pros and Cons of Vue check out our latest blog post [here](https://naturaily.com/blog/pros-cons-vue-js).
+|To read more about Pros and Cons of Vue check out our latest blog post [here](https://naturaily.com/blog/pros-cons-vue-js){:target="_blank"} .|
 
 ##  Not giving up the throne just yet - ReactJS
 
 Supported by Facebook, React has been the most popular JavaScript frameworks over the past 5 years. Netflix, Flipboard, PayPal and BBC were the first organizations that utilized React’s potential. 
 
-According to their own [website](https://reactjs.org){:rel=nofollow} _React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes._
+According to their own [website](https://reactjs.org){:rel="nofollow"}{:target="_blank"} _React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes._
 
 Due to its popularity and established position (mostly because of support from such giant as Facebook) it is not likely it will give up its spot at the top in the coming years.
 
@@ -71,4 +70,4 @@ The community is currently standing strong behind React, and other libraries are
 
 When it comes to backend frameworks written in JavaScript, Node still has no competition, but look out for GraphQL - it might surprise you in the future!
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
