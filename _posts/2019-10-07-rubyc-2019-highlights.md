@@ -8,10 +8,9 @@ layout: post
 date: '2019-10-07 08:55:38 +0200'
 category: Events
 authors:
+  avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
-  avatar: /assets/images/beata.jpg
-
 image: /assets/images/rubyc-2019-highlights.jpg
 text-preview: >-
   RubyC is a European conference devoted to Ruby, Rails and other related
@@ -180,3 +179,7 @@ Have you also been to RubyC in Kiev? If so, please let us know which presentatio
 ![RubyC Kiev](/assets/images/rubyc_2.png)
 
 ![RubyC Kiev](/assets/images/rubyc_4.png)
+
+<br>
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
