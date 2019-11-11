@@ -1,5 +1,5 @@
 ---
-title: How to increase your effectiveness? Productivity tools (not only) for devs
+title: How to Increase Your Effectiveness? Productivity Tools (Not Only) for Devs
 description: >-
   Using tools is necessary for us to be more productive as well as more
   effective. It isn’t about a tool in general, but the right one.
@@ -8,9 +8,9 @@ layout: post
 date: '2019-08-20 06:40:53 +0200'
 category: Software development
 authors:
+  avatar: /assets/images/michal_kosyk_profile.png
   label: Michał Kosyk
   value: author-27
-  avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/productivity-tools-why-use-productivity-tools-at-all_-1-.jpg
 text-preview: >-
   In a world of distraction and endless procrastination, we are witnessing the
@@ -242,4 +242,4 @@ I hope this will help you get a headstart on the road to great results: met dead
 
 Farewell
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
