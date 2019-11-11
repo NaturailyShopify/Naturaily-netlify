@@ -37,7 +37,7 @@ PWA concept as a whole allows for easier user engagement with your content. Sinc
 
 As we’ve mentioned in one of our [previous posts](https://naturaily.com/blog/pwa-vue-cli-3){:target="_blank"}, during the Google I/O 2017 presentation dedicated to PWA, it was mentioned that even though web applications on mobile have almost **3 times more unique users** compared to native apps, the native apps are 20 times more engaging than web apps. It clearly shows that **PWA is a perfect technology** that will merge these two worlds for your and users’ benefit.
 
-| ## Read: [How to use PWA plugin in Vue CLI 3.0](https://naturaily.com/blog/pwa-vue-cli-3){:target="_blank"}|
+\|**Read:** [How to use PWA plugin in Vue CLI 3.0](https://naturaily.com/blog/pwa-vue-cli-3){:target="_blank"}|
 
 Here’s a cool showcase of what PWAs can are capable of. Grab your phone and go to this link in your browser: <http://paperplanes.world/>{:rel="nofollow"}{:target="_blank"}.
 
@@ -95,7 +95,7 @@ Speaking of React, there’s a really exciting alternative to this popular frame
 
 With the recent release of Vue CLI 3, easy PWA implementation was introduced to the world of Vue. Developers can use plugins at any point of the development to implement a Progressive Web Application in their project.
 
-| ## Read: [Vue CLI 3: New Era in Frontend Development](https://naturaily.com/blog/vue-cli-3-overview){:target="_blank"}|
+\|**Read:** [Vue CLI 3: New Era in Frontend Development](https://naturaily.com/blog/vue-cli-3-overview){:target="_blank"}|
 
 ## Use Cases
 
