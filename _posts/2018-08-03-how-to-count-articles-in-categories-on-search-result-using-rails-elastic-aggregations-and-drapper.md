@@ -1,5 +1,5 @@
 ---
-title: Count articles by category on search in Ruby on Rails
+title: Count Articles by Category on Search in Ruby on Rails
 description: >-
   Have you ever wanted to calculate how many articles will be left in a certain
   category after search? Elasic aggregations and Drapper are significant in a
@@ -9,10 +9,9 @@ layout: post
 date: '2018-08-27 11:55:08 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/arek.jpg
   label: Arek Poczobut
   value: author-18
-  avatar: /assets/images/arek.jpg
-
 image: /assets/images/rails-elastic-aggregation-drapper.jpg
 text-preview: >
   Have you ever wanted to calculate how many articles will be left in a certain
@@ -497,3 +496,5 @@ That's all, you can check working example downloading repo:
   docker-compose run web bundle install
   docker-compose run web rake db:create db:migrate db:seed
 ```
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
