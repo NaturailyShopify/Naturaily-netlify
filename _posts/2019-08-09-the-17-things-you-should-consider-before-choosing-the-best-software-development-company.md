@@ -13,10 +13,9 @@ twitter-card: >-
 date: '2019-08-13 11:16:00 +0200'
 category: Software development
 authors:
+  avatar: /assets/images/marcin.jpg
   label: Marcin Sulikowski
   value: author-6
-  avatar: /assets/images/marcin.jpg
-
 image: /assets/images/how-to-find-a-reliable-software-house-in-7-steps_.png
 text-preview: >-
   Whether you’re after a team that would build your future project from scratch
@@ -109,7 +108,7 @@ It’s totally understandable if you are hesitant towards sending your brief ove
 
 Reliable companies will sign this contract with no hesitation. Avoid companies that shy away from signing it. Some offer it before you even engage in more detailed discussions.
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
 
 ## 8. Make sure they are the right size for you
 
@@ -123,7 +122,7 @@ Everybody understands that for many software development companies Clutch is the
 
 This is a measure of a company's honesty to potential clients.
 
-If you want to know more about Clutch and how to verify its reviews - read our [Clutch reader's guide](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch){:target="_blank"}.
+|If you want to know more about Clutch and how to verify its reviews - read our [Clutch reader's guide](https://naturaily.com/blog/how-to-find-best-development-company-on-clutch){:target="_blank"}.|
 
 ![Challenge](/assets/images/challenge.jpg)
 
@@ -193,4 +192,4 @@ Ideally, look for a partner that sees you not just as a business opportunity, bu
 
 Finding the right software development partner is never easy. The prospect of losing time and money is paralysing for many companies, and the fear often makes them go with the wrong, too big or too expensive partners. But there are great development companies out there – you only have to know which things to look at. We hope these steps will help you get through the process, dispel fears and put certain things in perspective, helping you make the right choice.
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
