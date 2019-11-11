@@ -1,23 +1,21 @@
 ---
 title: >-
-  The code is black and full of errors. The fears of legacy code refactoring and
-  how to overcome them
+  The Code Is Black and Full of Errors. The Fears of Legacy Code Refactoring and
+  How to Overcome Them
 description: >-
   In the darkest corners of every app development process dwell lines of code
-  that make even the bravest of developers wake up at night drenched with
-  sweat.
+  that make even the bravest of developers wake up at night drenched with sweat.
 slug: legacy-code-refactoring
 layout: post
 twitter-card: >-
   In the darkest corners of every app development process dwell lines of code
-  that make even the bravest of developers wake up at night drenched with
-  sweat.
+  that make even the bravest of developers wake up at night drenched with sweat.
 date: '2019-06-18 02:48:11 +0200'
 category: Software development
 authors:
+  avatar: /assets/images/michal_kosyk_profile.png
   label: Michał Kosyk
   value: author-27
-  avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/legacy-code-refactor.png
 text-preview: >-
   In the darkest corners of every app development process dwell lines of code
@@ -106,4 +104,4 @@ Enjoy your small refactors!
 
 Farewell
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
