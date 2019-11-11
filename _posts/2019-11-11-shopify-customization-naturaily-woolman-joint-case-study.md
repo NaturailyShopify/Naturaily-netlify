@@ -1,5 +1,5 @@
 ---
-title: 'Shopify customization: Naturaily & Woolman Joint Case Study'
+title: 'Shopify Customization: Naturaily & Woolman Joint Case Study'
 description: >-
   Shopify app development is one of our specialties. Check out how we integrate
   the existing external systems with e-stores on Shopify. 
