@@ -27,7 +27,7 @@ text-preview: >
 tags:
   - Software development
 ---
-**There are over 100,000 software companies around the world and some predict the number will increase to 1 million by 2027. A lot of them are software houses, like Naturaily, whose domain is the [creation and maintenance of software for other companies](https://naturaily.com/services){:target="_blank"} **.
+**There are over 100,000 software companies around the world and some predict the number will increase to 1 million by 2027. A lot of them are software houses, like Naturaily, whose domain is the [creation and maintenance of software for other companies](https://naturaily.com/services){:target="_blank"}**.
 
 **Some say that Poland has become a software house of Europe. Why? It is simple. We are the best to work with and here is why.**
 
@@ -65,7 +65,7 @@ Software houses, like Naturaily, usually have[ many years of experience in softw
 
 If you do not have technological knowledge, ask professionals for help from the very beginning, because you may find out that your idea requires verification or you can use ready-made solutions that will speed up the creation of working software, which can save you a lot of time and money.
 
-Software houses provide:
+**Software houses provide:**
 
 * the analysis of the idea, writing down the requirements, the creation of a user interface and a detailed work schedule – everything at the very first stage;
 * if needed – the delivery of the Proof of Concept (a working prototype that helps to establish evidence that the potential product can be successful) prior to the actual work on the project;
