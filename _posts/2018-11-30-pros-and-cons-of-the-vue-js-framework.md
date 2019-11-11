@@ -10,10 +10,9 @@ twitter-card: summary_large_image
 date: '2018-11-30 12:58:51 +0200'
 category: Frontend development
 authors:
+  avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-  avatar: /assets/images/epifany_bojanowska-2.jpg
-
 image: /assets/images/pros-cons-vue-js.png
 text-preview: >-
   Despite being relatively new, the Vue.js framework is growing more and more
@@ -68,4 +67,4 @@ Sure it’s nice to have flexibility and many options within a framework that yo
 
 Vue certainly does the job it’s intended to do, and succeeds in some areas that other frameworks fail. If you’d like to read more about the state of Vue.js in 2018 check out our dedicated blog post [here](https://naturaily.com/blog/vue-js-2018).
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
