@@ -41,7 +41,7 @@ You can easily install them all at once using npm command:
 npm i highcharts highcharts-vue axios -S
 ```
 
-Now that we have all the pieces, lets add them in the main.js file:
+Now that we have all the pieces, let's add them in the main.js file:
 
 ```javascript
 import Highcharts from "highcharts";
@@ -67,7 +67,7 @@ As we need to have some data to show, and you probably don’t have any endpoint
 * array of {x,y} objects
 * array of values (where you specify the start of each series, as well as intervals)
 
-This article covers how to make use of the first way, but you can always read the official [Highcharts documentation](https://www.highcharts.com/docs/index){:rel="nofollow"}{:target="_blank"} to see other possibilities. To get the data, if you don’t want to generate it yourself, you can use my test.json (it’s in a [public folder](https://github.com/Dziejo93/highcharts-demo){:rel="nofollow"}{:target="_blank"} on the repo).
+This article covers how to make use of the first way, but you can always read the official [Highcharts documentation](https://www.highcharts.com/docs/index){:rel="nofollow"}{:target="_blank"} to see other possibilities. To get the data, if you don’t want to generate it yourself, you can use my `test.json` (it’s in a [public folder](https://github.com/Dziejo93/highcharts-demo/blob/master/public/test.json){:rel="nofollow"}{:target="_blank"} on the repo).
 
 ### Let’s make use of it:
 
@@ -128,7 +128,7 @@ export default {
 </script>
 ```
 
-As you can see, when the component is being mounted, the fetch in the store will be dispatched. The data will be mapped to a computed series. As I use conditional rendering, Chart component will be rendered only when a series will have its length (because they will be returned as an array).
+As you can see, when the component is being mounted, the fetch in the store will be dispatched. The data will be mapped to a computed series. As I use conditional rendering, `Chart.vue` component will be rendered only when a series will have its length (because they will be returned as an array).
 
 **store.js**
 
@@ -184,7 +184,7 @@ export default new Vuex.Store({
 });
 ```
 
-In this article I simply want to show how to work with data in Highcharts. There is no need to use modules for the store, like we would in a real application and, therefore, this is why I will use a single store file. Let’s focus on fetchData action. I simulate the http call with axios. After the data has been “fetched”, we will commit the “SET_DATA” mutation. Highcharts has its specific way of building chart objects. Because there can’t be too much logic in mutations, we add an additional helper function to process our response properly. 
+In this article I simply want to show how to work with data in Highcharts. There is no need to use modules for the store, like we would in a real application and, therefore, this is why I will use a single store file. Let’s focus on `fetchData` action. I simulate the http call with axios. After the data has been “fetched”, we will commit the `SET_DATA` mutation. Highcharts has its specific way of building chart objects. Because there can’t be too much logic in mutations, we add an additional helper function to process our response properly. 
 
 ```javascript
 const generateSeries = data => {
@@ -207,7 +207,7 @@ The helper function simply iterates on object to get its attributes. After each 
 
 * type: here you can specify a type of series
 * boostThreshold: point threshold for when a series should enter boost mode. 1 means that we always want to use boost, 0 means never
-  turboThreshold: for a bigger {x,y} series, it’s better to disable it (by setting 0) as it will not render. If the set threshold is passed, only one dimensional arrays of numbers, or two dimensional arrays with x and y values, are allowed
+* turboThreshold: for a bigger {x,y} series, it’s better to disable it (by setting 0) as it will not render. If the set threshold is passed, only one dimensional arrays of numbers, or two dimensional arrays with x and y values, are allowed
 * animation: as animations slow down our chart, we don’t want them
 * name: name of the series shown in the legend
 * data: here, we need to assign our array of datapoints
@@ -268,7 +268,7 @@ export default {
 </script>
 ```
 
-This components sole function is to create a chartOptions object that is passed to the highcharts-vue wrapper. We pass the series as props. On each change, a new chartOptions object will be computed and will force the whole component to rerender. Let’s look at the function that creates it:
+This components sole function is to create a **chartOptions** object that is passed to the highcharts-vue wrapper. We pass the series as props. On each change, a new **chartOptions** object will be computed and will force the whole component to rerender. Let’s look at the function that creates it:
 
 ```javascript
 chartOptions() {
@@ -318,7 +318,7 @@ xAxis: it’s used for informing chart, what is the type of series, specifying t
 
 The list of values that can be set for any of those attributes can be found here: <https://api.highcharts.com/highcharts/>{:rel="nofollow"}{:target="_blank"}  
 
-And, honestly, this is all. By moving processing logic to the store, we won’t cause any unnecessary computations inside of the component, which will improve speed immensely. In ChartFiltrations, we can add some buttons to add additional filtrations to the chart. For example, we can add buttons to specify if we want to see only one type of attribute (remember that we need to still do the filtrations inside the store). Additionally, as in this example, we have both current and voltage. As you should know, they have different units, so to make our chart more lucid, we can use multiple y axises. It can be done simply by adding a yAxis object:
+And, honestly, this is all. **By moving processing logic to the store, we won’t cause any unnecessary computations inside of the component, which will improve speed immensely.** In `ChartFiltrations.vue`, we can add some buttons to add additional filtrations to the chart. For example, we can add buttons to specify if we want to see only one type of attribute (remember that we need to still do the filtrations inside the store). Additionally, as in this example, we have both current and voltage. As you should know, they have different units, so to make our chart more lucid, we can use multiple y axises. It can be done simply by adding a **yAxis** object:
 
 ```javascript
   yAxis: [
@@ -335,7 +335,7 @@ And, honestly, this is all. By moving processing logic to the store, we won’t 
   ]
 ```
 
-to the chartOptions object, specifying to which y axis the dataset belongs while creating highcharts series objects:
+to the **chartOptions** object, specifying to which y axis the dataset belongs while creating highcharts series objects:
 
 ```javascript
 const generateSeries = data => {
@@ -356,5 +356,9 @@ As you can see, we had two series of 100k points and they are working smoothly. 
 
 In this article, I have hopefully shown you that lots of data does not come with a need to make performance cuts. This implementation is only one of numerous approaches to this particular topic. If you have any comments or questions, I will be happy to answer them through the comments.  
 
-You can clone this repo with the code from here:
+You can find a working example here:
 <https://github.com/Dziejo93/highcharts-demo>{:rel="nofollow"}{:target="_blank"}
+
+<br>
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
