@@ -1,5 +1,5 @@
 ---
-title: How a modeling agency manager became a software developer
+title: How a Modeling Agency Manager Became a Software Developer
 description: >-
   If you've ever wondered if you're too old to try to change careers and become
   a software developer - read the story of one of our colleagues.
@@ -9,10 +9,9 @@ twitter-card: summary_large_image
 date: '2019-01-02 11:30:43 +0200'
 category: Recruitment
 authors:
+  avatar: /assets/images/epifany_bojanowska-2.jpg
   label: Epifany Bojanowska
   value: author-22
-  avatar: /assets/images/epifany_bojanowska-2.jpg
-
 image: /assets/images/modelin-agency-manager-software-developer.png
 text-preview: >-
   While scouring the internet for an interesting topic for my newest company
@@ -22,7 +21,9 @@ text-preview: >-
 tags:
   - Recruitment
 ---
-We’re all friends here in the tech-blog scene, so let’s get honest for a second. Sometimes lack of inspiration hits you like a ton of bricks and deadlines aren’t forgiving. I’m not saying I have the hardest job in the world but it does require a certain finesse. So when I didn’t know what to write I turned to my longtime friend - the web - for help. While scouring the internet for an interesting topic for my newest company blog article I overheard a coworker say something that has stopped me in my tracks. The thing that shocked me to hear in a room full of developers was _“While I was **managing a modeling agency**”_. I immediately turned around with a head full of questions. Why did this guy turn from working with literal models to writing endless lines of code? What was his reason? How did it all come about? And I suddenly knew what my next article would be.
+We’re all friends here in the tech-blog scene, so let’s get honest for a second. Sometimes lack of inspiration hits you like a ton of bricks and deadlines aren’t forgiving. I’m not saying I have the hardest job in the world but it does require a certain finesse. So when I didn’t know what to write I turned to my longtime friend - the web - for help. 
+
+While scouring the internet for an interesting topic for my newest company blog article I overheard a coworker say something that has stopped me in my tracks. The thing that shocked me to hear in a room full of developers was _“While I was **managing a modeling agency**”_. I immediately turned around with a head full of questions. Why did this guy turn from working with literal models to writing endless lines of code? What was his reason? How did it all come about? And I suddenly knew what my next article would be.
 
 To all you folks wondering at home - **is it possible to suddenly become a developer and completely change your (professional) life?** Well, while not quite easy, it’s not impossible either. Let’s take our friendly developer as an example and take a deep dive into his life.
 
@@ -42,4 +43,4 @@ _“Turns out the programming world is forgiving when it comes to age of beginne
 
 Inspiring, isn’t it? The moral of the story is - **don’t be afraid of changing careers and becoming a developer**, because it’s never too late to start learning and with a little bit of support you too can become a coding expert.
 
-Interested? Contact us at hello@naturaily.com
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
