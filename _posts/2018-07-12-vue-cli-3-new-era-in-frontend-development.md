@@ -9,10 +9,9 @@ layout: post
 date: '2018-07-23 12:26:02 +0000'
 category: JavaScript development
 authors:
+  avatar: /assets/images/tomasz.jpg
   label: Tomasz Żdanuk
   value: author-2
-  avatar: /assets/images/tomasz.jpg
-
 image: /assets/images/vue-js-cli.jpg
 text-preview: >-
   Vue.js gets better and better with each update but this time, the inclusion of
@@ -167,6 +166,8 @@ I really like the plugin structure and all the advantages coming from that archi
 
 Out of the box, PWA support is an amazing feature and an opportunity to create this type of apps more often. Thanks to CLI 3, you can focus only on the most important things, and let the CLI do the rest of tiring configuration work for you.
 
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+
 ### Sources
 
 “_Ejecting from Create React Native App_” <strong>|</strong> <https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md>
@@ -182,5 +183,3 @@ Out of the box, PWA support is an amazing feature and an opportunity to create t
 “_Plugins and Presets_” <strong>|</strong> <https://cli.vuejs.org/guide/plugins-and-presets.html#plugins>
 
 22.07.2016 Dan Abramov <strong>|</strong> “_Create Apps with No Configuration_” <strong>|</strong> <https://reactjs.org/blog/2016/07/22/create-apps-with-no-configuration.html>
-
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
