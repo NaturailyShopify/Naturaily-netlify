@@ -1,5 +1,5 @@
 ---
-title: Challenges of migrating from AngularJS to Vue in TypeScript
+title: Challenges of Migrating from AngularJS to Vue in TypeScript
 description: >-
   Migrating an app from AngularJS to Vue in TypeScript is not an easy task. In
   fact, we've come across many caveats everyone intrested should know about.
@@ -9,10 +9,9 @@ twitter-card: summary_large_image
 date: '2019-04-09 11:30:30 +0200'
 category: JavaScript development
 authors:
+  avatar: /assets/images/bartek.jpg
   label: Bartek Zienkiewicz
   value: author-19
-  avatar: /assets/images/bartek.jpg
-
 image: >-
   /assets/images/migrating-from-angularjs-to-vuejs-using-typescript-a-case-study.png
 text-preview: >-
@@ -27,11 +26,13 @@ TypeScript became mainstream relatively not so long ago. The development started
 
 While it may seem a bit counter-intuitive, TypeScript is extremely well received among developers. There are a lot of things going for it including better scalability, easier maintenance of large applications, much clearer code and forcing developers to write better methods. As you type, you can easily detect bugs and errors. 
 
-As we’ve been previously [mentioning](https://naturaily.com/blog/vue-2019), Vue’s core is going to be entirely rewritten in TypeScript meaning that the new iteration of Vue will support features such as class-based components. On top of that, the Vue Team reported that this move makes the framework more performant.
+As we’ve been previously [mentioning](https://naturaily.com/blog/vue-2019){:target="_blank"}, Vue’s core is going to be entirely rewritten in TypeScript meaning that the new iteration of Vue will support features such as class-based components. On top of that, the Vue Team reported that this move makes the framework more performant.
 
 ## About the project
 
-Let’s talk about the early days of Angular, AngularJS 1.x to be exact. While the technology had some really cool features going for it, there are many more drawbacks than benefits. During those times the software architecture standards we see today were not really a thing. It is one of the reasons why the application we are currently working on is a bit of chaos. It doesn’t run smoothly, some actions take a really long time to perform. AngularJS code should be quite clear and easy to follow but this project is remarkably not very readable. Even our IDE had some problems with eg. finding method declarations. Without our past experience with older Angular versions, trying to figure out the ins and outs of the project could be a nightmare. Finally, the Product Owner decided that it would be best for the application's future to migrate it to VueJS + TypeScript. 
+Let’s talk about the early days of Angular, AngularJS 1.x to be exact. While the technology had some really cool features going for it, there are many more drawbacks than benefits. During those times the software architecture standards we see today were not really a thing. It is one of the reasons why the application we are currently working on is a bit of chaos. It doesn’t run smoothly, some actions take a really long time to perform. 
+
+AngularJS code should be quite clear and easy to follow but this project is remarkably not very readable. Even our IDE had some problems with eg. finding method declarations. Without our past experience with older Angular versions, trying to figure out the ins and outs of the project could be a nightmare. Finally, the Product Owner decided that it would be best for the application's future to migrate it to VueJS + TypeScript. 
 
 Angular is a typical framework. It has a lot of built-in features that don’t exist in Vue. We have to recreate them from the ground up or turn to external libraries as we go in the Vue project.
 
@@ -43,7 +44,7 @@ The Product Owner has a lot of experience with Java. It’s easier for him to re
 
 ## How our experience with TypeScript?
 
-So far, Vue CLI provides built-in TypeScript tooling support. Unfortunately, it doesn’t work with TS that great out of the box. We found that some helper libraries were necessary to work comfortably. To name a few, we’re actively using [`vue-property-decorator`](https://github.com/vuejs/vue-class-component){:rel=nofollow} and [`vuex-class`](https://github.com/ktsn/vuex-class){:rel=nofollow}. These libraries gave us the ability to use Decorators, making out code more readable. Decorators are basically telling the transpiler to create a method of a certain type. Here’s an example of a getter: 
+So far, Vue CLI provides built-in TypeScript tooling support. Unfortunately, it doesn’t work with TS that great out of the box. We found that some helper libraries were necessary to work comfortably. To name a few, we’re actively using [`vue-property-decorator`](https://github.com/vuejs/vue-class-component){:rel="nofollow"}{:target="_blank"} and [`vuex-class`](https://github.com/ktsn/vuex-class){:rel="nofollow"}{:target="_blank"}. These libraries gave us the ability to use Decorators, making out code more readable. Decorators are basically telling the transpiler to create a method of a certain type. Here’s an example of a getter: 
 
 ```typescript
 @Getter(‘info’) info: string;
@@ -116,3 +117,5 @@ Our development team has a JavaScript background. Getting used to TypeScript too
 It mainly depends on the time you can spend on it. You have to take necessary hours of head scratching and Vue/TypeScript bugs search under consideration, especially if you don’t have a lot of prior experience with TypeScript. After a few months of development we came to a conclusion that many issues were caused by developers’ lack of knowledge on certain topics. First steps are difficult, but things get better with time. 
 
 I don’t recommend TypeScript for small projects or quick prototypes, JavaScript will be a much better option.
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
