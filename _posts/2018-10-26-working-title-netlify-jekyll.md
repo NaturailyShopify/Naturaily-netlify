@@ -1,5 +1,5 @@
 ---
-title: Why You should use Jekyll and Netlify CMS for your site
+title: Why You Should Use Jekyll and Netlify CMS for Your Site
 description: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
   result of that love.
@@ -9,9 +9,9 @@ twitter-card: summary_large_image
 date: '2018-10-31 10:40:17 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/lighto.jpg
   label: Paweł Cybulski
   value: author-21
-  avatar: /assets/images/lighto.jpg
 image: /assets/images/netlify-jekyll.jpg
 text-preview: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
@@ -31,12 +31,12 @@ We’ve started thinking about new site quite some time ago but from the start w
 
 The decision to go static was obvious, but just having a static HTMLs won’t cut it as we wanted blog to be a major part of our site. The next decision to make was to pick a static site generator. Of course, there were a few popular candidates on the horizon such as:
 
-* [Next](https://nextjs.org/){:rel="nofollow"}
-* [Hugo](https://gohugo.io/){:rel="nofollow"}
-* [Gatsby](https://www.gatsbyjs.org/){:rel="nofollow"}
-* [Hexo](https://hexo.io/){:rel="nofollow"}
-* [Nuxt](https://nuxtjs.org/){:rel="nofollow"}
-* [Jekyll](https://jekyllrb.com/){:rel="nofollow"}
+* [Next](https://nextjs.org/){:rel="nofollow"}{:target="_blank"}
+* [Hugo](https://gohugo.io/){:rel="nofollow"}{:target="_blank"}
+* [Gatsby](https://www.gatsbyjs.org/){:rel="nofollow"}{:target="_blank"}
+* [Hexo](https://hexo.io/){:rel="nofollow"}{:target="_blank"}
+* [Nuxt](https://nuxtjs.org/){:rel="nofollow"}{:target="_blank"}
+* [Jekyll](https://jekyllrb.com/){:rel="nofollow"}{:target="_blank"}
 
 But let’s face it, with our background, and the fact that Ruby is dear to our hearts, the choice was obvious that it had to be Jekyll.
 
@@ -44,7 +44,7 @@ Now what is Jekyll exactly? Jekyll is a static site generator written by a co-fo
 
 ## Why Netlify?
 
-At first, we wanted to use Jekyll exclusively with [jekyll-admin](https://github.com/jekyll/jekyll-admin){:rel="nofollow"} gem and just host it on our server, but after rethinking this a little we opted for hosting our site on Netlify, as it gives us some really cool perks. To name a few:
+At first, we wanted to use Jekyll exclusively with [jekyll-admin](https://github.com/jekyll/jekyll-admin){:rel="nofollow"}{:target="_blank"} gem and just host it on our server, but after rethinking this a little we opted for hosting our site on Netlify, as it gives us some really cool perks. To name a few:
 
 * Continuous Deployment - hands free project deploying based on github/gitlab/bitbucket activity.
 * SSL - Out of the box HTTPS for default domain, you know what not having that means today, right?
@@ -61,7 +61,7 @@ What’s this Editorial Workflow all about actually? It gives our content creato
 
 ## Admin
 
-To fully utilise Netlify and for Editorial Workflow to actually work we have to first make Netlify CMS work and making that happen can’t be simpler. We just have to add `admin` folder in our project, few files, some javascript snippet and we’re set. This gives us access to admin panel like so: [www.netlify-example.com/admin](http://www.netlify-example.com/admin){:rel="nofollow"}. In there we have a list of collections we can edit, workflow tab and assets uploaded. Thanks to Netlify we can manage who can access our admin page with [Identity](https://www.netlify.com/docs/identity/){:rel="nofollow"}.
+To fully utilise Netlify and for Editorial Workflow to actually work we have to first make Netlify CMS work and making that happen can’t be simpler. We just have to add `admin` folder in our project, few files, some javascript snippet and we’re set. This gives us access to admin panel like so: [www.netlify-example.com/admin](http://www.netlify-example.com/admin){:rel="nofollow"}{:target="_blank"}. In there we have a list of collections we can edit, workflow tab and assets uploaded. Thanks to Netlify we can manage who can access our admin page with [Identity](https://www.netlify.com/docs/identity/){:rel="nofollow"}{:target="_blank"}.
 
 ![netlify-admin](/assets/images/netlify-admin.jpg)
 
@@ -75,6 +75,6 @@ In my opinion widgets are the main awesomeness of using Netlify CMS. They give u
 
 ## Is that all?
 
-Of course not, there are many more features that Netlify along with Netlify CMS offer that we haven't used like _Forms_, _Prerendering_ for single page applications, _Split Testing_, _Lambda functions_ for thoese who want more, we can even create custom _Widgets_ and remember that features are constantly added so you can check and test (or use) some _Beta Features_. You can check all that on Netlify Documentation [page](https://www.netlify.com/docs){:rel="nofollow" target="_blank"}, as well as Netlify CMS Docs [page](https://www.netlifycms.org/docs){:rel="nofollow" target="_blank"}
+Of course not, there are many more features that Netlify along with Netlify CMS offer that we haven't used like _Forms_, _Prerendering_ for single page applications, _Split Testing_, _Lambda functions_ for thoese who want more, we can even create custom _Widgets_ and remember that features are constantly added so you can check and test (or use) some _Beta Features_. You can check all that on Netlify Documentation [page](https://www.netlify.com/docs){:rel="nofollow"}{:target="_blank"}, as well as Netlify CMS Docs [page](https://www.netlifycms.org/docs){:rel="nofollow"}{:target="_blank"}
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
