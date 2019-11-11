@@ -9,10 +9,9 @@ twitter-card: summary_large_image
 date: '2018-11-09 12:50:51 +0200'
 category: Agile
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/12-management-collaboration-tools-startups.jpg
 text-preview: >-
   So you have founded a startup. It wasn’t easy, was it? How about making your
@@ -38,15 +37,15 @@ Teams from all around the world say that if you like Trello then you will love M
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/1UbaEcto56k" frameborder="0" allowfullscreen></iframe>
 
-Check it out here: [Monday](https://monday.com/){:rel=nofollow}
+Check it out here: [Monday](https://monday.com/){:rel="nofollow"}{:target="_blank"}
 
 ## Carrd.co - Easy website builder
 
 ![carrd-co-website-builder-demo](/assets/images/carrd-co-demo.jpg)
 
-Do you need a simple and beautiful website for cheap? Are you looking for easy-to-use tools that will help you create an amazing UI for your visitors? Check out `carrd.co`. It’s a free tool that allows users to create modern-looking websites with ease - no programming knowledge needed!  With additional 9$/year you get premium features such as SSL support [now crucial for SEO](https://moz.com/blog/half-page-one-google-results-https){:rel=nofollow}, custom domain name, Google Analytics integration and many more.
+Do you need a simple and beautiful website for cheap? Are you looking for easy-to-use tools that will help you create an amazing UI for your visitors? Check out `carrd.co`. It’s a free tool that allows users to create modern-looking websites with ease - no programming knowledge needed!  With additional 9$/year you get premium features such as SSL support [now crucial for SEO](https://moz.com/blog/half-page-one-google-results-https){:rel="nofollow"}{:target="_blank"}, custom domain name, Google Analytics integration and many more.
 
-Check it out here: [Carrd.co](https://carrd.co/){:rel=nofollow}
+Check it out here: [Carrd.co](https://carrd.co/){:rel="nofollow"}{:target="_blank"}
 
 ## HeySpace - Slack on steroids
 
@@ -54,7 +53,7 @@ So you know how Slack is the dominant chat app for teams? It’s always good to 
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/RrUFYHsK3Ms" frameborder="0" allowfullscreen></iframe>
 
-Check it out here: [HeySpace](https://hey.space/){:rel=nofollow}
+Check it out here: [HeySpace](https://hey.space/){:rel="nofollow"}{:target="_blank"}
 
 ## AirTable - Spreadsheets reinvented
 
@@ -62,7 +61,7 @@ AirTable is a flexible, web-based application that reinvents the way you think o
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/r0lsyTaAuJE" frameborder="0" allowfullscreen></iframe>
 
-Check it out here: [AirTable](https://airtable.com/){:rel=nofollow}
+Check it out here: [AirTable](https://airtable.com/){:rel="nofollow"}{:target="_blank"}
 
 ## Coda - collaboration for product teams
 
@@ -70,7 +69,7 @@ Coda is a management and collaboration tool that was created with product teams 
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/Wgtjaxa43e8" frameborder="0" allowfullscreen></iframe>
 
-Check it out here: [Coda](https://coda.io/){:rel=nofollow}
+Check it out here: [Coda](https://coda.io/){:rel="nofollow"}{:target="_blank"}
 
 ## Zapier - automate your workflow
 
@@ -78,19 +77,19 @@ Zapier allows you to automate your tasks by connecting apps you use together. Th
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/yG90m3H_kgA" frameborder="0" allowfullscreen></iframe>
 
-Check it out here: [Zapier](https://zapier.com/){:rel=nofollow}
+Check it out here: [Zapier](https://zapier.com/){:rel="nofollow"}{:target="_blank"}
 
 ## Hootsuite - become a social media ninja
 
 Manage all your social media, including Facebook, Twitter, Google+, YouTube, from one simple dashboard. You can integrate your favourite services like MailChimp, Tumblr, Zapier, Slack and many more. Hootsuite allows you to schedule your posts, create analytics based on your social media pages, monitor popular topics, manage your social media team and many more.
 
-Check it out here: [Hootsuite](https://hootsuite.com/){:rel=nofollow}
+Check it out here: [Hootsuite](https://hootsuite.com/){:rel="nofollow"}{:target="_blank"}
 
 ## Shopify - Sophisticated e-commerce platform
 
 Shopify allows you to create highly customisable online store quick and easy. The platform is packed with great features such as Shopify Payments, ready to use themes, sales channels, responsive design, lots of SEO and marketing tools and many more. You can even use your own domain name or sell in retail using an iPad as a POS device.
 
-Check it out here: [Shopify](https://shopify.com/){:rel=nofollow}
+Check it out here: [Shopify](https://shopify.com/){:rel="nofollow"}{:target="_blank"}
 
 Now that we have those out of the way, let’s dive deep into some **obvious ones that are extremely useful**. I have also included most popular alternatives if you’re looking for some new things for you or your team.
 
@@ -103,22 +102,22 @@ Trello is a web-based project management application that can significantly impr
 **Alternatives for Trello:**
 Asana, Basecamp and recently released Microsoft TFS.
 
-Check it out here: [Trello](https://trello.com/){:rel=nofollow}
+Check it out here: [Trello](https://trello.com/){:rel="nofollow"}{:target="_blank"}
 
 ## Slack
 
-The most popular collaboration tool - Slack. It is by far the best solution for companies looking for a simple and easy messaging tool for their team. Slack offers wide variety of integrations and customization - [read more about the best plugins for Slack](https://naturaily.com/blog/slack-apps-improving-team-communication). Add your team members to IRQ-like channels, send conversation invites to your clients and use your favorite services directly in the app.
+The most popular collaboration tool - Slack. It is by far the best solution for companies looking for a simple and easy messaging tool for their team. Slack offers wide variety of integrations and customization - [read more about the best plugins for Slack](https://naturaily.com/blog/slack-apps-improving-team-communication){:target="_blank"}. Add your team members to IRQ-like channels, send conversation invites to your clients and use your favorite services directly in the app.
 
 **Alternatives for Slack:**
 Let’s just focus on the big guys: Microsoft Teams, Google Hangouts, Facebook Workplace.
 
-Check it out here: [Slack](https://slack.com/){:rel=nofollow}
+Check it out here: [Slack](https://slack.com/){:rel="nofollow"}{:target="_blank"}
 
 ## Google Tools
 
 If you want to save up some money for the Microsoft Office 365 license you might want to try out Google services such as Google Docs, Sheets and Slides. They offer quite a lot of features considering they are free, web-based applications.
 
-The best thing about them is the way how a team of people can work on one project. You can instantly see changes made by other team members, comment them or even chat. It’s great for light document editing, but surprisingly whole service is highly customizable - check out how we [use Google Sheets to track working hours with Breeze](https://naturaily.com/blog/google-sheets-breeze-time-tracker).
+The best thing about them is the way how a team of people can work on one project. You can instantly see changes made by other team members, comment them or even chat. It’s great for light document editing, but surprisingly whole service is highly customizable - check out how we [use Google Sheets to track working hours with Breeze](https://naturaily.com/blog/google-sheets-breeze-time-tracker){:target="_blank"}.
 
 Google also offers other interesting tools for marketing and SEO such as Google Analytics, Trends, AdWords.
 
@@ -132,8 +131,8 @@ Simplify your life with a password manager. If you want to give your employees a
 **Alternatives for LastPass:**
 Sticky notes on the edge of your computer screen, Dashlane, Keeper.
 
-Check it out here: [LastPass](https://lastpass.com/){:rel=nofollow}
+Check it out here: [LastPass](https://lastpass.com/){:rel="nofollow"}{:target="_blank"}
 
 Is there anything you would want to add to our list? **Let us know if the comments down below!**
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
