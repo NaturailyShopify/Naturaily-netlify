@@ -23,6 +23,7 @@ tags:
 ---
 As a part of our [ongoing tour](https://naturaily.com/on-tour){:target="_blank"}, we’re pleased to announce that we will be attending the Japan IT Week this Spring! 
 
+
 ## Japan IT Week
 
 **Japan IT Week** is a trade show where you can find all kinds of the latest Internet of Things and Machine to Machine systems and technology. The 28th Spring edition includes two expos. **We’re extremely excited to be an exhibitor during the [IoT / M2M Expo](https://www.japan-it-spring.jp/en-gb/about/iot.html){:rel="nofollow"}{:target="_blank"}**!
@@ -41,7 +42,7 @@ Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec
 
 ![LVCloud](/assets/images/lvcloud.png)
 
-We will be presenting our own [IoT development](https://naturaily.com/project/lvcloud){:rel="nofollow"}{:target="_blank"} case study - LVCloud. It's an application that monitors and takes care of the electrical grid. We have combined **latest IoT technologies** and tools with **Machine Learning** into a sophisticated app that solves problems with electric networks before anyone knew they existed. 
+We will be presenting our own [IoT development](https://naturaily.com/project/lvcloud){:target="_blank"} case study - LVCloud. It's an application that monitors and takes care of the electrical grid. We have combined **latest IoT technologies** and tools with **Machine Learning** into a sophisticated app that solves problems with electric networks before anyone knew they existed. 
 
 <br>
 
@@ -51,6 +52,10 @@ We will be presenting our own [IoT development](https://naturaily.com/project/lv
 
 ## Naturaily on Tour
 
-Our Naturaily On Tour is not stopping here! Find out where we’re going next [here](https://naturaily.com/on-tour){:target="_blank"}. 
+Our Naturaily On Tour is not stopping here! Find out where we’re going next [here](https://naturaily.com/on-tour). 
 
 ![Naturaily on Tour Map](/assets/images/natu_on_tour_map.jpeg)
+
+<br>
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
