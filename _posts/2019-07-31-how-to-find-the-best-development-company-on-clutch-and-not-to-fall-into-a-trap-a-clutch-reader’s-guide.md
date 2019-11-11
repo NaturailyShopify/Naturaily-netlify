@@ -1,7 +1,7 @@
 ---
 title: >-
-  How to find the best development company on Clutch and not to fall into a
-  trap! A Clutch reader’s guide
+  How to Find the Best Development Company on Clutch and Not to Fall Into a
+  Trap! A Clutch Reader’s Guide
 description: >-
   With several years in the industry under our belt, we feel entitled to shed
   some light on how Clutch works and offer a few tips for companies wanting to
@@ -15,9 +15,9 @@ twitter-card: >-
 date: '2019-07-31 02:04:06 +0200'
 category: Clutch
 authors:
+  avatar: /assets/images/leo_baz_profile.png
   label: Leo Baz
   value: author-26
-  avatar: /assets/images/leo_baz_profile.png
 image: /assets/images/how-to-find-the-best-development-company-on-clutch.png
 text-preview: >-
   Clutch is the industry go-to place for reliable reviews of potential software
