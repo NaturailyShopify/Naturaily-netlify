@@ -302,12 +302,12 @@ chartOptions() {
 
 chart: has basic information about chart. 
 
-type: specifies which type of chart we are going to show
-	height: we can simply specify how much height in px this chart is going to have
-	animation: disables all animations which may slow down the chart
-	zoomType: specifies what type of zoom we can use. ‘xy’ means that we can zoom in both directions
-	panning: true allows us to pan the chart after zooming
-	panKey: specifies which key is used for panning
+       type: specifies which type of chart we are going to show
+       height: we can simply specify how much height in px this chart is going to have
+       animation: disables all animations which may slow down the chart
+       zoomType: specifies what type of zoom we can use. ‘xy’ means that we can zoom in both directions
+       panning: true allows us to pan the chart after zooming
+       panKey: specifies which key is used for panning
 
 boost: {enabled: true} : this is used to tell the chart to use the boost module
 
