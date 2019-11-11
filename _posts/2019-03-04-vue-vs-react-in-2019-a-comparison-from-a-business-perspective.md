@@ -1,5 +1,5 @@
 ---
-title: Vue vs React in 2019 - a comparison from a business perspective
+title: Vue vs React in 2019 - a Comparison from a Business Perspective
 description: >-
   At some point you have to choose the technological stack for your application.
   Vue vs React, which JavaScript framework should you use for software
@@ -10,10 +10,9 @@ twitter-card: summary_large_image
 date: '2019-03-05 12:55:17 +0200'
 category: JavaScript development
 authors:
+  avatar: /assets/images/wojciech.jpg
   label: Wojciech Miśta
   value: author-1
-  avatar: /assets/images/wojciech.jpg
-
 image: /assets/images/vue-vs-react-business-perspective-v2.jpg
 text-preview: >-
   At some point you have to choose the technological stack for your application.
@@ -25,7 +24,9 @@ tags:
   - React js development
   - Frontend development
 ---
-Being in charge of software development is not an easy task. There’s a lot of things you have to take into consideration in order to develop a successful web product, ins and outs you may not initially think of. One of the key things you have to look into is the technological stack. If you’re developing a web application, chances are that you have stumbled upon **two major frontend technologies** players - [Vue](https://naturaily.com/services/vue-js-development) and [React](https://naturaily.com/services/react-js-development). But which one should you choose for your application? Which is better? Let’s dive into the details, it’s simpler than you think!
+Being in charge of software development is not an easy task. There’s a lot of things you have to take into consideration in order to develop a successful web product, ins and outs you may not initially think of. One of the key things you have to look into is the technological stack. 
+
+If you’re developing a web application, chances are that you have stumbled upon **two major frontend technologies** players - [Vue](https://naturaily.com/services/vue-js-development){:target="_blank"} and [React](https://naturaily.com/services/react-js-development){:target="_blank"}. But which one should you choose for your application? Which is better? Let’s dive into the details, it’s simpler than you think!
 
 ## Popularity 🔥
 
@@ -37,7 +38,7 @@ Well, some of the developers who were looking for a new technology to learn, cho
 
 ![React vs Vue 2019 - Job Postings](/assets/images/react-vs-vue-2019-job-postings.png)
 
-There are about 42% more projects utilizing React than Vue (source: [Builtwith](https://builtwith.com){:rel=nofollow}). On top of that, React Developers are in much more demand than Vue’s. It’s been proven by multiple sources such as LinkedIn, with 1:5 job offers ratio, and Indeed 1:12 ratio. According to a StackOverflow survey, **React is the 3rd most popular library among developers**. Similar data is presented on [StateOfJS](https://stateofjs.com){:rel=nofollow} - almost 65% of React developers have stated that they use React and would use it again in future projects - that’s the highest percentage out of all JavaScript Front-end frameworks.
+There are about 42% more projects utilizing React than Vue (source: [Builtwith](https://builtwith.com){:rel="nofollow"}{:target="_blank"}). On top of that, React Developers are in much more demand than Vue’s. It’s been proven by multiple sources such as LinkedIn, with 1:5 job offers ratio, and Indeed 1:12 ratio. According to a StackOverflow survey, **React is the 3rd most popular library among developers**. Similar data is presented on [StateOfJS](https://stateofjs.com){:rel="nofollow"}{:target="_blank"} - almost 65% of React developers have stated that they use React and would use it again in future projects - that’s the highest percentage out of all JavaScript Front-end frameworks.
 
 The same source also shows an average salary of developers. **Vue.js developers earn $62.4k whereas React.js $73.4k annually**. Quite a difference.
 
@@ -45,9 +46,9 @@ What does this mean for you? If you want to assemble your very own dev team, **i
 
 ![Vue vs React 2019 - NPM downloads](/assets/images/vue-vs-react-npm-downloads-march-2019.jpg)
 
-Source: [npm-stat.com](https://npm-stat.com){:rel=nofollow}
+Source: [npm-stat.com](https://npm-stat.com){:rel="nofollow"}{:target="_blank"}
 
-NPM downloads statistics for each package don’t seem favorable for Vue either - **it is downloaded over 6 times less than React** but it’s understable, less Vue developers means less downloads. To be fair, Vue is continuously growing in popularity and doesn’t show any signs of slowing down. You can read more about Vue in 2019 [here](https://naturaily.com/blog/vue-2019). 
+NPM downloads statistics for each package don’t seem favorable for Vue either - **it is downloaded over 6 times less than React** but it’s understable, less Vue developers means less downloads. To be fair, Vue is continuously growing in popularity and doesn’t show any signs of slowing down. You can read more about Vue in 2019 [here](https://naturaily.com/blog/vue-2019){:target="_blank"}. 
 
 Both Vue and React can gloat about big companies using them. Vue.js has found its way into many projects and web applications created by companies such as **Nintendo, Adobe or GitLab**. This framework is widely utilized in China, as giants like **Baidu and Alibaba** implemented it into their software.
 
@@ -55,7 +56,7 @@ Nevertheless, when it comes to western companies, React is a clear winner here. 
 
 ## License ✒️
 
-Can you use React and Vue in your commercial projects? The answer is yes. Both **Vue and React are licensed under MIT License** meaning that they’re Open Source. In 2017 Facebook tried to license React under BSD License which lead to a [huge backlash among developers](https://medium.com/@raulk/if-youre-a-startup-you-should-not-use-react-reflecting-on-the-bsd-patents-license-b049d4a67dd2){:rel=nofollow}. Fortunately, Facebook revoked their decision. 
+Can you use React and Vue in your commercial projects? The answer is yes. Both **Vue and React are licensed under MIT License** meaning that they’re Open Source. In 2017 Facebook tried to license React under BSD License which lead to a [huge backlash among developers](https://medium.com/@raulk/if-youre-a-startup-you-should-not-use-react-reflecting-on-the-bsd-patents-license-b049d4a67dd2){:rel="nofollow"}{:target="_blank"}. Fortunately, Facebook revoked their decision. 
 
 ## Future of Vue and React 🔮
 
@@ -83,7 +84,7 @@ What benefits using Vue or React gives you? Quite a lot actually! Developing an 
 
 Large projects typically mean large teams. JavaScript framework or library ensures that all developers have to follow one convention making the code more readable for any new team members and easier to manage in the future.
 
-## Features ‍🖇
+## Features  ‍🖇
 
 When it comes to standalone features of both technologies, it’s safe to assume that, for the most part, they are similar. Of course, we could go into details and for example say that React team has introduced Hooks, feature praised by developers that is missing in Vue, but it is not that significant. There are no groundbreaking differences between React and Vue that would make you unable to create a certain application in only one of them. 
 
@@ -91,7 +92,7 @@ Developing with React feels closer to coding with pure JavaScript than developin
 
 **Ultimately, choosing between React and Vue comes down to how experienced your developers are with either of them.**
 
-Read more about **pros and cons of Vue [here](https://naturaily.com/blog/pros-cons-vue-js)**.
+|Read more about **pros and cons of Vue [here](https://naturaily.com/blog/pros-cons-vue-js){:target="_blank"}**.|
 
 ## Continuity 🔗
 
@@ -99,7 +100,7 @@ Both React and Vue teams already have feature release plans for upcoming years.
 
 Should you be worried that the next iteration of Vue is just around the corner and you are starting development with Vue 2? No, not at all. Previous migration from Vue 1 to 2 was quite painless as around 90% of the API stayed the same while introducing a ton of new features. Plus, migration helper tool was introduced making sure that migrating will be performed smoothly with not many issues. We should be expecting the same kind of support with the upcoming version of Vue, even if the core of Vue will be written entirely in TypeScript. 
 
-What about React? It offers similar kind of support too! The React team provides a lot of information on how to perform this task correctly. One of the Design Principles of React is the Stability. The React team is rather hesitant towards changing the API as over **50 thousands companies rely on this technology**. It doesn’t mean React is stagnating, if changes are necessary there is always a clear migrating path. Migrations are usually easier with React, especially when tools such as [codemod](https://github.com/reactjs/react-codemod) exist. 
+What about React? It offers similar kind of support too! The React team provides a lot of information on how to perform this task correctly. One of the Design Principles of React is the Stability. The React team is rather hesitant towards changing the API as over **50 thousands companies rely on this technology**. It doesn’t mean React is stagnating, if changes are necessary there is always a clear migrating path. Migrations are usually easier with React, especially when tools such as [codemod](https://github.com/reactjs/react-codemod){:rel="nofollow"}{:target="_blank"} exist. 
 
 ## Conclusion 🤞
 
@@ -107,4 +108,4 @@ React, a mature technology with a huge number of contributors. No wonder, it’s
 
 Vue is the new kid in town. It’s a young and fresh technology with no strong backing. It doesn’t mean that the project is not being actively developed - everyday the project is being improved by hundreds of contributors. Statistics don’t lie, Vue is getting more and more popular among large companies, **2018 has been the best year for the framework by far**! Maybe the job market is not as great as React’s but it’s constantly growing, evolving and becoming more competitive. **Vue is a great option is you prefer simplicity and flexibility.**
 
-[![Get an estimate](/assets/images/get-an-estimate.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
