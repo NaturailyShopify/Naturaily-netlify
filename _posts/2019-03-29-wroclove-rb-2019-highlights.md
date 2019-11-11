@@ -10,10 +10,9 @@ twitter-card: summary_large_image
 date: '2019-03-29 04:05:01 +0200'
 category: Events
 authors:
+  avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
-  avatar: /assets/images/beata.jpg
-
 image: /assets/images/wrocloverb_highlights.jpeg
 text-preview: >-
   Wroclove.rb’s main goal is to help Ruby professionals get better at what they
@@ -64,21 +63,21 @@ Definitely, the most noteworthy talks were:
 
 **3. Handling file uploads for a modern developer - Janko Marohnic**
 
-> Janko devoted his speech to [Shrine](https://github.com/shrinerb/shrine), his own solution enabling file uploads.
+> Janko devoted his speech to [Shrine](https://github.com/shrinerb/shrine){:rel="nofollow"}{:target="_blank"}, his own solution enabling file uploads.
 >
-> At Naturaily, we haven't had the opportunity to use it yet, but it looks promising. If you're wondering what sets it apart from other solutions, I recommend that you look  [here](https://github.com/shrinerb/shrine/blob/v2.16.0/doc/advantages.md#readme).
+> At Naturaily, we haven't had the opportunity to use it yet, but it looks promising. If you're wondering what sets it apart from other solutions, I recommend that you look  [here](https://github.com/shrinerb/shrine/blob/v2.16.0/doc/advantages.md#readme){:rel="nofollow"}{:target="_blank"}.
 >
-> For managing uploads on the frontend, Janko recommended [Uppy](https://uppy.io/), which can be used independently of Shrine. Modularity of this solution is a big advantage.
+> For managing uploads on the frontend, Janko recommended [Uppy](https://uppy.io/){:rel="nofollow"}{:target="_blank"}, which can be used independently of Shrine. Modularity of this solution is a big advantage.
 
 **4. The TruffleRuby Compilation Pipeline (Chris Seaton)**
 
-> [TruffleRuby](https://github.com/oracle/truffleruby) is an Oracle project whose idea is to speed up Ruby without affecting its syntax. TruffleRuby is part of a much wider project (more about it [here](https://www.graalvm.org/)), the aim of which is to improve and preserve current languages, so that programmers choose those that they like, rather than those that are the fastest.
+> [TruffleRuby](https://github.com/oracle/truffleruby){:rel="nofollow"}{:target="_blank"} is an Oracle project whose idea is to speed up Ruby without affecting its syntax. TruffleRuby is part of a much wider project (more about it [here](https://www.graalvm.org/){:rel="nofollow"}{:target="_blank"}), the aim of which is to improve and preserve current languages, so that programmers choose those that they like, rather than those that are the fastest.
 
 **5. Development with Axioms (Martin Gamsjaeger)**
 
 > Martin presented a very interesting approach for working out processes of introducing changes in the repository. The whole presentation was based on the concept of the axiom. It boils down to the fact that as a team you try to establish certain statements (truths) on which you later base your process. On the basis of axioms, we define certain rules (transformations) that are to lead us to specific conclusions (assertions). Martin's talk was definitely one of the most interesting and inspiring for me. I believe that taking the time to analyze and develop processes always yields great results.
 
-
+<br>
 
 ## Stefan:
 
@@ -86,10 +85,14 @@ Definitely, the most noteworthy talks were:
 >
 > What I also found interesting, apart from the topics mentioned above, was Norbert Wójtowicz's talk about declarative downloading of API data, using the parser Pathom written in Clojure. Pathom can download and parse data from various sources (YouTube, Facebook, SpaceX, etc.). The data we need is expressed in a declarative manner –  a solution which seems very clear and easy to maintain – combining data from various sources of information seems fabulously simple.
 
-
+<br>
 
 ## Adam:
 
-> Optimistic UI is also worth mentioning here. According to this approach, after each action performed by the user, we do not have to wait for the response from the back end, but immediately send the message that the action was successful. We assume that this will be the case, as statistically 98% of requests are successful. You can find more information about Optimistic UI [here](https://uxplanet.org/optimistic-1000-34d9eefe4c05).
+> Optimistic UI is also worth mentioning here. According to this approach, after each action performed by the user, we do not have to wait for the response from the back end, but immediately send the message that the action was successful. We assume that this will be the case, as statistically 98% of requests are successful. You can find more information about Optimistic UI [here](https://uxplanet.org/optimistic-1000-34d9eefe4c05){:rel="nofollow"}{:target="_blank"}.
 
 If you've also been to Wroclove.rb, be sure to share your opinion in a comment and let them know what you found the most interesting.
+
+<br>
+
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
