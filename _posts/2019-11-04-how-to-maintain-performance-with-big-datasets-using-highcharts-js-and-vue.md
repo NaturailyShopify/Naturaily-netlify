@@ -5,7 +5,7 @@ description: >-
   in a dynamic manner. 
 slug: big-datasets-highcharts-vue
 layout: post
-date: '2019-11-04 10:56:21 +0200'
+date: '2019-11-11 10:56:21 +0200'
 category: JavaScript development
 authors:
   avatar: /assets/images/andrzej_profile.png
