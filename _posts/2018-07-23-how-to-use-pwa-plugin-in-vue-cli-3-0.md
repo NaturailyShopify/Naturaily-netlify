@@ -1,5 +1,5 @@
 ---
-title: How to use PWA plugin in Vue CLI 3.0
+title: How to Use PWA Plugin in Vue CLI 3.0
 description: >-
   Learn how to create Progressive Web Applications in Vue CLI 3.0 using plugins.
   Let's jump into the world of PWA!
@@ -9,10 +9,9 @@ twitter-card: summary_large_image
 date: '2018-08-06 10:42:09 +0000'
 category: JavaScript development
 authors:
+  avatar: /assets/images/tomasz.jpg
   label: Tomasz Żdanuk
   value: author-2
-  avatar: /assets/images/tomasz.jpg
-
 image: /assets/images/pwa-vue-cli-3.jpg
 text-preview: >-
   In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin
@@ -30,7 +29,7 @@ According to Google Developers PWA description, Progressive Web Apps is a concep
 
 **Native mobile apps are more engaging** to users than web pages. It's way easier to just tap the icon on the home screen than to type a long URL. Native apps are also designed for mobile purposes, as well as in terms of graphic design, features and technical aspects. Unlike web apps, native apps have push notifications, access to your camera, or mic, but is that still true? No! PWA can that too!
 
-## Read: [A brief guide to PWAs in 2018.](https://naturaily.com/blog/pwa-guide)
+## Read: [A brief guide to PWAs in 2018.](https://naturaily.com/blog/pwa-guide){:target="_blank"}
 
 ## PWA Characteristics
 
@@ -82,8 +81,7 @@ I'll describe in more details the most important files in next sections of this 
 
 ## Make your web app installable
 
-One of the ways to make your app more engaging is making it installable. Thanks to that users can have easy access to your site by simple tapping icon on home screen, what is way much faster than typing whole URL. To make it possible, you only need to create and/or fill manifest file.
-The manifest provides the most crucial information about your application, such as app name, an icon displayed on a home screen and more. The full list of settings you can find in [official MDN web docs](https://developer.mozilla.org/en-US/docs/Web/Manifest)
+One of the ways to make your app more engaging is making it installable. Thanks to that users can have easy access to your site by simple tapping icon on home screen, what is way much faster than typing whole URL. To make it possible, you only need to create and/or fill manifest file. The manifest provides the most crucial information about your application, such as app name, an icon displayed on a home screen and more. The full list of settings you can find in [official MDN web docs](https://developer.mozilla.org/en-US/docs/Web/Manifest){:rel="nofollow"}{:target="_blank"}.
 
 Vue CLI 3.0 and PWA plugin would create default `manifest.json` file for you, but remember to customize it for your needs! Here's how the default `manifest.json` file looks like (file is located in `/public` folder):
 
@@ -113,7 +111,7 @@ Vue CLI 3.0 and PWA plugin would create default `manifest.json` file for you, bu
 PWA template app also will generate a set of icons which will be used to represent your app on mobile devices. Imo, it's a good reference of what icon sizes you should made to make your app looking good on a home screen.
 
 `manifest.json` it's not the only place where you can take a look when making your app installable. Few more tweaks you can make also from `vue.config.js` file, you can change there features like theme color, MS Tile color, or flag your app as not capable for Apple devices with iOS before 11.3 (you can read more about PWA support on Apple devices in `PWA on Apple devices` section).
-For the full list of tweaks you can make in `vue.config.js` file and example configuration take a look here: [link](https://www.npmjs.com/package/@vue/cli-plugin-pwa/v/3.0.0-rc.1)
+For the full list of tweaks you can make in `vue.config.js` file and example configuration take a look here: [link](https://www.npmjs.com/package/@vue/cli-plugin-pwa/v/3.0.0-rc.1){:rel="nofollow"}{:target="_blank"}
 
 ## Service Workers
 
@@ -131,7 +129,7 @@ To make your 'Service Workers' actually work, there are two prerequisites:
 
   Service Workers are a very powerful thing. It can fabricate and filter your data or hijack connections. That's why HTTPS is that important.
 
-If you want to read more about Service Worker, I would recommend you to take a deeper look [here](https://developers.google.com/web/fundamentals/primers/service-workers/).
+If you want to read more about Service Worker, I would recommend you to take a deeper look [here](https://developers.google.com/web/fundamentals/primers/service-workers/){:rel="nofollow"}{:target="_blank"}.
 
 ## What should we cache and how?
 
@@ -233,15 +231,15 @@ if (process.env.NODE_ENV === 'production') {
 
 NOTE: Remember to give the same name for Service worker file as it stands in `registerServiceWorker`. In this case `service-worker.js`.
 
-For more information about caching using Workbox take a look [here.](https://developers.google.com/web/tools/workbox/)
+For more information about caching using Workbox take a look [here.](https://developers.google.com/web/tools/workbox/){:rel="nofollow"}{:target="_blank"}
 
 ## Hardware access
 
 One of the biggest advantages of mobile native apps is the accessibility to the hardware features such as camera, geolocation, Bluetooth, etc., but nowadays even web application can have an access to the many native features of your mobile phone or laptop. Of course, a lot depends of your web browser, and native mobile apps still will have a little bit better access, but web apps have nothing to be ashamed of.
 
-If you are interested in [What Web Can Do Today](https://whatwebcando.today/) you should visit this [link.](https://whatwebcando.today/)
+If you are interested in [What Web Can Do Today](https://whatwebcando.today/){:rel="nofollow"}{:target="_blank"} you should visit this [link.](https://whatwebcando.today/){:rel="nofollow"}{:target="_blank"}
 
-I will skip part of how to implement [Camera](https://developers.google.com/web/updates/2016/12/imagecapture) or [Bluetooth](https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web) access in your Vue app, because that's not the case of this article and the web is full of better written resources on how to get into those native features.
+I will skip part of how to implement [Camera](https://developers.google.com/web/updates/2016/12/imagecapture){:rel="nofollow"}{:target="_blank"} or [Bluetooth](https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web){:rel="nofollow"}{:target="_blank"} access in your Vue app, because that's not the case of this article and the web is full of better written resources on how to get into those native features.
 
 ## PWA on Apple devices
 
@@ -253,9 +251,9 @@ The iOS 11.3 version was a ray of hope for PWA. This update comes with support f
 
 Even with that, developing an app for an Apple device needs a lot more focus from the developer than it is necessary for an Android app. There are still problems with a splash screen, home screen buttons, navigation, data persistence, etc.
 
-Some of these problems were hacked by Netguru developers, you can read more about that [here](https://www.netguru.co/codestories/few-tips-that-will-make-your-pwa-on-ios-feel-like-native).
+Some of these problems were hacked by Netguru developers, you can read more about that [here](https://www.netguru.co/codestories/few-tips-that-will-make-your-pwa-on-ios-feel-like-native){:rel="nofollow"}{:target="_blank"}.
 
-Generating a splash screen graphics will be a lot easier with Appscope [tool](https://appsco.pe/developer/splash-screens).
+Generating a splash screen graphics will be a lot easier with Appscope [tool](https://appsco.pe/developer/splash-screens){:rel="nofollow"}{:target="_blank"}.
 
 ## Lighthouse and PWA checklist
 
@@ -270,7 +268,7 @@ Lighthouse is a built-in Chrome plugin which allows you to audit your applicatio
 * Speed on 3G connection
 * and a lot more
 
-Lighthouse PWA audit will check only required part of baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist), but even there are things which you should check manually like: Site works cross-browser, Each page has a URL or Page transition don't feel like they block on the network connection.
+Lighthouse PWA audit will check only required part of baseline [PWA Checklist](https://developers.google.com/web/progressive-web-apps/checklist){:rel="nofollow"}{:target="_blank"}, but even there are things which you should check manually like: Site works cross-browser, Each page has a URL or Page transition don't feel like they block on the network connection.
 
 ## Conclusion
 
@@ -280,4 +278,4 @@ I hope the Apple will soon fully support PWA apps because that should help PWA i
 
 All what you have to worry about is preparing graphics and making decisions on what and how you want to cache, Vue PWA plugin will do the dirty work for you.
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
