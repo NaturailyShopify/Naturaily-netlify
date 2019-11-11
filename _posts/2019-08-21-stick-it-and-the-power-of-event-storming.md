@@ -1,5 +1,5 @@
 ---
-title: Stick-it! And the power of Event Storming
+title: Stick-it! And the Power of Event Storming
 description: >-
   Miscommunication between business people and engineers is a common issue.
   While we could start pointing fingers and blaming either side, the problem
@@ -9,9 +9,9 @@ layout: post
 date: '2019-08-27 07:24:52 +0200'
 category: Software development
 authors:
+  avatar: /assets/images/michal_kosyk_profile.png
   label: Michał Kosyk
   value: author-27
-  avatar: /assets/images/michal_kosyk_profile.png
 image: /assets/images/stick-it_-and-the-power-of-event-storming-1-.png
 text-preview: >
   Miscommunication between business people and engineers is a common issue.
@@ -128,4 +128,4 @@ Sources:
 * [Event storming](https://www.eventstorming.com/){:rel="nofollow"}{:target="_blank"}
 * [Oracle](https://www.oracle.com/technetwork/articles/javase/devinsight-1-139780.html#1){:rel="nofollow"}{:target="_blank"}
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
