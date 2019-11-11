@@ -1,5 +1,5 @@
 ---
-title: 'Do you really know public, private and protected in Ruby?'
+title: 'Do You Really Know Public, Private and Protected in Ruby?'
 description: >-
   Public, private and protected access - all of the programmers are familiar
   with that concept. Nothing special, we work with them on a daily basis.
@@ -10,10 +10,9 @@ twitter-card: summary_large_image
 date: '2019-03-18 09:30:43 +0200'
 category: Ruby on Rails development
 authors:
+  avatar: /assets/images/blazej.png
   label: Błażej Pichur
   value: author-4
-  avatar: /assets/images/blazej.png
-
 image: /assets/images/public-private-protected-ruby.jpg
 text-preview: >-
   Public, private and protected access - all of the programmers are familiar
@@ -34,7 +33,7 @@ You can check yourself with these five statements. Try to answer: TRUE or FALSE.
 4. Private methods of the defining class can be invoked by any instance of that class.
 5. Public access is the default one.
 
-We will back to the correct answers at the end of this article. For now let’s go deeper into some nuances of **public, private and protected access control**. To make it more practical I prepared sample code to play with. I recommend cloning this [repo](https://github.com/blazeP/ruby-access-control) to make continuing with the article easier. It’s just one file. If you would like to think of the solution first, then hold off running the code.
+We will back to the correct answers at the end of this article. For now let’s go deeper into some nuances of **public, private and protected access control**. To make it more practical I prepared sample code to play with. I recommend cloning this [repo](https://github.com/blazeP/ruby-access-control){:rel="nofollow"}{:target="_blank"} to make continuing with the article easier. It’s just one file. If you would like to think of the solution first, then hold off running the code.
 
 Here is the sample code:
 
@@ -238,7 +237,7 @@ Going back to our methods:
 
 *Conclusion*: This is the actual distinction between private and protected. **Private methods cannot be called with an explicit receiver and protected ones can**. Based on my experience, protected methods are rarely used among Ruby code lines, but they can be useful while comparing parameters, for example, when we want to restrict access to the attribute but still want to use it in the comparison method.
 
-I hope that the access control rules are much more clear now. I encourage you to get your hands dirty with the [code](https://github.com/blazeP/ruby-access-control) if you hadn’t done it already. Theory tends to get forgotten if it isn't proofed.   
+I hope that the access control rules are much more clear now. I encourage you to get your hands dirty with the [code](https://github.com/blazeP/ruby-access-control){:rel="nofollow"}{:target="_blank"} if you hadn’t done it already. Theory tends to get forgotten if it isn't proofed.   
 
 In the end, as I promised - answers to the statements:
 
@@ -250,6 +249,6 @@ In the end, as I promised - answers to the statements:
 
 ### Summary
 
-I’ve written this article because for me it was also surprising how **public, private and protected access actually work** in Ruby. The simplest things are the hardest to understand, or at least they can be. I really hope that this article was helpful for you. Or perhaps, you were aware of the access rules before reading it. Share your thoughts in the comments, I’m very curious of them. You can take a look at the  [docs](https://ruby-doc.com/docs/ProgrammingRuby/html/tut_classes.html) too. You will find all these details there :)
+I’ve written this article because for me it was also surprising how **public, private and protected access actually work** in Ruby. The simplest things are the hardest to understand, or at least they can be. I really hope that this article was helpful for you. Or perhaps, you were aware of the access rules before reading it. Share your thoughts in the comments, I’m very curious of them. You can take a look at the  [docs](https://ruby-doc.com/docs/ProgrammingRuby/html/tut_classes.html){:rel="nofollow"}{:target="_blank"} too. You will find all these details there :)
 
-[![Check out open possitions](/assets/images/join-the-team.png)](https://naturaily.com/careers){:target="_blank"}
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
