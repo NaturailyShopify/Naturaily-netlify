@@ -80,7 +80,7 @@ In simple terms, the application is a communication layer that processes data to
 
 Have a look at how it works.
 
-![Communication](/assets/images/diagram_3.png)
+![Communication](/assets/images/diagram_3_new.png)
 
 Data incompatibility example:
 
