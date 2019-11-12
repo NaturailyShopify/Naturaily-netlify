@@ -110,7 +110,11 @@ Example resources that the Rails application may integrate are:
 * Customers - their data and participation in shop loyalty programs
 * Gift Cards - synchronisation of using both in online and local store
 
+<br>
+
 |**If you want to know more about integrations between the existing external systems and e-stores on Shopify, read** [**Naturaily & Woolman joint case study about Shopify customization**](https://naturaily.com/blog/shopify-customization-joint-case-study){:target="_blank"}**.**|
+
+<br>
 
 ### Separate application linking delivery providers to your store
 
