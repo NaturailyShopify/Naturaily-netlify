@@ -99,7 +99,7 @@ So, let’s look into some of the apps and custom Shopify integrations you could
 
 To integrate the ERP/CRM or any other system with a Shopify Store, a [middleware](https://en.wikipedia.org/wiki/Middleware){:rel="nofollow"}{:target="_blank"} is a solution. The responsibility of this middleware is to get the data from one system, transform the data to a proper format and send it to the other system. The integration process is automated. Most often, these kinds of middleware are implemented using Ruby on Rails.
 
-![null](/assets/images/shopify-store-integration-with-ruby-on-rails-application-.png)
+![Communication](/assets/images/diagram_1.png)
 
 Example resources that the Rails application may integrate are:
 
