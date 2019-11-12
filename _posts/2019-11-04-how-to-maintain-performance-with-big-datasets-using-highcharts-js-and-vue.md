@@ -312,7 +312,7 @@ chartOptions() {
 * series: this is where we put the processed array of highcharts objects
 * xAxis: it’s used for informing chart, what is the type of series, specifying title, label format, and lots of other things.
 
-The list of values that can be set for any of those attributes can be found [here](https://api.highcharts.com/highcharts/){:rel="nofollow"}{:target="_blank"}  
+The list of values that can be set for any of those attributes can be found [here](https://api.highcharts.com/highcharts/){:rel="nofollow"}{:target="_blank"}.  
 
 And, honestly, this is all. **By moving processing logic to the store, we won’t cause any unnecessary computations inside of the component, which will improve speed immensely.** In `ChartFiltrations.vue`, we can add some buttons to add additional filtrations to the chart. For example, we can add buttons to specify if we want to see only one type of attribute (remember that we need to still do the filtrations inside the store). Additionally, as in this example, we have both current and voltage. As you should know, they have different units, so to make our chart more lucid, we can use multiple y axises. It can be done simply by adding a **yAxis** object:
 
