@@ -337,12 +337,13 @@ to the **chartOptions** object, specifying to which y axis the dataset belongs w
 ```javascript
 const generateSeries = data => {
   return Object.keys(data).map(attribute => {
-return {
-     		type: "line",
+     return {
+     	type: "line",
       	/* other attributes */
       	yAxis: attribute === "current" ? 0 : 1
     	};
   });
+
 ```
 
 Let’s see how it looks in action:
