@@ -349,7 +349,7 @@ Let’s see how it looks in action:
 
 ![Highcharts](/assets/images/highcharts.gif)
 
-As you can see, we had two series of 100k points and they are working smoothly. In our project, sometimes we have 1 mln points to show at once, and performance is still superb. So, we can say with certainty that Highcharts fulfills its role, for sure.
+As you can see, we had two series of 100k points, and they are working smoothly. In our project, sometimes we have 1 mln points to show at once, and performance is still superb. So, we can say with certainty that Highcharts fulfills its role, for sure.
 
 In this article, I have hopefully shown you that lots of data does not come with a need to make performance cuts. This implementation is only one of numerous approaches to this particular topic. If you have any comments or questions, I will be happy to answer them through the comments.  
 
