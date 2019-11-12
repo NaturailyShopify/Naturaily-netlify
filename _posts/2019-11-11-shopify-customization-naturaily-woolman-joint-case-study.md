@@ -90,7 +90,7 @@ It sounds simple, but in reality, it is a difficult process, because there is a 
 
 **The next integration has been implemented to enable customer identification with the use of [suomi.fi](https://www.suomi.fi/frontpage){:rel="nofollow"}{:target="_blank"} system.**
 
-\|Suomi.fi is an e-identification system that enables the citizens of Finland and the European Union to be recognized in a safe way by using various identification media, such as bank-id and mobile certificates.|
+|Suomi.fi is an e-identification system that enables the citizens of Finland and the European Union to be recognized in a safe way by using various identification media, such as bank-id and mobile certificates.|
 
 The integration allows e-store customers to pass authentication very quickly. The whole process is time-saving, 100% safe and secured. To make it possible, we have used **SSO (single sign-on)** - a property of access control for multiple related, yet independent, software systems. With this property, an e-shopper logs in and logs out with a single click.
 
@@ -111,7 +111,7 @@ and many more.
 
 <br>
 
-\|**If you want to know more about the most common problems of growing Shopify stores and how to solve them with the right native or custom integrations -** [**read this article**](https://naturaily.com/blog/shopify-stores-problems){:target="_blank"} by Mateusz.| 
+|**If you want to know more about the most common problems of growing Shopify stores and how to solve them with the right native or custom integrations -** [**read this article**](https://naturaily.com/blog/shopify-stores-problems){:target="_blank"} by Mateusz.| 
 
 <br>
 
