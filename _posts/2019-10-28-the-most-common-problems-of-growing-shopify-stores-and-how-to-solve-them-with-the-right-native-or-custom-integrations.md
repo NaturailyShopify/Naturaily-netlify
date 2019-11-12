@@ -110,6 +110,8 @@ Example resources that the Rails application may integrate are:
 * Customers - their data and participation in shop loyalty programs
 * Gift Cards - synchronisation of using both in online and local store
 
+|**If you want to know more about integrations between the existing external systems and e-stores on Shopify, read** [**Naturaily & Woolman joint case study about Shopify customization**](https://naturaily.com/blog/shopify-customization-joint-case-study){:target="_blank"}**.**|
+
 ### Separate application linking delivery providers to your store
 
 Even though a connection with the delivery provider can be established using a dedicated application, such as the [DHL app](https://apps.shopify.com/dhl-shipping-incl-preferred-delivery-services-at-home-locations){:rel="nofollow"}{:target="_blank"}, this will not let you manage multiple delivery providers. The partnership with multiple delivery providers may be easier to manage, as well as helping to simplify and automate your processes and handle deliveries easier. It may also be faster for your customers. However, solution may be to design a separate app letting you connect to each of the provider in one place.
