@@ -209,11 +209,6 @@
 /blog/post/7-aspects-of-our-lives-revolutionized-by-fin-tech                                                              /blog/life-revolutionized-by-fin-tech
 /blog/post/importing-data-to-database-in-rails-50-times-faster-than-normal                                                /blog/ruby-on-rails-fast-data-import
 /blog/post/6-books-every-beginner-developer-needs-to-read                                                                 /blog/books-for-beginner-developers
-/blog/post/kpz-ledzenie-goci-targw-i-wystaw-za-pomoc-beaconw-poznaj-projekt                                               /blog/kpz-projekt-sledzenie-uczestnikow-beacon
-/blog/post/kpz-aplikacja-internetowa-wspomagajca-premiowanie-pracownikw-poznaj-projekt                                    /blog/kpz-projekt-premiowanie-pracownikow
-/blog/post/kpz-pomiar-parametrw-rodowiskowych-w-inteligentnym-domu-poznaj-projekt                                         /blog/kpz-projekt-inteligentny-dom
-/blog/post/kpz-system-wspomagajcy-prowadzenie-budetu-domowego-poznaj-projekt                                              /blog/kpz-projekt-wspomaganie-budzetu-domowego
-/blog/post/poznaj-projekty-na-kpz-realizowane-pod-bander-naturaily                                                        /blog/projekty-kpz-naturaily
 /blog/post/7-slack-apps-that-will-improve-communication-in-your-team                                                      /blog/slack-apps-improving-team-communication
 /blog/post/from-1b-valuation-to-rescue-plan-what-have-happened-to-soundcloud-and-why                                      /blog/what-happened-to-soundcloud-and-why
 /blog/post/using-google-sheets-as-a-dashboard-for-breeze-time-tracker                                                     /blog/google-sheets-breeze-time-tracker
@@ -227,6 +222,19 @@
 /blog/post/what-is-design-sprint-and-why-does-your-company-need-it                                                        /blog/what-is-design-sprint
 /blog/post/ruby-on-rails---how-to-create-perfect-enum-in-5-steps                                                          /blog/ruby-on-rails-enum
 /blog/tools-components-vuejs-2019                                                                                         /blog/vuejs-libraries-2019
+
+# Deleted posts redirects
+
+/blog/post/kpz-ledzenie-goci-targw-i-wystaw-za-pomoc-beaconw-poznaj-projekt                                               /blog
+/blog/kpz-projekt-sledzenie-uczestnikow-beacon                                                                            /blog
+/blog/post/kpz-aplikacja-internetowa-wspomagajca-premiowanie-pracownikw-poznaj-projekt                                    /blog
+/blog/kpz-projekt-premiowanie-pracownikow                                                                                 /blog
+/blog/post/kpz-pomiar-parametrw-rodowiskowych-w-inteligentnym-domu-poznaj-projekt                                         /blog
+/blog/kpz-projekt-inteligentny-dom                                                                                        /blog
+/blog/post/kpz-system-wspomagajcy-prowadzenie-budetu-domowego-poznaj-projekt                                              /blog
+/blog/kpz-projekt-wspomaganie-budzetu-domowego                                                                            /blog
+/blog/post/poznaj-projekty-na-kpz-realizowane-pod-bander-naturaily                                                        /blog
+/blog/projekty-kpz-naturaily                                                                                              /blog
 
 # Pagination redirects
 
