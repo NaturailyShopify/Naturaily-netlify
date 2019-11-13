@@ -68,7 +68,7 @@ As we need to have some data to show, and you probably don’t have any endpoint
 * array of {x,y} objects
 * array of values (where you specify the start of each series, as well as intervals)
 
-This article covers how to make use of the first way, but you can always read the official [Highcharts documentation](https://www.highcharts.com/docs/index){:rel="nofollow"}{:target="_blank"} to see other possibilities. To get the data, if you don’t want to generate it yourself, you can use my `test.json` (it’s in a [public folder](https://github.com/Dziejo93/highcharts-demo/blob/master/public/test.json){:rel="nofollow"}{:target="_blank"} on the repo).
+This article covers how to make use of the first way, but you can always read the official [Highcharts documentation](https://www.highcharts.com/docs/index){:rel="nofollow"}{:target="_blank"} to see other possibilities. To get the data, if you don’t want to generate it yourself, you can use my `test.json` (it’s in a [public folder](https://gitlab.naturaily.eu/andrzej.gatkowski/highcharts-demo/blob/master/public/test.json){:rel="nofollow"}{:target="_blank"} on the repo).
 
 ### Let’s make use of it:
 
@@ -352,7 +352,7 @@ As you can see, we had two series of 100k points, and they are working smoothly.
 
 In this article, I have hopefully shown you that lots of data does not come with a need to make performance cuts. This implementation is only one of numerous approaches to this particular topic. If you have any comments or questions, I will be happy to answer them through the comments.  
 
-You can find a working example [here](https://github.com/Dziejo93/highcharts-demo){:rel="nofollow"}{:target="_blank"}.
+You can find a working example [here](https://gitlab.naturaily.eu/andrzej.gatkowski/highcharts-demo/tree/master){:rel="nofollow"}{:target="_blank"}.
 
 <br>
 
