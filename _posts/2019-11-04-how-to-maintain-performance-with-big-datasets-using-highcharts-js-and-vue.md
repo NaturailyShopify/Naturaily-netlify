@@ -24,7 +24,7 @@ tags:
   - Vue
   - Highcharts.js
 ---
-**Sometimes you just need to show big datasets in your project. However, the library that you’ve used so far, as soon as you start to add data, becomes clunky and slow. You start to optimize your code, make cuts, or simplifications in datasets… but it doesn't need to be this way! In this article I’m going to show you that it does not have to be that way.**
+**Sometimes you just need to show big datasets in your project. However, the library that you’ve used so far, as soon as you start to add data, becomes clunky and slow. You start to optimize your code, make cuts, or simplifications in datasets… In this article I’m going to show you that it does not have to be that way.**
 
 Used by “[80% of the largest companies in the world](https://www.highcharts.com/blog/products/highcharts/){:rel="nofollow"}{:target="_blank"}”, Highcharts is a powerful tool that allows you to plot massive series of data in a dynamic manner. As it’s free for non-commercial use, you can easily check for yourself if it’s going to suit your tastes. This project will also use highcharts-vue, which is a wrapper for Highcharts.
 
