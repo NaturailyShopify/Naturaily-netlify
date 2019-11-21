@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: HTML/CSS Developer
 description: 'There is still one piece missing! We believe it''s you, Naturaily!'
 layout: career-offer
@@ -122,3 +122,4 @@ salaries:
       contract: + VAT (B2B)
       sum: '5000 - 7200 PLN net '
 ---
+
