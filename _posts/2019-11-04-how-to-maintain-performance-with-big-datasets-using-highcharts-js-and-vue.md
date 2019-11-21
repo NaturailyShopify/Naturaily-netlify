@@ -17,8 +17,8 @@ text-preview: >-
   Sometimes you just need to show big datasets in your project. However, the
   library that you’ve used so far, as soon as you start to add data, becomes
   clunky and slow. You start to optimize your code, make cuts, or
-  simplifications in datasets… but it doesn't need to be this way! In this
-  article, I’m going to show you that it does not have to be that way.
+  simplifications in datasets… In this article I’m going to show you that it
+  does not have to be that way.
 tags:
   - JavaScript
   - Vue
