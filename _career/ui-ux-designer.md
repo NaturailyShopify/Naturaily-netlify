@@ -26,8 +26,8 @@ about-right: >-
 type: UX/UI
 salary-preview:
   - salary:
-      contract: soon
-      sum: Opening
+      contract: Apply now
+      sum: Opening soon
 what-we-expect:
   - expectation:
       contents: >-
@@ -135,7 +135,7 @@ benefits:
       benefit-title: You will gain valuable experience
 salaries:
   - salary:
-      contract: soon
-      sum: Opening
+      contract: Apply now
+      sum: Opening soon
 ---
 
