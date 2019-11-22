@@ -26,8 +26,8 @@ about-right: >-
 type: UX/UI
 salary-preview:
   - salary:
-      contract: soon
-      sum: Opening
+      contract: Apply now
+      sum: Opening soon
 what-we-expect:
   - expectation:
       contents: >-
@@ -53,7 +53,9 @@ what-you-expect:
         the chance to cooperate with our development teams in international
         projects
   - expectation:
-      contents: 'the possibility to work with clients from around the world '
+      contents: >-
+        the possibility to work with clients from around the world representing
+        mobile & web development software
   - expectation:
       contents: >-
         to be a part of a team that strives for the best solutions for each
@@ -133,7 +135,7 @@ benefits:
       benefit-title: You will gain valuable experience
 salaries:
   - salary:
-      contract: soon
-      sum: Opening
+      contract: Apply now
+      sum: Opening soon
 ---
 
