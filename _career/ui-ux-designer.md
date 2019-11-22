@@ -53,7 +53,9 @@ what-you-expect:
         the chance to cooperate with our development teams in international
         projects
   - expectation:
-      contents: 'the possibility to work with clients from around the world '
+      contents: >-
+        the possibility to work with clients from around the world representing
+        mobile & web development software
   - expectation:
       contents: >-
         to be a part of a team that strives for the best solutions for each
