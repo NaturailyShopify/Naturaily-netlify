@@ -60,19 +60,40 @@
     }
 
     .icon-quote, cite {
-      opacity: 0.1;
       position: absolute;
     }
 
     .icon-quote {
+      opacity: 0.08;
       top: 0;
       left: 0;
     }
 
     cite {
+      opacity: 0.4;
       font-size: 0.5em;
       bottom: -10px;
-      right: 0;
+      left: 45px;
+    }
+  }
+
+  &_presentation {
+    margin-left: 160px;
+    display: flex;
+
+    .image {
+      flex: 0 1 70%;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .description {
+      padding: 40px 60px;
+      border-radius: 0 8px 8px 0;
+      border: 1px solid #eee;
+      border-left-style: none;
     }
   }
 
@@ -100,6 +121,18 @@
 
   &.extra-narrow {
     max-width: 1070px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .section {
+    &_presentation {
+      margin-left: 0;
+      align-items: center;
+      .description {
+        border: none;
+      }
+    }
   }
 }
 
