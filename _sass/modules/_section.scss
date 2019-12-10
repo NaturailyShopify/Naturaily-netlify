@@ -58,6 +58,22 @@
     a {
       text-decoration: underline;
     }
+
+    .icon-quote, cite {
+      opacity: 0.1;
+      position: absolute;
+    }
+
+    .icon-quote {
+      top: 0;
+      left: 0;
+    }
+
+    cite {
+      font-size: 0.5em;
+      bottom: -10px;
+      right: 0;
+    }
   }
 
   &--no-padding {
