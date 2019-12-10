@@ -32,13 +32,18 @@
     }
   }
 
-  .section_heading {
+  .section_intro {
     max-width: calc(100% - 520px);
 
     .paragraph {
       max-width: 100%;
-      padding-top: 30px;
+      padding: 25px 45px;
     }
+  }
+
+  .section_heading {
+    position: relative;
+    z-index: 3;
   }
 
   .image {

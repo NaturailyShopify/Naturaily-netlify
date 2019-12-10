@@ -10,11 +10,20 @@
     }
 
     h3 {
-      padding-bottom: 20px;
+      padding: 20px 0;
     }
   }
 
   .section_heading {
+    position: relative;
+    z-index: 3;
+
+    cite {
+      right: 80px;
+    }
+  }
+
+  .section_intro {
     display: flex;
   }
 
@@ -29,12 +38,12 @@
   .why-us {
     padding-top: 100px;
 
-    .section_heading {
+    .section_intro {
       flex-direction: column;
       padding-right: 25px;
     }
 
-    .section_content {
+    .section_intro {
       padding-right: 25px;
     }
 
