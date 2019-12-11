@@ -91,6 +91,7 @@
 
     &_item {
       padding-bottom: 20px;
+      flex-direction: column;
     }
 
     .section_heading {
@@ -116,7 +117,7 @@
       font-size: 18px;
       line-height: 25px;
       min-width: 110px;
-      padding: 0;
+      padding: 10px 0;
     }
   }
 }
