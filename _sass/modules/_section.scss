@@ -162,5 +162,18 @@
     &.career-team {
       flex-direction: column;
     }
+
+    &_presentation {
+      flex-direction: column;
+      align-items: center;
+
+      .image {
+        width: 50vw;
+      }
+
+      .description {
+        padding: 10px 0;
+      }
+    }
   }
 }
