@@ -44,7 +44,7 @@ However, for medium and large stores with higher demand when it comes to design 
 
 With the **limitations of liquid** (which requires some degree of specialized knowledge) and Shopify automatically adding particular elements to the theme, **frontend design can become quite a pain** with development hours not resulting in actual monetary effects.
 
-![Shopify’s predefined checkout at Gymshark](/assets/images/gymshark-checkout.png "Shopify’s predefined checkout at Gymshark")
+![Shopify’s predefined checkout at Gymshark](/assets/images/gymshark-checkout.png "Shopify’s predefined checkout at Gymshark (Source: gymshark.com)")
 
 What’s more, Shopify’s checkout customization is nearly impossible, which can significantly impact your checkout conversion rates.
 
@@ -88,7 +88,7 @@ Implementing Google Structured Data snippets becomes easier, which will help you
 
 With Shopify checkout being significantly limited to the built-in admin modification (according to Shopify support, this is related to security reasons), a storefront integration will allow you to build a **completely custom checkout experience**.
 
-![Custom Shopify checkout based on Zadig & Voltaire](/assets/images/zadig-voltaire-checkout.png "Custom Shopify checkout based on Zadig & Voltaire")
+![Custom Shopify checkout based on Zadig & Voltaire](/assets/images/zadig-voltaire-checkout.png "Custom Shopify checkout based on Zadig & Voltaire (Source: zadig-et-voltaire.com)")
 
 The average abandonment rate is close to 70%, which makes the checkout experience one of the most important determinants of a customer’s purchasing decision. With storefront and custom checkout implementation, you should be able to reduce the abandonment rate to about 50%.
 
@@ -96,7 +96,7 @@ The average abandonment rate is close to 70%, which makes the checkout experienc
 
 With storefront/PWA implementation, you will support mobile and offline experience among your customers. The storefront will **automatically cache the information about your website** for offline usage. It will also let you download a mobile app to your iPhone/Android desktop.
 
-![PWA / offline mobile application for Kubota](/assets/images/pwa-applications-for-kubota.png "PWA / offline mobile application for Kubota")
+![PWA / offline mobile application for Kubota](/assets/images/pwa-applications-for-kubota.png "PWA / offline mobile application for Kubota (Source: divante.com)")
 
 With a custom mobile app [costs averaging $170k](https://mlsdev.com/blog/app-development-cost), this amount of saving can have a tremendous impact on your company’s budget.
 
