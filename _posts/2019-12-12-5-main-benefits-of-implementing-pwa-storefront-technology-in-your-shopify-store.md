@@ -100,6 +100,8 @@ With storefront/PWA implementation, you will support mobile and offline experien
 
 With a custom mobile app [costs averaging $170k](https://mlsdev.com/blog/app-development-cost), this amount of saving can have a tremendous impact on your company’s budget.
 
+Finally, mobile application will allow you to **send targeted push notifications**, helping you grow your store's conversion rates.
+
 <h3>Scalable technology</h3>
 
 Storefront technology is constantly developing with new features and extensions on the pipeline. The sooner you introduce storefront, the better, as it will allow your development team to have **more flexibility when making design and technological choices**.
