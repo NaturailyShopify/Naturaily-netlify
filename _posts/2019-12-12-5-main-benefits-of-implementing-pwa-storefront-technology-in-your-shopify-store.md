@@ -26,13 +26,13 @@ related_posts:
     The Most Common Problems of Growing Shopify Stores and How to Solve Them
     with the Right Native or Custom Integrations
 ---
-Shopify is now the 3rd largest e-commerce platform in the world with a [market share of 18%](https://www.cloudways.com/blog/top-ecommerce-platforms/) and nearly 500k websites using Shopify, as well as 5,300 premium stores running on Shopify Plus. 
+Shopify is now the 3rd largest e-commerce platform in the world with a <a href="https://www.cloudways.com/blog/top-ecommerce-platforms/" target="_blank" >market share of 18%</a> and nearly 500k websites using Shopify, as well as 5,300 premium stores running on Shopify Plus. 
 
 It has become a leading tool used by online entrepreneurs to launch their businesses, sell stuff online or support their offline, brick and mortar stores with an online channel.
 
 Consequently, it has never been easier to launch an e-commerce store, however, with e-commerce platforms’ boundaries, you will face a set of challenges once your store grows to the mid or large scale.
 
-What are the most common limitations of the Shopify platform, and how do they get in the way of [growing Shopify stores](https://naturaily.com/blog/shopify-stores-problems)?
+What are the most common limitations of the Shopify platform, and how do they get in the way of <a href="https://www.cloudways.com/blog/top-ecommerce-platforms/" target="_blank" >growing Shopify stores</a>?
 
 <h2>Shopify platform limitations</h2>
 
@@ -54,7 +54,7 @@ With the increasing need for mobile access to online e-commerce experiences, all
 
 Nowadays, customers want **fully-fledged mobile and offline experience**, supported with a mobile application.
 
-Shopify, apart from [simplified PWA marketplace apps](https://apps.shopify.com/pwa?surface_detail=PWA&surface_inter_position=1&surface_intra_position=3&surface_type=search), will not allow you to create a mobile application for your store.
+Shopify, apart from <a href="https://apps.shopify.com/pwa?surface_detail=PWA&surface_inter_position=1&surface_intra_position=3&surface_type=search" target="_blank" >simplified PWA marketplace apps</a>, will not allow you to create a mobile application for your store.
 
 <h3>Page speed optimization</h3>
 
@@ -108,7 +108,7 @@ It might not make too much sense to introduce storefront when you’re only star
 
 <h2>Storefront implementation becoming a standard for global e-commerce stores</h2>
 
-Today’s technology requires being quick and reactive to market changes. With the [global e-commerce market growing 20% every year](https://www.nielsen.com/wp-content/uploads/sites/3/2019/04/fmcg-eCommerce-report.pdf), according to Nielsen, and e-commerce businesses increasingly investing in modernizing the technology, keeping the quality of user experiences high requires constant investments into both the frontend and backend infrastructure.
+Today’s technology requires being quick and reactive to market changes. With the <a href="https://www.nielsen.com/wp-content/uploads/sites/3/2019/04/fmcg-eCommerce-report.pdf" target="_blank" >global e-commerce market growing 20% every year</a>, according to Nielsen, and e-commerce businesses increasingly investing in modernizing the technology, keeping the quality of user experiences high requires constant investments into both the frontend and backend infrastructure.
 
 Storefront is the solution designed to help e-commerce businesses succeed in the long run. It’s already used by some of the top e-commerce brands, such as Alibaba or Flipkart.
 
