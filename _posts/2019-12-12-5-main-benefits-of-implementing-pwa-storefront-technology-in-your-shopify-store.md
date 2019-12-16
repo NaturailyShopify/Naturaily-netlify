@@ -47,6 +47,8 @@ With the **limitations of liquid** (which requires some degree of specialized kn
 
 ![Shopify’s predefined checkout at Gymshark](/assets/images/gymshark-checkout.png "Shopify’s predefined checkout at Gymshark (Source: gymshark.com)")
 
+_Checkout at Gymshark.co Shopify store (Source: gymshark.co)._
+
 What’s more, Shopify’s checkout customization is nearly impossible, which can significantly impact your checkout conversion rates.
 
 <h3>Mobile application and offline access</h3>
@@ -65,6 +67,8 @@ Significant code alterations and image rendering are both essential steps on the
 
 ![Product page page speed for MVM Watches](/assets/images/page-speed-at-mvm-watches.png "Product page page speed for MVM Watches")
 
+_Page speed at MVMT Watches Shopify store's product page (Source: mvmtwatches.com)._
+
 Consequently, using Shopify as the standalone platform can limit both desktop and mobile page speeds.
 
 <h2>5 main benefits of using storefront</h2>
@@ -79,6 +83,8 @@ With storefront, you get unlimited capabilities when it comes to code minificati
 
 ![Storefront technology structure (source: Vue Storefront)](/assets/images/storefront-technology-structure.png "Storefront technology structure (source: Vue Storefront)")
 
+_Example Storefront integration structure (Source: vuestorefront.io)._
+
 <h3>Growth in SEO positioning</h3>
 
 With storefront, your store gets additional potential when it comes to search engine positioning. With improved page speed, some of these stores see the number of keywords ranked in the **top 3 Google search results grow by even 94%**.
@@ -91,6 +97,8 @@ With Shopify checkout being significantly limited to the built-in admin modifica
 
 ![Custom Shopify checkout based on Zadig & Voltaire](/assets/images/zadig-voltaire-checkout.png "Custom Shopify checkout based on Zadig & Voltaire (Source: zadig-et-voltaire.com)")
 
+_Custom checkout created using storefront technology at Zadig&Voltaire online store (Source: zadig-et-voltaire.com)._
+
 The average abandonment rate is close to 70%, which makes the checkout experience one of the most important determinants of a customer’s purchasing decision. With storefront and custom checkout implementation, you should be able to reduce the abandonment rate to about 50%.
 
 <h3>Offline & mobile access</h3>
@@ -98,6 +106,8 @@ The average abandonment rate is close to 70%, which makes the checkout experienc
 With storefront/PWA implementation, you will support mobile and offline experience among your customers. The storefront will **automatically cache the information about your website** for offline usage. It will also let you download a mobile app to your iPhone/Android desktop.
 
 ![PWA / offline mobile application for Kubota](/assets/images/pwa-applications-for-kubota.png "PWA / offline mobile application for Kubota (Source: divante.com)")
+
+_An example of PWA application created for Kubota (Source: divante.co)._
 
 With a custom mobile app [costs averaging $170k](https://mlsdev.com/blog/app-development-cost), this amount of saving can have a tremendous impact on your company’s budget.
 
