@@ -8,13 +8,14 @@ description: >-
   faster, and more responsive form.
 slug: shopify-storefront
 layout: post
-date: '2019-12-12 11:14:59 +0200'
+date: '2019-12-16 11:14:59 +0200'
 category: Shopify development
 authors:
   avatar: /assets/images/mateusz-pliszka.jpg
   label: Mateusz Pliszka
   value: author-28
-image: /assets/images/11_boredom.gif
+image: >-
+  /assets/images/5-main-benefits-of-implementing-pwa-storefront-technology-at-your-shopify-store-2.jpg
 text-preview: >-
   An online storefront is a frontend solution that can be connected to your
   Shopify store’s backend, letting you display the content in a smoother,
