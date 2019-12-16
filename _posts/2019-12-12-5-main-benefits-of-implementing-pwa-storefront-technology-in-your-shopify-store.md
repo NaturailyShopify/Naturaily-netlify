@@ -33,7 +33,7 @@ It has become a leading tool used by online entrepreneurs to launch their busine
 
 Consequently, it has never been easier to launch an e-commerce store, however, with e-commerce platforms’ boundaries, you will face a set of challenges once your store grows to the mid or large scale.
 
-What are the most common limitations of the Shopify platform, and how do they get in the way of <a href="https://www.cloudways.com/blog/top-ecommerce-platforms/" target="_blank" >growing Shopify stores</a>?
+What are the most common limitations of the Shopify platform, and how do they get in the way of <a href="https://naturaily.com/blog/shopify-stores-problems" target="_blank" >growing Shopify stores</a>?
 
 <h2>Shopify platform limitations</h2>
 
