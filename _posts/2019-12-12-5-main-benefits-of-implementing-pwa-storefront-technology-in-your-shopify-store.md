@@ -20,7 +20,7 @@ text-preview: >-
   Shopify store’s backend, letting you display the content in a smoother,
   faster, and more responsive form.
 tags:
-  - shopify development
+  - Shopify development
 related_posts:
   - >-
     The Most Common Problems of Growing Shopify Stores and How to Solve Them
@@ -117,3 +117,5 @@ Storefront is the solution designed to help e-commerce businesses succeed in the
 With its open-source architecture, it is flexible enough and gets updated regularly to match the increasing consumers’ needs. 
 
 So, once you grow your store to the medium-size level, think about implementing it at your store to make sure you keep your business growing at a sustainable rate, staying up to date with new technology, and ensuring the best user experience for your customers. If you do, they’ll likely show their appreciation by converting into actual customers.
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
