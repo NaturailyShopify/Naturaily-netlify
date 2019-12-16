@@ -66,7 +66,7 @@ The application was originally created by Woolman's team. Our task was to:
 * add new shipping companies,
 * rewrite the user interface using `React`
 
-The NSA has been used by many online retailers, including Suomalainen - the largest bookstore chain in Finland. Founded in 1912, that latter sells **160,000 products** online and has **over a million clients**, as well as  several million gift cards. Within two months from the launch of integrations, the store handled over **7,000 orders**. Everything worked seamlessly.
+The NSA has been used by many online retailers, including the largest bookstore chain in Finland. Founded in 1912, that latter sells **160,000 products** online and has **over a million clients**, as well as  several million gift cards. Within two months from the launch of integrations, the store handled over **7,000 orders**. Everything worked seamlessly.
 
 **The second custom Shopify application is responsible for the integration of data, such as customer data, stock balance, order status, product data, product prices, gift cards, asset updates, etc.**
 
