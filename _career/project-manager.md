@@ -26,7 +26,7 @@ about-right: >-
 type: Operations
 salary-preview:
   - salary:
-      contract: B2B
+      contract: (B2B)
       sum: 7000 - 10800 PLN net + VAT
 what-we-expect:
   - expectation:
@@ -156,7 +156,7 @@ benefits:
       benefit-title: You grow with the company
 salaries:
   - salary:
-      contract: B2B
+      contract: (B2B)
       sum: 7000 - 10800 PLN net + VAT
 ---
 
