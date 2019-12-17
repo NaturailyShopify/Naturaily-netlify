@@ -24,7 +24,7 @@ about-right: >-
 type: Development
 salary-preview:
   - salary:
-      contract: B2B
+      contract: (B2B)
       sum: 6000 - 12 000 PLN net + VAT
 what-we-expect:
   - expectation:
@@ -134,7 +134,7 @@ benefits:
       benefit-title: You will gain valuable experience
 salaries:
   - salary:
-      contract: B2B
+      contract: (B2B)
       sum: 6000 - 12 000 PLN net + VAT
 ---
 
