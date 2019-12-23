@@ -102,6 +102,7 @@
 
     &_testimony {
       flex-direction: column;
+      height: auto;
     }
 
     &_testimony-contents {
@@ -109,6 +110,7 @@
     }
 
     .image {
+      height: 250px;
       z-index: 1;
       align-self: center;
       margin-bottom: 30px;
