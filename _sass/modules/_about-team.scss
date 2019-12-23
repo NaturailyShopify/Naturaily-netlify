@@ -1,4 +1,13 @@
 .team {
+  .section_heading {
+    position: relative;
+    z-index: 3;
+    padding-right: 170px;
+    cite {
+      right: 180px;
+    }
+  }
+
   &_photos {
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +21,7 @@
 
   .paragraph {
     max-width: 650px;
+    padding: 25px;
   }
 
   .geometric-figure {
@@ -36,6 +46,12 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .team_photos .mobi-none {
+    display: none;
+  }
+}
+
 @media (max-width: 810px) {
   .team {
 
@@ -54,9 +70,15 @@
     }
 
     .section_heading {
-      .paragraph {
-        font-size: 16px;
+      padding-right: 25px;
+
+      cite {
+        right: 50px;
       }
+    }
+
+    .paragraph {
+      font-size: 16px;
     }
 
     .geometric-figure {
@@ -77,13 +99,6 @@
           height: 228px;
         }
       }
-    }
-
-    h2 {
-      font-size: 28px;
-      line-height: 39px;
-      padding-bottom: 20px;
-      padding-right: 0;
     }
   }
 }

@@ -61,6 +61,12 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .page-navigation {
+    justify-content: space-around;
+  }
+}
+
 @media (max-width: 810px) {
   .page-navigation {
     flex-direction: column;

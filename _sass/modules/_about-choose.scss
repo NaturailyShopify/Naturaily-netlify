@@ -8,6 +8,11 @@
   &_item {
     display: flex;
     padding-bottom: 30px;
+    h3 {
+      flex: 1 0 30%;
+      padding-right: 40px;
+      min-width: 125px;
+    }
   }
   .section_name {
     font-size: 14px;
@@ -67,11 +72,6 @@
     font-size: 14px;
   }
 
-  h3 {
-    padding-right: 100px;
-    min-width: 125px;
-  }
-
   .floating-dots {
     transform: scaleX(-1) rotateZ(-14deg);
     right: 120px;
@@ -91,6 +91,7 @@
 
     &_item {
       padding-bottom: 20px;
+      flex-direction: column;
     }
 
     .section_heading {
@@ -116,7 +117,7 @@
       font-size: 18px;
       line-height: 25px;
       min-width: 110px;
-      padding: 0;
+      padding: 10px 0;
     }
   }
 }

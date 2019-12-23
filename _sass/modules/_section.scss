@@ -58,6 +58,43 @@
     a {
       text-decoration: underline;
     }
+
+    .icon-quote, cite {
+      position: absolute;
+    }
+
+    .icon-quote {
+      opacity: 0.08;
+      top: 0;
+      left: 0;
+    }
+
+    cite {
+      opacity: 0.4;
+      font-size: 0.5em;
+      bottom: -10px;
+      left: 45px;
+    }
+  }
+
+  &_presentation {
+    margin-left: 160px;
+    display: flex;
+
+    .image {
+      flex: 0 1 70%;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .description {
+      padding: 40px 60px;
+      border-radius: 0 8px 8px 0;
+      border: 1px solid #eee;
+      border-left-style: none;
+    }
   }
 
   &--no-padding {
@@ -87,6 +124,19 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .section {
+    &_presentation {
+      margin-left: 0;
+      align-items: center;
+      
+      .description {
+        border: none;
+      }
+    }
+  }
+}
+
 @media (max-width: 810px) {
   .section {
     padding: 45px 0;
@@ -112,6 +162,19 @@
 
     &.career-team {
       flex-direction: column;
+    }
+
+    &_presentation {
+      flex-direction: column;
+      align-items: center;
+
+      .image {
+        width: 50vw;
+      }
+
+      .description {
+        padding: 10px 0;
+      }
     }
   }
 }

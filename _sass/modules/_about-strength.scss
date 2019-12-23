@@ -25,8 +25,8 @@
     padding-left: 0;
   }
 
-  .video-box_caption {
-    padding-right: 135px;
+  .section_presentation {
+    margin: 0;
   }
 
   h3 {
@@ -38,6 +38,7 @@
     padding-top: 25px;
     display: inline-block;
   }
+
 }
 
 @media (max-width: 1100px) {
@@ -49,13 +50,15 @@
       }
     }
 
-    .video-box {
-      margin-left: 0;
-      width: 100%;
-
-      iframe {
-        min-width: initial;
-        flex: 1;
+    .section_presentation {
+      margin-right: 330px;
+      display: flex;
+      flex-direction: column;
+      h3 {
+        padding-bottom: 20px;
+      }
+      .description {
+        padding: 20px 30px;
       }
     }
   }
@@ -70,6 +73,10 @@
       padding-right: 0;
     }
 
+    .section_presentation {
+      margin-right: 0;
+    }
+
     .perks_list {
       padding: 0;
 
@@ -78,10 +85,6 @@
         box-sizing: border-box;
         padding-right: 36px;
       }
-    }
-
-    .video-box {
-      display: none;
     }
 
     h3 {
