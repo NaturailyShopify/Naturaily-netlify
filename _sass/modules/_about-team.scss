@@ -46,6 +46,12 @@
   }
 }
 
+@media (max-width: 1280px) {
+  .team_photos .mobi-none {
+    display: none;
+  }
+}
+
 @media (max-width: 810px) {
   .team {
 

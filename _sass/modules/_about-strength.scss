@@ -25,6 +25,10 @@
     padding-left: 0;
   }
 
+  .section_presentation {
+    margin: 0;
+  }
+
   h3 {
     padding-bottom: 55px;
   }
@@ -47,7 +51,15 @@
     }
 
     .section_presentation {
-      margin-right: 180px;
+      margin-right: 330px;
+      display: flex;
+      flex-direction: column;
+      h3 {
+        padding-bottom: 20px;
+      }
+      .description {
+        padding: 20px 30px;
+      }
     }
   }
 }

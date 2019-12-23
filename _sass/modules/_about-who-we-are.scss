@@ -64,6 +64,16 @@
     right: 0;
     z-index: -1;
   }
+
+  .video-box {
+    padding-left: 160px;
+    width: 100%;
+
+    iframe {
+      min-width: 550px;
+      max-height: 300px;
+    }
+  }
 }
 
 @media (max-width: 1280px) {
@@ -85,6 +95,19 @@
 
     .paragraph.text-greyed-out {
       width: 50%;
+    }
+
+    .video-box {
+      padding-left: 0;
+
+      iframe {
+        min-width: 450px;
+        max-height: 250px;
+      }
+
+      &_caption {
+        padding: 40px;
+      }
     }
   }
 }
@@ -139,6 +162,14 @@
 
     .floating-dots {
       display: none;
+    }
+
+    .video-box {
+      padding-right: 25px;
+
+      iframe {
+        max-height: 400px;
+      }
     }
   }
 }
