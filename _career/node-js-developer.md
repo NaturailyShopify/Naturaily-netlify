@@ -26,7 +26,7 @@ type: Development
 salary-preview:
   - salary:
       contract: (B2B)
-      sum: 13 500 - 18 000 PLN net + VAT
+      sum: 11 500 - 17 000 PLN net + VAT
 what-we-expect:
   - expectation:
       contents: 'to drive software architecture, design & development activities '
@@ -126,6 +126,6 @@ benefits:
 salaries:
   - salary:
       contract: (B2B)
-      sum: 13 500 - 18 000 PLN net + VAT
+      sum: 11 500 - 17 000 PLN net + VAT
 ---
 
