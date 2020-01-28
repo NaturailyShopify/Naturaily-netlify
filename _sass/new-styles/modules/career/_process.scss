@@ -282,7 +282,6 @@
       &-right {
         .paragraph {
           max-width: calc(100% - 30px);
-          // padding-top: 30px;
         }
       }
 
@@ -304,11 +303,6 @@
         width: auto;
 
         &-person {
-          // width: calc(100% - 30px);
-          // min-height: 320px;
-          // margin: 0;
-          // background-size: contain;
-          // background-position: left;
           min-height: 280px;
           max-width: 280px;
           min-width: 280px;
