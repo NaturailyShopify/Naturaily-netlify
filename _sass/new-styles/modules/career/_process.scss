@@ -286,7 +286,7 @@
       }
 
       &-question {
-        width: calc(100% - 30px);
+        width: calc(100% - 15px);
         padding: 20px 26px 30px 30px;
         margin-top: 40px;
         box-sizing: border-box;
@@ -331,6 +331,17 @@
     .image {
       margin: 0;
       padding-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 365px) {
+  .process_hr-question {
+    width: 100%;
+    padding: 15px;
+
+    .paragraph.has-dot {
+      padding-left: 20px;
     }
   }
 }
