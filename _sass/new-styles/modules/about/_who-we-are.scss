@@ -173,3 +173,13 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .who-we-are {
+    .video-box iframe {
+      height: 250px;
+      width: 100%;
+      min-width: initial;
+    }
+  }
+}

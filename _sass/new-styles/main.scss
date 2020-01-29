@@ -3,6 +3,7 @@
 @import "header";
 
 @import "slick";
+@import "slick-theme";
 
 @import "layout/layout";
 @import "modules/heading";
@@ -17,38 +18,34 @@
 @import "modules/geometric-object";
 @import "modules/form";
 @import "modules/video-box";
-@import "footer";
 
 // CAREERS SPECIFIC STYLES //
 
-@import "modules/career-team";
-@import "modules/career-path";
-@import "modules/career-process";
-@import "modules/career-culture";
-@import "modules/career-benefits";
-@import "modules/career-offers";
-@import "modules/career-position";
-@import "modules/career-about";
-@import "modules/career-skills";
-@import "modules/career-more";
-@import "modules/career-perks";
-@import "modules/career-video";
+@import "modules/career/team";
+@import "modules/career/path";
+@import "modules/career/process";
+@import "modules/career/culture";
+@import "modules/career/benefits";
+@import "modules/career/offers";
+@import "modules/career/position";
+@import "modules/career/about";
+@import "modules/career/skills";
+@import "modules/career/more";
+@import "modules/career/perks";
+@import "modules/career/video";
 
 // ABOUT SPECIFIC STYLES //
 
-@import "modules/about-who-we-are";
-@import "modules/about-values";
-@import "modules/about-why-us";
-@import "modules/about-choose";
-@import "modules/about-strength";
-@import "modules/about-testimonials";
-@import "modules/about-team";
-@import "modules/about-join";
-@import "modules/about-estimate";
-@import "modules/about-photos";
-
-
-// NEW CAREERS //
+@import "modules/about/who-we-are";
+@import "modules/about/values";
+@import "modules/about/why-us";
+@import "modules/about/choose";
+@import "modules/about/strength";
+@import "modules/about/testimonials";
+@import "modules/about/team";
+@import "modules/about/join";
+@import "modules/about/estimate";
+@import "modules/about/photos";
 
 body {
   font-weight: 300;
