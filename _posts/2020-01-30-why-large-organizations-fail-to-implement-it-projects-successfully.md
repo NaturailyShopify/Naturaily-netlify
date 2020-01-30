@@ -63,7 +63,7 @@ In order to do so, you need to identify them prior to starting the implementatio
 
 <br>
 
-## **1. Lack of involvement from senior management**
+## 1. Lack of involvement from senior management
 
 First and foremost, the problem starts in the minds of CEOs, managers and other governing entities at the top of the organizational hierarchy.
 
@@ -77,7 +77,7 @@ If the entire organization doesn’t take part in the project implementation, es
 
 <br>
 
-## **2. Gathering inaccurate requirements**
+## 2. Gathering inaccurate requirements
 
 In the study conducted by PMI in 2017, **39% of respondents pointed to inaccurate requirements gathering as the second cause of project failure.**
 
@@ -91,7 +91,7 @@ The outcome will be favorable only if the business and technical requirements ar
 
 <br>
 
-## **3. Poor communication between teams and project sponsors**
+## 3. Poor communication between teams and project sponsors
 
 One of the most important ingredients of every successful project is **communication and collaboration**. If teams, managers, and project sponsors are not willing to work with each other, the chances for victory are small.
 
@@ -103,11 +103,11 @@ Also, it’s important that employees can consult their problems, doubts and ide
 
 <br>
 
-|If you are looking for a list of tools that can make your and yours' team job much easier, faster and productive—[check out one of our previous blog posts](https://naturaily.com/blog/12-team-collaboration-management-tools-startups){:target="_blank"}.|
+\|If you are looking for a list of tools that can make your and yours' team job much easier, faster and productive—[check out one of our previous blog posts](https://naturaily.com/blog/12-team-collaboration-management-tools-startups){:target="_blank"}.|
 
 <br>
 
-## **4. Lack of clearly defined objectives and milestones to measure progress**
+## 4. Lack of clearly defined objectives and milestones to measure progress
 
 Another reason for which large organizations fail at implementing IT projects is **deprioritization**.
 
@@ -119,7 +119,7 @@ Without clearly defined objectives, it’s impossible to evaluate current result
 
 <br>
 
-## **5. Inaccurate estimates**
+## 5. Inaccurate estimates
 
 Estimates affect the decision-making process. They determine the project route and its outcome, which is why they need to be as precise as possible. Of course, it may not always be possible to make accurate calculations.
 
@@ -136,7 +136,7 @@ Unfortunately, many large organizations base their technological projects on ass
 
 <br>
 
-## **6. Limited resources**
+## 6. Limited resources
 
 Implementing a technological project is successful only if the resources are sufficient.
 
@@ -151,7 +151,7 @@ Without appropriate resource allocation, project management may lead to ambiguou
 
 <br>
 
-## **7. Poor project management**
+## 7. Poor project management
 
 Although people are part of the resources, it’s important to hire employees whose **abilities and experience are relevant to the project and adhere to the company culture**.
 
@@ -165,7 +165,7 @@ It’s worth to invest money in people and their skills – eventually, it will 
 
 <br>
 
-## **8. Undefined opportunities and unexpected risks**
+## 8. Undefined opportunities and unexpected risks
 
 Often, IT projects fail because project managers don’t pay attention to risks and opportunities. And the two are strongly intertwined. The bigger the project, the wider the window of opportunities available - but also much higher risk as well.
 
@@ -193,7 +193,7 @@ Establishing a comprehensive evaluation process is the only way to assure the IT
 
 <br>
 
-## **Conclusion**
+## Conclusion
 
 Altogether, these relatively small issues comprise a large problem. It all comes down to three common ingredients – **accuracy, responsible assessment and defining the ultimate goal.**
 
