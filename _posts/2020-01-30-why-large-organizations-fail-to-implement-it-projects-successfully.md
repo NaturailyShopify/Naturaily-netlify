@@ -96,7 +96,7 @@ Also, it’s important that employees can consult their problems, doubts and ide
 
 <br>
 
-\|If you are looking for a list of tools that can make your and yours' team job much easier, faster and productive—[check out one of our previous blog posts](https://naturaily.com/blog/12-team-collaboration-management-tools-startups){:target="_blank"}.|
+###### \|If you are looking for a list of tools that can make your and yours' team job much easier, faster and productive—[check out one of our previous blog posts](https://naturaily.com/blog/12-team-collaboration-management-tools-startups){:target="_blank"}.|
 
 <br>
 
