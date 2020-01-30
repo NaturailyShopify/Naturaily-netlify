@@ -21,7 +21,7 @@ text-preview: >
   stakeholders? Or maybe it’s the technology itself?
 tags:
   - enterprise software development
-  - IT projects
+  - large-scale IT projects
   - enterprise-level solutions
 related_posts:
   - >-
