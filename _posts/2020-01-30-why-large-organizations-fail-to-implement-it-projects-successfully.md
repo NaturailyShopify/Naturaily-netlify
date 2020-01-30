@@ -84,7 +84,7 @@ The outcome will be favorable only if the business and technical requirements ar
 
 <br>
 
-## 3. **Poor communication between teams and project sponsors**
+## **3. Poor communication between teams and project sponsors**
 
 One of the most important ingredients of every successful project is **communication and collaboration**. If teams, managers, and project sponsors are not willing to work with each other, the chances for victory are small.
 
@@ -96,7 +96,7 @@ Also, it’s important that employees can consult their problems, doubts and ide
 
 <br>
 
-|If you are looking for a list of tools that can make your and yours' team job much easier, faster and productive—[check out one of our previous blog posts](https://naturaily.com/blog/12-team-collaboration-management-tools-startups){:target="_blank"}.|
+\|If you are looking for a list of tools that can make your and yours' team job much easier, faster and productive—[check out one of our previous blog posts](https://naturaily.com/blog/12-team-collaboration-management-tools-startups){:target="_blank"}.|
 
 <br>
 
@@ -197,3 +197,7 @@ Furthermore, once the small problems build up, it will be too difficult or too l
 Large organizations can succeed at implementing IT projects by **learning and adapting to changes, and by being open to transformations.**
 
 > The future of value delivery is a spectrum of approaches— a predictive, iterative, incremental, agile, hybrid, and whatever will come next to change how we work.” – [PMI, Pulse of the profession survey, 2018.](https://www.pmi.org/-/media/pmi/documents/public/pdf/learning/thought-leadership/pulse/pulse-of-the-profession-2018.pdf){:rel="nofollow"}{:target="_blank"}
+
+<br>
+
+[![Get an estimate](/assets/images/cta_estimation_1600.png)](https://naturaily.com/get-an-estimate){:target="_blank"}
