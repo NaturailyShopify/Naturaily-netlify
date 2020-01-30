@@ -23,6 +23,13 @@ tags:
   - enterprise software development
   - IT projects
   - enterprise-level solutions
+related_posts:
+  - >-
+    How to Find the Best Development Company on Clutch and Not to Fall Into a
+    Trap! A Clutch Reader’s Guide
+  - >-
+    The 17 Things You Should Consider Before Choosing the Best Software
+    Development Company
 ---
 According to a [Gallup study](https://news.gallup.com/businessjournal/152429/cost-bad-project-management.aspx){:rel="nofollow"}{:target="_blank"}, **only 2.5% of companies complete 100% of their projects**. The numbers are shocking but they show the scale of the problem. **Other studies show that 17% of IT projects go so badly, they threaten the existence of the business itself**.
 
