@@ -51,6 +51,12 @@
   }
 }
 
+@media (max-width: 980px) {
+  .estimate {
+    padding-left: 0;
+  }
+}
+
 @media (max-width: 810px) {
   .estimate {
     flex-direction: column;
