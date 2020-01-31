@@ -11,7 +11,6 @@
     background-position: 0px 170px, 100% 50px;
     background-size: 379px 321px, 390px 520px;
     .hero_background-text {
-      top: -80px;
       font-size: 175px;
     }
   }
@@ -25,12 +24,7 @@
 
     .hero_background-text {
       width: 800px;
-    }
-  }
-
-  &--career-offers {
-    .hero_background-text {
-      top: -80px;
+      top: -115px;
     }
   }
 
@@ -41,7 +35,7 @@
     color: #FFF7F1;
     font-weight: bold;
     text-align: center;
-    top: -115px;
+    top: -80px;
     font-size: 172px;
   }
 

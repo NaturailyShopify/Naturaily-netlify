@@ -18,6 +18,7 @@
 @import "modules/geometric-object";
 @import "modules/form";
 @import "modules/video-box";
+@import "modules/estimate";
 
 // CAREERS SPECIFIC STYLES //
 
@@ -44,12 +45,11 @@
 @import "modules/about/testimonials";
 @import "modules/about/team";
 @import "modules/about/join";
-@import "modules/about/estimate";
 @import "modules/about/photos";
 
 // SHOPIFY SPECIFIC STYLES //
 
-
+@import "modules/shopify/footer";
 
 body {
   font-weight: 300;
