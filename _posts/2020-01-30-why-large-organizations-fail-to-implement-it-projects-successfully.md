@@ -1,10 +1,10 @@
 ---
-title: Why Large Organizations Fail To Implement IT Projects Successfully
+title: Why Your Organization Fails To Implement IT Projects Successfully
 description: >-
   To understand the complexity of the problem, it’s crucial to understand the
   small parts that constitute it. All the flaws that cause the failure of
   implementing technological projects can be easily avoided.
-slug: enterprise-software-development-failure-causes
+slug: why-your-organization-fails-to-implement-it-projects-successfully
 layout: post
 date: '2020-01-30 02:49:44 +0200'
 category: Software development
@@ -20,7 +20,7 @@ text-preview: >
   existence of the business itself. So who is to blame – managers, employers or
   stakeholders? Or maybe it’s the technology itself?
 tags:
-  - Enterprise software development
+  - Bespoke enterprise software development
   - Large-scale IT projects
   - Enterprise-level solutions
 related_posts:
