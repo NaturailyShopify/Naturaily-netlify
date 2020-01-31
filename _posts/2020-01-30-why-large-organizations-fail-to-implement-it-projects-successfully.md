@@ -12,7 +12,7 @@ authors:
   avatar: /assets/images/beata.jpg
   label: Beata Twardowska
   value: author-24
-image: /assets/images/cover photo.png
+image: /assets/images/Enterprise software failure causes.jpg
 text-preview: >
   According to a Gallup study, only 2.5% of companies complete 100% of their
   projects. The numbers are shocking but they show the scale of the problem.
@@ -20,9 +20,9 @@ text-preview: >
   existence of the business itself. So who is to blame – managers, employers or
   stakeholders? Or maybe it’s the technology itself?
 tags:
-  - enterprise software development
-  - large-scale IT projects
-  - enterprise-level solutions
+  - Enterprise software development
+  - Large-scale IT projects
+  - Enterprise-level solutions
 related_posts:
   - >-
     How to Find the Best Development Company on Clutch and Not to Fall Into a
