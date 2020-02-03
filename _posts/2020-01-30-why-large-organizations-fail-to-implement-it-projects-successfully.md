@@ -6,7 +6,7 @@ description: >-
   implementing technological projects can be easily avoided.
 slug: why-your-organization-fails-to-implement-it-projects-successfully
 layout: post
-date: '2020-01-30 02:49:44 +0200'
+date: '2020-02-03 10:39:00 +0200'
 category: Software development
 authors:
   avatar: /assets/images/beata.jpg
