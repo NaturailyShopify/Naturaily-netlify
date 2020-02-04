@@ -1,6 +1,6 @@
 .shopify-case-studies {
   padding: 100px 0 50px 160px;
-  margin: 100px 0;
+  margin-top: 100px;
   background-color: $color-code-grey-bg;
   box-sizing: border-box;
   flex-direction: column;
@@ -96,7 +96,7 @@
     &-header-right {
       flex: 2;
       > img {
-        max-width: 400%;
+        max-width: 300%;
       }
     }
 
