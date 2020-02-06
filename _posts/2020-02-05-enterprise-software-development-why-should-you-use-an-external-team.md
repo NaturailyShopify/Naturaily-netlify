@@ -5,7 +5,7 @@ description: >-
   process due to a number of reasons. But there is a way out >>
 slug: enterprise-software-development-use-external-team
 layout: post
-date: '2020-02-05 09:42:34 +0200'
+date: '2020-02-06 08:56:00 +0200'
 category: Software development
 authors:
   avatar: /assets/images/beata.jpg
