@@ -19,7 +19,6 @@
       </figure>
     </div>
     <div class="shopify-faq_container-right" data-process-accordion>
-
       <div
         class="shopify-faq_element"
         data-accordion-item
@@ -135,7 +134,13 @@
         >
           <div itemprop="text">
             Yes, you can freely try out Shopify for 14 days using the link below.
-            <br><a href="https://shopify-consulting.webflow.io/" target="_blank">Link</a>
+            <a
+              href="https://www.shopify.com/free-trial?ref=redux&subid1=test&utm_content=get_a_free_consultation_today"
+              target="_blank"
+              class="shopify-faq_link"
+            >
+              Link
+            </a>
           </div>
         </div>
         <img src="/assets/images/arrow-orange.png" />
@@ -250,13 +255,13 @@
 
       if ($(this).is(':checked')) {
         parent.addClass('opened')
-        .animate({ 'padding-bottom' : contentHeightWithPadding }, 300)
-        .siblings('[data-accordion-item]').removeClass('opened')
-        .animate({ 'padding-bottom' : 1 }, 300)
-        .children('[data-accordion-check]').prop('checked', false);
+          .animate({ 'padding-bottom' : contentHeightWithPadding }, 300)
+          .siblings('[data-accordion-item]').removeClass('opened')
+          .animate({ 'padding-bottom' : 1 }, 300)
+          .children('[data-accordion-check]').prop('checked', false);
       } else {
         parent.removeClass('opened')
-        .animate({ 'padding-bottom' : 1 }, 300);
+          .animate({ 'padding-bottom' : 1 }, 300);
       }
     });
   });
