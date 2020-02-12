@@ -34,6 +34,9 @@
         align-items: flex-end;
         height: 64px;
         margin-bottom: 15px;
+        > span:before {
+          color: $color-primary;
+        }
       }
       > p {
         line-height: 24px;
