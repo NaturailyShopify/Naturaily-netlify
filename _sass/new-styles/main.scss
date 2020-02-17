@@ -73,6 +73,10 @@
 @import "modules/jamstack/carousel";
 @import "modules/jamstack/estimate";
 
+// PWA SPECIFIC STYLES //
+
+@import "modules/pwa/footer";
+
 body {
   font-weight: 300;
   font-family: acumin-pro;
