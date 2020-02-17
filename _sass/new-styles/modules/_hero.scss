@@ -24,18 +24,6 @@
     }
   }
 
-  &--pwa {
-    background-image: url("../assets/images/about_hero_right.png");
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-    background-size: 30%;
-    padding-bottom: 150px;
-
-    .hero_background-text {
-      width: 800px;
-    }
-  }
-
   &--career-offers {
     .hero_background-text {
       top: -80px;
