@@ -1,6 +1,6 @@
 $benefits-figure-lg: 315px;
 
-.jamstack-services {
+.pwa-services {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 150px 100px 150px 160px;
@@ -60,6 +60,16 @@ $benefits-figure-lg: 315px;
       font-size: 14px;
       line-height: 24px;
     }
+
+    &-image {
+      height: 52px;
+      position: relative;
+      img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
   }
 
   .geometric-figure {
@@ -86,7 +96,7 @@ $benefits-figure-lg: 315px;
 }
 
 @media (max-width: 1200px) {
-  .jamstack-services {
+  .pwa-services {
     &_options {
       max-width: 510px;
       flex-wrap: wrap;
@@ -109,7 +119,7 @@ $benefits-figure-lg: 315px;
 }
 
 @media (max-width: 810px) {
-  .jamstack-services {
+  .pwa-services {
     max-width: calc(100% - 15px);
     margin: 0 5px 0 10px;
     padding: 40px 5px 50px 10px;
@@ -125,7 +135,7 @@ $benefits-figure-lg: 315px;
 }
 
 @media (max-width: 576px) {
-  .jamstack-services {
+  .pwa-services {
     &_header br {
       display: none;
     }
