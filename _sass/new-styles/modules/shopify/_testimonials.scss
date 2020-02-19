@@ -1,63 +1,121 @@
 .shopify-testimonials {
-  padding-left: 160px;
-  padding-right: 100px;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-  position: relative;
-  flex-direction: column;
-
-  &-container {
-      > p {
-          font-size: 36px;
-          line-height: 50px;
-          margin-bottom: 50px;
-          font-weight: 200;
-      }
-      &-companies {
-          display: flex;
-          height: 80px;
-          > div {
-              flex: 1;
-              border: 1px solid rgba(59, 34, 15, 0.1);
-              border-right: none;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              &:first-child {
-                  border-top-left-radius: 5px;
-                  border-bottom-left-radius: 5px;
-              }
-              &:last-child {
-                  border-top-right-radius: 5px;
-                  border-bottom-right-radius: 5px;
-                  border-right: 1px solid rgba(59, 34, 15, 0.1);
-              }
-          }
-      }
-  }
-  > a {
-      font-size: 11px;
-      color: $color-secondary;
-      text-decoration: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 150px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    padding-left: 160px;
+    box-sizing: border-box;
+  
+    &_container {
+      padding: 0 45px;
+    }
+  
+    &_header {
+      margin-bottom: 60px;
+      font-size: 36px;
+      line-height: 50px;
+      font-weight: 200;
+    }
+  
+    &_companies {
       display: flex;
-      align-items: flex-end;
-      > img {
-          &:first-child {
-              height: 18px;
-              margin-right: 26px;
-          }
-          &:last-child {
-              height: 11px;
-              margin-left: 23px;
-          }
+      height: 80px;
+    }
+  
+    &_company {
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      border: 1px solid $color-nav-border;
+      border-right: none;
+  
+      &:first-child {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
       }
+  
+      &:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-right: 1px solid $color-nav-border;
+      }
+    }
+  
+    &_link {
+      display: flex;
+      align-items: center;
+      padding-left: 180px;
+      color: $color-secondary;
+      font-size: 11px;
+      font-weight: 600;
+      text-decoration: none;
+  
+      &-clutch {
+        height: 18px;
+        margin-right: 26px;
+      }
+  
+      &-image {
+        height: 11px;
+        margin-left: 23px;
+      }
+    }
   }
-}
-
-@media (max-width: 810px) {
-  .shopify-testimonials {
+  
+  @media (max-width: 810px) {
+    .shopify-testimonials {
       max-width: calc(100% - 15px);
       margin: 0 5px 0 10px;
       padding: 40px 5px 50px 10px;
+  
+      &_container, &_link {
+        padding: 0;
+        padding-left: 25px;
+      }
+    }
   }
-}
+  
+  @media (max-width: 576px) {
+    .shopify-testimonials {
+      &_header {
+        margin-bottom: 30px;
+      }
+  
+      &_companies {
+        flex-direction: column;
+        height: auto;
+      }
+  
+      &_company {
+        flex: initial;
+        height: 55px;
+        border: 1px solid $color-nav-border;
+        border-bottom: 0;
+        border-radius: 0;
+  
+        &:first-child {
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+        }
+  
+        &:last-child {
+          border-bottom: 1px solid $color-nav-border;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+      }
+  
+      &_link {
+        &-clutch {
+          margin-right: 10px;
+        }
+  
+        &-image {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  
