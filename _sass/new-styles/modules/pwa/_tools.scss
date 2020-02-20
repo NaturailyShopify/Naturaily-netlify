@@ -1,0 +1,96 @@
+$benefits-figure-lg: 227px;
+
+.pwa-tools {
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 150px 100px 150px 160px;
+  background-color: #F4F6FB;
+
+  &_container {
+    position: relative;
+    display: flex;
+    padding-left: 45px;
+    font-size: 24px;
+    line-height: 40px;
+
+
+    .geometric-figure {
+      width: 100%;
+      position: absolute;
+
+      &_center {
+        height: $benefits-figure-lg;
+        border: 2px solid #9DBFC4;
+        width: $benefits-figure-lg;
+      }
+
+      &_right {
+        height: $benefits-figure-lg;
+        width: $benefits-figure-lg / 2;
+
+        &::after {
+          background-color: #A0F4FF;
+          height: $benefits-figure-lg;
+          width: $benefits-figure-lg;
+        }
+      }
+    }
+  }
+
+  &_texts {
+    position: relative;
+    padding-left: 50%;
+  }
+
+  &_header {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  &_text {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 32px;
+
+    a {
+      color: $color-secondary;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .pwa-tools {
+    max-width: calc(100% - 15px);
+    margin: 0 5px 0 10px;
+    padding: 40px 5px 50px 10px;
+
+    &_container {
+      padding-left: 25px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .pwa-tools {
+
+    &_container {
+      .geometric-figure {
+        display: none;
+      }
+    }
+
+    &_texts {
+      padding-left: 0;
+    }
+
+    &_header {
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    &_text {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+}
