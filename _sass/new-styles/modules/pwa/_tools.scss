@@ -1,4 +1,4 @@
-$benefits-figure-lg: 227px;
+$tools-figure-lg: 227px;
 
 .pwa-tools {
   flex-direction: column;
@@ -19,19 +19,19 @@ $benefits-figure-lg: 227px;
       position: absolute;
 
       &_center {
-        height: $benefits-figure-lg;
+        height: $tools-figure-lg;
         border: 2px solid #9DBFC4;
-        width: $benefits-figure-lg;
+        width: $tools-figure-lg;
       }
 
       &_right {
-        height: $benefits-figure-lg;
-        width: $benefits-figure-lg / 2;
+        height: $tools-figure-lg;
+        width: $tools-figure-lg / 2;
 
         &::after {
           background-color: #A0F4FF;
-          height: $benefits-figure-lg;
-          width: $benefits-figure-lg;
+          height: $tools-figure-lg;
+          width: $tools-figure-lg;
         }
       }
     }
