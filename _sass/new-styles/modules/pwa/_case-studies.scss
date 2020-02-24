@@ -1,4 +1,4 @@
-$benefits-figure-lg: 315px;
+$case-studies-figure-lg: 315px;
 
 .pwa-services {
   flex-direction: column;
@@ -79,17 +79,17 @@ $benefits-figure-lg: 315px;
     z-index: -1;
 
     &_center {
-    height: $benefits-figure-lg;
-    width: $benefits-figure-lg;
+    height: $case-studies-figure-lg;
+    width: $case-studies-figure-lg;
     }
 
     &_right {
-      height: $benefits-figure-lg;
-      width: $benefits-figure-lg / 2;
+      height: $case-studies-figure-lg;
+      width: $case-studies-figure-lg / 2;
 
       &::after {
-          height: $benefits-figure-lg;
-          width: $benefits-figure-lg;
+          height: $case-studies-figure-lg;
+          width: $case-studies-figure-lg;
       }
     }
   }
