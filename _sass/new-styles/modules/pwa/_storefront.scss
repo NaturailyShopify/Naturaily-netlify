@@ -1,0 +1,111 @@
+.pwa-storefront {
+  display: flex;
+  padding: 150px 10% 60px 100px;
+  width: 100%;
+
+  &_image {
+    flex: 7;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &_text {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 55px;
+
+    span {
+      color: $color-secondary;
+    }
+  }
+
+  &_container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 140px;
+  }
+
+  &_redirection {
+    &-link {
+      color: $color-secondary;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    &-image {
+      height: 11px;
+      margin-left: 95px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .pwa-storefront {
+
+    &_text {
+      font-size: 20px;
+      line-height: 34px;
+    }
+
+    &_container {
+      margin-left: 80px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .pwa-storefront {
+
+    &_image {
+      flex: 5;
+    }
+
+    &_container {
+      flex: 3;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .pwa-storefront {
+    padding: 40px 5px 50px 10px;
+  }
+}
+
+@media (max-width: 810px) {
+  .pwa-storefront {
+    padding: 40px 5px 50px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pwa-storefront {
+    flex-direction: column;
+
+    &_container {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+
+    &_text {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .pwa-storefront {
+
+    &_text {
+      font-size: 16px;
+      line-height: 20px;
+    }
+  }
+}
