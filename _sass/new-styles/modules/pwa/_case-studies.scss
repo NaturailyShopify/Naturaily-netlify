@@ -1,6 +1,6 @@
 $case-studies-figure-lg: 315px;
 
-.pwa-services {
+.pwa-studies {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 150px 100px 150px 160px;
@@ -96,7 +96,7 @@ $case-studies-figure-lg: 315px;
 }
 
 @media (max-width: 1200px) {
-  .pwa-services {
+  .pwa-studies {
     &_options {
       max-width: 510px;
       flex-wrap: wrap;
@@ -119,7 +119,7 @@ $case-studies-figure-lg: 315px;
 }
 
 @media (max-width: 810px) {
-  .pwa-services {
+  .pwa-studies {
     max-width: calc(100% - 15px);
     margin: 0 5px 0 10px;
     padding: 40px 5px 50px 10px;
@@ -135,7 +135,7 @@ $case-studies-figure-lg: 315px;
 }
 
 @media (max-width: 576px) {
-  .pwa-services {
+  .pwa-studies {
     &_header br {
       display: none;
     }
