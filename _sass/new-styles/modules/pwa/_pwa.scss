@@ -53,8 +53,15 @@
       border-bottom: 1px solid rgba(59, 34, 15, 0.1);
     }
 
-    span {
+    span, img {
+      color: $color-primary;
       padding-right: 50px;
+    }
+
+    img {
+      width: 62px;
+      height: 56px;
+      margin: auto;
     }
 
     div {
@@ -126,8 +133,13 @@
 
     &_item {
   
-      span {
+      span, img {
         padding-right: 30px;
+      }
+
+      img {
+        width: 46px;
+        height: 40px;
       }
   
       .icon {
