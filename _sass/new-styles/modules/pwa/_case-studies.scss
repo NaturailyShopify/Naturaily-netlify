@@ -79,8 +79,8 @@ $case-studies-figure-lg: 315px;
     z-index: -1;
 
     &_center {
-    height: $case-studies-figure-lg;
-    width: $case-studies-figure-lg;
+      height: $case-studies-figure-lg;
+      width: $case-studies-figure-lg;
     }
 
     &_right {
@@ -88,8 +88,8 @@ $case-studies-figure-lg: 315px;
       width: $case-studies-figure-lg / 2;
 
       &::after {
-          height: $case-studies-figure-lg;
-          width: $case-studies-figure-lg;
+        height: $case-studies-figure-lg;
+        width: $case-studies-figure-lg;
       }
     }
   }

@@ -157,13 +157,10 @@
 
   &_right {
     flex: 8;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      object-position: left;
-    }
+    background-image: url('/assets/images/pwa/visual.png');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   &_bottom {
@@ -217,6 +214,8 @@
       right: 0;
       bottom: 0;
       width: 50%;
+      height: 100%;
+      z-index: -1;
     }
   }
 }
