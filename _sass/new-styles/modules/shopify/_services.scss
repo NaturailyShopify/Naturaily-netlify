@@ -1,3 +1,9 @@
+@mixin servicesImage {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .shopify-services {
   padding-left: 160px;
   padding-right: 100px;
@@ -28,10 +34,25 @@
         font-size: 16px;
         line-height: 24px;
       }
-      > img {
-        max-width: 45%;
-        object-fit: contain;
-        object-position: bottom;
+      &-image {
+        width: 45%;
+        border-radius: 8px;
+        &.services1 {
+          @include servicesImage;
+          background-image: url('/assets/images/shopify/services1.png');
+        }
+        &.services2 {
+          @include servicesImage;
+          background-image: url('/assets/images/shopify/services2.png');
+        }
+        &.services3 {
+          @include servicesImage;
+          background-image: url('/assets/images/shopify/services3.png');
+        }
+        &.services4 {
+          @include servicesImage;
+          background-image: url('/assets/images/shopify/services4.png');
+        }
       }
       &-container {
         display: flex;

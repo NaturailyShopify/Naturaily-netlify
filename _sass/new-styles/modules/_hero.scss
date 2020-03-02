@@ -18,6 +18,16 @@
     background-position: 100% 100%;
     background-size: 30%;
     padding-bottom: 150px;
+
+    .hero_background-text {
+      width: 800px;
+    }
+  }
+
+  &--career-offers {
+    .hero_background-text {
+      top: -80px;
+    }
   }
 
   &_background-text {
