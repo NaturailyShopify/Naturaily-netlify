@@ -1,6 +1,6 @@
 .webdevelopment-custom {
   display: flex;
-  padding: 120px 0 120px 160px;
+  padding: 120px 0 20px 160px;
   border-bottom: 1px solid $color-global-font-10;
 
   &_container {
@@ -53,7 +53,7 @@
 
 @media (max-width: 768px) {
   .webdevelopment-custom {
-    padding: 120px 160px;
+    padding: 120px 160px 20px;
 
     &_container {
       margin-right: 0;
@@ -67,7 +67,7 @@
 
 @media (max-width: 576px) {
   .webdevelopment-custom {
-    padding: 120px 25px;
+    padding: 120px 25px 20px;
 
     .btn-primary.btn-arrow {
       max-width: 290px;
