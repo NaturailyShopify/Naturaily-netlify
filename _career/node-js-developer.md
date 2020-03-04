@@ -5,7 +5,7 @@ description: >-
   There is one piece missing in our organization! We believe it is you,
   Naturaily.
 layout: career-offer
-image: /assets/images/Copy of Template Recrutation 01 (1).png
+image: /assets/images/nodedeveloper.png
 location:
   - Wrocław
   - Remote
@@ -22,7 +22,7 @@ about-right: >-
   Naturaily truly is a reliable software development company. We know that, and
   we need the world to know it too. Do you have an idea how to spread the word?
   We are waiting for you!
-about-image: /assets/images/Copy of Template Recrutation 01 (1).png
+about-image: /assets/images/nodedeveloper.png
 type: Development
 salary-preview:
   - salary:
@@ -129,4 +129,3 @@ salaries:
       contract: (B2B)
       sum: 11 500 - 17 000 PLN net + VAT
 ---
-
