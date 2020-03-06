@@ -1,5 +1,7 @@
 .webdevelopment-overview {
-  padding: 120px 50px;
+  padding: 120px 0;
+  max-width: 1292px;
+  margin: auto;
 
   .section_name, &_head, &_container {
     padding: 0 110px;
@@ -54,6 +56,7 @@
 
 @media (max-width: 576px) {
   .webdevelopment-overview {
+    padding: 120px 25px;
 
     &_container {
       flex-direction: column;

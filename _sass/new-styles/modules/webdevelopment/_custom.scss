@@ -1,11 +1,25 @@
 .webdevelopment-custom {
   display: flex;
-  padding: 120px 0 20px 160px;
-  border-bottom: 1px solid $color-global-font-10;
+  max-width: 1292px;
+  margin: auto;
+  padding: 120px 0 20px;
+  position: relative;
+
+  &:after {
+    content: '';
+    width: 100vw;
+    height: 1px;
+    border-bottom: 1px solid $color-global-font-10;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  }
 
   &_container {
     flex: 1;
     margin-right: 10%;
+    padding-left: 110px;
   }
 
   &_header {
@@ -25,9 +39,9 @@
     position: relative;
 
     img {
-      max-width: 100%;
+      max-width: 125%;
       position: absolute;
-      right: 0;
+      right: -60px;
       top: 50%;
       transform: translateY(-50%);
     }
@@ -53,10 +67,9 @@
 
 @media (max-width: 768px) {
   .webdevelopment-custom {
-    padding: 120px 160px 20px;
 
     &_container {
-      margin-right: 0;
+      margin-right: 110px;
     }
 
     &_image {
@@ -68,6 +81,11 @@
 @media (max-width: 576px) {
   .webdevelopment-custom {
     padding: 120px 25px 20px;
+
+    &_container {
+      margin-right: 25px;
+      padding-left: 25px;
+    }
 
     .btn-primary.btn-arrow {
       max-width: 290px;
