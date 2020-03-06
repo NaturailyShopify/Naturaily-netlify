@@ -2,6 +2,27 @@
   flex-direction: column;
   flex-wrap: wrap;
   padding: 150px 100px 150px 160px;
+  position: relative;
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+  }
+
+  &:before {
+    top: 30%;
+    left: 10px;
+    background-color: $color-accent-blue
+  }
+
+  &:after {
+    top: 10%;
+    right: 10px;
+    background-color: $color-primary;
+  }
 
   &_container {
     display: flex;
@@ -63,7 +84,8 @@
       flex: 2;
       font-size: 36px;
       line-height: 50px;
-      margin-right: 20px;
+      margin-right: 100px;
+      max-width: 350px;
     }
 
     &-column {
@@ -156,6 +178,7 @@
       &-header {
         font-size: 28px;
         line-height: 40px;
+        margin-right: 20px;
       }
 
       &-box {
@@ -204,6 +227,10 @@
 
 @media (max-width: 576px) {
   .pwa-benefits {
+
+    &::before, &::after {
+      display: none;
+    }
 
     &_header {
       font-size: 20px;
