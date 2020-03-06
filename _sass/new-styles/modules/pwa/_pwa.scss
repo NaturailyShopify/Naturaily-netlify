@@ -1,7 +1,7 @@
 .pwa-pwa {
   flex-direction: column;
   flex-wrap: wrap;
-  padding: 150px 100px 150px 160px;
+  padding: 150px 200px 150px 160px;
   background-color: #F4F6FB;
 
   &_container {
@@ -26,6 +26,7 @@
     &-text {
       font-size: 14px;
       line-height: 24px;
+      max-width: 300px;
     }
   }
 
@@ -55,12 +56,13 @@
 
     span, img {
       color: $color-primary;
-      padding-right: 50px;
+      padding-right: 173px;
+      width: 45px;
     }
 
     img {
-      width: 62px;
-      height: 56px;
+      width: 46px;
+      height: 41px;
       margin: auto;
     }
 
@@ -69,7 +71,7 @@
     }
 
     .icon {
-      font-size: 49px;
+      font-size: 36px;
       margin: auto;
     }
   }
@@ -88,6 +90,17 @@
       &:last-child {
         font-size: 14px;
         line-height: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .pwa-pwa {
+    &_item {
+  
+      span, img {
+        padding-right: 50px;
       }
     }
   }
