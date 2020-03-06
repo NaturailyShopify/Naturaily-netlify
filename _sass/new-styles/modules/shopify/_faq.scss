@@ -1,6 +1,7 @@
 .shopify-faq {
   position: relative;
   flex-wrap: wrap;
+  flex-direction: column;
   padding: 150px 100px 150px 160px;
 
   input[type="checkbox"] {
@@ -9,6 +10,7 @@
 
   &_container {
     display: flex;
+    justify-content: space-between;
     margin-top: -20px;
     padding-left: 45px;
 
@@ -18,10 +20,12 @@
       line-height: 50px;
       font-size: 36px;
       padding-top: 20px;
+      max-width: 300px;
+
       .geometric-figure {
         z-index: -1;
         bottom: 0;
-        left: -266px;
+        left: -320px;
         top: initial;
         right: initial;
         .geometric-figure_center {
@@ -41,6 +45,7 @@
 
     &-right {
       flex: 7;
+      max-width: 750px;
     }
   }
 
@@ -114,6 +119,10 @@
 
     &_container {
       flex-direction: column;
+
+      &-left {
+        max-width: 100%;
+      }
 
       &-left, &-right {
         flex: 1;
