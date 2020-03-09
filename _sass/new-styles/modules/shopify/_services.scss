@@ -1,7 +1,7 @@
 @mixin servicesImage {
-  background-size: auto 100%;
+  background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 
 .shopify-services {
@@ -21,6 +21,8 @@
       display: flex;
       justify-content: space-between;
       margin-bottom: 100px;
+      height: 318px;
+
       &.reverse {
         flex-direction: row-reverse;
       }
@@ -76,6 +78,16 @@
   }
 }
 
+@media (max-width: 1200px) {
+  .shopify-services {
+    &-list {
+      &-item {
+        height: 250px;
+      }
+    }
+  }
+}
+
 @media (max-width: 992px) {
   .shopify-services-list {
     &-header {
@@ -111,6 +123,8 @@
       &-item {
         flex-direction: column;
         margin-bottom: 45px;
+        height: auto;
+        
         &.reverse {
           flex-direction: column;
         }

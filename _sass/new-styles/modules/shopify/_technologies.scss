@@ -2,6 +2,28 @@
   padding: 150px 95px 150px 160px;
   box-sizing: border-box;
   flex-direction: column;
+  position: relative;
+
+  &::after, &::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+  }
+
+  &::before {
+    top: 60%;
+    left: 10px;
+    background-color: $color-accent-blue;
+  }
+
+  &::after {
+    bottom: 10%;
+    right: 10px;
+    background-color: $color-primary;
+  }
+
   &-container {
     padding-left: 45px;
     display: flex;
@@ -15,6 +37,7 @@
       font-weight: 300;
       line-height: 50px;
       margin-bottom: 55px;
+      min-width: 325px;
     }
     &-text {
       font-size: 16px;
@@ -34,6 +57,7 @@
         align-items: flex-end;
         height: 64px;
         margin-bottom: 15px;
+        font-size: 60px;
         > span:before {
           color: $color-primary;
         }
@@ -89,6 +113,11 @@
 
 @media (max-width: 576px) {
   .shopify-technologies {
+
+    &::after {
+      bottom: 5%;
+    }
+
     &-head {
       &-main {
         font-size: 24px;
