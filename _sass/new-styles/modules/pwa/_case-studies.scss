@@ -76,6 +76,8 @@ $case-studies-figure-lg: 315px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        max-width: 100px;
+        max-height: 40px;
       }
     }
   }
