@@ -61,7 +61,7 @@ $process-figure: 280px;
       p {
         &:first-child {
           margin-right: 100px;
-          color: #C1C1C1;
+          color: $color-font-grey;
           font-size: 12px;
           line-height: 24px;
         }
