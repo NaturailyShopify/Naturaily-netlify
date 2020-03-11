@@ -1,0 +1,196 @@
+.webdevelopment-services {
+  width: 100%;
+  max-width: 1292px;
+  padding: 150px 15px;
+  margin: auto;
+
+  &_header {
+    font-size: 48px;
+    line-height: 72px;
+    padding-bottom: 100px;
+    padding-left: 110px;
+  }
+
+  &_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_item {
+    display: flex;
+
+    &:not(:last-child) {
+      margin-bottom: 120px;
+    }
+
+    &.reverse {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &_textbox {
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+    padding: 0 110px;
+  }
+
+  &_title {
+    font-size: 48px;
+    line-height: 64px;
+    padding-bottom: 25px;
+  }
+
+  &_description {
+    font-size: 26px;
+    line-height: 42px;
+    padding-bottom: 10px;
+  }
+
+  &_details {
+    font-size: 16px;
+    line-height: 28px;
+    padding-bottom: 10px;
+  }
+
+  &_link {
+    font-size: 13px;
+    line-height: 16px;
+    color: $color-secondary;
+    margin-top: auto;
+  }
+
+  &_arrow {
+    height: 13px;
+    padding-left: 28px;
+  }
+
+  &_image {
+    flex: 3;
+    max-width: 630px;
+    height: auto;
+
+    img {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .webdevelopment-services {
+
+    &_textbox {
+      padding: 0 50px;
+      
+      .section_name {
+        padding-bottom: 30px;
+      }
+    }
+
+    &_title {
+      font-size: 36px;
+      line-height: 48px;
+    }
+
+    &_description {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    &_details {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .webdevelopment-services {
+
+    &_item:not(:last-child) {
+      margin-bottom: 50px;
+    }
+
+    &_textbox {
+      flex: 1;
+      padding: 0 15px;
+      
+      .section_name {
+        padding-bottom: 20px;
+      }
+    }
+
+    &_image {
+      flex: 1;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .webdevelopment-services {
+
+    &_header {
+      font-size: 36px;
+      line-height: 50px;
+      padding-left: 0;
+      padding-bottom: 50px;
+    }
+
+    &_title {
+      font-size: 24px;
+      line-height: 30px;
+    }
+
+    &_description {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    &_details {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    &_link {
+      font-size: 11px;
+      line-height: 13px;
+    }
+
+    &_arrow {
+      height: 11px;
+      padding-left: 14px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .webdevelopment-services {
+
+    &_textbox {
+      padding: 0;
+    }
+
+    &_item {
+      flex-direction: column;
+
+      &.reverse {
+        flex-direction: column;
+      }
+    }
+
+    &_image {
+      width: 65%;
+      margin: auto;
+      margin-top: 20px;
+
+      img {
+        top: 0;
+        transform: translate(0);
+      }
+    }
+  }
+}
