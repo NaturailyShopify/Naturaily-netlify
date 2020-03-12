@@ -1,0 +1,146 @@
+.webdevelopment-testimonials {
+  width: 100%;
+
+  &_head {
+    max-width: 1292px;
+    padding: 0 15px;
+    margin: auto;
+
+    p {
+      padding-left: 110px;
+
+      &.section_name {
+        padding-bottom: 20px;
+      }
+
+      &:last-child {
+        font-size: 36px;
+        line-height: 50px;
+        padding-bottom: 50px;
+
+        span {
+          color: $color-global-font-70;
+        }
+      }
+    }
+  }
+
+  &_container {
+    max-width: 1292px;
+    padding: 75px 15px;
+    margin: auto;
+    background-color: $color-code-grey-bg;
+    border-radius: 8px;
+  }
+
+  &_image {
+    padding: 0 110px;
+    margin-bottom: 60px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &_textbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 110px;
+  }
+
+  &_left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &_header {
+    font-size: 28px;
+    line-height: 50px;
+    margin-bottom: 48px;
+    padding-right: 30px;
+    max-width: 345px;
+
+    span {
+      color: $color-secondary;
+    }
+  }
+
+  &_person {
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 28px;
+
+    p:first-child::before {
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 8px;
+      height: 8px;
+      border-radius: 4px;
+      background-color: $color-accent-yellow;
+    }
+
+    p:last-child {
+      opacity: 0.5;
+    }
+  }
+
+  &_right {
+    flex: 1;
+    font-size: 14px;
+    line-height: 30px;
+
+    p:first-child {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .webdevelopment-testimonials {
+
+    &_image {
+      margin-bottom: 40px;
+    }
+
+    &_textbox {
+      flex-direction: column;
+    }
+
+    &_left {
+      margin-bottom: 30px;
+    }
+
+    &_header {
+      max-width: 100%;
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .webdevelopment-testimonials {
+
+    &_image {
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .webdevelopment-testimonials {
+
+    &_head p {
+      padding-left: 0;
+    }
+
+    &_textbox {
+      padding: 0;
+    }
+  }
+}
