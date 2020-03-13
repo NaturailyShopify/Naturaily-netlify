@@ -34,10 +34,10 @@ Since the very beginning, part of our strategy has been to allow our team member
 When we have asked our team members who are working remotely on a daily basis to give us some useful tips - **keeping the rhythm of the day** was the first one. Sticking to the fixed schedule helps to stay organized and avoid the sense of being in work mode all day long.
 
 More good practices:
-Get up at the same time every day - even during the weekends ([it is good for your health](https://www.cbc.ca/life/wellness/how-and-why-waking-up-at-the-same-time-everyday-can-improve-your-health-1.4357391){:target="_blank"}).
-Drink your morning coffee and eat breakfast before you start work. Don’t postpone it and don’t eat while working (it can cause problems, e.g. overeating).
-Take a half-hour offline lunch break.
-When you finish your tasks - turn off the computer and try to relax (you will find some ideas below).
+* Get up at the same time every day - even during the weekends ([it is good for your health](https://www.cbc.ca/life/wellness/how-and-why-waking-up-at-the-same-time-everyday-can-improve-your-health-1.4357391){:target="_blank"}).
+* Drink your morning coffee and eat breakfast before you start work. Don’t postpone it and don’t eat while working (it can cause problems, e.g. overeating).
+* Take a half-hour offline lunch break.
+* When you finish your tasks - turn off the computer and try to relax (you will find some ideas below).
 
 ### Use only the necessary tools
 
