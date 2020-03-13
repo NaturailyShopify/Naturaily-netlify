@@ -59,11 +59,11 @@ Don’t check social media while working - you will lose 30 minutes before you e
 Even the best tools will do nothing if you feel burned out or not able to focus. This is why it’s crucial to take care of your physical and mental condition as well. Staying at home for several days, 24 hours a day, can make you fall into an unhealthy routine.
 
 To avoid it:
-Get dressed as though you are leaving the house. Depression is real and working in your pajamas is not an option!
-Change scenery once in a while (it will boost your mood and productivity).
-Take care of the right workplace. A desk and a comfortable armchair are a must-have. Working on the couch is fun, but only in the short run.
-Get up every hour, stretch and look away so that your eyes can rest from the monitor.
-Work out a little, even if you usually do not do sports. Under ordinary circumstances, you commute, go shopping or see movies - you move a little. Standing still, sitting a lot to be precise, can affect your mental and physical condition badly.
+* Get dressed as though you are leaving the house. Depression is real and working in your pajamas is not an option!
+* Change scenery once in a while (it will boost your mood and productivity).
+* Take care of the right workplace. A desk and a comfortable armchair are a must-have. Working on the couch is fun, but only in the short run.
+* Get up every hour, stretch and look away so that your eyes can rest from the monitor.
+* Work out a little, even if you usually do not do sports. Under ordinary circumstances, you commute, go shopping or see movies - you move a little. Standing still, sitting a lot to be precise, can affect your mental and physical condition badly.
 
 If you don’t like a typical workout - do some yoga. It may relieve back pain and reduce functional disability.
 
@@ -74,8 +74,8 @@ YouTube is full with tutorials dedicated to people who sit all day long. Like th
 Here you will find [5 yoga poses every programmer should try.](https://simpleprogrammer.com/5-yoga-poses-every-programmer-try/){:target="_blank"}
 
 
-Stay in touch with friends and family. Luckily, we have so many communication tools at our disposal that we can maintain close relationships while staying safe.
-Create your ‘productivity playlist’. Spotify is full of different propositions but decide on your own what works best for you.
+* Stay in touch with friends and family. Luckily, we have so many communication tools at our disposal that we can maintain close relationships while staying safe.
+* Create your ‘productivity playlist’. Spotify is full of different propositions but decide on your own what works best for you.
 
 ## Naturailians on working remotely
 
