@@ -48,10 +48,10 @@ This is why it is important to choose and use only essential tools that truly ma
 Here you will find an extended [list of products you can use to maintain collaboration and work remotely with your team](https://techagainstcoronavirus.com/){:target="_blank"}. We can strongly recommend Slack, Zoom, Appear.in, Breeze, Trello and Calamari, because we have been using them for quite a long time now and these are the tools that really help us on a daily basis.
 
 More good practices:
-Use only essential tools.
-Don’t check Slack every 5 minutes.
-Switch off sound notifications - also on your smartphone. Make friends with ‘Do not disturb mode’.
-Don’t check social media while working - you will lose 30 minutes before you even know it.
+* Use only essential tools.
+* Don’t check Slack every 5 minutes.
+* Switch off sound notifications - also on your smartphone. Make friends with ‘Do not disturb mode’.
+* Don’t check social media while working - you will lose 30 minutes before you even know it.
 
 
 ## How to stay okay while isolation
