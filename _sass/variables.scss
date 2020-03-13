@@ -1,5 +1,8 @@
 $color-white: #FFFFFF;
+$color-black: #000000;
 $color-global-font: #3B220F;
+$color-global-font-10: rgba(59, 34, 15, 0.1);
+$color-global-font-70: rgba(59, 34, 15, 0.7);
 $color-primary: #FF2C2C;
 $color-secondary: #FF5E45;
 $color-main-project-muted: #8564BD;
@@ -7,13 +10,17 @@ $color-accent-purple: #55368A;
 $color-accent-blue: #71C3E3;
 $color-accent-gold: #B36800;
 $color-accent-green: #8DCB6F;
+$color-accent-light-green: #CDFFA0;
 $color-accent-yellow: #FFB040;
 $color-accent-pink: #ff78eb;
 $color-nav-border: #E8E1D5;
 $color-text-muted: #B8B8B8;
 $color-font-light: #543015;
 $color-code-bg: #FFFBF5;
+$color-code-orange-bg: #FFF7F1;
+$color-code-grey-bg: #F4F6FB;
 $color-zapnito: #E85A52;
+$color-light-blue-bg: #F4F6FB;
 
 .text-primary {
   color: $color-primary;
@@ -44,9 +51,8 @@ $color-zapnito: #E85A52;
 }
 
 .text-greyed-out {
-  color: rgba(59,34,15,0.5);
+  color: rgba(59, 34, 15, 0.7);
 }
-
 
 .bg-accent-purple {
   background-color: $color-accent-purple;
@@ -65,11 +71,13 @@ $color-zapnito: #E85A52;
 .wave {
   grid-column: 1 / 4;
   position: relative;
+
   .wave-tail {
     position: absolute;
     width: 100%;
     bottom: 100%;
   }
+
   img {
     width: 100%;
   }

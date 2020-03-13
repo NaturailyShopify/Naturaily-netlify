@@ -1,0 +1,152 @@
+.shopify-technologies {
+  padding: 150px 95px 150px 160px;
+  box-sizing: border-box;
+  flex-direction: column;
+  position: relative;
+
+  &::after, &::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+  }
+
+  &::before {
+    top: 60%;
+    left: 10px;
+    background-color: $color-accent-blue;
+  }
+
+  &::after {
+    bottom: 10%;
+    right: 10px;
+    background-color: $color-primary;
+  }
+
+  &-container {
+    padding-left: 45px;
+    display: flex;
+    position: relative;
+  }
+  &-head {
+    flex: 3;
+    margin-right: 100px;
+    &-main {
+      font-size: 36px;
+      font-weight: 300;
+      line-height: 50px;
+      margin-bottom: 55px;
+      min-width: 325px;
+    }
+    &-text {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  &-list {
+    display: flex;
+    flex: 7;
+    &-item {
+      margin-right: 70px;
+      &:last-child {
+        margin-right: 0;
+      }
+      &-image {
+        display: flex;
+        align-items: flex-end;
+        height: 64px;
+        margin-bottom: 25px;
+        font-size: 60px;
+        > span:before {
+          color: $color-primary;
+        }
+      }
+      > p {
+        line-height: 24px;
+        font-size: 16px;
+        &:last-child {
+          font-size: 14px;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+  &-button {
+    font-size: 11px;
+    cursor: pointer;
+    color: $color-secondary;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    > img {
+      height: 11px;
+      margin-left: 30px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .shopify-technologies {
+    &-container {
+      flex-direction: column;
+    }
+    &-head-text {
+      margin-bottom: 40px;
+    }
+    &-button {
+      bottom: -30px;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .shopify-technologies {
+    max-width: calc(100% - 15px);
+    margin: 0 5px 0 10px;
+    padding: 40px 5px 50px 10px;
+    &-container {
+      padding-left: 25px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .shopify-technologies {
+
+    &::after {
+      bottom: 5%;
+    }
+
+    &-head {
+      &-main {
+        font-size: 24px;
+        line-height: 40px;
+      }
+      &-text {
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+    &-list {
+      flex-direction: column;
+
+      &-item {
+        margin-right: 40px;
+        margin-bottom: 40px;
+
+        > p {
+          font-size: 14px;
+          line-height: 18px;
+
+          &:last-child {
+            font-size: 12px;
+            line-height: 16px;
+            margin-right: 40px;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}

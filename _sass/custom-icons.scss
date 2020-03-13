@@ -25,6 +25,60 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-pwa:before {
+  content: "\e951";
+}
+.icon-e-commerce:before {
+  content: "\e945";
+}
+.icon-iphonex:before {
+  content: "\e946";
+}
+.icon-binoculars:before {
+  content: "\e947";
+}
+.icon-chat:before {
+  content: "\e948";
+}
+.icon-delete_subnode:before {
+  content: "\e949";
+}
+.icon-menu:before {
+  content: "\e94a";
+}
+.icon-shopify:before {
+  content: "\e94b";
+}
+.icon-venn_diagram:before {
+  content: "\e94c";
+}
+.icon-iot-soft:before {
+  content: "\e94d";
+}
+.icon-uxui:before {
+  content: "\e94e";
+}
+.icon-webwritting:before {
+  content: "\e94f";
+}
+.icon-marketplace:before {
+  content: "\e950";
+}
+.icon-advanced-search:before {
+  content: "\e93f";
+}
+.icon-security:before {
+  content: "\e93b";
+}
+.icon-scale:before {
+  content: "\e93c";
+}
+.icon-save-money:before {
+  content: "\e93e";
+}
+.icon-fast:before {
+  content: "\e93d";
+}
 .icon-cookie::before {
   content: "\e91e";
 }
@@ -186,6 +240,21 @@
 }
 .icon-ios-photos::before {
   content: "\e93a";
+}
+.icon-analytics:before {
+  content: "\e940";
+}
+.icon-responsiveness:before {
+  content: "\e941";
+}
+.icon-box:before {
+  content: "\e942";
+}
+.icon-discovery:before {
+  content: "\e943";
+}
+.icon-loading:before {
+  content: "\e944";
 }
 
 // SOCIAL ICONS //

@@ -1,0 +1,139 @@
+<section
+  id="05"
+  class="section shopify-comparison"
+>
+  <div class="section_name">
+    <span class="section_name-number">
+      05
+    </span>
+    Comparison
+  </div>
+  <div class="shopify-comparison-container">
+    <p class="shopify-comparison-header">Shopify vs e-commerce platforms</p>
+    <div class="shopify-comparison-table">
+      <nav class="shopify-comparison-navbuttons">
+        <button class="toggle active" data-header="shopify">Shopify</button>
+        <button class="toggle" data-header="commerce">Commerce</button>
+        <button class="toggle" data-header="os">Open source</button>
+      </nav>
+      <div class="shopify-comparison-table-head">
+        <p></p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>Shopify</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>E-commerce platforms</p>
+        <p class="shopify-comparison-table-os" data-column-os>Open source platforms</p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>Open API</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>Yes</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>Yes</p>
+        <p class="shopify-comparison-table-os" data-column-os>Yes</p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>No-code setup</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>Yes</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>Yes</p>
+        <p class="shopify-comparison-table-os" data-column-os>No</p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>Built-in SEO optimization</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>Yes</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>Yes</p>
+        <p class="shopify-comparison-table-os" data-column-os>No</p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>Easy multi-channel integration</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>Yes</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>Yes</p>
+        <p class="shopify-comparison-table-os" data-column-os>No</p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>Customer support</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>Yes</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>Depends</p>
+        <p class="shopify-comparison-table-os" data-column-os>No</p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>Built-in POS system</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>Yes</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>Depends</p>
+        <p class="shopify-comparison-table-os" data-column-os>No</p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>ERP system integration</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>Limited</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>Limited</p>
+        <p class="shopify-comparison-table-os" data-column-os>No</p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>Number of external applications</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>+3,000</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>
+          BigCommerce (+700)
+          <br>Volusion (+72)
+        </p>
+        <p class="shopify-comparison-table-os" data-column-os>
+          Magento (+5,000) 
+          <br>WooCommerce (+6,000)
+        </p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>Number of payment methods</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>+100</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>
+          BigCommerce (+65)
+          <br>Volusion (+34)
+        </p>
+        <p class="shopify-comparison-table-os" data-column-os>
+          Magento (+100) 
+          <br>WooCommerce (+100)
+        </p>
+      </div>
+      <div class="shopify-comparison-table-row">
+        <p>Number of stores</p>
+        <p class="shopify-comparison-table-shopify" data-column-shopify>+500,000</p>
+        <p class="shopify-comparison-table-commerce" data-column-commerce>
+          BigCommerce (+50,000)
+          <br>Volusion (+30,000)
+        </p>
+        <p class="shopify-comparison-table-os" data-column-os>
+          Magento (+150,000) 
+          <br>WooCommerce (+850,000)
+        </p>
+      </div>
+    </div>
+    <a href="/get-an-estimate" target="_blank" class="shopify-comparison-button">
+      ESTIMATE E-COMMERCE PROJECT
+      <img src="/assets/images/arrow-orange.png" alt="arrow">
+    </a>
+  </div>
+</section>
+
+<script type="text/javascript">
+  $(document).ready(() => {
+    $(".toggle").click((e) => {
+      const clicked = e.target.attributes['data-header'].value;
+      const buttons = $('.toggle');
+      const shopifyItems = $('[data-column-shopify]');
+      const commerceItems = $('[data-column-commerce]');
+      const osItems = $('[data-column-os]');
+      for (let i = 0; i < shopifyItems.length; i++) {
+        shopifyItems[i].style.display = 'none';
+        commerceItems[i].style.display = 'none';
+        osItems[i].style.display = 'none';
+        if (clicked === "shopify") {
+          shopifyItems[i].style.display = 'flex';
+        }
+        if (clicked === "commerce") {
+          commerceItems[i].style.display = 'flex';
+        }
+        if (clicked === "os") {
+          osItems[i].style.display = 'flex';
+        }
+      }
+      for (let j = 0; j < buttons.length; j++) {
+        $(buttons[j]).removeClass("active");
+      }
+      $(e.target).addClass("active");
+    })
+  });
+</script>

@@ -1,0 +1,139 @@
+.shopify-comparison {
+  position: relative;
+  flex-wrap: wrap;
+  padding: 150px 100px 150px 160px;
+  background-color: $color-code-grey-bg;
+  box-sizing: border-box;
+  flex-direction: column;
+  &-navbuttons {
+    display: none;
+  }
+  &-container {
+    padding-left: 45px;
+    position: relative;
+  }
+  &-header {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 50px;
+  }
+  &-table {
+    margin-bottom: 80px;
+    &-shopify, &-commerce, &-os {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    &-commerce {
+      border-left: 1px solid $color-global-font-10;
+      border-right: 1px solid $color-global-font-10;
+    }
+    &-row, &-head {
+      display: flex;
+      > p {
+        flex: 2;
+        height: 50px;
+        font-size: 14px;
+        line-height: 20px;
+        border-bottom: 1px solid $color-global-font-10;
+        &:first-child {
+          display: flex;
+          align-items: center;
+          flex: 3;
+        }
+      }
+    }
+    &-row > p:nth-child(2) {
+      color: $color-secondary;
+    }
+    &-head > p:first-child {
+      border-bottom: none;
+    }
+  }
+  &-button {
+    margin: auto;
+    font-size: 11px;
+    cursor: pointer;
+    color: $color-secondary;
+    font-weight: 600;
+    > img {
+      height: 11px;
+      margin-left: 65px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .shopify-comparison {
+    &-table {
+      &-row > p, &-head > p {
+        flex: 4;
+        font-size: 11px;
+        line-height: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .shopify-comparison {
+    max-width: calc(100% - 15px);
+    margin: 0 5px 0 10px;
+    padding: 40px 5px 50px 10px;
+    &-navbuttons {
+      display: flex;
+      flex-direction: column;
+      button {
+        width: 50%;
+        min-width: 250px;
+        margin: auto;
+        background-color: $color-white;
+        border: 1px solid $color-secondary;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        height: 35px;
+        color: $color-global-font;
+        font-size: 14px;
+        &.active {
+          background-color: $color-secondary;
+          color: $color-white;
+        }
+      }
+    }
+    &-table {
+      &-shopify {
+        display: flex;
+      }
+      &-commerce, &-os {
+        display: none;
+        border-left: none;
+        border-right: none;
+      }
+      &-row > p:nth-child(2) {
+        color: $color-global-font;
+      }
+      &-row > p, &-head > p {
+        flex: 2;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+    &-container {
+      padding-left: 25px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .shopify-comparison {
+    &-table {
+      &-row > p, &-head > p {
+        flex: 4;
+        height: 40px;
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.pwa-predictions {
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 150px 100px 150px 160px;
+
+  &_container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+    font-size: 24px;
+    line-height: 40px;
+
+    div {
+      display: flex;
+    }
+  }
+
+  &_signature {
+    position: relative;
+    margin-bottom: 60px;
+    &:before {
+      content: '';
+      background-image: url('/assets/images/pwa/jason.png');
+      background-size: 36px 30px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 30px;
+      width: 36px;
+    }
+
+    p {
+      padding-left: 80px;
+      opacity: 0.5;
+    }
+  }
+
+  &_left {
+    flex: 6;
+    padding-right: 95px;
+    span {
+      color: $color-secondary;
+    }
+  }
+
+  &_right {
+    flex: 4;
+  }
+}
+
+@media (max-width: 1200px) {
+  .pwa-predictions {
+    &_container {
+      font-size: 18px;
+      line-height: 34px;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .pwa-predictions {
+    max-width: calc(100% - 15px);
+    margin: 0 5px 0 10px;
+    padding: 40px 15px 50px 10px;
+
+    &_container {
+      padding-left: 25px;
+
+      div {
+        flex-direction: column;
+      }
+    }
+
+    &_left {
+      padding-right: 0;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .pwa-predictions {
+
+    &_container {
+      font-size: 12px;
+      line-height: 26px;
+    }
+
+    &_signature {
+      margin-bottom: 40px;
+      &:before {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+  
+      p {
+        padding-left: 40px;
+      }
+    }
+
+    &_left {
+      margin-bottom: 15px;
+    }
+  }
+}

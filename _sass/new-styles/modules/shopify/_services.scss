@@ -1,0 +1,153 @@
+.shopify-services {
+  padding-left: 160px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  flex-direction: column;
+  &-list {
+    padding-left: 45px;
+    padding-right: 30px;
+    position: relative;
+    &-header {
+      position: absolute;
+      font-size: 36px;
+      font-weight: 300;
+    }
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 100px;
+      height: 318px;
+
+      &.reverse {
+        flex-direction: row-reverse;
+      }
+      &-head {
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 300;
+        margin-bottom: 35px;
+      }
+      &-text {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      &-image {
+        width: 45%;
+        border-radius: 8px;
+
+        img {
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          max-width: 100%;
+          border-radius: 8px;
+        }
+      }
+      &-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        max-width: 45%;
+        padding-top: 45px;
+      }
+    }
+  }
+  &-button {
+    margin: auto;
+    font-size: 11px;
+    cursor: pointer;
+    color: $color-secondary;
+    font-weight: 600;
+    > img {
+      height: 11px;
+      margin-left: 100px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .shopify-services {
+    &-list {
+      &-item {
+        height: 250px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .shopify-services-list {
+    &-header {
+      font-size: 24px;
+    }
+    &-item {
+      &-head {
+        font-size: 20px;
+        line-height: 36px;
+      }
+      &-text {
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .shopify-services {
+    max-width: calc(100% - 15px);
+    margin: 0 5px 0 10px;
+    padding: 40px 15px 50px 10px;
+
+    &-button {
+      margin-left: 45px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .shopify-services {
+    &-list {
+      &-header {
+        display: none;
+      }
+      &-item {
+        flex-direction: column;
+        margin-bottom: 45px;
+        height: auto;
+        
+        &.reverse {
+          flex-direction: column;
+        }
+        &-container {
+          max-width: 100%;
+          padding-top: 0;
+        }
+        &-image {
+          width: 100%;
+          max-width: 340px;
+
+          img {
+            top: 0;
+            transform: translateY(0);
+          }
+        }
+        &-head {
+          font-size: 18px;
+          line-height: 20px;
+          margin-bottom: 15px;
+        }
+        &-text {
+          font-size: 14px;
+          line-height: 16px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+    &-button {
+      > img {
+        margin-left: 10px;
+      }
+    }
+  }
+}

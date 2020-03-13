@@ -1,0 +1,292 @@
+@mixin circleColor($color) {
+  p:nth-child(2) {color: $color;}
+  &:after {background-color: $color;}
+}
+
+@mixin circleProperties($color, $angle) {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-left: 1px solid $color;
+  border-top: 1px solid $color;
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  transform: rotate($angle);
+}
+
+@mixin maskProperties($color, $angle) {
+  position: absolute;
+  height: 98px;
+  width: 98px;
+  border-radius: 50%;
+  border-left: 3px solid $color;
+  border-top: 3px solid $color;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transform: rotate($angle);
+}
+
+.pwa-practice {
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 150px 0 150px 160px;
+
+  &_container {
+    position: relative;
+    padding-left: 45px;
+    display: flex;
+  }
+
+  &_steps, &_pagespeed, &_bottom {
+    display: flex;
+  }
+  &_header {
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 52px;
+  }
+
+  &_redirection {
+    &-link {
+      color: $color-secondary;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    &-image {
+      height: 11px;
+      margin-left: 95px;
+    }
+  }
+
+  &_pagespeed {
+    margin-top: 100px;
+
+    img {
+      height: 64px;
+      width: 64px;
+      margin-right: 46px;
+    }
+
+    a {
+      color: $color-secondary;
+      text-decoration: underline;
+    }
+
+    &-box {
+      p {
+        line-height: 24px;
+
+        &:first-child {
+          font-size: 16px;
+          margin-bottom: 10px;
+        }
+        &:last-child {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  &_steps {
+    margin-top: 42px;
+
+    &-step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      margin-right: 55px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 9px;
+        height: 9px;
+        border-radius: 5px;
+      }
+
+      &.red {
+        @include circleColor($color-secondary);
+        .circle {
+          @include circleProperties($color-secondary, 135deg);
+        }
+        .mask {
+          @include maskProperties($color-white, -90deg);
+        }
+      }
+
+      &.yellow {
+        @include circleColor($color-accent-yellow);
+        .circle {
+          @include circleProperties($color-accent-yellow, 135deg);
+        }
+        .mask {
+          @include circleProperties($color-accent-yellow, -175deg);
+        }
+      }
+
+      &.green {
+        @include circleColor($color-accent-light-green);
+        .circle {
+          @include circleProperties($color-accent-light-green, 135deg);
+        }
+        .mask {
+          @include circleProperties($color-accent-light-green, -90deg);
+        }
+      }
+    }
+  }
+
+  &_left {
+    flex: 3;
+  }
+
+  &_right {
+    flex: 8;
+    background-image: url('/assets/images/pwa/visual.png');
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &_bottom {
+    align-items: center;
+    justify-content: space-between;
+    padding: 38px 100px;
+    border: 1px solid $color-global-font-10;
+    border-radius: 8px;
+    margin-top: 45px;
+    margin-right: 100px;
+
+    &-questions {
+      display: flex;
+      align-items: center;
+
+      p {
+        &:first-child {
+          font-size: 24px;
+          line-height: 38px;
+          margin-right: 80px;
+        }
+        &:last-child {
+          font-size: 14px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .pwa-practice {
+
+    &_bottom {
+      padding: 38px 50px;
+
+      &-questions {
+        p {
+          &:first-child {
+            margin-right: 40px;
+          }
+          &:last-child {
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+
+    &_right {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 50%;
+      height: 100%;
+      z-index: -1;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .pwa-practice {
+    &_right {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .pwa-practice {
+    max-width: calc(100% - 15px);
+    margin: 0 5px 0 10px;
+    padding: 40px 5px 50px 10px;
+
+    &_container {
+      padding-left: 25px;
+    }
+
+    &_bottom {
+      margin-right: 0;
+    }
+
+    &_pagespeed {
+      justify-content: center;
+    }
+
+    &_steps {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .pwa-practice {
+
+    &_bottom {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+
+      &-questions {
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        p {
+          &:first-child {
+            margin-right: 0;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    &_steps {
+      flex-wrap: wrap;
+
+      &-step {
+        margin: 15px;
+        margin-right: 15px;
+
+        &:last-child {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}

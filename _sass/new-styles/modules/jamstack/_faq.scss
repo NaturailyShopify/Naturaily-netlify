@@ -1,0 +1,128 @@
+.jamstack-faq {
+  position: relative;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  padding: 150px 100px 150px 160px;
+  background-color: $color-code-bg;
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  &_container {
+    display: flex;
+    margin-top: -20px;
+    padding-left: 45px;
+
+    &-left {
+      flex: 3;
+      line-height: 50px;
+      font-size: 36px;
+      padding-top: 20px;
+    }
+
+    &-right {
+      flex: 7;
+    }
+  }
+
+  &_element {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 1px;
+
+    &.opened img {
+      transform: rotate(270deg);
+    }
+
+    img {
+      z-index: 1;
+      position: absolute;
+      right: 0;
+      bottom: 35px;
+      height: 10px;
+      transform: rotate(90deg);
+      transition: transform .3s;
+    }
+  }
+
+  .accordion_number {
+    padding-left: 65px;
+    padding-right: 30px;
+  }
+
+  .accordion-item {
+    height: 80px;
+    border: none;
+    background-color: $color-code-bg;
+
+    &.borderless {
+      border-top: none;
+    }
+  }
+
+  .accordion_position {
+    color: $color-global-font;
+  }
+
+  .accordion_content {
+    margin: 0;
+    padding: 0 100px 25px 105px;
+    color: $color-global-font;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1px solid $color-nav-border;
+    border-image: linear-gradient(to left, $color-secondary 0,
+                                           $color-secondary 20px,
+                                           $color-nav-border 20px,
+                                           $color-nav-border 100%) 2;
+  }
+}
+
+@media (max-width: 1200px) {
+  .jamstack-faq {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .section_name {
+      width: 100%;
+    }
+
+    &_container {
+      flex-direction: column;
+
+      &-left, &-right {
+        flex: 1;
+        padding: 10px 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .jamstack-faq {
+    max-width: calc(100% - 15px);
+    margin: 0 5px 0 10px;
+    padding: 40px 5px 50px 10px;
+
+    &_container {
+      padding-left: 20px;
+    }
+
+    .accordion {
+      &_number {
+        padding-left: 10px;
+        padding-right: 15px;
+      }
+
+      &_position {
+        padding-right: 20px;
+        line-height: 24px;
+      }
+
+      &_content {
+        padding: 0 20px 25px 10px;
+      }
+    }
+  }
+}

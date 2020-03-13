@@ -1,0 +1,90 @@
+.jamstack-video {
+  padding: 0 100px 150px 205px;
+
+  iframe {
+    height: 270px;
+    min-width: auto;
+    width: 45%;
+    border-radius: 8px;
+  }
+
+  .video-box_caption {
+    margin-top: -12px;
+    padding: 0;
+    padding-left: 145px;
+    border: none;
+
+    &-description {
+      max-width: 380px;
+      font-size: 36px;
+      line-height: 50px;
+
+      span {
+        opacity: 0.5;
+      }
+    }
+
+    &-link {
+      display: block;
+      margin-top: 40px;
+      font-size: 13px;
+      font-weight: 400;
+      background: none;
+
+      img {
+        height: 11px;
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .jamstack-video .video-box_caption {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 810px) {
+  .jamstack-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 15px;
+
+    iframe {
+      min-height: 300px;
+      width: 100%;
+      max-width: 80%;
+      margin: 0 auto;
+    }
+
+    .video-box_caption {
+      flex-direction: column;
+      padding: 0;
+      text-align: center;
+
+      &-description {
+        max-width: 410px;
+        margin: 30px auto 0;
+
+        br {
+          display: none;
+        }
+      }
+
+      &-link img {
+        vertical-align: baseline;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .jamstack-video {
+    iframe {
+      min-height: 200px;
+      max-width: 90%;
+    }
+  }
+}

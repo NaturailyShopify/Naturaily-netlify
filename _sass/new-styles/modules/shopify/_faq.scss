@@ -1,0 +1,178 @@
+.shopify-faq {
+  position: relative;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 150px 100px 150px 160px;
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  &_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    padding-left: 45px;
+
+    &-left {
+      position: relative;
+      flex: 3;
+      line-height: 50px;
+      font-size: 36px;
+      padding-top: 20px;
+      max-width: 300px;
+
+      .geometric-figure {
+        z-index: -1;
+        bottom: 0;
+        left: -320px;
+        top: initial;
+        right: initial;
+        .geometric-figure_center {
+          width: 314px;
+          height: 314px;
+        }
+        .geometric-figure_right {
+          width: 157px;
+          height: 314px;
+          &::after {
+            width: 314px;
+            height: 314px;
+          }
+        }
+      }
+    }
+
+    &-right {
+      flex: 7;
+      max-width: 750px;
+    }
+  }
+
+  &_link {
+    display: block;
+  }
+
+  &_element {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 1px;
+
+    &.opened img {
+      transform: rotate(270deg);
+    }
+
+    img {
+      z-index: 1;
+      position: absolute;
+      right: 0;
+      bottom: 35px;
+      height: 10px;
+      transform: rotate(90deg);
+      transition: transform .3s;
+    }
+  }
+
+  .accordion_number {
+    padding-left: 65px;
+    padding-right: 30px;
+  }
+
+  .accordion-item {
+    height: 80px;
+    border: none;
+    background-color: $color-white;
+
+    &.borderless {
+      border-top: none;
+    }
+  }
+
+  .accordion_position {
+    color: $color-global-font;
+    padding-right: 20px;
+    line-height: 30px;
+  }
+
+  .accordion_content {
+    margin: 0;
+    padding: 0 100px 25px 105px;
+    width: calc(100% - 205px);
+    color: $color-global-font;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to left, $color-secondary 0, $color-secondary 20px, $color-nav-border 20px, $color-nav-border 100%) 2;
+    a {
+      color: $color-secondary;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .shopify-faq {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .accordion-item {
+      height: 90px;
+    }
+
+    .section_name {
+      width: 100%;
+    }
+
+    &_container {
+      flex-direction: column;
+
+      &-left {
+        max-width: 100%;
+      }
+
+      &-left, &-right {
+        flex: 1;
+        padding: 10px 0;
+      }
+      .geometric-figure {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .shopify-faq {
+    max-width: calc(100% - 15px);
+    margin: 0 5px 0 10px;
+    padding: 40px 5px 50px 10px;
+
+    &_container {
+      padding-left: 25px;
+    }
+
+    .accordion {
+      &_number {
+        padding-left: 10px;
+        padding-right: 15px;
+      }
+
+      &_position {
+        padding-right: 20px;
+        line-height: 28px;
+      }
+
+      &_content {
+        padding: 0 20px 25px 10px;
+        width: calc(100% - 30px);
+      }
+    }
+  }
+}
+
+@media (max-width: 810px) {
+  .shopify-faq {
+    .accordion-item {
+      height: 120px;
+    }
+  }
+}
