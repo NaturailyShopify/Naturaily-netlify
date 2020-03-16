@@ -19,7 +19,7 @@ text-preview: >-
 tags:
   - Frontend development
 ---
-When thinking RWD most of you picture fluid grids and responsive images, forgetting a quite important piece of the puzzle - the content. _Since content is king_ and most probably your content is mostly text, the text is king. Let’s see what we can do to display text properly on vast range of devices.
+When thinking RWD most of you picture fluid grids and responsive images, forgetting a quite important piece of the puzzle - the content. *Since content is king* and most probably your content is mostly text, the text is king. Let’s see what we can do to display text properly on vast range of devices.
 
 ## The basics
 
@@ -134,6 +134,6 @@ It will of course output different text size depending on width of the screen it
 
 The responsive text approach is fairly simple - use relative units everywhere and don’t overdo it with JavaScript. In fact, it’s so simple that you can’t afford not to do it.
 
-That would be all for now. Till next time!
+That would be all for now. Till next time! 
 
-[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"} 
+[![Join the team](/assets/images/job-offers_naturaily.png)](https://naturaily.com/careers){:target="_blank"}
